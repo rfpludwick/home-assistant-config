@@ -1,5 +1,5 @@
 homeassistant:
-  name: VierHome 
+  name: VierHome
   latitude: !secret latitude
   longitude: !secret longitude
   elevation: 500
