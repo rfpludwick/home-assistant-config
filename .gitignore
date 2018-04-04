@@ -1,0 +1,13 @@
+.idea/*
+.HA_VERSION
+.august.conf
+.cloud/*
+.iod.conf
+.uuid
+harmony*.conf
+home-assistant.log
+home-assistant_v2.db
+nest.conf
+phue*.conf
+usps_cache.sqlite
+*.pickle
