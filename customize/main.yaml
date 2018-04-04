@@ -1,0 +1,159 @@
+sensor.attic_bedroom_nest_protect_battery_health:
+  friendly_name: Nest Protect Attic Bedroom
+sensor.attic_bedroom_nest_protect_smoke_status:
+  friendly_name: Nest Protect Attic Bedroom Smoke
+sensor.attic_bedroom_nest_protect_co_status:
+  friendly_name: Nest Protect Attic Bedroom CO
+sensor.entryway_nest_protect_battery_health:
+  friendly_name: Nest Protect Entryway
+sensor.entryway_nest_protect_smoke_status:
+  friendly_name: Nest Protect Entryway Smoke
+sensor.entryway_nest_protect_co_status:
+  friendly_name: Nest Protect Entryway CO
+sensor.family_room_nest_protect_battery_health:
+  friendly_name: Nest Protect Family Room
+sensor.family_room_nest_protect_smoke_status:
+  friendly_name: Nest Protect Family Room Smoke
+sensor.family_room_nest_protect_co_status:
+  friendly_name: Nest Protect Family Room CO
+sensor.felicitys_bedroom_nest_protect_battery_health:
+  friendly_name: Nest Protect Felicity's Bedroom
+sensor.felicitys_bedroom_nest_protect_smoke_status:
+  friendly_name: Nest Protect Felicity's Bedroom Smoke
+sensor.felicitys_bedroom_nest_protect_co_status:
+  friendly_name: Nest Protect Felicity's Bedroom CO
+sensor.master_bedroom_nest_protect_battery_health:
+  friendly_name: Nest Protect Master Bedroom
+sensor.master_bedroom_nest_protect_smoke_status:
+  friendly_name: Nest Protect Master Bedroom Smoke
+sensor.master_bedroom_nest_protect_co_status:
+  friendly_name: Nest Protect Master Bedroom CO
+sensor.upstairs_nest_protect_battery_health:
+  friendly_name: Nest Protect Upstairs
+sensor.upstairs_nest_protect_smoke_status:
+  friendly_name: Nest Protect Upstairs Smoke
+sensor.upstairs_nest_protect_co_status:
+  friendly_name: Nest Protect Upstairs CO
+sensor.battery_level_exterior_back:
+  friendly_name: Arlo Exterior Back
+sensor.battery_level_exterior_front:
+  friendly_name: Arlo Exterior Front
+sensor.signal_strength_exterior_back:
+  friendly_name: Arlo Exterior Back
+sensor.signal_strength_exterior_front:
+  friendly_name: Arlo Exterior Front
+binary_sensor.attic_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Attic Bedroom
+binary_sensor.entryway_nest_protect_online:
+  friendly_name: Nest Protect Entryway
+binary_sensor.family_room_nest_protect_online:
+  friendly_name: Nest Protect Family Room
+binary_sensor.felicitys_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Felicity's Bedroom
+binary_sensor.master_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Master Bedroom
+binary_sensor.upstairs_nest_protect_online:
+  friendly_name: Nest Protect Upstairs
+alarm_control_panel.vierarlo:
+  friendly_name: Arlo
+cover.viergarage:
+  friendly_name: Garage Door
+device_tracker.mermaidphone:
+  friendly_name: "Caitlin's Phone GPS"
+device_tracker.zonephone:
+  friendly_name: "Robert's Phone GPS"
+device_tracker.nest_protect__middle_bedroom:
+  friendly_name: "Nest Protect - Felicity's Bedroom"
+history_graph.family_presence:
+  friendly_name: Family Presence History
+history_graph.lights:
+  friendly_name: Lights History
+history_graph.security:
+  friendly_name: Security History
+alarm_control_panel.scout_alarm:
+  friendly_name: Scout Alarm
+sensor.usps_mail:
+  friendly_name: USPS Mail
+sensor.usps_packages:
+  friendly_name: USPS Packages
+sensor.ups:
+  friendly_name: UPS Packages
+
+group.system:
+  order: 1
+group.security:
+  order: 2
+group.family_presence:
+  order: 3
+group.lights_rooms:
+  order: 4
+group.all_remotes:
+  order: 5
+group.home_maintenance:
+  order: 6
+group.camera_front:
+  order: 7
+group.camera_back:
+  order: 8
+group.breaches:
+  order: 9
+group.batteries:
+  order: 10
+group.smoke_co:
+  order: 11
+group.deliveries:
+  order: 12
+group.celestial:
+  order: 13 
+group.weather_conditions:
+  order: 14
+group.weather_forecast:
+  order: 15
+group.synology_nas:
+  order: 16
+group.online:
+  order: 17
+group.network_presence:
+  order: 18
+
+group.all_devices:
+  hidden: true
+group.all_lights:
+  hidden: true
+group.all_covers:
+  hidden: true
+group.all_locks:
+  hidden: true
+group.all_vacuum_cleaners:
+  hidden: true
+
+sensor.caits_mermaid_phone_battery_level_2:
+  hidden: true
+sensor.caits_mermaid_phone_battery_level_3:
+  hidden: true
+sensor.caits_mermaid_phone_battery_state_2:
+  hidden: true
+sensor.caits_mermaid_phone_battery_state_3:
+  hidden: true
+remote.vieratv:
+  hidden: true
+light.family_room_bulb_1:
+  hidden: true
+light.family_room_bulb_2:
+  hidden: true
+light.felicitys_bedroom_lamp_bulb:
+  hidden: true
+light.felicitys_bedroom_oh_bulb:
+  hidden: true
+light.loft_bulb:
+  hidden: true
+light.master_bedroom_bulb_1:
+  hidden: true
+light.master_bedroom_bulb_2:
+  hidden: true
+light.master_bedroom_bulb_3:
+  hidden: true
+device_tracker.xbr55x850d:
+  hidden: true
+camera.usps_mail:
+  hidden: true

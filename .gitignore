@@ -2,12 +2,15 @@
 .HA_VERSION
 .august.conf
 .cloud/*
-.iod.conf
+.ios.conf
 .uuid
 harmony*.conf
 home-assistant.log
 home-assistant_v2.db
+known_devices.yaml
 nest.conf
 phue*.conf
+secrets.yaml
 usps_cache.sqlite
 *.pickle
+customize/private.yaml

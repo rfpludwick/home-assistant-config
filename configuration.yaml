@@ -1,0 +1,214 @@
+homeassistant:
+  name: VierHome 
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: 500
+  unit_system: imperial
+  time_zone: America/Los_Angeles
+  customize: !include_dir_merge_named customize/
+
+frontend:
+
+config:
+
+http:
+  api_password: !secret http_password
+
+updater:
+  include_used_components: true
+
+discovery:
+
+history:
+
+logbook:
+
+map:
+
+sun:
+
+cloud:
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+ios:
+
+arlo:
+  username: !secret arlo_username
+  password: !secret arlo_password
+
+device_tracker:
+  - platform: bluetooth_tracker
+  - platform: unifi
+    host: !secret unifi_host
+    username: !secret unifi_username
+    password: !secret unifi_password
+    verify_ssl: false
+    ssid_filter: !secret unifi_ssid_filter
+
+sensor:
+  - platform: moon
+#  - platform: api_streams
+  - platform: arlo
+    monitored_conditions:
+      - captured_today
+      - last_capture
+      - total_cameras
+      - battery_level
+      - signal_strength
+  - platform: wunderground
+    api_key: !secret wunderground_api_key
+    monitored_conditions:
+      - alerts
+      - observation_time
+      - weather_1d
+      - weather_1n
+      - dewpoint_f
+      - feelslike_f
+      - heat_index_f
+      - relative_humidity
+      - precip_1d
+      - precip_1d_in
+      - precip_today_in
+      - pressure_mb
+      - pressure_trend
+      - solarradiation
+      - temp_f
+      - temp_low_1d_f
+      - temp_high_1d_f
+      - visibility_mi
+      - wind_dir
+      - wind_gust_mph
+      - wind_gust_1d_mph
+      - wind_mph
+      - wind_1d_mph
+      - weather_2d
+      - weather_2n
+      - weather_3d
+      - weather_3n
+      - weather_4d
+      - weather_4n
+  - platform: time_date
+    display_options:
+      - date_time
+  - platform: synologydsm
+    host: !secret synology_host
+    username: !secret synology_username
+    password: !secret synology_password
+    monitored_conditions:
+      - cpu_total_load
+      - cpu_15min_load
+      - memory_real_usage
+      - memory_cached
+      - memory_total_swap
+      - network_up
+      - network_down
+      - disk_smart_status
+      - disk_status
+      - disk_temp
+      - volume_status
+      - volume_percentage_used
+      - volume_size_total
+  - platform: haveibeenpwned
+    email: !secret haveibeenpwned_email_addresses
+  - platform: season
+    type: astronomical
+  - platform: uptime
+    name: Home Assistant Uptime
+  - platform: version
+    name: Home Assistant Version
+  - platform: steam_online
+    api_key: !secret steam_api_key
+    accounts: !secret steam_accounts
+  - platform: ups
+    username: !secret ups_username
+    password: !secret ups_password
+#  - platform: fedex
+#    username: !secret fedex_username
+#    password: !secret fedex_password
+
+camera:
+  - platform: arlo
+    ffmpeg_arguments: '-pred 1 -q:v 2'
+
+alarm_control_panel:
+  - platform: arlo
+    home_mode_name: Sleep
+  - platform: ifttt
+    name: scout_alarm
+    code: !secret scout_alarm_code
+    event_arm_away: scout_alarm_away_armed
+    event_arm_home: scout_alarm_home_armed
+    event_arm_night: scout_alarm_sleep_armed
+    event_disarm: scout_alarm_disarm
+
+august:
+  login_method: !secret august_login_method
+  username: !secret august_username
+  password: !secret august_password
+
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
+ffmpeg:
+  ffmpeg_bin: /usr/bin/ffmpeg
+
+cover:
+  - platform: myq
+    username: !secret myq_username
+    password: !secret myq_password
+    type: chamberlain
+
+media_player:
+  - platform: cast
+  - platform: yamaha
+  - platform: yamaha_musiccast
+    host: !secret yamaha_musiccast_host
+
+history_graph:
+  gr1:
+    name: Security
+    hours_to_show: 24
+    refresh: 300
+    entities:
+      - lock.front_door
+      - cover.viergarage
+      - alarm_control_panel.scout_alarm
+      - alarm_control_panel.vierarlo
+  gr2:
+    name: Lights
+    hours_to_show: 24
+    refresh: 300
+    entities:
+      - light.family_room
+      - light.felicitys_bedroom
+      - light.loft
+      - light.master_bedroom
+  gr3:
+    name: Family Presence
+    hours_to_show: 24
+    refresh: 300
+    entities:
+      - device_tracker.zonephone
+      - device_tracker.mermaidphone
+
+#vacuum:
+#  - platform: roomba
+#    host: !secret roomba_host
+#    username: !secret roomba_username
+#    password: !secret roomba_password
+#    continuous: false
+
+ifttt:
+  key: !secret ifttt_api_key
+
+#usps:
+#  username: !secret usps_username
+#  password: !secret usps_password
+#  driver: phantomjs
+
+system_log:
+  max_entries: 50
