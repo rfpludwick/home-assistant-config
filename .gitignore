@@ -3,6 +3,7 @@
 .august.conf
 .cloud/*
 .ios.conf
+.spotify-token-cache
 .uuid
 harmony*.conf
 home-assistant.log

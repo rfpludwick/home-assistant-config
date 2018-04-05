@@ -5,10 +5,11 @@
 - [ ] Re-enable FedEx
 - [ ] Re-enable Roomba
 - [ ] Investigate API Streams
-- [ ] Resolve Yamaha MusicCast
-- [ ] Setup Spotify
+- [x] Resolve Yamaha MusicCast
+- [x] Setup Spotify
 - [ ] Setup Emulated Hue Bridge
 - [ ] Setup Alexa
 - [ ] Setup Trane Thermostat
 - [ ] Properly Setup Harmony Hubs
-- [ ] Properly Setup Media Players
+- [x] Properly Setup Media Players
+- [ ] Organize Media Players Into Second View
