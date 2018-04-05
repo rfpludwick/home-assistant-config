@@ -82,3 +82,5 @@ media_player.yamaha_receiver:
   friendly_name: Family Room Receiver
 media_player.sony_bravia_tv:
   friendly_name: Family Room TV
+zwave.aeotec_zw090_zstick_gen5_us:
+  friendly_name: Z-Wave Stick
