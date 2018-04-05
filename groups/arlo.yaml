@@ -1,0 +1,7 @@
+name: Arlo
+entities:
+  - sensor.arlo_cameras
+  - sensor.captured_today_exterior_back
+  - sensor.captured_today_exterior_front
+  - sensor.last_exterior_back
+  - sensor.last_exterior_front

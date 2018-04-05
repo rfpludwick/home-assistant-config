@@ -1,0 +1,36 @@
+group.system:
+  order: 1
+group.security:
+  order: 2
+group.family_presence:
+  order: 3
+group.lights_rooms:
+  order: 4
+group.all_remotes:
+  order: 5
+group.home_maintenance:
+  order: 6
+group.camera_front:
+  order: 7
+group.camera_back:
+  order: 8
+group.breaches:
+  order: 9
+group.batteries:
+  order: 10
+group.smoke_co:
+  order: 11
+group.deliveries:
+  order: 12
+group.celestial:
+  order: 13
+group.weather_conditions:
+  order: 14
+group.weather_forecast:
+  order: 15
+group.synology_nas:
+  order: 16
+group.online:
+  order: 17
+group.network_presence:
+  order: 18

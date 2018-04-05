@@ -1,0 +1,4 @@
+name: Signals
+entities:
+  - sensor.signal_strength_exterior_front
+  - sensor.signal_strength_exterior_back

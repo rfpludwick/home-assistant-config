@@ -1,0 +1,3 @@
+name: Home Maintenance
+entities:
+  - vacuum.roomba

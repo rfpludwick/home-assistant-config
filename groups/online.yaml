@@ -1,0 +1,8 @@
+name: Online
+entities:
+ - binary_sensor.attic_bedroom_nest_protect_online
+ - binary_sensor.entryway_nest_protect_online
+ - binary_sensor.family_room_nest_protect_online
+ - binary_sensor.felicitys_bedroom_nest_protect_online
+ - binary_sensor.master_bedroom_nest_protect_online
+ - binary_sensor.upstairs_nest_protect_online
