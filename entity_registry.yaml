@@ -7,7 +7,7 @@ remote.vieratv:
   platform: apple_tv
   unique_id: 8d6dd59fcb9d94f78077ea9ac8b69bc7deb27efc69240e7c4a283f503c3c4685
 media_player.xbr55x850d:
-  name: Family Room TV
+  name: Family Room TV Cast
   platform: cast
   unique_id: 7f88244e-7e4d-eacf-0ba2-4be82d24177d
 sensor.zonephone_battery_state:
