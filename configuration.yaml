@@ -133,10 +133,10 @@ sensor:
 #    password: !secret fedex_password
   - platform: template
     sensors:
-      family_room:
+      harmony_hub_family_room:
         value_template: '{{ states.remote.family_room.attributes.current_activity }}'
         friendly_name: 'Family Room'
-      bedroom:
+      harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
         friendly_name: 'Loft'
 

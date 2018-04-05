@@ -1,0 +1,6 @@
+name: Harmony
+entities:
+  - sensor.harmony_hub_family_room
+  - remote.family_room
+  - sensor.harmony_hub_loft
+  - remote.loft

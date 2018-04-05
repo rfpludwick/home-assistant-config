@@ -6,7 +6,7 @@ group.family_presence:
   order: 3
 group.lights_rooms:
   order: 4
-group.all_remotes:
+group.harmony:
   order: 5
 group.home_maintenance:
   order: 6
