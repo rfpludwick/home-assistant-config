@@ -131,6 +131,14 @@ sensor:
 #  - platform: fedex
 #    username: !secret fedex_username
 #    password: !secret fedex_password
+  - platform: template
+    sensors:
+      family_room:
+        value_template: '{{ states.remote.family_room.attributes.current_activity }}'
+        friendly_name: 'Family Room'
+      bedroom:
+        value_template: '{{ states.remote.loft.attributes.current_activity }}'
+        friendly_name: 'Loft'
 
 camera:
   - platform: arlo
@@ -219,3 +227,11 @@ ifttt:
 
 system_log:
   max_entries: 50
+
+remote:
+  - platform: harmony
+    name: Family Room
+    host: !secret harmony_hub_family_room_host
+  - platform: harmony
+    name: Loft
+    host: !secret harmony_hub_loft_host
