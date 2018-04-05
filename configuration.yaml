@@ -237,5 +237,5 @@ remote:
     host: !secret harmony_hub_loft_host
 
 zwave:
-  usb_path: /dev/ttyAMA0
+  usb_path: /dev/ttyACM0
   network_key: !secret zwave_network_key
