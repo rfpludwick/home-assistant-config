@@ -1,0 +1,6 @@
+name: Lights
+entities:
+  - light.family_room
+  - light.felicitys_bedroom
+  - light.loft
+  - light.master_bedroom

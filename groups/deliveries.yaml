@@ -1,0 +1,5 @@
+name: Deliveries
+entities:
+  - sensor.usps_mail
+  - sensor.usps_packages
+  - sensor.ups

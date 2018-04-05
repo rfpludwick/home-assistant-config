@@ -1,0 +1,2 @@
+name: Steam Presence
+entities: !secret steam_presence_group_entities
