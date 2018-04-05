@@ -15,3 +15,4 @@
 - [ ] Organize Media Players Into Second View
 - [ ] Organize Other Views
 - [ ] Setup Dashboard
+- [ ] Customize Icons
