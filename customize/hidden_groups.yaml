@@ -8,3 +8,5 @@ group.all_locks:
   hidden: true
 group.all_vacuum_cleaners:
   hidden: true
+group.all_remotes:
+  hidden: true
