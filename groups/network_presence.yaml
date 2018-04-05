@@ -8,6 +8,7 @@ entities:
   - device_tracker.apple_tv
   - device_tracker.august_connect
   - device_tracker.av_receiver__family_room
+  - device_tracker.caitlin_ludwicks_laptop
   - device_tracker.caitlin_ludwicks_old_phone
   - device_tracker.caitlin_ludwicks_phone
   - device_tracker.fitbit_aria
