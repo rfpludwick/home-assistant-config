@@ -1,0 +1,3 @@
+name: USPS Mail
+entities:
+  - camera.usps_mail

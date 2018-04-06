@@ -22,15 +22,17 @@ group.smoke_co:
   order: 11
 group.deliveries:
   order: 12
-group.celestial:
+group.camera_usps:
   order: 13
-group.weather_conditions:
+group.celestial:
   order: 14
-group.weather_forecast:
+group.weather_conditions:
   order: 15
-group.synology_nas:
+group.weather_forecast:
   order: 16
-group.online:
+group.synology_nas:
   order: 17
-group.network_presence:
+group.online:
   order: 18
+group.network_presence:
+  order: 19
