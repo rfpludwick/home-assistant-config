@@ -92,3 +92,5 @@ sensor.caitlins_ipad_battery_level:
   friendly_name: Home Assistant iPad
 sensor.caitlins_ipad_battery_state:
   friendly_name: Home Assistant iPad Charging
+media_player.spotify:
+  friendly_name: "Robert's Spotify"
