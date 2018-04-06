@@ -1,0 +1,23 @@
+name: Home
+view: yes
+icon: mdi:home
+entities:
+  - group.system
+  - group.security
+  - group.family_presence
+  - group.lights_rooms
+  - group.harmony
+  - group.home_maintenance
+  - group.camera_front
+  - group.camera_back
+  - group.breaches
+  - group.batteries
+  - group.smoke_co
+  - group.deliveries
+  - group.camera_usps
+  - group.celestial
+  - group.weather_conditions
+  - group.weather_forecast
+  - group.synology_nas
+  - group.online
+  - group.network_presence
