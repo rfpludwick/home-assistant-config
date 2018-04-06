@@ -98,3 +98,5 @@ media_player.spotify:
   friendly_name: "Robert's Spotify"
 camera.usps_mail:
   friendly_name: USPS Mail
+sensor.connected_clients:
+  friendly_name: Connected Clients
