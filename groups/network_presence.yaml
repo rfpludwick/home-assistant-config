@@ -24,6 +24,7 @@ entities:
   - device_tracker.nest_protect__middle_bedroom
   - device_tracker.nest_protect__master_bedroom
   - device_tracker.nest_protect__upstairs
+  - device_tracker.nintendo_switch
   - device_tracker.nintendo_wii_u
   - device_tracker.printer
   - device_tracker.robert_fp_ludwicks_laptop

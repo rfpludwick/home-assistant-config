@@ -86,7 +86,7 @@ media_player.sony_bravia_tv:
   friendly_name: Family Room TV
 zwave.aeotec_zw090_zstick_gen5_us:
   friendly_name: Z-Wave Stick
-device_tracker.c8b5b71c3104:
+device_tracker.c8b5b71c3104: # was renamed and HA hasn't picked up the new name
   friendly_name: Home Assistant iPad
 sensor.caitlins_ipad_battery_level:
   friendly_name: Home Assistant iPad
