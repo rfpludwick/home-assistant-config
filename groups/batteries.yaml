@@ -4,6 +4,8 @@ entities:
   - sensor.zonephone_battery_state
   - sensor.caits_mermaid_phone_battery_level
   - sensor.caits_mermaid_phone_battery_state
+  - sensor.caitlins_ipad_battery_level
+  - sensor.caitlins_ipad_battery_state
   - sensor.attic_bedroom_nest_protect_battery_health
   - sensor.entryway_nest_protect_battery_health
   - sensor.family_room_nest_protect_battery_health

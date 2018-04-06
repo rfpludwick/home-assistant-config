@@ -1,7 +1,7 @@
 name: Lights
 entities:
   - light.family_room
-  - light.loft # this is really Felicity's Bedroom
-  - light.felicitys_bedroom # this is really Felicity's Lamp
+  - light.felicitys_bedroom
+  - light.felicitys_lamp
   - light.loft_lamp
   - light.master_bedroom
