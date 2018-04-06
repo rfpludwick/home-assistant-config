@@ -2,5 +2,6 @@ name: Lights
 entities:
   - light.family_room
   - light.felicitys_bedroom
-  - light.loft
+  - light.felicitys_lamp
+  - light.loft_lamp
   - light.master_bedroom

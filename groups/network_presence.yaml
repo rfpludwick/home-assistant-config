@@ -15,6 +15,7 @@ entities:
   - device_tracker.garage_door_opener
   - device_tracker.harmony_hub__family_room
   - device_tracker.harmony_hub__loft
+  - device_tracker.c8b5b71c3104
   - device_tracker.home_assistant_zonepi_3b_wifi
   - device_tracker.nest_protect__attic_bedroom
   - device_tracker.nest_protect__entryway

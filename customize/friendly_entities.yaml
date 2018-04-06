@@ -62,7 +62,9 @@ device_tracker.mermaidphone:
   friendly_name: "Caitlin's Phone GPS"
 device_tracker.zonephone:
   friendly_name: "Robert's Phone GPS"
-device_tracker.nest_protect__middle_bedroom:
+device_tracker.vierhapad:
+  friendly_name: Home Assistant iPad GPS
+device_tracker.nest_protect__middle_bedroom: # was renamed and HA hasn't picked up the new name
   friendly_name: "Nest Protect - Felicity's Bedroom"
 history_graph.family_presence:
   friendly_name: Family Presence History
@@ -84,3 +86,9 @@ media_player.sony_bravia_tv:
   friendly_name: Family Room TV
 zwave.aeotec_zw090_zstick_gen5_us:
   friendly_name: Z-Wave Stick
+device_tracker.c8b5b71c3104:
+  friendly_name: Home Assistant iPad
+sensor.caitlins_ipad_battery_level:
+  friendly_name: Home Assistant iPad
+sensor.caitlins_ipad_battery_state:
+  friendly_name: Home Assistant iPad Charging
