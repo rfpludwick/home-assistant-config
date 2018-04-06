@@ -10,6 +10,7 @@
 - [ ] Setup Emulated Hue Bridge
 - [ ] Setup Alexa
 - [ ] Setup Trane Thermostat
+- [ ] Setup Crime Alerts
 - [x] Properly Setup Harmony Hubs
 - [x] Properly Setup Media Players
 - [ ] Organize Media Players Into Second View
