@@ -213,6 +213,7 @@ history_graph:
     entities:
       - device_tracker.zonephone
       - device_tracker.mermaidphone
+      - device_tracker.c8b5b71c3104
 
 #vacuum:
 #  - platform: roomba
