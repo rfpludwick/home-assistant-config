@@ -60,7 +60,7 @@ device_tracker:
 
 sensor:
   - platform: moon
-#  - platform: api_streams
+  - platform: api_streams
   - platform: arlo
     monitored_conditions:
       - captured_today
@@ -217,20 +217,20 @@ history_graph:
       - device_tracker.zonephone
       - device_tracker.mermaidphone
 
-#vacuum:
-#  - platform: roomba
-#    host: !secret roomba_host
-#    username: !secret roomba_username
-#    password: !secret roomba_password
-#    continuous: false
+vacuum:
+  - platform: roomba
+    host: !secret roomba_host
+    username: !secret roomba_username
+    password: !secret roomba_password
+    continuous: false
 
 ifttt:
   key: !secret ifttt_api_key
 
-#usps:
-#  username: !secret usps_username
-#  password: !secret usps_password
-#  driver: phantomjs
+usps:
+  username: !secret usps_username
+  password: !secret usps_password
+  driver: phantomjs
 
 system_log:
   max_entries: 50
