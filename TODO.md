@@ -1,7 +1,7 @@
 # Todo
 
 
-- [ ] Re-enable USPS
+- [x] Re-enable USPS
 - [ ] Re-enable FedEx
 - [ ] Re-enable Roomba
 - [ ] Investigate API Streams
