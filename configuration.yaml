@@ -57,7 +57,7 @@ device_tracker:
 
 sensor:
   - platform: moon
-#  - platform: api_streams
+  - platform: api_streams
   - platform: arlo
     monitored_conditions:
       - captured_today
