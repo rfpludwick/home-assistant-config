@@ -72,6 +72,8 @@ history_graph.lights:
   friendly_name: Lights History
 history_graph.security:
   friendly_name: Security History
+history_graph.steam_presence:
+  friendly_name: Steam Presence History
 alarm_control_panel.scout_alarm:
   friendly_name: Scout Alarm
 sensor.usps_mail:
