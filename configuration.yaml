@@ -23,6 +23,7 @@ updater:
 discovery:
   ignore:
     - songpal
+    - yamaha
 
 history:
 
