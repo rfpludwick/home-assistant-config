@@ -3,7 +3,7 @@
 
 - [x] Re-enable USPS
 - [ ] Re-enable FedEx
-- [ ] Re-enable Roomba
+- [x] Re-enable Roomba
 - [ ] Investigate API Streams
 - [x] Resolve Yamaha MusicCast
 - [x] Setup Spotify
