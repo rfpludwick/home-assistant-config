@@ -146,6 +146,9 @@ sensor:
       harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
         friendly_name: 'Loft'
+  - platform: crimereports
+    name: Crime
+    radius: 3000
 
 camera:
   - platform: arlo
