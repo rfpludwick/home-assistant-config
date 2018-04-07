@@ -6,11 +6,11 @@ entities:
   - sensor.caits_mermaid_phone_battery_state
   - sensor.caitlins_ipad_battery_level
   - sensor.caitlins_ipad_battery_state
-  - sensor.attic_bedroom_nest_protect_battery_health
-  - sensor.entryway_nest_protect_battery_health
-  - sensor.family_room_nest_protect_battery_health
-  - sensor.felicitys_bedroom_nest_protect_battery_health
-  - sensor.master_bedroom_nest_protect_battery_health
-  - sensor.upstairs_nest_protect_battery_health
+  - sensor.attic_bedroom_nest_protect_battery_status
+  - sensor.entryway_nest_protect_battery_status
+  - sensor.family_room_nest_protect_battery_status
+  - sensor.felicitys_bedroom_nest_protect_battery_status
+  - sensor.master_bedroom_nest_protect_battery_status
+  - sensor.upstairs_nest_protect_battery_status
   - sensor.battery_level_exterior_back
   - sensor.battery_level_exterior_front

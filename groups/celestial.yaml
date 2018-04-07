@@ -2,4 +2,4 @@ name: Celestial
 entities:
   - sun.sun
   - sensor.moon
-  - sensor.season
+  - sensor.season_display

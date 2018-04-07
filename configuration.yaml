@@ -5,6 +5,7 @@ homeassistant:
   elevation: 500
   unit_system: imperial
   time_zone: America/Los_Angeles
+  customize_domain: !include_dir_named customize_domain/
   customize: !include_dir_merge_named customize/
 
 frontend:
@@ -142,10 +143,116 @@ sensor:
     sensors:
       harmony_hub_family_room:
         value_template: '{{ states.remote.family_room.attributes.current_activity }}'
-        friendly_name: 'Family Room'
       harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
-        friendly_name: 'Loft'
+      attic_bedroom_nest_protect_battery_status:
+        value_template: "{{ states('sensor.attic_bedroom_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      entryway_nest_protect_battery_status:
+        value_template: "{{ states('sensor.entryway_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.entryway_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      family_room_nest_protect_battery_status:
+        value_template: "{{ states('sensor.family_room_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.family_room_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      felicitys_bedroom_nest_protect_battery_status:
+        value_template: "{{ states('sensor.felicitys_bedroom_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.felicitys_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      master_bedroom_nest_protect_battery_status:
+        value_template: "{{ states('sensor.master_bedroom_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.master_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      upstairs_nest_protect_battery_status:
+        value_template: "{{ states('sensor.attic_bedroom_nest_protect_battery_health') }}"
+        icon_template: >-
+          {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      season_display:
+        value_template: "{{ states('sensor.season') }}"
+        icon_template: >-
+          {% if is_state('sensor.season', 'winter') %}
+            mdi:snow
+          {% elif is_state('sensor.season', 'spring') %}
+            mdi:flower
+          {% elif is_state('sensor.season', 'summer') %}
+            mdi:weather-sunny
+          {% else %}
+            mdi:leaf
+          {% endif %}
+      attic_bedroom_nest_protect_online:
+        value_template: "{{ states('binary_sensor.attic_bedroom_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.attic_bedroom_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      entryway_nest_protect_online:
+        value_template: "{{ states('binary_sensor.entryway_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.entryway_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      family_room_nest_protect_online:
+        value_template: "{{ states('binary_sensor.family_room_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.family_room_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      felicitys_bedroom_nest_protect_online:
+        value_template: "{{ states('binary_sensor.felicitys_bedroom_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.felicitys_bedroom_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      master_bedroom_nest_protect_online:
+        value_template: "{{ states('binary_sensor.master_bedroom_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      upstairs_nest_protect_online:
+        value_template: "{{ states('binary_sensor.upstairs_nest_protect_online') }}"
+        icon_template: >-
+          {% if is_state('binary_sensor.upstairs_nest_protect_online', 'on') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
   - platform: crimereports
     name: Crime
     radius: 3000

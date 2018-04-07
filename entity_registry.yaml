@@ -74,3 +74,11 @@ sensor.caits_mermaid_phone_battery_state_3:
   name:
   platform: ios
   unique_id: state_caits_mermaid_phone
+sensor.caitlins_ipad_battery_level:
+  name:
+  platform: ios
+  unique_id: level_VierHAPad
+sensor.caitlins_ipad_battery_state:
+  name:
+  platform: ios
+  unique_id: state_VierHAPad
