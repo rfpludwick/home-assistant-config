@@ -5,8 +5,8 @@ homeassistant:
   elevation: 500
   unit_system: imperial
   time_zone: America/Los_Angeles
+  customize_glob: !include customize_glob.yaml
   customize: !include_dir_merge_named customize/
-  customize_domain: !include customize_domain.yaml
 
 frontend:
 
