@@ -1,38 +1,30 @@
 group.system:
   order: 1
-group.security:
-  order: 2
 group.family_presence:
-  order: 3
-group.lights_rooms:
-  order: 4
-group.harmony:
-  order: 5
-group.home_maintenance:
-  order: 6
+  order: 2
 group.camera_front:
-  order: 7
+  order: 3
 group.camera_back:
-  order: 8
+  order: 4
 group.breaches:
-  order: 9
+  order: 5
 group.batteries:
-  order: 10
+  order: 6
 group.smoke_co:
-  order: 11
+  order: 7
 group.deliveries:
-  order: 12
+  order: 8
 group.camera_usps:
-  order: 13
+  order: 9
 group.celestial:
-  order: 14
+  order: 10
 group.weather_conditions:
-  order: 15
+  order: 11
 group.weather_forecast:
-  order: 16
+  order: 12
 group.synology_nas:
-  order: 17
+  order: 13
 group.online:
-  order: 18
+  order: 14
 group.network_presence:
-  order: 19
+  order: 15

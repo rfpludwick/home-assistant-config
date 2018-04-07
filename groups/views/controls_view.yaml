@@ -1,0 +1,8 @@
+name: Controls
+view: yes
+icon: mdi:dip-switch
+entities:
+  - group.security
+  - group.lights
+  - group.harmony
+  - group.home_maintenance
