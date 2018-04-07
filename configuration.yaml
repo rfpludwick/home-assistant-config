@@ -146,7 +146,7 @@ sensor:
       harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
       attic_bedroom_nest_protect_battery_status:
-        value_template: '{{ states.sensor.attic_bedroom_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.attic_bedroom_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -154,7 +154,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       entryway_nest_protect_battery_status:
-        value_template: '{{ states.sensor.entryway_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.entryway_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.entryway_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -162,7 +162,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       family_room_nest_protect_battery_status:
-        value_template: '{{ states.sensor.family_room_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.family_room_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.family_room_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -170,7 +170,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       felicitys_bedroom_nest_protect_battery_status:
-        value_template: '{{ states.sensor.felicitys_bedroom_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.felicitys_bedroom_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.felicitys_bedroom_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -178,7 +178,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       master_bedroom_nest_protect_battery_status:
-        value_template: '{{ states.sensor.master_bedroom_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.master_bedroom_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.master_bedroom_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -186,7 +186,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       upstairs_nest_protect_battery_status:
-        value_template: '{{ states.sensor.attic_bedroom_nest_protect_battery_health.state }}'
+        value_template: "{{ states('sensor.attic_bedroom_nest_protect_battery_health') }}"
         icon_template: >-
           {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
             mdi:battery-charging-wireless
@@ -194,7 +194,7 @@ sensor:
             mdi:battery-charging-wireless-alert
           {% endif %}
       season_display:
-        value_template: '{{ states.sensor.season.state }}'
+        value_template: "{{ states('sensor.season') }}"
         icon_template: >-
           {% if is_state('sensor.season', 'winter') %}
             mdi:snow
@@ -206,7 +206,7 @@ sensor:
             mdi:leaf
           {% endif %}
       attic_bedroom_nest_protect_online:
-        value_template: '{{ states.binary_sensor.attic_bedroom_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.attic_bedroom_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.attic_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
@@ -214,7 +214,7 @@ sensor:
             mdi:wifi-off
           {% endif %}
       entryway_nest_protect_online:
-        value_template: '{{ states.binary_sensor.entryway_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.entryway_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.entryway_nest_protect_online', 'on') %}
             mdi:wifi
@@ -222,7 +222,7 @@ sensor:
             mdi:wifi-off
           {% endif %}
       family_room_nest_protect_online:
-        value_template: '{{ states.binary_sensor.family_room_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.family_room_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.family_room_nest_protect_online', 'on') %}
             mdi:wifi
@@ -230,7 +230,7 @@ sensor:
             mdi:wifi-off
           {% endif %}
       felicitys_bedroom_nest_protect_online:
-        value_template: '{{ states.binary_sensor.felicitys_bedroom_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.felicitys_bedroom_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.felicitys_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
@@ -238,7 +238,7 @@ sensor:
             mdi:wifi-off
           {% endif %}
       master_bedroom_nest_protect_online:
-        value_template: '{{ states.binary_sensor.master_bedroom_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.master_bedroom_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
@@ -246,7 +246,7 @@ sensor:
             mdi:wifi-off
           {% endif %}
       upstairs_nest_protect_online:
-        value_template: '{{ states.binary_sensor.upstairs_nest_protect_online.state }}'
+        value_template: "{{ states('binary_sensor.upstairs_nest_protect_online') }}"
         icon_template: >-
           {% if is_state('binary_sensor.upstairs_nest_protect_online', 'on') %}
             mdi:wifi
