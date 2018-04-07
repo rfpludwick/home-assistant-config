@@ -147,6 +147,48 @@ sensor:
       harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
         friendly_name: 'Loft'
+      attic_bedroom_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      entryway_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.entryway_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      family_room_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.family_room_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      felicitys_bedroom_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.felicitys_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      master_bedroom_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.master_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
+      upstairs_nest_protect_battery_status:
+        icon_template: >-
+          {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
+            mdi:battery-charging-wireless
+          {% else %}
+            mdi:battery-charging-wireless-alert
+          {% endif %}
   - platform: crimereports
     name: Crime
     radius: 3000
