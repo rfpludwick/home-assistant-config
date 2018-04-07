@@ -1,0 +1,8 @@
+group.batteries:
+  order: 1
+group.synology_nas:
+  order: 2
+group.online:
+  order: 3
+group.network_presence:
+  order: 4
