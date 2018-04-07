@@ -55,6 +55,7 @@ binary_sensor.master_bedroom_nest_protect_online:
 binary_sensor.upstairs_nest_protect_online:
   friendly_name: Nest Protect Upstairs
 alarm_control_panel.vierarlo:
+  icon: mdi:camcorder-box
   friendly_name: Arlo
 cover.viergarage:
   friendly_name: Garage Door
@@ -78,6 +79,7 @@ history_graph.security:
 history_graph.steam_presence:
   friendly_name: Steam Presence History
 alarm_control_panel.scout_alarm:
+  icon: mdi:security-home
   friendly_name: Scout Alarm
 sensor.usps_mail:
   friendly_name: USPS Mail
