@@ -137,3 +137,7 @@ sensor.season:
   icon: mdi:leaf
 sensor.crime:
   icon: mdi:guy-fawkes-mask
+sensor.harmony_hub_family_room:
+  friendly_name: Family Room
+sensor.harmony_hub_loft:
+  friendly_name: Loft
