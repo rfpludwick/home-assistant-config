@@ -193,6 +193,66 @@ sensor:
           {% else %}
             mdi:battery-charging-wireless-alert
           {% endif %}
+      season_display:
+        value_template: '{{ states.sensor.season.state }}'
+        icon_template: >-
+          {% if is_state('sensor.season', 'Winter') %}
+            mdi:snow
+          {% elif is_state('sensor.season', 'Spring') %}
+            mdi:flower
+          {% elif is_state('sensor.season', 'Summer') %}
+            mdi:weather-sunny
+          {% else %}
+            mdi:leaf
+          {% endif %}
+      attic_bedroom_nest_protect_online:
+        value_template: '{{ states.binary_sensor.attic_bedroom_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.attic_bedroom_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      entryway_nest_protect_online:
+        value_template: '{{ states.binary_sensor.entryway_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.entryway_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      family_room_nest_protect_online:
+        value_template: '{{ states.binary_sensor.family_room_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.family_room_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      felicitys_bedroom_nest_protect_online:
+        value_template: '{{ states.binary_sensor.felicitys_bedroom_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.felicitys_bedroom_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      master_bedroom_nest_protect_online:
+        value_template: '{{ states.binary_sensor.master_bedroom_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
+      upstairs_nest_protect_online:
+        value_template: '{{ states.binary_sensor.upstairs_nest_protect_online.state }}'
+        icon_template: >-
+          {% if is_state('binary_sensor.upstairs_nest_protect_online', 'On') %}
+            mdi:wifi
+          {% else %}
+            mdi:wifi-off
+          {% endif %}
   - platform: crimereports
     name: Crime
     radius: 3000
