@@ -59,7 +59,7 @@ alarm_control_panel.vierarlo:
 cover.viergarage:
   friendly_name: Garage Door
 device_tracker.mermaidphone:
-  entity:picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
+  entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
   friendly_name: "Caitlin's Phone GPS"
 device_tracker.zonephone:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c60.58.660.660/s80x80/22450035_10101494081785158_5326954092277863437_n.jpg?_nc_cat=0&oh=0c6483fb28fcf6345f30ecef6fabbd2f&oe=5B5E2104"
