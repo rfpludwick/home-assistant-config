@@ -1,2 +1,3 @@
 device_tracker:
-  icon: mdi:network
+  templates:
+    icon: "if (state === 'home') return 'mdi:plus-network'; else return 'mdi:minus-network';"
