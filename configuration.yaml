@@ -233,10 +233,10 @@ vacuum:
 ifttt:
   key: !secret ifttt_api_key
 
-usps:
-  username: !secret usps_username
-  password: !secret usps_password
-  driver: phantomjs
+#usps:
+#  username: !secret usps_username
+#  password: !secret usps_password
+#  driver: phantomjs
 
 system_log:
   max_entries: 50
