@@ -1,4 +1,4 @@
-name: online
+name: Online
 entities:
  - sensor.attic_bedroom_nest_protect_online
  - sensor.entryway_nest_protect_online

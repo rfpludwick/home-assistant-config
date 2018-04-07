@@ -196,11 +196,11 @@ sensor:
       season_display:
         value_template: '{{ states.sensor.season.state }}'
         icon_template: >-
-          {% if is_state('sensor.season', 'Winter') %}
+          {% if is_state('sensor.season', 'winter') %}
             mdi:snow
-          {% elif is_state('sensor.season', 'Spring') %}
+          {% elif is_state('sensor.season', 'spring') %}
             mdi:flower
-          {% elif is_state('sensor.season', 'Summer') %}
+          {% elif is_state('sensor.season', 'summer') %}
             mdi:weather-sunny
           {% else %}
             mdi:leaf
@@ -208,7 +208,7 @@ sensor:
       attic_bedroom_nest_protect_online:
         value_template: '{{ states.binary_sensor.attic_bedroom_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.attic_bedroom_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.attic_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
@@ -216,7 +216,7 @@ sensor:
       entryway_nest_protect_online:
         value_template: '{{ states.binary_sensor.entryway_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.entryway_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.entryway_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
@@ -224,7 +224,7 @@ sensor:
       family_room_nest_protect_online:
         value_template: '{{ states.binary_sensor.family_room_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.family_room_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.family_room_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
@@ -232,7 +232,7 @@ sensor:
       felicitys_bedroom_nest_protect_online:
         value_template: '{{ states.binary_sensor.felicitys_bedroom_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.felicitys_bedroom_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.felicitys_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
@@ -240,7 +240,7 @@ sensor:
       master_bedroom_nest_protect_online:
         value_template: '{{ states.binary_sensor.master_bedroom_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
@@ -248,7 +248,7 @@ sensor:
       upstairs_nest_protect_online:
         value_template: '{{ states.binary_sensor.upstairs_nest_protect_online.state }}'
         icon_template: >-
-          {% if is_state('binary_sensor.upstairs_nest_protect_online', 'On') %}
+          {% if is_state('binary_sensor.upstairs_nest_protect_online', 'on') %}
             mdi:wifi
           {% else %}
             mdi:wifi-off
