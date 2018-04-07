@@ -1,5 +1,4 @@
 sensor.attic_bedroom_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Attic Bedroom
 sensor.attic_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -8,7 +7,6 @@ sensor.attic_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Attic Bedroom CO
 sensor.entryway_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Entryway
 sensor.entryway_nest_protect_smoke_status:
   icon: mdi:fire
@@ -17,7 +15,6 @@ sensor.entryway_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Entryway CO
 sensor.family_room_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Family Room
 sensor.family_room_nest_protect_smoke_status:
   icon: mdi:fire
@@ -26,7 +23,6 @@ sensor.family_room_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Family Room CO
 sensor.felicitys_bedroom_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Felicity's Bedroom
 sensor.felicitys_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -35,7 +31,6 @@ sensor.felicitys_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Felicity's Bedroom CO
 sensor.master_bedroom_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Master Bedroom
 sensor.master_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -44,7 +39,6 @@ sensor.master_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Master Bedroom CO
 sensor.upstairs_nest_protect_battery_health:
-  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Upstairs
 sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
@@ -141,3 +135,15 @@ sensor.harmony_hub_family_room:
   friendly_name: Family Room
 sensor.harmony_hub_loft:
   friendly_name: Loft
+sensor.attic_bedroom_nest_protect_battery_status:
+  friendly_name: Nest Protect Attic Bedroom
+sensor.entryway_nest_protect_battery_status:
+  friendly_name: Nest Protect Entryway
+sensor.family_room_nest_protect_battery_status:
+  friendly_name: Nest Protect Family Room
+sensor.felicitys_bedroom_nest_protect_battery_status:
+  friendly_name: Nest Protect Felicity's Bedroom
+sensor.master_bedroom_nest_protect_battery_status:
+  friendly_name: Nest Protect Master Bedroom
+sensor.upstairs_nest_protect_battery_status:
+  friendly_name: Nest Protect Upstairs
