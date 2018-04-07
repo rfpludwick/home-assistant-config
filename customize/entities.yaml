@@ -1,4 +1,5 @@
 sensor.attic_bedroom_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Attic Bedroom
 sensor.attic_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -7,6 +8,7 @@ sensor.attic_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Attic Bedroom CO
 sensor.entryway_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Entryway
 sensor.entryway_nest_protect_smoke_status:
   icon: mdi:fire
@@ -15,6 +17,7 @@ sensor.entryway_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Entryway CO
 sensor.family_room_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Family Room
 sensor.family_room_nest_protect_smoke_status:
   icon: mdi:fire
@@ -23,6 +26,7 @@ sensor.family_room_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Family Room CO
 sensor.felicitys_bedroom_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Felicity's Bedroom
 sensor.felicitys_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -31,6 +35,7 @@ sensor.felicitys_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Felicity's Bedroom CO
 sensor.master_bedroom_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Master Bedroom
 sensor.master_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -39,6 +44,7 @@ sensor.master_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Master Bedroom CO
 sensor.upstairs_nest_protect_battery_health:
+  icon: mdi:battery-charging-wireless
   friendly_name: Nest Protect Upstairs
 sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
@@ -55,16 +61,22 @@ sensor.signal_strength_exterior_back:
 sensor.signal_strength_exterior_front:
   friendly_name: Arlo Exterior Front
 binary_sensor.attic_bedroom_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Attic Bedroom
 binary_sensor.entryway_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Entryway
 binary_sensor.family_room_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Family Room
 binary_sensor.felicitys_bedroom_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Felicity's Bedroom
 binary_sensor.master_bedroom_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Master Bedroom
 binary_sensor.upstairs_nest_protect_online:
+  icon: mdi:wifi
   friendly_name: Nest Protect Upstairs
 alarm_control_panel.vierarlo:
   icon: mdi:camcorder-box
