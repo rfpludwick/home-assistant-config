@@ -1,0 +1,8 @@
+group.security:
+  order: 1
+group.lights:
+  order: 2
+group.harmony:
+  order: 3
+group.home_maintenance:
+  order: 4

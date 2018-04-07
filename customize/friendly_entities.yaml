@@ -72,6 +72,8 @@ history_graph.lights:
   friendly_name: Lights History
 history_graph.security:
   friendly_name: Security History
+history_graph.steam_presence:
+  friendly_name: Steam Presence History
 alarm_control_panel.scout_alarm:
   friendly_name: Scout Alarm
 sensor.usps_mail:
@@ -86,9 +88,15 @@ media_player.sony_bravia_tv:
   friendly_name: Family Room TV
 zwave.aeotec_zw090_zstick_gen5_us:
   friendly_name: Z-Wave Stick
-device_tracker.c8b5b71c3104:
+device_tracker.c8b5b71c3104: # was renamed and HA hasn't picked up the new name
   friendly_name: Home Assistant iPad
 sensor.caitlins_ipad_battery_level:
   friendly_name: Home Assistant iPad
 sensor.caitlins_ipad_battery_state:
   friendly_name: Home Assistant iPad Charging
+media_player.spotify:
+  friendly_name: "Robert's Spotify"
+camera.usps_mail:
+  friendly_name: USPS Mail
+sensor.connected_clients:
+  friendly_name: Connected Clients

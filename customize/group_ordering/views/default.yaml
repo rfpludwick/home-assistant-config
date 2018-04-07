@@ -1,0 +1,17 @@
+group.system:
+  order: 1
+group.celestial:
+  order: 2
+group.family_presence:
+  order: 3
+group.steam_presence:
+  order: 4
+group.deliveries:
+  order: 5
+group.camera_usps:
+  order: 6
+group.weather_conditions:
+  order: 7
+group.weather_forecast:
+  order: 8
+

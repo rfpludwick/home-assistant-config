@@ -216,6 +216,12 @@ history_graph:
     entities:
       - device_tracker.zonephone
       - device_tracker.mermaidphone
+      - device_tracker.vierhapad
+  gr4:
+    name: Steam Presence
+    hours_to_show: 24
+    refresh: 300
+    entities: !secret steam_presence_group_entities
 
 vacuum:
   - platform: roomba
