@@ -4,5 +4,6 @@ icon: mdi:eye
 entities:
   - group.camera_front
   - group.camera_back
-  - group.breaches
   - group.smoke_co
+  - group.crime
+  - group.breaches

@@ -2,7 +2,9 @@ group.camera_front:
   order: 1
 group.camera_back:
   order: 2
-group.breaches:
-  order: 3
 group.smoke_co:
+  order: 3
+group.crime:
   order: 4
+group.breaches:
+  order: 5
