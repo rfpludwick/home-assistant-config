@@ -2,5 +2,9 @@ group.default_view:
   order: 1
 group.controls_view:
   order: 2
-group.media_view:
+group.monitoring_view:
   order: 3
+group.media_view:
+  order: 4
+group.history_view:
+  order: 5
