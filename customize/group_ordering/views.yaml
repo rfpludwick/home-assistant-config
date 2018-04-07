@@ -8,3 +8,5 @@ group.media_view:
   order: 4
 group.history_view:
   order: 5
+group.technology_history_view:
+  order: 6
