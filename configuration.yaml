@@ -146,6 +146,9 @@ sensor:
       harmony_hub_loft:
         value_template: '{{ states.remote.loft.attributes.current_activity }}'
         friendly_name: 'Loft'
+  - platform: crimereports
+    name: Crime
+    radius: 3000
 
 camera:
   - platform: arlo
@@ -233,10 +236,10 @@ vacuum:
 ifttt:
   key: !secret ifttt_api_key
 
-usps:
-  username: !secret usps_username
-  password: !secret usps_password
-  driver: phantomjs
+#usps:
+#  username: !secret usps_username
+#  password: !secret usps_password
+#  driver: phantomjs
 
 system_log:
   max_entries: 50

@@ -1,0 +1,3 @@
+name: Crime
+entities:
+ - sensor.crime
