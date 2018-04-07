@@ -1,38 +1,50 @@
 sensor.attic_bedroom_nest_protect_battery_health:
   friendly_name: Nest Protect Attic Bedroom
 sensor.attic_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Attic Bedroom Smoke
 sensor.attic_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Attic Bedroom CO
 sensor.entryway_nest_protect_battery_health:
   friendly_name: Nest Protect Entryway
 sensor.entryway_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Entryway Smoke
 sensor.entryway_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Entryway CO
 sensor.family_room_nest_protect_battery_health:
   friendly_name: Nest Protect Family Room
 sensor.family_room_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Family Room Smoke
 sensor.family_room_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Family Room CO
 sensor.felicitys_bedroom_nest_protect_battery_health:
   friendly_name: Nest Protect Felicity's Bedroom
 sensor.felicitys_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Felicity's Bedroom Smoke
 sensor.felicitys_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Felicity's Bedroom CO
 sensor.master_bedroom_nest_protect_battery_health:
   friendly_name: Nest Protect Master Bedroom
 sensor.master_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Master Bedroom Smoke
 sensor.master_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Master Bedroom CO
 sensor.upstairs_nest_protect_battery_health:
   friendly_name: Nest Protect Upstairs
 sensor.upstairs_nest_protect_smoke_status:
+  icon: mdi:fire
   friendly_name: Nest Protect Upstairs Smoke
 sensor.upstairs_nest_protect_co_status:
+  icon: mdi:gas-cylinder
   friendly_name: Nest Protect Upstairs CO
 sensor.battery_level_exterior_back:
   friendly_name: Arlo Exterior Back
@@ -111,3 +123,5 @@ sensor.home_assistant_version:
   friendly_name: Home Assistant Version
 sensor.season:
   icon: mdi:leaf
+sensor.crime:
+  icon: mdi:guy-fawkes-mask
