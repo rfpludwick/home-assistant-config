@@ -10,5 +10,4 @@ group.view_history:
   order: 5
 group.view_technology_monitoring:
   order: 6
-group.default_view:
-  order: 7
+
