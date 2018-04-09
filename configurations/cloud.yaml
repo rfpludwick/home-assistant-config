@@ -1,0 +1,4 @@
+alexa:
+  filter:
+    include_entities:
+      - group.arlo # Until we're ready to actually give Alexa something

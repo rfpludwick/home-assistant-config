@@ -1,0 +1,1 @@
+value_template: '{{ states.remote.family_room.attributes.current_activity }}'

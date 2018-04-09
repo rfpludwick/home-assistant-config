@@ -1,0 +1,7 @@
+value_template: "{{ states('binary_sensor.master_bedroom_nest_protect_online') }}"
+icon_template: >-
+  {% if is_state('binary_sensor.master_bedroom_nest_protect_online', 'on') %}
+    mdi:wifi
+  {% else %}
+    mdi:wifi-off
+  {% endif %}
