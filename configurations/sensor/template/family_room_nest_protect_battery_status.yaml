@@ -1,0 +1,7 @@
+value_template: "{{ states('sensor.family_room_nest_protect_battery_health') }}"
+icon_template: >-
+  {% if is_state('sensor.family_room_nest_protect_battery_health', 'Ok') %}
+    mdi:battery-charging-wireless
+  {% else %}
+    mdi:battery-charging-wireless-alert
+  {% endif %}
