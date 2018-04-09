@@ -1,4 +1,4 @@
-group.view_dashboard:
+group.default_view: # this is annoying
   order: 1
 group.view_controls:
   order: 2
