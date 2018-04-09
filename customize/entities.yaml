@@ -1,51 +1,13 @@
-sensor.attic_bedroom_nest_protect_battery_health:
-  friendly_name: Nest Protect Attic Bedroom
-sensor.attic_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Attic Bedroom Smoke
-sensor.attic_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Attic Bedroom CO
-sensor.entryway_nest_protect_battery_health:
-  friendly_name: Nest Protect Entryway
-sensor.entryway_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Entryway Smoke
-sensor.entryway_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Entryway CO
-sensor.family_room_nest_protect_battery_health:
-  friendly_name: Nest Protect Family Room
-sensor.family_room_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Family Room Smoke
-sensor.family_room_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Family Room CO
-sensor.felicitys_bedroom_nest_protect_battery_health:
-  friendly_name: Nest Protect Felicity's Bedroom
-sensor.felicitys_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Felicity's Bedroom Smoke
-sensor.felicitys_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Felicity's Bedroom CO
-sensor.master_bedroom_nest_protect_battery_health:
-  friendly_name: Nest Protect Master Bedroom
-sensor.master_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Master Bedroom Smoke
-sensor.master_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Master Bedroom CO
-sensor.upstairs_nest_protect_battery_health:
-  friendly_name: Nest Protect Upstairs
-sensor.upstairs_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Upstairs Smoke
-sensor.upstairs_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Upstairs CO
+
+# Alarm Control Panels
+alarm_control_panel.vierarlo:
+  icon: mdi:camcorder-box
+  friendly_name: Arlo
+alarm_control_panel.scout_alarm:
+  icon: mdi:security-home
+  friendly_name: Scout Alarm
+
+# Arlo (Excluding Alarm Control Panel)
 sensor.battery_level_exterior_back:
   friendly_name: Arlo Exterior Back
 sensor.battery_level_exterior_front:
@@ -54,104 +16,182 @@ sensor.signal_strength_exterior_back:
   friendly_name: Arlo Exterior Back
 sensor.signal_strength_exterior_front:
   friendly_name: Arlo Exterior Front
-binary_sensor.attic_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Attic Bedroom
-binary_sensor.entryway_nest_protect_online:
-  friendly_name: Nest Protect Entryway
-binary_sensor.family_room_nest_protect_online:
-  friendly_name: Nest Protect Family Room
-binary_sensor.felicitys_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Felicity's Bedroom
-binary_sensor.master_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Master Bedroom
-binary_sensor.upstairs_nest_protect_online:
-  friendly_name: Nest Protect Upstairs
-alarm_control_panel.vierarlo:
-  icon: mdi:camcorder-box
-  friendly_name: Arlo
+
+# Celestial
+sensor.season_display:
+  friendly_name: Season
+
+# Covers
 cover.viergarage:
   friendly_name: Garage Door
-device_tracker.mermaidphone:
-  entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
-  friendly_name: "Caitlin's Phone GPS"
-device_tracker.zonephone:
-  entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c60.58.660.660/s80x80/22450035_10101494081785158_5326954092277863437_n.jpg?_nc_cat=0&oh=0c6483fb28fcf6345f30ecef6fabbd2f&oe=5B5E2104"
-  friendly_name: "Robert's Phone GPS"
-device_tracker.vierhapad:
-  icon: mdi:tablet-ipad
-  friendly_name: Home Assistant iPad GPS
-device_tracker.nest_protect__middle_bedroom: # was renamed and HA hasn't picked up the new name
-  friendly_name: "Nest Protect - Felicity's Bedroom"
-history_graph.family_presence:
-  friendly_name: Family Presence History
-history_graph.lights:
-  friendly_name: Lights History
-history_graph.security:
-  friendly_name: Security History
-history_graph.steam_presence:
-  friendly_name: Steam Presence History
-alarm_control_panel.scout_alarm:
-  icon: mdi:security-home
-  friendly_name: Scout Alarm
+
+# Crime
+sensor.crime:
+  icon: mdi:guy-fawkes-mask
+
+# Deliveries
+camera.usps_mail:
+  friendly_name: USPS Mail
 sensor.usps_mail:
   friendly_name: USPS Mail
 sensor.usps_packages:
   friendly_name: USPS Packages
 sensor.ups:
   friendly_name: UPS Packages
-media_player.yamaha_receiver:
-  friendly_name: Family Room Receiver
-media_player.sony_bravia_tv:
-  friendly_name: Family Room TV
-zwave.aeotec_zw090_zstick_gen5_us:
-  friendly_name: Z-Wave Stick
+
+# Device Trackers
+
+## Family
+device_tracker.mermaidphone:
+  entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
+  friendly_name: "Caitlin's Phone GPS"
+device_tracker.vierhapad:
+  icon: mdi:tablet-ipad
+  friendly_name: Home Assistant iPad GPS
+device_tracker.zonephone:
+  entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c60.58.660.660/s80x80/22450035_10101494081785158_5326954092277863437_n.jpg?_nc_cat=0&oh=0c6483fb28fcf6345f30ecef6fabbd2f&oe=5B5E2104"
+  friendly_name: "Robert's Phone GPS"
+
+## Other
 device_tracker.c8b5b71c3104: # was renamed and HA hasn't picked up the new name
   friendly_name: Home Assistant iPad
-sensor.caitlins_ipad_battery_level:
-  friendly_name: Home Assistant iPad
-sensor.caitlins_ipad_battery_state:
-  friendly_name: Home Assistant iPad Charging
-media_player.spotify:
-  friendly_name: "Robert's Spotify"
-camera.usps_mail:
-  friendly_name: USPS Mail
+device_tracker.nest_protect__middle_bedroom: # was renamed and HA hasn't picked up the new name
+  friendly_name: "Nest Protect - Felicity's Bedroom"
+
+# Harmony
+sensor.harmony_hub_family_room:
+  friendly_name: Family Room
+sensor.harmony_hub_loft:
+  friendly_name: Loft
+
+# History Graphs
+history_graph.family_presence:
+  friendly_name: Family Presence History
+history_graph.lights:
+  friendly_name: Lights History
+history_graph.harmony:
+  friendly_name: Harmony History
+history_graph.security:
+  friendly_name: Security History
+history_graph.steam_presence:
+  friendly_name: Steam Presence History
+
+# Home Assistant
 sensor.connected_clients:
   icon: mdi:remote-desktop
   friendly_name: Connected Clients
 sensor.home_assistant_version:
   icon: mdi:checkbox-marked-outline
   friendly_name: Home Assistant Version
-sensor.season:
-  icon: mdi:leaf
-sensor.crime:
-  icon: mdi:guy-fawkes-mask
-sensor.harmony_hub_family_room:
-  friendly_name: Family Room
-sensor.harmony_hub_loft:
-  friendly_name: Loft
-sensor.attic_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Attic Bedroom
-sensor.entryway_nest_protect_online:
-  friendly_name: Nest Protect Entryway
-sensor.family_room_nest_protect_online:
-  friendly_name: Nest Protect Family Room
-sensor.felicitys_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Felicity's Bedroom
-sensor.master_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Master Bedroom
-sensor.upstairs_nest_protect_online:
-  friendly_name: Nest Protect Upstairs
+
+# Home Assistant iPad
+sensor.caitlins_ipad_battery_level:
+  friendly_name: Home Assistant iPad
+sensor.caitlins_ipad_battery_state:
+  friendly_name: Home Assistant iPad Charging
+
+# Media Players
+media_player.yamaha_receiver:
+  friendly_name: Family Room Receiver
+media_player.sony_bravia_tv:
+  friendly_name: Family Room TV
+media_player.spotify:
+  friendly_name: "Robert's Spotify"
+
+# Nest Protects
+
+## Attic Bedroom
 sensor.attic_bedroom_nest_protect_battery_status:
   friendly_name: Nest Protect Attic Bedroom
+sensor.attic_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Attic Bedroom CO
+sensor.attic_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Attic Bedroom
+sensor.attic_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Attic Bedroom Smoke
+
+## Entryway
 sensor.entryway_nest_protect_battery_status:
   friendly_name: Nest Protect Entryway
+sensor.entryway_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Entryway CO
+sensor.entryway_nest_protect_online:
+  friendly_name: Nest Protect Entryway
+sensor.entryway_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Entryway Smoke
+
+## Family Room
 sensor.family_room_nest_protect_battery_status:
   friendly_name: Nest Protect Family Room
+sensor.family_room_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Family Room CO
+sensor.family_room_nest_protect_online:
+  friendly_name: Nest Protect Family Room
+sensor.family_room_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Family Room Smoke
+
+## Felicity's Bedroom
 sensor.felicitys_bedroom_nest_protect_battery_status:
   friendly_name: Nest Protect Felicity's Bedroom
+sensor.felicitys_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Felicity's Bedroom CO
+sensor.felicitys_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Felicity's Bedroom
+sensor.felicitys_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Felicity's Bedroom Smoke
+
+## Master Bedroom
 sensor.master_bedroom_nest_protect_battery_status:
   friendly_name: Nest Protect Master Bedroom
+sensor.master_bedroom_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Master Bedroom CO
+sensor.master_bedroom_nest_protect_online:
+  friendly_name: Nest Protect Master Bedroom
+sensor.master_bedroom_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Master Bedroom Smoke
+
+## Upstairs
 sensor.upstairs_nest_protect_battery_status:
   friendly_name: Nest Protect Upstairs
-sensor.season_display:
-  friendly_name: Season
+sensor.upstairs_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Upstairs CO
+sensor.upstairs_nest_protect_online:
+  friendly_name: Nest Protect Upstairs
+sensor.upstairs_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Upstairs Smoke
+
+# Synology NAS
+sensor.status_volume_1:
+  friendly_name: Volume 1 Status
+sensor.total_size_volume_1:
+  friendly_name: Volume 1 Total Size
+sensor.volume_used_volume_1:
+  friendly_name: Volume 1 Used
+sensor.status_sda:
+  friendly_name: SDA Status
+sensor.status_smart_sda:
+  friendly_name: SDA S.M.A.R.T. Status
+sensor.temperature_sda:
+  friendly_name: SDA Temperature
+sensor.status_sdb:
+  friendly_name: SDB Status
+sensor.status_smart_sdb:
+  friendly_name: SDB S.M.A.R.T. Status
+sensor.temperature_sdb:
+  friendly_name: SDB Temperature
+
+# Z-Wave
+zwave.aeotec_zw090_zstick_gen5_us:
+  friendly_name: Z-Wave Stick
