@@ -5,4 +5,5 @@ entities:
   - group.graph_family_presence
   - group.graph_lights
   - group.graph_security
+  - group.graph_harmony
   - group.graph_steam_presence

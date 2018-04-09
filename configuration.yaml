@@ -317,7 +317,8 @@ history_graph:
     entities:
       - light.family_room
       - light.felicitys_bedroom
-      - light.loft
+      - light.felicitys_lamp
+      - light.loft_lamp
       - light.master_bedroom
   gr3:
     name: Family Presence
@@ -332,6 +333,13 @@ history_graph:
     hours_to_show: 24
     refresh: 300
     entities: !secret steam_presence_group_entities
+  gr5:
+    name: Harmony
+    hours_to_show: 24
+    refresh: 300
+    entities:
+      - sensor.harmony_hub_family_room
+      - sensor.harmony_hub_loft
 
 vacuum:
   - platform: roomba

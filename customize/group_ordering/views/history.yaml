@@ -4,5 +4,7 @@ group.graph_lights:
   order: 2
 group.graph_security:
   order: 3
+group.graph_harmony:
+  order: 4
 group.graph_steam_presence:
   order: 4
