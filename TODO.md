@@ -8,3 +8,6 @@
 - [ ] Figure Out Trane Thermostat
 - [ ] Setup Dashboard
 - [ ] Investigate custom RGB on entity icons
+- [ ] Notifications
+- [ ] Scripts
+- [ ] Automations
