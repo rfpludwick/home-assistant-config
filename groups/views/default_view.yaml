@@ -1,4 +1,6 @@
-name: Home
+# Annoyed that I cannot rename this in the style of "view_*"
+
+name: Dashboard
 view: yes
 icon: mdi:home
 entities:
