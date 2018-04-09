@@ -1,0 +1,3 @@
+login_method: !secret august_login_method
+username: !secret august_username
+password: !secret august_password

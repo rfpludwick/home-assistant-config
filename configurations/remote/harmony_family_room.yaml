@@ -1,0 +1,3 @@
+platform: harmony
+name: Family Room
+host: !secret harmony_hub_family_room_host
