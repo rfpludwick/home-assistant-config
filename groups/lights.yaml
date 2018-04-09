@@ -1,4 +1,5 @@
 name: Lights
+control: hidden
 entities:
   - light.family_room
   - light.felicitys_bedroom
