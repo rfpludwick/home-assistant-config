@@ -1,4 +1,5 @@
 name: Harmony
+control: hidden
 entities:
   - sensor.harmony_hub_family_room
   - remote.family_room
