@@ -31,5 +31,5 @@ remote: !include_dir_list configurations/remote/
 sensor: !include_dir_list configurations/sensor/
 sun:
 #usps: !include configurations/usps.yaml
-vacuum: !include_dir_list configurations/media_player/
+vacuum: !include_dir_list configurations/vacuum/
 zwave: !include configurations/zwave.yaml
