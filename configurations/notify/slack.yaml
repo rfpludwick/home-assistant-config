@@ -1,0 +1,3 @@
+name: Slack
+platform: slack
+api_key: !secret slack_api_key
