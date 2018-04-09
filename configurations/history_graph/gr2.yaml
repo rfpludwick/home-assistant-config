@@ -1,0 +1,10 @@
+gr2:
+  name: Lights
+  hours_to_show: 24
+  refresh: 300
+  entities:
+    - light.family_room
+    - light.felicitys_bedroom
+    - light.felicitys_lamp
+    - light.loft_lamp
+    - light.master_bedroom

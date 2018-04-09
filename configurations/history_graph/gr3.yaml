@@ -1,0 +1,8 @@
+gr3:
+  name: Family Presence
+  hours_to_show: 24
+  refresh: 300
+  entities:
+    - device_tracker.zonephone
+    - device_tracker.mermaidphone
+    - device_tracker.vierhapad
