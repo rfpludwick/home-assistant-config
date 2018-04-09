@@ -13,7 +13,7 @@ group: !include_dir_named groups/
 script: !include scripts.yaml
 
 alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
-arlo: !include arlo.yaml
+arlo: !include configurations/arlo.yaml
 august: !include configurations/august.yaml
 camera: !include_dir_list configurations/camera/
 climate: !include_dir_list configurations/climate/
