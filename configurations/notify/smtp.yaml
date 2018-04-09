@@ -1,0 +1,11 @@
+name: Email
+platform: smtp
+server: smtp.gmail.com
+port: 587
+timeout: 15
+sender: !secret smtp_username
+encryption: starttls
+username: shullwick@gmail.com
+password: !secret smtp_password
+recipient: !secret smtp_recipients
+sender_name: Fox Hollow Home Assistant
