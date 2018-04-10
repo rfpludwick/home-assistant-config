@@ -1,4 +1,4 @@
-scout_alarm_mark_disabled: !secret shell_command_scout_alarm_mark_disabled
+scout_alarm_mark_disarmed: !secret shell_command_scout_alarm_mark_disarmed
 scout_alarm_mark_armed_home: !secret shell_command_scout_alarm_mark_armed_home
 scout_alarm_mark_armed_away: !secret shell_command_scout_alarm_mark_armed_away
 scout_alarm_mark_armed_night: !secret shell_command_scout_alarm_mark_armed_night
