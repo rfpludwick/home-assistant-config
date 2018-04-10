@@ -12,7 +12,7 @@ automation: !include automations.yaml
 group: !include_dir_named groups/
 script: !include scripts.yaml
 
-rest_command: !include_dir_named services/rest_command/
+shell_command: !include services/shell_command.yaml
 
 alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
 arlo: !include configurations/arlo.yaml

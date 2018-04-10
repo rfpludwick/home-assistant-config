@@ -1,6 +1,0 @@
-url: !secret rest_command_scout_alarm_url
-method: post
-headers:
-  x-ha-access: !secret http_api_password
-payload: '{"entity_id":"alarm_control_panel.scout_alarm","state":"disarmed"}'
-content_type: 'application/json'
