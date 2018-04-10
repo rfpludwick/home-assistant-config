@@ -1,0 +1,6 @@
+url: 'http://localhost:8123/api/states/alarm_control_panel.scout_alarm'
+method: post
+headers:
+  - x-ha-access: !secret http_api_password
+payload: '{"entity_id":"alarm_control_panel.scout_alarm","state":"disarmed"}'
+content_type: 'application/json'
