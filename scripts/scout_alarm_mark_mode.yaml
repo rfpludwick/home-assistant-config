@@ -1,0 +1,12 @@
+scout_alarm_mark_disarmed:
+  sequence:
+    - service: shell_command.scout_alarm_mark_disarmed
+scout_alarm_mark_armed_home:
+  sequence:
+    - service: shell_command.scout_alarm_mark_armed_home
+scout_alarm_mark_amed_away:
+  sequence:
+    - service: shell_command.scout_alarm_mark_armed_away
+scout_alarm_mark_armed_night:
+  sequence:
+    - service: shell_command.scout_alarm_mark_armed_night

@@ -10,7 +10,7 @@ updater: !include configurations/updater.yaml
 
 automation: !include_dir_merge_list automations/
 group: !include_dir_named groups/
-script: !include_dir_named scripts/
+script: !include_dir_merge_named scripts/
 
 shell_command: !include services/shell_command.yaml
 
