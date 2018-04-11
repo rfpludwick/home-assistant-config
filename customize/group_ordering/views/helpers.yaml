@@ -1,2 +1,4 @@
-group.helpers_scout_alarm:
+group.helpers_alarms:
   order: 1
+group.helpers_scout_alarm:
+  order: 2

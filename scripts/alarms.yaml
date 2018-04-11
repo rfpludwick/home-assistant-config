@@ -1,3 +1,16 @@
+# Disarm
+alarms_disarm:
+  sequence:
+    - service: script.turn_on
+      data:
+         entity_id: script.alarms_kill_away_timers
+    - service: alarm_control_panel.alarm_disarm
+      data:
+        entity_id: alarm_control_panel.scout_alarm
+    - service: alarm_control_panel.alarm_disarm
+      data:
+        entity_id: alarm_control_panel.vierarlo
+
 # Away
 alarms_arm_away:
   sequence:
@@ -76,19 +89,6 @@ alarms_arm_night:
       data:
         entity_id: alarm_control_panel.scout_alarm
     - service: alarm_control_panel.alarm_arm_night
-      data:
-        entity_id: alarm_control_panel.vierarlo
-
-# Disarm
-alarms_disarm:
-  sequence:
-    - service: script.turn_on
-      data:
-         entity_id: script.alarms_kill_away_timers
-    - service: alarm_control_panel.alarm_disarm
-      data:
-        entity_id: alarm_control_panel.scout_alarm
-    - service: alarm_control_panel.alarm_disarm
       data:
         entity_id: alarm_control_panel.vierarlo
 
