@@ -1,5 +1,5 @@
 value_template: "{{ states('sensor.season') }}"
-icon_template: >-
+icon_template: >
   {% if is_state('sensor.season', 'winter') %}
     mdi:snow
   {% elif is_state('sensor.season', 'spring') %}

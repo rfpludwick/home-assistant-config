@@ -1,5 +1,5 @@
 value_template: "{{ states('binary_sensor.upstairs_nest_protect_online') }}"
-icon_template: >-
+icon_template: >
   {% if is_state('binary_sensor.upstairs_nest_protect_online', 'on') %}
     mdi:wifi
   {% else %}
