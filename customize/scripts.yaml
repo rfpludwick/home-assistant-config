@@ -1,4 +1,4 @@
-# Scout Alarm
+# Scout Alarm Mark Mode
 script.scout_alarm_mark_disarmed:
   icon: mdi:alarm-off
   friendly_name: Mark Disarmed

@@ -3,16 +3,15 @@ alarms_arm_away:
   sequence:
     - service: script.turn_on
       data:
-         entity_id: script.alarms_kill_arlo_timers
+         entity_id: script.alarms_kill_away_timers
     - service: alarm_control_panel.alarm_arm_away
       data:
         entity_id: alarm_control_panel.scout_alarm
     - service: script.turn_on
       data:
-        entity_id: script.alarms_arm_away_arlo
-    - service: script.turn_on
-      data:
-        entity_id: script.alarms_arm_away_lights
+        entity_id:
+          - script.alarms_arm_away_arlo
+          - script.alarms_arm_away_lights
 alarms_arm_away_arlo:
   sequence:
     - delay:
@@ -59,17 +58,10 @@ alarms_arm_home:
   sequence:
     - service: script.turn_on
       data:
-         entity_id: script.alarms_kill_arlo_timers
+         entity_id: script.alarms_kill_away_timers
     - service: alarm_control_panel.alarm_arm_home
       data:
         entity_id: alarm_control_panel.scout_alarm
-    - service: script.turn_on
-      data:
-        entity_id: script.alarms_arm_home_arlo
-alarms_arm_home_arlo:
-  sequence:
-    - delay:
-        minutes: 5
     - service: alarm_control_panel.alarm_arm_home
       data:
         entity_id: alarm_control_panel.vierarlo
@@ -79,17 +71,10 @@ alarms_arm_night:
   sequence:
     - service: script.turn_on
       data:
-         entity_id: script.alarms_kill_arlo_timers
+         entity_id: script.alarms_kill_away_timers
     - service: alarm_control_panel.alarm_arm_night
       data:
         entity_id: alarm_control_panel.scout_alarm
-    - service: script.turn_on
-      data:
-        entity_id: script.alarms_arm_night_arlo
-alarms_arm_night_arlo:
-  sequence:
-    - delay:
-        minutes: 5
     - service: alarm_control_panel.alarm_arm_night
       data:
         entity_id: alarm_control_panel.vierarlo
@@ -99,7 +84,7 @@ alarms_disarm:
   sequence:
     - service: script.turn_on
       data:
-         entity_id: script.alarms_kill_arlo_timers
+         entity_id: script.alarms_kill_away_timers
     - service: alarm_control_panel.alarm_disarm
       data:
         entity_id: alarm_control_panel.scout_alarm
@@ -107,13 +92,11 @@ alarms_disarm:
       data:
         entity_id: alarm_control_panel.vierarlo
 
-# Kill Arlo Timers
-alarms_kill_arlo_timers:
+# Kill Away Timers
+alarms_kill_away_timers:
   sequence:
     - service: script.turn_off
       data:
          entity_id:
            - script.alarms_arm_away_arlo
            - script.alarms_arm_away_lights
-           - script.alarms_arm_home_arlo
-           - script.alarms_arm_night_arlo
