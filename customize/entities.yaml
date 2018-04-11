@@ -16,6 +16,10 @@ sensor.signal_strength_exterior_back:
 sensor.signal_strength_exterior_front:
   friendly_name: Arlo Exterior Front
 
+# August Lock
+sensor.front_door_lock_battery_level:
+  friendly_name: August Lock
+
 # Celestial
 sensor.season_display:
   friendly_name: Season
