@@ -1,0 +1,4 @@
+scout_alarm_mark_disarmed:
+  friendly_name: Mark Disarmed
+  sequence:
+    - service: scout_alarm_mark_disarmed
