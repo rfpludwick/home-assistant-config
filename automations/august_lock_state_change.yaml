@@ -1,0 +1,9 @@
+- alias: August Lock State Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: lock.front_door
+  action:
+    service: notify.slack
+    data:
+      message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
