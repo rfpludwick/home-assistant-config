@@ -1,12 +1,16 @@
 scout_alarm_mark_disarmed:
+  alias: Mark Scout Alarm Disarmed
   sequence:
     - service: shell_command.scout_alarm_mark_disarmed
 scout_alarm_mark_armed_home:
+  alias: Mark Scout Alarm Armed Home
   sequence:
     - service: shell_command.scout_alarm_mark_armed_home
 scout_alarm_mark_amed_away:
+  alias: Mark Scout Alarm Armed Away
   sequence:
     - service: shell_command.scout_alarm_mark_armed_away
 scout_alarm_mark_armed_night:
+  alias: Mark Scout Alarm Armed Night
   sequence:
     - service: shell_command.scout_alarm_mark_armed_night
