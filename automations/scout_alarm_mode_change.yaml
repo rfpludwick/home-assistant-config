@@ -6,4 +6,4 @@
   action:
     service: notify.slack
     data:
-      message: "Scout Alarm mode changed to '{{ state('alarm_control_panel.scout_alarm') }}'"
+      message: "Scout Alarm mode changed to '{{ states.alarm_control_panel.scout_alarm.state }}'"

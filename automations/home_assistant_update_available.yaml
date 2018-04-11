@@ -7,4 +7,4 @@
     service: notify.email_administrators
     data:
       title: 'Home Assistant Update Available'
-      message: "There is a new Home Assistant release ({{ state('updater.updater') }}) available."
+      message: "There is a new Home Assistant release ({{ states.updater.updater.state }}) available."
