@@ -1,2 +1,13 @@
+# Scout Alarm
 script.scout_alarm_mark_disarmed:
+  icon: mdi:alarm-off
   friendly_name: Mark Disarmed
+script.scout_alarm_mark_armed_home:
+  icon: mdi:home
+  friendly_name: Mark Armed Home
+script.scout_alarm_mark_armed_away:
+  icon: mdi:lock
+  friendly_name: Mark Armed Away
+script.scout_alarm_mark_armed_night:
+  icon: mdi:weather-night
+  friendly_name: Mark Armed Night
