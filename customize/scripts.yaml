@@ -1,13 +1,27 @@
-# Scout Alarm
+# Alarms
+script.alarms_disarm:
+  icon: mdi:alarm-off
+  friendly_name: Disarm Alarms
+script.alarms_arm_home:
+  icon: mdi:home
+  friendly_name: Arm Alarms - Home Mode
+script.alarms_arm_away:
+  icon: mdi:lock
+  friendly_name: Arm Alarms - Away Mode
+script.alarms_arm_night:
+  icon: mdi:weather-night
+  friendly_name: Arm Alarms - Night Mode
+
+# Scout Alarm Mark Mode
 script.scout_alarm_mark_disarmed:
   icon: mdi:alarm-off
-  friendly_name: Mark Disarmed
+  friendly_name: Mark Scout Alarm Disarmed
 script.scout_alarm_mark_armed_home:
   icon: mdi:home
-  friendly_name: Mark Armed Home
+  friendly_name: Mark Scout Alarm Armed Home
 script.scout_alarm_mark_armed_away:
   icon: mdi:lock
-  friendly_name: Mark Armed Away
+  friendly_name: Mark Scout Alarm Armed Away
 script.scout_alarm_mark_armed_night:
   icon: mdi:weather-night
-  friendly_name: Mark Armed Night
+  friendly_name: Mark Scout Alarm Armed Night
