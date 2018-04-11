@@ -1,0 +1,5 @@
+name: Helpers
+view: yes
+icon: mdi:settings
+entities:
+  - group.helpers_scout_alarm

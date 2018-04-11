@@ -1,0 +1,2 @@
+sequence:
+  - service: shell_command.scout_alarm_mark_disarmed
