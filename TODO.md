@@ -7,7 +7,6 @@
 - Setup/Correct Alexa
 - Figure Out Trane Thermostat
 - Setup Dashboard
-- Notifications
-- Scripts
-- Automations
-- Olivia's battery state & charge
+- Notifications For Nest Smoke/CO Change
+- Automations For Family Presence Home/Away
+- Zones For Work Status
