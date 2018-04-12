@@ -6,3 +6,4 @@ entities:
   - group.synology_nas
   - group.online
   - group.network_presence
+  - group.bluetooth_presence

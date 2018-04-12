@@ -6,3 +6,5 @@ group.online:
   order: 3
 group.network_presence:
   order: 4
+group.bluetooth_presence:
+  order: 5
