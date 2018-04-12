@@ -117,6 +117,8 @@ sensor.zonephone_battery_state:
   friendly_name: "Robert's Phone Charging"
 
 # Media Players
+media_player.vieratv:
+  friendly_name: Apple TV
 media_player.yamaha_receiver:
   friendly_name: Family Room Receiver
 media_player.sony_bravia_tv:
