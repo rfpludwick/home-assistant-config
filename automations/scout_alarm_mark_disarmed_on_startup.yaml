@@ -4,4 +4,6 @@
     - platform: homeassistant
       event: start
   action:
+    - delay:
+        minutes: 5
     - service: shell_command.scout_alarm_mark_disarmed
