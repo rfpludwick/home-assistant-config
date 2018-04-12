@@ -82,3 +82,11 @@ sensor.caitlins_ipad_battery_state:
   name:
   platform: ios
   unique_id: state_VierHAPad
+media_player.vieratv_2:
+  name:
+  platform: apple_tv
+  unique_id: fbf97b10824d18375d02bb90ee360a922af5e7c875d64f93c7ec628884777344
+remote.vieratv_2:
+  name:
+  platform: apple_tv
+  unique_id: fbf97b10824d18375d02bb90ee360a922af5e7c875d64f93c7ec628884777344
