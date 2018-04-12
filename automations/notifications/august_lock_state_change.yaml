@@ -3,6 +3,12 @@
   trigger:
     - platform: state
       entity_id: lock.front_door
+      from: 'locked'
+      to: 'unlocked'
+    - platform: state
+      entity_id: lock.front_door
+      from: 'unlocked'
+      to: 'locked'
   action:
     - service: notify.slack
       data:
