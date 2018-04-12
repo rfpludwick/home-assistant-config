@@ -20,6 +20,12 @@ sensor.signal_strength_exterior_front:
 sensor.front_door_lock_battery_level:
   friendly_name: August Lock
 
+# Blueteeth
+device_tracker.bose_mini_ii_soundlink:
+  friendly_name: Bose Portable Speaker
+device_tracker.xbr55x850d:
+  friendly_name: Family Room TV
+
 # Celestial
 sensor.season_display:
   friendly_name: Season
