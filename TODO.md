@@ -10,3 +10,4 @@
 - Notifications
 - Scripts
 - Automations
+- Olivia's battery state & charge
