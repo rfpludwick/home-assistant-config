@@ -2,4 +2,5 @@ name: Family Presence
 entities:
   - device_tracker.zonephone
   - device_tracker.mermaidphone
+  - device_tracker.lolli
   - device_tracker.vierhapad
