@@ -3,6 +3,12 @@
   trigger:
     - platform: state
       entity_id: device_tracker.mermaidphone
+      from: 'not_home'
+      to: 'home'
+    - platform: state
+      entity_id: device_tracker.mermaidphone
+      from: 'home'
+      to: 'not_home'
   action:
     - service: notify.slack
       data:
