@@ -1,0 +1,9 @@
+- alias: "Cait's Presence Change"
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: device_tracker.mermaidphone
+  action:
+    - service: notify.slack
+      data:
+        message: "Cait's presence changed to '{{ states.device_tracker.mermaidphone.state }}'"

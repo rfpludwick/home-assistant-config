@@ -6,4 +6,4 @@
   action:
     - service: notify.slack
       data:
-        message: "Arlo mode changed to '{{ state('alarm_control_panel.vierarlo') }}'"
+        message: "Arlo mode changed to '{{ states.alarm_control_panel.vierarlo.state }}'"

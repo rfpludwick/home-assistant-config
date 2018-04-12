@@ -1,0 +1,9 @@
+- alias: Home Assistant Shutdown
+  initial_state: true
+  trigger:
+    - platform: homeassistant
+      event: shutdown
+  action:
+    - service: notify.slack
+      data:
+        message: "Home Assistant shutting down"

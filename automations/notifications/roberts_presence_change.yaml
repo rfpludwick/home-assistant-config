@@ -1,0 +1,9 @@
+- alias: "Robert's Presence Change"
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: device_tracker.zonephone
+  action:
+    - service: notify.slack
+      data:
+        message: "Robert's presence changed to '{{ states.device_tracker.zonephone.state }}'"
