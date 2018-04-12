@@ -90,3 +90,11 @@ remote.vieratv_2:
   name:
   platform: apple_tv
   unique_id: fbf97b10824d18375d02bb90ee360a922af5e7c875d64f93c7ec628884777344
+sensor.lolli_battery_state:
+  name:
+  platform: ios
+  unique_id: state_lolli
+sensor.lolli_battery_level:
+  name:
+  platform: ios
+  unique_id: level_lolli
