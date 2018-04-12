@@ -36,34 +36,36 @@ alarms_arm_away_lights:
   sequence:
     - service: light.turn_on
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
         color_name: red
         brightness_pct: 100
-    - wait_template: "{{ is_state('group.all_lights', 'on') }}"
+    - wait_template: "{{ is_state('group.lights', 'on') }}"
     - service: light.turn_off
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
-    - wait_template: "{{ is_state('group.all_lights', 'off') }}"
+    - wait_template: "{{ is_state('group.lights', 'off') }}"
     - service: light.turn_on
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
-    - wait_template: "{{ is_state('group.all_lights', 'on') }}"
+        brightness_pct: 100
+    - wait_template: "{{ is_state('group.lights', 'on') }}"
     - service: light.turn_off
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
-    - wait_template: "{{ is_state('group.all_lights', 'off') }}"
+    - wait_template: "{{ is_state('group.lights', 'off') }}"
     - service: light.turn_on
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
-    - wait_template: "{{ is_state('group.all_lights', 'on') }}"
+        brightness_pct: 100
+    - wait_template: "{{ is_state('group.lights', 'on') }}"
     - service: light.turn_off
       data:
-        entity_id: group.all_lights
+        entity_id: group.lights
         transition: 3
 
 # Home
