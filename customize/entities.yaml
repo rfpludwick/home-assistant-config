@@ -90,11 +90,23 @@ sensor.home_assistant_version:
   icon: mdi:checkbox-marked-outline
   friendly_name: Home Assistant Version
 
-# Home Assistant iPad
+# iOS Device Battery Levels & States
 sensor.caitlins_ipad_battery_level:
   friendly_name: Home Assistant iPad
 sensor.caitlins_ipad_battery_state:
   friendly_name: Home Assistant iPad Charging
+sensor.caits_mermaid_phone_battery_level:
+  friendly_name: "Cait's Phone"
+sensor.caits_mermaid_phone_battery_state:
+  friendly_name: "Cait's Phone Charging"
+sensor.lolli_battery_level:
+  friendly_name: "Olivia's Phone"
+sensor.lolli_battery_state:
+  friendly_name: "Olivia's Phone Charging"
+sensor.zonephone_battery_level:
+  friendly_name: "Robert's Phone"
+sensor.zonephone_battery_state:
+  friendly_name: "Robert's Phone Charging"
 
 # Media Players
 media_player.yamaha_receiver:
