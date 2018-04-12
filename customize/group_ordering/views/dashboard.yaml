@@ -2,7 +2,7 @@ group.system:
   order: 1
 group.celestial:
   order: 2
-group.family_presence:
+group.family_presence_all:
   order: 3
 group.steam_presence:
   order: 4
