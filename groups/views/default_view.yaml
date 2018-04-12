@@ -6,7 +6,7 @@ icon: mdi:home
 entities:
   - group.system
   - group.celestial
-  - group.family_presence_all
+  - group.family_presence
   - group.steam_presence
   - group.deliveries
   - group.camera_usps

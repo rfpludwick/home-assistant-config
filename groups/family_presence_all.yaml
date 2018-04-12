@@ -1,4 +1,0 @@
-name: Family Presence
-entities:
-  - group.family_presence
-  - device_tracker.vierhapad
