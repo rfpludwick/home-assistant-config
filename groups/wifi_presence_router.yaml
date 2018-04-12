@@ -1,4 +1,4 @@
-name: Network Presence
+name: Wifi Presence (Router Reporting)
 entities:
   - device_tracker.amazon_echo
   - device_tracker.amazon_echo_dot__felicitys_bedroom

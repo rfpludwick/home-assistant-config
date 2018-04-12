@@ -1,4 +1,4 @@
-name: Online
+name: Wifi Presence (Self-Reporting)
 entities:
  - sensor.attic_bedroom_nest_protect_online
  - sensor.entryway_nest_protect_online

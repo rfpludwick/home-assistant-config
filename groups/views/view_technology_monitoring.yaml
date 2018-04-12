@@ -4,6 +4,6 @@ icon: mdi:chip
 entities:
   - group.batteries
   - group.synology_nas
-  - group.online
-  - group.network_presence
+  - group.wifi_presence_self
+  - group.wifi_presence_router
   - group.bluetooth_presence
