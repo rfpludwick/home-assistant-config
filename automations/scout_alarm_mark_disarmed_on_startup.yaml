@@ -1,0 +1,9 @@
+- alias: Scout Alarm Mark Disarmed On Startup
+  initial_state: true
+  trigger:
+    - platform: homeassistant
+      event: start
+  action:
+    - delay:
+        minutes: 5
+    - service: shell_command.scout_alarm_mark_disarmed

@@ -1,0 +1,15 @@
+- alias: August Lock State Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: lock.front_door
+      from: 'locked'
+      to: 'unlocked'
+    - platform: state
+      entity_id: lock.front_door
+      from: 'unlocked'
+      to: 'locked'
+  action:
+    - service: notify.slack
+      data:
+        message: "August Lock state changed to '{{ states.lock.front_door.state }}'"

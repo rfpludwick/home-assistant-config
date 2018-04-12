@@ -1,0 +1,11 @@
+- alias: UPS Packages Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.ups
+  action:
+    - service: notify.slack
+      data:
+        message: >
+          UPS has {{ states.sensor.ups.state }} package{% if states('sensor.ups') > 1 %}s{% endif %}
+          to deliver today

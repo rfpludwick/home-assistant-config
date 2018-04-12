@@ -1,0 +1,3 @@
+name: GPS Presence
+entities:
+  - device_tracker.vierhapad

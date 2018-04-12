@@ -1,0 +1,9 @@
+- alias: Arlo Mode Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.vierarlo
+  action:
+    - service: notify.slack
+      data:
+        message: "Arlo mode changed to '{{ states.alarm_control_panel.vierarlo.state }}'"
