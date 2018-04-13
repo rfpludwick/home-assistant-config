@@ -10,4 +10,3 @@
 - Notifications For Nest Smoke/CO Change
 - Automations For Family Presence Home/Away
 - Zones For Work Status
-- Don't notify breaches if to/from unknown

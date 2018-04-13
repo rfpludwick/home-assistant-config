@@ -3,6 +3,13 @@
   trigger:
     - platform: state
       entity_id: !secret breaches_family_email
+  condition:
+    condition: and
+    conditions:
+      - condition: template
+        value_template: "{{ trigger.from_state.state != 'unknown' }}"
+      - condition: template
+        value_template: "{{ trigger.to_state.state != 'unknown' }}"
   action:
     - service: notify.slack
       data:
