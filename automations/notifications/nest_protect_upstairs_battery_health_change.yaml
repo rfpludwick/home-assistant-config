@@ -1,0 +1,12 @@
+- alias: Upstairs Nest Protect Battery Health Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.upstairs_nest_protect_battery_health
+  action:
+    - service: notify.slack
+      data:
+        message: "Upstairs Nest Protect battery health changed to '{{ states.sensor.upstairs_nest_protect_battery_health.state }}'"
+        target:
+          - '#fox-hollow-ha'
+          - '#fox-hollow-ha-crit'

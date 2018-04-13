@@ -7,3 +7,5 @@
     - service: notify.slack
       data:
         message: "Home Assistant shutting down"
+        target:
+          - '#fox-hollow-ha'

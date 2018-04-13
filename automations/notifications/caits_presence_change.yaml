@@ -13,3 +13,5 @@
     - service: notify.slack
       data:
         message: "Cait's presence changed to '{{ states.device_tracker.mermaidphone.state }}'"
+        target:
+          - '#fox-hollow-ha'

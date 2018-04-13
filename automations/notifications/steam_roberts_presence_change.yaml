@@ -7,3 +7,5 @@
     - service: notify.slack
       data:
         message: !secret automation_steam_presence_robert_notification_message
+        target:
+          - '#fox-hollow-ha'

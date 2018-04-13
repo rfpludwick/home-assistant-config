@@ -1,0 +1,12 @@
+- alias: Master Bedroom Nest Protect Battery Health Change
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.master_bedroom_nest_protect_battery_health
+  action:
+    - service: notify.slack
+      data:
+        message: "Master Bedroom Nest Protect battery health changed to '{{ states.sensor.master_bedroom_nest_protect_battery_health.state }}'"
+        target:
+          - '#fox-hollow-ha'
+          - '#fox-hollow-ha-crit'

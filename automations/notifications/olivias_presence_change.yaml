@@ -13,3 +13,5 @@
     - service: notify.slack
       data:
         message: "Olivia's presence changed to '{{ states.device_tracker.lolli.state }}'"
+        target:
+          - '#fox-hollow-ha'

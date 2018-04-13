@@ -13,3 +13,5 @@
     - service: notify.slack
       data:
         message: "Robert's presence changed to '{{ states.device_tracker.zonephone.state }}'"
+        target:
+          - '#fox-hollow-ha'
