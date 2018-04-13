@@ -9,4 +9,4 @@
 - Setup Dashboard
 - Notifications For Nest Smoke/CO Change
 - Automations For Family Presence Home/Away
-- Zones For Work Status
+- Tighten up zone coordinates' precision
