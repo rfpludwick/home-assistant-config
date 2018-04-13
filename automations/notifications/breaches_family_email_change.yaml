@@ -1,12 +1,12 @@
-- alias: Chamberlain Garage Door State Change
+- alias: Family Email Breaches Change
   initial_state: true
   trigger:
     - platform: state
-      entity_id: cover.viergarage
+      entity_id: !secret breaches_family_email
   action:
     - service: notify.slack
       data:
-        message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
+        message: !secret automation_breaches_family_email_notification_message
         target:
           - '#fox-hollow-ha'
           - '#fox-hollow-ha-crit'

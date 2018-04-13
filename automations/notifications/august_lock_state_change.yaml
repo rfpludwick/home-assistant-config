@@ -13,4 +13,6 @@
     - service: notify.slack
       data:
         message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
-        target: ['#fox-hollow-ha-crit']
+        target:
+          - '#fox-hollow-ha'
+          - '#fox-hollow-ha-crit'

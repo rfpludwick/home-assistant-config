@@ -1,12 +1,12 @@
-- alias: Chamberlain Garage Door State Change
+- alias: Crime Change
   initial_state: true
   trigger:
     - platform: state
-      entity_id: cover.viergarage
+      entity_id: sensor.crime
   action:
     - service: notify.slack
       data:
-        message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
+        message: "Crime changed to '{{ states.sensor.crime.state }}'"
         target:
           - '#fox-hollow-ha'
           - '#fox-hollow-ha-crit'
