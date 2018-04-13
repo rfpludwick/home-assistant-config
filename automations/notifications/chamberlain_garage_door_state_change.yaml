@@ -7,3 +7,4 @@
     - service: notify.slack
       data:
         message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
+        target: ['#fox-hollow-ha-crit']
