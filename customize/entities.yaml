@@ -55,16 +55,16 @@ sensor.ups:
 ## Family Presence
 device_tracker.mermaidphone:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
-  friendly_name: "Caitlin's Phone"
+  friendly_name: Caitlin
 device_tracker.vierhapad:
   icon: mdi:tablet-ipad
   friendly_name: Home Assistant iPad
 device_tracker.zonephone:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c60.58.660.660/s80x80/22450035_10101494081785158_5326954092277863437_n.jpg?_nc_cat=0&oh=0c6483fb28fcf6345f30ecef6fabbd2f&oe=5B5E2104"
-  friendly_name: "Robert's Phone"
+  friendly_name: Robert
 device_tracker.lolli:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/18739975_10207168562410812_6829791787383817753_n.jpg?_nc_cat=0&oh=ada420d97db5487c8b3d9620e310493f&oe=5B5A8F67"
-  friendly_name: "Olivia's Phone"
+  friendly_name: Olivia
 
 ## Renames Not Picked Up
 device_tracker.c8b5b71c3104: # was renamed and HA hasn't picked up the new name
