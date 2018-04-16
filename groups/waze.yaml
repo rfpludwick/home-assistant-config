@@ -1,4 +1,20 @@
 name: Waze
 entities:
   - sensor.home_to_zone_1
+  - sensor.home_to_zone_2
+  - sensor.home_to_zone_3
+  - sensor.home_to_zone_4
+  - sensor.home_to_zone_5
+  - sensor.home_to_zone_6
+  - sensor.home_to_zone_7
+  - sensor.home_to_zone_8
+  - sensor.home_to_zone_9
   - sensor.zone_1_to_home
+  - sensor.zone_2_to_home
+  - sensor.zone_3_to_home
+  - sensor.zone_4_to_home
+  - sensor.zone_5_to_home
+  - sensor.zone_6_to_home
+  - sensor.zone_7_to_home
+  - sensor.zone_8_to_home
+  - sensor.zone_9_to_home
