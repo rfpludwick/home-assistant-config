@@ -19,7 +19,7 @@ arlo: !include configurations/arlo.yaml
 august: !include configurations/august.yaml
 camera: !include_dir_list configurations/camera/
 climate: !include_dir_list configurations/climate/
-#cloud: !include configurations/cloud.yaml
+cloud: !include configurations/cloud.yaml
 cover: !include_dir_list configurations/cover/
 device_tracker: !include_dir_list configurations/device_tracker/
 discovery: !include configurations/discovery.yaml
