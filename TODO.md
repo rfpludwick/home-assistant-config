@@ -9,3 +9,4 @@
 - Setup Dashboard
 - Automations For Family Presence Home/Away?
 - Customize Frontend
+- Develop Repeatable Chores With Persistent & Push Notifications
