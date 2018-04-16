@@ -1,0 +1,4 @@
+name: Waze
+entities:
+  - sensor.home_to_zone_1
+  - sensor.zone_1_to_home

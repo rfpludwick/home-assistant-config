@@ -10,5 +10,6 @@ entities:
   - group.steam_presence
   - group.deliveries
   - group.camera_usps
+  - group.waze
   - group.weather_conditions
   - group.weather_forecast
