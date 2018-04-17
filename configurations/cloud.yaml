@@ -1,4 +1,11 @@
 alexa:
   filter:
-    include_entities:
-      - group.arlo # Until we're ready to actually give Alexa something
+    exclude_domains:
+      - automation
+      - cover
+      - group
+      - light
+      - lock
+      - media_player
+      - script
+      - sensor

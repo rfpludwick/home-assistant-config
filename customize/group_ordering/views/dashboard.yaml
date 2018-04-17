@@ -10,7 +10,9 @@ group.deliveries:
   order: 5
 group.camera_usps:
   order: 6
-group.weather_conditions:
+group.waze:
   order: 7
-group.weather_forecast:
+group.weather_conditions:
   order: 8
+group.weather_forecast:
+  order: 9

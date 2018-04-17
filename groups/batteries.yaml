@@ -12,8 +12,8 @@ entities:
   - sensor.attic_bedroom_nest_protect_battery_status
   - sensor.entryway_nest_protect_battery_status
   - sensor.family_room_nest_protect_battery_status
-  - sensor.felicitys_bedroom_nest_protect_battery_status
   - sensor.master_bedroom_nest_protect_battery_status
+  - sensor.nursery_nest_protect_battery_status
   - sensor.upstairs_nest_protect_battery_status
   - sensor.battery_level_exterior_back
   - sensor.battery_level_exterior_front

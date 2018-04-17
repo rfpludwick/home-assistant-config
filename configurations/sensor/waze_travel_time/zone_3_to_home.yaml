@@ -1,0 +1,5 @@
+platform: waze_travel_time
+origin: !secret waze_zone_3
+destination: !secret waze_home
+region: 'US'
+name: Zone 3 to Home

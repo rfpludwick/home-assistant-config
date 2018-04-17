@@ -1,8 +1,8 @@
 name: Lights
 control: hidden
 entities:
-  - light.family_room
-  - light.felicitys_bedroom
-  - light.felicitys_lamp
+  - light.family_room_ceiling
   - light.loft_lamp
-  - light.master_bedroom
+  - light.master_bedroom_ceiling
+  - light.nursery_ceiling
+  - light.nursery_lamp

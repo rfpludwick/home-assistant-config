@@ -2,6 +2,7 @@
 .HA_VERSION
 .august.conf
 .cloud/*
+.config_entries.json
 .ios.conf
 .spotify-token-cache
 .uuid
