@@ -67,10 +67,12 @@ device_tracker.lolli:
   friendly_name: Olivia
 
 ## Renames Not Picked Up
-device_tracker.c8b5b71c3104: # was renamed and HA hasn't picked up the new name
+device_tracker.amazon_echo_dot__felicitys_bedroom:
+  friendly_name: Amazon Echo Dot - Nursery
+device_tracker.c8b5b71c3104:
   friendly_name: Home Assistant iPad
-device_tracker.nest_protect__middle_bedroom: # was renamed and HA hasn't picked up the new name
-  friendly_name: "Nest Protect - Felicity's Bedroom"
+device_tracker.nest_protect__middle_bedroom:
+  friendly_name: Nest Protect - Nursery
 
 # Harmony
 sensor.harmony_hub_family_room:
@@ -164,18 +166,6 @@ sensor.family_room_nest_protect_smoke_status:
   icon: mdi:fire
   friendly_name: Nest Protect Family Room Smoke
 
-## Felicity's Bedroom
-sensor.felicitys_bedroom_nest_protect_battery_status:
-  friendly_name: Nest Protect Felicity's Bedroom
-sensor.felicitys_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Felicity's Bedroom CO
-sensor.felicitys_bedroom_nest_protect_online:
-  friendly_name: Nest Protect Felicity's Bedroom
-sensor.felicitys_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Felicity's Bedroom Smoke
-
 ## Master Bedroom
 sensor.master_bedroom_nest_protect_battery_status:
   friendly_name: Nest Protect Master Bedroom
@@ -187,6 +177,18 @@ sensor.master_bedroom_nest_protect_online:
 sensor.master_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
   friendly_name: Nest Protect Master Bedroom Smoke
+
+## Nursery
+sensor.nursery_nest_protect_battery_status:
+  friendly_name: Nest Protect Nursery
+sensor.nursery_nest_protect_co_status:
+  icon: mdi:gas-cylinder
+  friendly_name: Nest Protect Nursery CO
+sensor.nursery_nest_protect_online:
+  friendly_name: Nest Protect Nursery
+sensor.nursery_nest_protect_smoke_status:
+  icon: mdi:fire
+  friendly_name: Nest Protect Nursery Smoke
 
 ## Upstairs
 sensor.upstairs_nest_protect_battery_status:
@@ -219,7 +221,3 @@ sensor.status_smart_sdb:
   friendly_name: SDB S.M.A.R.T. Status
 sensor.temperature_sdb:
   friendly_name: SDB Temperature
-
-# Z-Wave
-zwave.aeotec_zw090_zstick_gen5_us:
-  friendly_name: Z-Wave Stick

@@ -1,10 +1,10 @@
 name: Wifi Presence (Router Reporting)
 entities:
   - device_tracker.amazon_echo
-  - device_tracker.amazon_echo_dot__felicitys_bedroom
   - device_tracker.amazon_echo_dot__kitchen
   - device_tracker.amazon_echo_dot__loft
   - device_tracker.amazon_echo_dot__master_bedroom
+  - device_tracker.amazon_echo_dot__felicitys_bedroom # Nursery
   - device_tracker.apple_tv
   - device_tracker.august_connect
   - device_tracker.av_receiver__family_room
@@ -20,9 +20,8 @@ entities:
   - device_tracker.nest_protect__attic_bedroom
   - device_tracker.nest_protect__entryway
   - device_tracker.nest_protect__family_room
-  - device_tracker.nest_protect__felicitys_bedroom
-  - device_tracker.nest_protect__middle_bedroom
   - device_tracker.nest_protect__master_bedroom
+  - device_tracker.nest_protect__middle_bedroom # Nursery
   - device_tracker.nest_protect__upstairs
   - device_tracker.nintendo_switch
   - device_tracker.nintendo_wii_u

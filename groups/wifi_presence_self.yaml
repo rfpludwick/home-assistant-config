@@ -3,6 +3,6 @@ entities:
  - sensor.attic_bedroom_nest_protect_online
  - sensor.entryway_nest_protect_online
  - sensor.family_room_nest_protect_online
- - sensor.felicitys_bedroom_nest_protect_online
  - sensor.master_bedroom_nest_protect_online
+ - sensor.nursery_nest_protect_online
  - sensor.upstairs_nest_protect_online
