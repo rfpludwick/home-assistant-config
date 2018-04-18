@@ -4,6 +4,6 @@ refresh: 300
 entities:
   - light.family_room_ceiling
   - light.loft_lamp
-  - light.master_bedroom_celing
+  - light.master_bedroom_ceiling
   - light.nursery_ceiling
   - light.nursery_lamp
