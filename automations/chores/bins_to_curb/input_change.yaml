@@ -1,0 +1,12 @@
+alias: "Chore: Bins To Curb: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_bins_to_curb
+condition: template
+  value_template: '{{ states.input_boolean.chore_bins_to_curb.state == "off" }}'
+action:
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Bins To Curb"
+      message: "The bins have been taken to the curb"

@@ -1,4 +1,4 @@
-name: Email Parents
+name: "SMTP: Administrators"
 platform: smtp
 server: smtp.gmail.com
 port: 587
@@ -7,5 +7,5 @@ sender: !secret smtp_username
 encryption: starttls
 username: !secret smtp_username
 password: !secret smtp_password
-recipient: !secret smtp_parents_recipients
+recipient: !secret smtp_administrators_recipients
 sender_name: Fox Hollow Home Assistant
