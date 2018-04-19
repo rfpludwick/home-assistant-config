@@ -1,42 +1,42 @@
-- alias: "Chore: Bins To Curb: Reminders"
-  initial_state: true
-  hide_entity: true
-  trigger:
-    - platform: time
-      at: '17:00:00'
-    - platform: time
-      at: '17:30:00'
-    - platform: time
-      at: '18:00:00'
-    - platform: time
-      at: '18:30:00'
-    - platform: time
-      at: '19:00:00'
-    - platform: time
-      at: '19:30:00'
-  condition:
-    condition: and
-    conditions:
-    - condition: template
-      value_template: '{{ states.input_boolean.chore_bins_to_curb.state == "on" }}'
-  action:
-    - service: notify.ios_zonephone
-      data_template:
-        title: "Chore: Bins To The Curb"
-        message: "Take the yard refuse, recycling, glass, and trash bins to the curb"
-        data:
-          actions:
-          - action: CHORE_BINS_TO_CURB_DONE_ROBERT
-            title: Done
-          - action: CHORE_BINS_TO_CURB_REMIND_LATER
-            title: Remind Me Later
-    - service: notify.ios_mermaidphone
-      data_template:
-        title: "Chore: Bins To The Curb"
-        message: "Take the yard refuse, recycling, glass, and trash bins to the curb"
-        data:
-          actions:
-          - action: CHORE_BINS_TO_CURB_DONE_CAIT
-            title: Done
-          - action: CHORE_BINS_TO_CURB_REMIND_LATER
-            title: Remind Me Later
+alias: "Chore: Bins To Curb: Reminders"
+initial_state: true
+hide_entity: true
+trigger:
+  - platform: time
+    at: '17:00:00'
+  - platform: time
+    at: '17:30:00'
+  - platform: time
+    at: '18:00:00'
+  - platform: time
+    at: '18:30:00'
+  - platform: time
+    at: '19:00:00'
+  - platform: time
+    at: '19:30:00'
+condition:
+  condition: and
+  conditions:
+  - condition: template
+    value_template: '{{ states.input_boolean.chore_bins_to_curb.state == "on" }}'
+action:
+  - service: notify.ios_zonephone
+    data_template:
+      title: "Chore: Bins To The Curb"
+      message: "Take the yard refuse, recycling, glass, and trash bins to the curb"
+      data:
+        actions:
+        - action: CHORE_BINS_TO_CURB_DONE_ROBERT
+          title: Done
+        - action: CHORE_BINS_TO_CURB_REMIND_LATER
+          title: Remind Me Later
+  - service: notify.ios_mermaidphone
+    data_template:
+      title: "Chore: Bins To The Curb"
+      message: "Take the yard refuse, recycling, glass, and trash bins to the curb"
+      data:
+        actions:
+        - action: CHORE_BINS_TO_CURB_DONE_CAIT
+          title: Done
+        - action: CHORE_BINS_TO_CURB_REMIND_LATER
+          title: Remind Me Later

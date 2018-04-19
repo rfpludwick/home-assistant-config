@@ -1,17 +1,17 @@
-- alias: "Chore: Bins To Curb: Notification Touched: Done: Robert"
-  initial_state: true
-  hide_entity: true
-  trigger:
-    platform: event
-    event_type: html5_notification.clicked
-    event_data:
-      action: CHORE_BINS_TO_CURB_DONE_ROBERT
-  action:
-    - service: notify.ios_zonephone
-      data:
-        message: "Splendid!"
-    - service: notify.ios_mermaidphone
-      data:
-        message: "Someone else just took the bins to the curb"
-    - service: input_boolean.turn_off
-      entity_id: input_boolean.chore_bins_to_curb
+alias: "Chore: Bins To Curb: Notification Touched: Done: Robert"
+initial_state: true
+hide_entity: true
+trigger:
+  platform: event
+  event_type: html5_notification.clicked
+  event_data:
+    action: CHORE_BINS_TO_CURB_DONE_ROBERT
+action:
+  - service: notify.ios_zonephone
+    data:
+      message: "Splendid!"
+  - service: notify.ios_mermaidphone
+    data:
+      message: "Someone else just took the bins to the curb"
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.chore_bins_to_curb
