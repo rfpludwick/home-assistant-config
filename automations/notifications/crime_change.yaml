@@ -8,5 +8,5 @@ action:
     data:
       message: "Crime changed to '{{ states.sensor.crime.state }}'"
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

@@ -8,5 +8,5 @@ action:
     data:
       message: "Arlo mode changed to '{{ states.alarm_control_panel.vierarlo.state }}'"
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

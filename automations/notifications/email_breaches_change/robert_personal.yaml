@@ -15,5 +15,5 @@ action:
     data:
       message: !secret automation_breaches_roberts_email_notification_message
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

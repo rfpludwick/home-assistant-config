@@ -5,7 +5,7 @@ trigger:
     entity_id: input_boolean.chore_clean_litter_boxes
 condition:
   condition: template
-  value_template: '{{ states.input_boolean.chore_clean_litter_boxes.state == "off" }}'
+  value_template: "{{ states.input_boolean.chore_clean_litter_boxes.state == 'off' }}"
 action:
   - service: notify.ios_parents
     data:

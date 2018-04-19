@@ -8,5 +8,5 @@ action:
     data:
       message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

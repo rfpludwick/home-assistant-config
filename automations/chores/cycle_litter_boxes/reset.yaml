@@ -2,7 +2,7 @@ alias: "Chore: Cycle Litter Boxes: Reset"
 initial_state: true
 trigger:
   - platform: time
-    at: '07:55:00'
+    at: "07:55:00"
 condition: and
   - condition: template
     value_template: "{{ now().isoweekday() == 7 }}" # Sunday

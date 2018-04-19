@@ -2,10 +2,10 @@ alias: "Chore: Clean Litter Boxes: Reset"
 initial_state: true
 trigger:
   - platform: time
-    at: '08:00:00'
+    at: "08:00:00"
 condition: and
   - condition: template
-    value_template: '{{ states.input_boolean.chore_cycle_litter_boxes.state == "off" }}'
+    value_template: "{{ states.input_boolean.chore_cycle_litter_boxes.state == 'off' }}"
   - condition: and
     conditions: or
       - condition: template

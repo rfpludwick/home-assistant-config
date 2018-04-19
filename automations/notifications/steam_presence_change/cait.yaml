@@ -8,4 +8,4 @@ action:
     data:
       message: !secret automation_steam_presence_cait_notification_message
       target:
-        - '#fox-hollow-ha'
+        - "#fox-hollow-ha"

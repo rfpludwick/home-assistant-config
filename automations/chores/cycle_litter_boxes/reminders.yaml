@@ -2,16 +2,16 @@ alias: "Chore: Cycle Litter Boxes: Reminders"
 initial_state: true
 trigger:
   - platform: time
-    at: '17:00:00'
+    at: "17:00:00"
   - platform: time
-    at: '18:00:00'
+    at: "18:00:00"
   - platform: time
-    at: '19:00:00'
+    at: "19:00:00"
 condition:
   condition: and
   conditions:
   - condition: template
-    value_template: '{{ states.input_boolean.chore_cycle_litter_boxes.state == "on" }}'
+    value_template: "{{ states.input_boolean.chore_cycle_litter_boxes.state == 'on' }}"
 action:
   - service: notify.ios_parents
     data_template:

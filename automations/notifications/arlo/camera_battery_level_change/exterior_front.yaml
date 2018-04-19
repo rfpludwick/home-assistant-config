@@ -8,5 +8,5 @@ action:
     data:
       message: "Arlo Exterior Front Camera battery level is less than 10%: {{ states.sensor.battery_level_exterior_front.state }}%"
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

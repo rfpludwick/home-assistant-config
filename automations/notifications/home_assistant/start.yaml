@@ -8,4 +8,4 @@ action:
     data:
       message: "Home Assistant starting up"
       target:
-        - '#fox-hollow-ha'
+        - "#fox-hollow-ha"

@@ -8,5 +8,5 @@ action:
     data:
       message: "Upstairs Nest Protect smoke status changed to '{{ states.sensor.upstairs_nest_protect_smoke_status.state }}'"
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

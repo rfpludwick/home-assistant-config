@@ -15,5 +15,5 @@ action:
     data:
       message: !secret automation_breaches_caits_film_email_notification_message
       target:
-        - '#fox-hollow-ha'
-        - '#fox-hollow-ha-crit'
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

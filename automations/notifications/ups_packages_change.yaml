@@ -10,4 +10,4 @@ action:
         UPS has {{ states.sensor.ups.state }} package{% if states('sensor.ups') > 1 %}s{% endif %}
         to deliver today
       target:
-        - '#fox-hollow-ha'
+        - "#fox-hollow-ha"
