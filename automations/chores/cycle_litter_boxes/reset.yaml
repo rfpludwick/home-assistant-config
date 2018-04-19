@@ -1,0 +1,13 @@
+alias: "Chore: Cycle Litter Boxes: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: '07:55:00'
+condition: and
+  - condition: template
+    value_template: "{{ now().isoweekday() == 7 }}" # Sunday
+  - condition: template
+    value_template: "{{ ((now().strftime('%W') | int) + 1) % 2 }}" # Even week of year
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_cycle_litter_boxes

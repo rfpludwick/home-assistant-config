@@ -1,0 +1,25 @@
+alias: "Chore: Cycle Litter Boxes: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: '17:00:00'
+  - platform: time
+    at: '18:00:00'
+  - platform: time
+    at: '19:00:00'
+condition:
+  condition: and
+  conditions:
+  - condition: template
+    value_template: '{{ states.input_boolean.chore_cycle_litter_boxes.state == "on" }}'
+action:
+  - service: notify.ios_parents
+    data_template:
+      title: "Chore: Cycle Litter Boxes"
+      message: "Empty the litter boxes and fill with fresh litter"
+      data:
+        actions:
+        - action: CHORE_CYCLE_LITTER_BOXES_DONE
+          title: Done
+        - action: CHORE_CYCLE_LITTER_BOXES_REMIND_LATER
+          title: Remind Me Later

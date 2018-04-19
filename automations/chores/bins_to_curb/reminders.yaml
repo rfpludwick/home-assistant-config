@@ -1,6 +1,5 @@
 alias: "Chore: Bins To Curb: Reminders"
 initial_state: true
-hide_entity: true
 trigger:
   - platform: time
     at: '17:00:00'

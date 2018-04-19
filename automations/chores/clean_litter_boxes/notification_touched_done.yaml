@@ -1,0 +1,10 @@
+alias: "Chore: Clean Litter Boxes: Notification Touched Done"
+initial_state: true
+trigger:
+  platform: event
+  event_type: html5_notification.clicked
+  event_data:
+    action: CHORE_CLEAN_LITTER_BOXES_DONE
+action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.chore_clean_litter_boxes

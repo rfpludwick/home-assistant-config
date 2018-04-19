@@ -1,3 +1,5 @@
 name: Chores Due
 entities:
   - input_boolean.chore_bins_to_curb
+  - input_boolean.chore_clean_litter_boxes
+  - input_boolean.chore_cycle_litter_boxes
