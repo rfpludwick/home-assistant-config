@@ -1,0 +1,12 @@
+- alias: "Notification: Nest Protect: Carbon Monoxide Status Change: Attic Bedroom"
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.attic_bedroom_nest_protect_co_status
+  action:
+    - service: notify.slack
+      data:
+        message: "Attic Bedroom Nest Protect carbon monoxide status changed to '{{ states.sensor.attic_bedroom_nest_protect_co_status.state }}'"
+        target:
+          - '#fox-hollow-ha'
+          - '#fox-hollow-ha-crit'

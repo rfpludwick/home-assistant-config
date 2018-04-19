@@ -1,12 +1,12 @@
-- alias: "Notification: Crime Change"
+- alias: "Notification: Arlo: Mode Change"
   initial_state: true
   trigger:
     - platform: state
-      entity_id: sensor.crime
+      entity_id: alarm_control_panel.vierarlo
   action:
     - service: notify.slack
       data:
-        message: "Crime changed to '{{ states.sensor.crime.state }}'"
+        message: "Arlo mode changed to '{{ states.alarm_control_panel.vierarlo.state }}'"
         target:
           - '#fox-hollow-ha'
           - '#fox-hollow-ha-crit'

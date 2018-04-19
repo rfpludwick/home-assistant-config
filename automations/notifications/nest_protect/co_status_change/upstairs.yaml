@@ -1,0 +1,12 @@
+- alias: "Notification: Nest Protect: Carbon Monoxide Status Change: Upstairs"
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.upstairs_nest_protect_co_status
+  action:
+    - service: notify.slack
+      data:
+        message: "Upstairs Nest Protect carbon monoxide status changed to '{{ states.sensor.upstairs_nest_protect_co_status.state }}'"
+        target:
+          - '#fox-hollow-ha'
+          - '#fox-hollow-ha-crit'

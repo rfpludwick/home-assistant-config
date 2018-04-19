@@ -1,0 +1,17 @@
+- alias: "Notification: Presence Change: Robert"
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: device_tracker.zonephone
+      from: 'not_home'
+      to: 'home'
+    - platform: state
+      entity_id: device_tracker.zonephone
+      from: 'home'
+      to: 'not_home'
+  action:
+    - service: notify.slack
+      data:
+        message: "Robert's presence changed to '{{ states.device_tracker.zonephone.state }}'"
+        target:
+          - '#fox-hollow-ha'

@@ -1,4 +1,4 @@
-- alias: Scout Alarm Mode Change
+- alias: "Notification: Scout Alarm Mode Change"
   initial_state: true
   trigger:
     - platform: state

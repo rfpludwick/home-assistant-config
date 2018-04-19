@@ -1,4 +1,4 @@
-- alias: Chamberlain Garage Door State Change
+- alias: "Notification: Chamberlain Garage Door State Change"
   initial_state: true
   trigger:
     - platform: state
