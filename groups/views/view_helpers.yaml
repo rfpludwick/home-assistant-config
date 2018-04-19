@@ -3,4 +3,5 @@ view: yes
 icon: mdi:settings
 entities:
   - group.helpers_alarms
+  - group.chores
   - group.helpers_scout_alarm
