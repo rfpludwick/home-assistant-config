@@ -1,6 +1,6 @@
 group.helpers_alarms:
   order: 1
-group.chores:
+group.chores_due:
   order: 2
 group.helpers_scout_alarm:
   order: 3
