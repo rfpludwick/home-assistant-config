@@ -3,7 +3,8 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: input_boolean.chore_bins_to_curb
-condition: template
+condition:
+  condition: template
   value_template: '{{ states.input_boolean.chore_bins_to_curb.state == "off" }}'
 action:
   - service: notify.ios_parents
