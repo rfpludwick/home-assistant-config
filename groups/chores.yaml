@@ -1,3 +1,3 @@
 name: Chores
 entities:
-  - input_boolean.bins_to_curb
+  - input_boolean.chore_bins_to_curb
