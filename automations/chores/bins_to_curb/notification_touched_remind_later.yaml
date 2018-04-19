@@ -1,0 +1,14 @@
+- alias: "Chore: Bins To Curb: Notification Touched: Remind Later"
+  initial_state: true
+  hide_entity: true
+  trigger:
+    platform: event
+    event_type: html5_notification.clicked
+    event_data:
+      action: CHORE_BINS_TO_CURB_REMIND_LATER
+  action:
+    - service: notify.ios_zonephone
+      data:
+        message: "You'll continue to be reminded every half-hour"
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.chore_bins_to_curb
