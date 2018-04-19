@@ -1,18 +1,18 @@
-- alias: "Notification: August Lock: State Change"
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: lock.front_door
-      from: 'locked'
-      to: 'unlocked'
-    - platform: state
-      entity_id: lock.front_door
-      from: 'unlocked'
-      to: 'locked'
-  action:
-    - service: notify.slack
-      data:
-        message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
-        target:
-          - '#fox-hollow-ha'
-          - '#fox-hollow-ha-crit'
+alias: "Notification: August Lock: State Change"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: lock.front_door
+    from: 'locked'
+    to: 'unlocked'
+  - platform: state
+    entity_id: lock.front_door
+    from: 'unlocked'
+    to: 'locked'
+action:
+  - service: notify.slack
+    data:
+      message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
+      target:
+        - '#fox-hollow-ha'
+        - '#fox-hollow-ha-crit'

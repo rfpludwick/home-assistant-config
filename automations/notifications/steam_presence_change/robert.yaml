@@ -1,11 +1,11 @@
-- alias: "Notification: Steam Presence Change: Robert"
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: !secret steam_presence_robert
-  action:
-    - service: notify.slack
-      data:
-        message: !secret automation_steam_presence_robert_notification_message
-        target:
-          - '#fox-hollow-ha'
+alias: "Notification: Steam Presence Change: Robert"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: !secret steam_presence_robert
+action:
+  - service: notify.slack
+    data:
+      message: !secret automation_steam_presence_robert_notification_message
+      target:
+        - '#fox-hollow-ha'

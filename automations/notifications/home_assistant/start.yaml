@@ -1,11 +1,11 @@
-- alias: "Notification: Home Assistant: Start"
-  initial_state: true
-  trigger:
-    - platform: homeassistant
-      event: start
-  action:
-    - service: notify.slack
-      data:
-        message: "Home Assistant starting up"
-        target:
-          - '#fox-hollow-ha'
+alias: "Notification: Home Assistant: Start"
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: start
+action:
+  - service: notify.slack
+    data:
+      message: "Home Assistant starting up"
+      target:
+        - '#fox-hollow-ha'

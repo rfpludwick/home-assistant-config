@@ -1,11 +1,11 @@
-- alias: "Notification: Home Assistant: Shutdown"
-  initial_state: true
-  trigger:
-    - platform: homeassistant
-      event: shutdown
-  action:
-    - service: notify.slack
-      data:
-        message: "Home Assistant shutting down"
-        target:
-          - '#fox-hollow-ha'
+alias: "Notification: Home Assistant: Shutdown"
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: shutdown
+action:
+  - service: notify.slack
+    data:
+      message: "Home Assistant shutting down"
+      target:
+        - '#fox-hollow-ha'

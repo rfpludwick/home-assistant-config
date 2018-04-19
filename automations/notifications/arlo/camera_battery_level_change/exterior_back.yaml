@@ -1,12 +1,12 @@
-- alias: "Notification: Arlo: Camera Battery Level Change: Exterior Back"
-  initial_state: true
-  trigger:
-    - platform: template
-      value_template: "{{ states.sensor.battery_level_exterior_back.state | int<10 }}"
-  action:
-    - service: notify.slack
-      data:
-        message: "Arlo Exterior Back Camera battery level is less than 10%: {{ states.sensor.battery_level_exterior_back.state }}%"
-        target:
-          - '#fox-hollow-ha'
-          - '#fox-hollow-ha-crit'
+alias: "Notification: Arlo: Camera Battery Level Change: Exterior Back"
+initial_state: true
+trigger:
+  - platform: template
+    value_template: "{{ states.sensor.battery_level_exterior_back.state | int<10 }}"
+action:
+  - service: notify.slack
+    data:
+      message: "Arlo Exterior Back Camera battery level is less than 10%: {{ states.sensor.battery_level_exterior_back.state }}%"
+      target:
+        - '#fox-hollow-ha'
+        - '#fox-hollow-ha-crit'
