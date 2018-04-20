@@ -11,12 +11,20 @@ condition:
   - condition: template
     value_template: "{{ (states.input_boolean.chore_cycle_litter_boxes.state == 'on') }}"
 action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_cycle_litter_boxes
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Cycle Litter Boxes"
+      message: "Empty the litter boxes and fill with fresh litter"
+      notification_id: chore_cycle_litter_boxes
   - service: notify.ios_parents
     data_template:
       title: "Chore: Cycle Litter Boxes"
       message: "Empty the litter boxes and fill with fresh litter"
       data:
         push:
-          category: "chore"
+          category: chore
         action_data:
           entity_id: input_boolean.chore_cycle_litter_boxes

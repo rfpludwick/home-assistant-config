@@ -1,0 +1,15 @@
+alias: "Chore: Take Bins To Curb: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.chore_take_bins_to_curb
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_take_bins_to_curb
+  - condition: template
+    value_template: "{{ (now().isoweekday() == 3) }}" # Wednesday
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_take_bins_to_curb
