@@ -2,7 +2,7 @@ alias: "Notification: August Lock: Battery Level Change"
 initial_state: true
 trigger:
   - platform: template
-    value_template: "{{ states.sensor.front_door_lock_battery_level.state | int<10 }}"
+    value_template: "{{ ((states.sensor.front_door_lock_battery_level.state | int) < 10) }}"
 action:
   - service: notify.slack_crit
     data:

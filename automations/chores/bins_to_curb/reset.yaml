@@ -7,6 +7,6 @@ action:
   - service: input_boolean.turn_off
     entity_id: input_boolean.chore_bins_to_curb
   - condition: template
-    value_template: "{{ now().isoweekday() == 3 }}" # Wednesday
+    value_template: "{{ (now().isoweekday() == 3) }}" # Wednesday
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_bins_to_curb

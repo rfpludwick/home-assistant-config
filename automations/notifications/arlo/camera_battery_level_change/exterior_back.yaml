@@ -2,7 +2,7 @@ alias: "Notification: Arlo: Camera Battery Level Change: Exterior Back"
 initial_state: true
 trigger:
   - platform: template
-    value_template: "{{ states.sensor.battery_level_exterior_back.state | int<10 }}"
+    value_template: "{{ ((states.sensor.battery_level_exterior_back.state | int) < 10) }}"
 action:
   - service: notify.slack_crit
     data:

@@ -5,9 +5,9 @@ trigger:
     at: "07:55:00" # So that cleaning the litter boxes can cascade from this chore
 condition: and
   - condition: template
-    value_template: "{{ now().isoweekday() == 7 }}" # Sunday
+    value_template: "{{ (((now().strftime('%W') | int) + 1) % 2) }}" # Even week of year
   - condition: template
-    value_template: "{{ ((now().strftime('%W') | int) + 1) % 2 }}" # Even week of year
+    value_template: "{{ (now().isoweekday() == 7) }}" # Sunday
 action:
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_cycle_litter_boxes

@@ -1,4 +1,4 @@
-value_template: "{{ states('binary_sensor.entryway_nest_protect_online') }}"
+value_template: "{{ states.binary_sensor.entryway_nest_protect_online.state }}"
 icon_template: >
   {% if is_state('binary_sensor.entryway_nest_protect_online', 'on') %}
     mdi:wifi
