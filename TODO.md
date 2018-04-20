@@ -10,3 +10,4 @@
 - Customize Frontend
 - Develop Repeatable Chores With Persistent & Push Notifications
 - Setup Input Boolean Controls To Enable/Disable Automations
+- Determine Notifications To Go To ios_parents
