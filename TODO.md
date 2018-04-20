@@ -9,3 +9,4 @@
 - Automations For Family Presence Home/Away?
 - Customize Frontend
 - Develop Repeatable Chores With Persistent & Push Notifications
+- Setup Input Boolean Controls To Enable/Disable Automations

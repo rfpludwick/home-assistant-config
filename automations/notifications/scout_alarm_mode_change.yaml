@@ -4,9 +4,6 @@ trigger:
   - platform: state
     entity_id: alarm_control_panel.scout_alarm
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Scout Alarm mode changed to '{{ states.alarm_control_panel.scout_alarm.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

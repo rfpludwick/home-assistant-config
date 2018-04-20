@@ -10,8 +10,6 @@ trigger:
     from: "home"
     to: "not_home"
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: "Cait's presence changed to '{{ states.device_tracker.mermaidphone.state }}'"
-      target:
-        - "#fox-hollow-ha"

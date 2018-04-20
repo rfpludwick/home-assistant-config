@@ -10,8 +10,6 @@ trigger:
     from: "home"
     to: "not_home"
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: "Olivia's presence changed to '{{ states.device_tracker.lolli.state }}'"
-      target:
-        - "#fox-hollow-ha"

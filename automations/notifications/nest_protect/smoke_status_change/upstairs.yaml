@@ -4,9 +4,6 @@ trigger:
   - platform: state
     entity_id: sensor.upstairs_nest_protect_smoke_status
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Upstairs Nest Protect smoke status changed to '{{ states.sensor.upstairs_nest_protect_smoke_status.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

@@ -4,9 +4,6 @@ trigger:
   - platform: template
     value_template: "{{ states.sensor.front_door_lock_battery_level.state | int<10 }}"
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "August Lock battery level is less than 10%: {{ states.sensor.front_door_lock_battery_level.state }}%"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

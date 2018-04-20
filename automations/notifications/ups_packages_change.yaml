@@ -4,10 +4,8 @@ trigger:
   - platform: state
     entity_id: sensor.ups
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: >
         UPS has {{ states.sensor.ups.state }} package{% if states('sensor.ups') > 1 %}s{% endif %}
         to deliver today
-      target:
-        - "#fox-hollow-ha"

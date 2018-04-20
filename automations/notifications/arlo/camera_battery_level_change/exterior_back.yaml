@@ -4,9 +4,6 @@ trigger:
   - platform: template
     value_template: "{{ states.sensor.battery_level_exterior_back.state | int<10 }}"
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Arlo Exterior Back Camera battery level is less than 10%: {{ states.sensor.battery_level_exterior_back.state }}%"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

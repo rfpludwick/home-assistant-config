@@ -4,8 +4,6 @@ trigger:
   - platform: homeassistant
     event: shutdown
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: "Home Assistant shutting down"
-      target:
-        - "#fox-hollow-ha"

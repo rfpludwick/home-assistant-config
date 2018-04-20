@@ -4,8 +4,6 @@ trigger:
   - platform: state
     entity_id: !secret steam_presence_cait
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: !secret automation_steam_presence_cait_notification_message
-      target:
-        - "#fox-hollow-ha"

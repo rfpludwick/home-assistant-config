@@ -4,8 +4,6 @@ trigger:
   - platform: homeassistant
     event: start
 action:
-  - service: notify.slack
+  - service: notify.slack_standard
     data:
       message: "Home Assistant starting up"
-      target:
-        - "#fox-hollow-ha"

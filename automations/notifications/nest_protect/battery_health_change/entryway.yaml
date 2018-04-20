@@ -4,9 +4,6 @@ trigger:
   - platform: state
     entity_id: sensor.entryway_nest_protect_battery_health
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Entryway Nest Protect battery health changed to '{{ states.sensor.entryway_nest_protect_battery_health.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

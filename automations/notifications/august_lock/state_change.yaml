@@ -10,9 +10,6 @@ trigger:
     from: "unlocked"
     to: "locked"
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

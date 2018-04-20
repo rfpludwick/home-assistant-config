@@ -4,9 +4,6 @@ trigger:
   - platform: state
     entity_id: sensor.attic_bedroom_nest_protect_battery_health
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Attic Bedroom Nest Protect battery health changed to '{{ states.sensor.attic_bedroom_nest_protect_battery_health.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

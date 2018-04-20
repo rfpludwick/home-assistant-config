@@ -4,9 +4,6 @@ trigger:
   - platform: state
     entity_id: cover.viergarage
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"

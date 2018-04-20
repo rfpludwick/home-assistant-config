@@ -1,0 +1,8 @@
+name: Slack Crit
+platform: group
+services:
+  - service: slack
+    data:
+      target:
+        - "#fox-hollow-ha"
+        - "#fox-hollow-ha-crit"

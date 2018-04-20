@@ -11,9 +11,6 @@ condition:
     - condition: template
       value_template: "{{ trigger.to_state.state != 'unknown' }}"
 action:
-  - service: notify.slack
+  - service: notify.slack_crit
     data:
       message: !secret automation_breaches_roberts_email_notification_message
-      target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"
