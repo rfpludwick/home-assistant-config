@@ -1,10 +1,12 @@
 alias: "Chore: Bins To Curb: Notification Touched Done"
 initial_state: true
 trigger:
-  platform: event
-  event_type: html5_notification.clicked
-  event_data:
-    action: CHORE_BINS_TO_CURB_DONE
+  - platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: CHORE_DONE
+      actionData:
+        entity_id: input_boolean.chore_bins_to_curb
 action:
   - service: input_boolean.turn_off
     entity_id: input_boolean.chore_bins_to_curb

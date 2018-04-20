@@ -14,8 +14,6 @@ trigger:
   - platform: time
     at: "19:30:00"
 condition:
-  condition: and
-  conditions:
   - condition: template
     value_template: "{{ states.input_boolean.chore_bins_to_curb.state == 'on' }}"
 action:
@@ -24,8 +22,7 @@ action:
       title: "Chore: Bins To Curb"
       message: "Take the yard debris, recycling, glass, and trash bins to the curb"
       data:
-        actions:
-        - action: CHORE_BINS_TO_CURB_DONE
-          title: Done
-        - action: CHORE_BINS_TO_CURB_REMIND_LATER
-          title: Remind Me Later
+        push:
+          category: "chore"
+        action_data:
+          entity_id: input_boolean.chore_bins_to_curb

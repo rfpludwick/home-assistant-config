@@ -27,7 +27,7 @@ ffmpeg: !include configurations/ffmpeg.yaml
 history_graph: !include_dir_named configurations/history_graph/
 ifttt: !include configurations/ifttt.yaml
 input_boolean: !include_dir_named configurations/input_boolean/
-ios:
+ios: !include configurations/ios.yaml
 media_player: !include_dir_list configurations/media_player/
 nest: !include configurations/nest.yaml
 notify: !include_dir_list configurations/notify/
