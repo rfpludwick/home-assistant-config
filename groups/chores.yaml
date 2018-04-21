@@ -1,6 +1,5 @@
 name: Chores Due
 entities:
-  - input_boolean.chore_bins_to_curb
   - input_boolean.chore_check_furnace_filters
   - input_boolean.chore_clean_backyard
   - input_boolean.chore_clean_coffee_grinder
@@ -12,6 +11,7 @@ entities:
   - input_boolean.chore_have_gutters_cleaned
   - input_boolean.chore_have_hvac_serviced
   - input_boolean.chore_have_trees_trimmed
+  - input_boolean.chore_take_bins_to_curb
   - input_boolean.chore_renew_home_ssl_certificate
   - input_boolean.chore_replace_toothbrush_heads
   - input_boolean.chore_run_affresh_in_washing_machine
