@@ -1,0 +1,16 @@
+alias: "Chore: Renew Home SSL Certificate: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_renew_home_ssl_certificate
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_renew_home_ssl_certificate.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_renew_home_ssl_certificate
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Renew Home SSL Certificate"
+      message: "The home SSL certificate has been renewed, and we are now so SECURE"

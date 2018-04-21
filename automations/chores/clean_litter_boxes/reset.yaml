@@ -5,7 +5,7 @@ trigger:
     at: "08:00:00"
 condition: and
   - condition: template
-    value_template: "{{ (states.input_boolean.chore_cycle_litter_boxes.state == 'off') }}"
+    value_template: "{{ (states.input_boolean.chore_cycle_litter_boxes.state == 'off') }}" # No cleaning if we're gonna cycle
   - condition: and
     conditions: or
       - condition: template

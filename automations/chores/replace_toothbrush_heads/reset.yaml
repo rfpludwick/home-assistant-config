@@ -1,0 +1,15 @@
+alias: "Chore: Replace Toothbrush Heads: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition: and
+  - condition: template
+    value_template: "{{ ((now().month % 3) == 0) }}" # Third month of a quarter
+  - condition: template
+    value_template: "{{ (now().day < 8) }}" # First week of month
+  - condition: template
+    value_template: "{{ (now().isoweekday() == 6) }}" # Saturday
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_replace_toothbrush_heads

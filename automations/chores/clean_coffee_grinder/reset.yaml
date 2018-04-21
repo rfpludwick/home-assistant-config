@@ -1,0 +1,13 @@
+alias: "Chore: Clean Coffee Grinder: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition: and
+  - condition: template
+    value_template: "{{ ((now().strftime('%W') | int) % 2) }}" # Odd week of year
+  - condition: template
+    value_template: "{{ (now().isoweekday() == 6) }}" # Saturday
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_clean_coffee_grinder

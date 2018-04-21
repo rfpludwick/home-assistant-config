@@ -1,0 +1,16 @@
+alias: "Chore: Clean Backyard: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_clean_backyard
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_clean_backyard.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_clean_backyard
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Clean Backyard"
+      message: "The backyard has been cleaned"

@@ -1,0 +1,16 @@
+alias: "Chore: Have Trees Trimmed: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_have_trees_trimmed
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_have_trees_trimmed.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_have_trees_trimmed
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Have Trees Trimmed"
+      message: "The trees have been trimmed, so let's celebrate by generating some solar power"

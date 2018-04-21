@@ -1,0 +1,26 @@
+alias: "Chore: Have Gutters Cleaned: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_have_gutters_cleaned.state == 'on') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_have_gutters_cleaned
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Have Gutters Cleaned"
+      message: "Schedule our gutter cleaner to clean the house's gutters"
+      notification_id: chore_have_gutters_cleaned
+  - service: notify.ios_parents
+    data_template:
+      title: "Chore: Have Gutters Cleaned"
+      message: "Schedule our gutter cleaner to clean the house's gutters"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_have_gutters_cleaned

@@ -1,0 +1,16 @@
+alias: "Chore: Run Affresh In Washing Machine: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_run_affresh_in_washing_machine
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_run_affresh_in_washing_machine.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_run_affresh_in_washing_machine
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Run Affresh In Washing Machine"
+      message: "The washing machine has been 'Affreshed'"

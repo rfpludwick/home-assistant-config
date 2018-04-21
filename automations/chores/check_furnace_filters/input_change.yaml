@@ -1,0 +1,16 @@
+alias: "Chore: Check Furnace Filters: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_check_furnace_filters
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_check_furnace_filters.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_check_furnace_filters
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Check Furnace Filters"
+      message: "The furnace filters have been checked and are in good shape"

@@ -4,6 +4,7 @@ trigger:
   - platform: time
     at: "08:00:00"
 action:
+  # This chore is timed by a third party, so if we fail to meet their schedule, we miss our window and just wait for next time
   - service: input_boolean.turn_off
     entity_id: input_boolean.chore_take_bins_to_curb
   - service: persistent_notification.dismiss
