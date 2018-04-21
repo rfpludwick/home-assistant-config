@@ -1,0 +1,16 @@
+alias: "Chore: Sort Synced Photos On NAS: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_sort_synced_photos_on_nas
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_sort_synced_photos_on_nas.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_sort_synced_photos_on_nas
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Sort Synced Photos On NAS"
+      message: "The synced photos on the NAS have been sorted"
