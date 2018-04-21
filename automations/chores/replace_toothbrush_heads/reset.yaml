@@ -3,7 +3,7 @@ initial_state: true
 trigger:
   - platform: time
     at: "08:00:00"
-condition: and
+condition:
   - condition: template
     value_template: "{{ ((now().month % 3) == 0) }}" # Third month of a quarter
   - condition: template
