@@ -1,4 +1,5 @@
 name: Chores Due
+control: hidden
 entities:
   - input_boolean.chore_check_furnace_filters
   - input_boolean.chore_clean_backyard
