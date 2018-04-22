@@ -55,7 +55,7 @@ sensor.ups:
 ## Family Presence
 device_tracker.mermaidphone:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
-  friendly_name: Caitlin
+  friendly_name: Cait
 device_tracker.vierhapad:
   icon: mdi:tablet-ipad
   friendly_name: Home Assistant iPad
