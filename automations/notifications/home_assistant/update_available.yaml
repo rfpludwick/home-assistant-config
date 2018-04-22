@@ -1,0 +1,10 @@
+alias: "Notification: Home Assistant: Update Available"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: updater.updater
+action:
+  - service: notify.email_administrators
+    data:
+      title: "Home Assistant Update Available"
+      message: "There is a new Home Assistant release ({{ states.updater.updater.state }}) available."

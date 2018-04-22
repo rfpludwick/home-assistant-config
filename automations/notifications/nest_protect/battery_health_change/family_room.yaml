@@ -1,0 +1,9 @@
+alias: "Notification: Nest Protect: Battery Health Change: Family Room"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.family_room_nest_protect_battery_health
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Family Room Nest Protect battery health changed to '{{ states.sensor.family_room_nest_protect_battery_health.state }}'"

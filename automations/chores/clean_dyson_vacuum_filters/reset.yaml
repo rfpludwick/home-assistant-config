@@ -1,0 +1,18 @@
+alias: "Chore: Clean Dyson Vacuum Filters: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (((now().month - 1) % 3) == 0) }}" # First month of a quarter
+  - condition: template
+    value_template: "{{ (now().day < 8) }}" # First week of month
+  - condition: template
+    value_template: "{{ (now().isoweekday() == 6) }}" # Saturday
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_clean_dyson_vacuum_filters
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Dyson Vacuum Filters' is due today"

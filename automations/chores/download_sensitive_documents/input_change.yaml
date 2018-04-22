@@ -1,0 +1,19 @@
+alias: "Chore: Download Sensitive Documents: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_download_sensitive_documents
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_download_sensitive_documents.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_download_sensitive_documents
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Download Sensitive Documents"
+      message: "The month's sensitive documents have been securely downloaded"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Download Sensitive Documents' has been completed"

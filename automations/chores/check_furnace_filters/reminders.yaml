@@ -1,0 +1,26 @@
+alias: "Chore: Check Furnace Filters: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "18:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_check_furnace_filters.state == 'on') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_check_furnace_filters
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Check Furnace Filters"
+      message: "Check the furnace filters and clean if necessary"
+      notification_id: chore_check_furnace_filters
+  - service: notify.ios_parents
+    data_template:
+      title: "Chore: Check Furnace Filters"
+      message: "Check the furnace filters and clean if necessary"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_check_furnace_filters

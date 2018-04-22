@@ -1,4 +1,4 @@
-value_template: "{{ states('sensor.attic_bedroom_nest_protect_battery_health') }}"
+value_template: "{{ states.sensor.attic_bedroom_nest_protect_battery_health.state }}"
 icon_template: >
   {% if is_state('sensor.attic_bedroom_nest_protect_battery_health', 'Ok') %}
     mdi:battery-charging-wireless

@@ -1,0 +1,16 @@
+alias: "Chore: Have Gutters Cleaned: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (now().month == 12) }}" # December
+  - condition: template
+    value_template: "{{ (now().day == 1) }}" # First day of the month
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_have_gutters_cleaned
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Have Gutters Cleaned' is due today"

@@ -1,12 +1,9 @@
-- alias: Chamberlain Garage Door State Change
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: cover.viergarage
-  action:
-    - service: notify.slack
-      data:
-        message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
-        target:
-          - '#fox-hollow-ha'
-          - '#fox-hollow-ha-crit'
+alias: "Notification: Chamberlain Garage Door State Change"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: cover.viergarage
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"

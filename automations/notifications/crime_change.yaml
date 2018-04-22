@@ -1,12 +1,9 @@
-- alias: Crime Change
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: sensor.crime
-  action:
-    - service: notify.slack
-      data:
-        message: "Crime changed to '{{ states.sensor.crime.state }}'"
-        target:
-          - '#fox-hollow-ha'
-          - '#fox-hollow-ha-crit'
+alias: "Notification: Crime Change"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.crime
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Crime changed to '{{ states.sensor.crime.state }}'"

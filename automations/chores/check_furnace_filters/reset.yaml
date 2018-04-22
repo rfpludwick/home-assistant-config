@@ -1,0 +1,14 @@
+alias: "Chore: Check Furnace Filters: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (now().day == 1) }}" # First day of month
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_check_furnace_filters
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Check Furnace Filters' is due today"

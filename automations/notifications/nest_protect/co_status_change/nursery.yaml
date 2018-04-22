@@ -1,0 +1,9 @@
+alias: "Notification: Nest Protect: Carbon Monoxide Status Change: Nursery"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.nursery_nest_protect_co_status
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Nursery Nest Protect carbon monoxide status changed to '{{ states.sensor.nursery_nest_protect_co_status.state }}'"

@@ -1,0 +1,14 @@
+alias: "Notification: Email Breaches Change: Cait's Film"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: !secret breaches_caits_film_email
+condition:
+  - condition: template
+    value_template: "{{ (trigger.from_state.state != 'unknown') }}"
+  - condition: template
+    value_template: "{{ (trigger.to_state.state != 'unknown') }}"
+action:
+  - service: notify.slack_crit
+    data:
+      message: !secret automation_breaches_caits_film_email_notification_message

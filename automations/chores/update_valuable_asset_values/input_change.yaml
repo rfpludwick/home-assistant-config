@@ -1,0 +1,19 @@
+alias: "Chore: Update Valuable Asset Values: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_update_valuable_asset_values
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_update_valuable_asset_values.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_update_valuable_asset_values
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Update Valuable Asset Values"
+      message: "Values for our large assets have been updated"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Update Valuable Asset Values' has been completed"

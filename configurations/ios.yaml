@@ -1,0 +1,18 @@
+ios:
+  push:
+    categories:
+      - name: Chore
+        identifier: "chore"
+        actions:
+          - identifier: "CHORE_DONE"
+            title: "Chore Done"
+            activationMode: "background"
+            authenticationRequired: no
+            destructive: no
+            behavior: "default"
+          - identifier: "CHORE_REMIND_LATER"
+            title: "Remind Me Later"
+            activationMode: "background"
+            authenticationRequired: no
+            destructive: no
+            behavior: "default"

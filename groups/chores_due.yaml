@@ -1,0 +1,22 @@
+name: Chores Due
+control: hidden
+entities:
+  - input_boolean.chore_check_furnace_filters
+  - input_boolean.chore_clean_backyard
+  - input_boolean.chore_clean_coffee_grinder
+  - input_boolean.chore_clean_dyson_vacuum_filters
+  - input_boolean.chore_clean_litter_boxes
+  - input_boolean.chore_cycle_litter_boxes
+  - input_boolean.chore_do_taxes
+  - input_boolean.chore_download_sensitive_documents
+  - input_boolean.chore_have_gutters_cleaned
+  - input_boolean.chore_have_hvac_serviced
+  - input_boolean.chore_have_trees_trimmed
+  - input_boolean.chore_take_bins_to_curb
+  - input_boolean.chore_renew_home_ssl_certificate
+  - input_boolean.chore_replace_toothbrush_heads
+  - input_boolean.chore_run_affresh_in_washing_machine
+  - input_boolean.chore_sort_synced_photos_on_nas
+  - input_boolean.chore_take_bins_to_curb
+  - input_boolean.chore_update_budget
+  - input_boolean.chore_update_valuable_asset_values

@@ -1,0 +1,9 @@
+alias: "Notification: Nest Protect: Battery Health Change: Entryway"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.entryway_nest_protect_battery_health
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Entryway Nest Protect battery health changed to '{{ states.sensor.entryway_nest_protect_battery_health.state }}'"

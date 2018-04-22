@@ -1,0 +1,7 @@
+name: Slack Standard
+platform: group
+services:
+  - service: slack
+    data:
+      target:
+        - "#fox-hollow-ha"

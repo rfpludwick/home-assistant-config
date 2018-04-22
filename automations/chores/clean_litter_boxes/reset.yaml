@@ -1,0 +1,20 @@
+alias: "Chore: Clean Litter Boxes: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_cycle_litter_boxes.state == 'off') }}" # No cleaning if we're gonna cycle
+  - condition: or
+    conditions:
+      - condition: template
+        value_template: "{{ (now().isoweekday() == 3) }}" # Wednesday
+      - condition: template
+        value_template: "{{ (now().isoweekday() == 7) }}" # Sunday
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_clean_litter_boxes
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Litter Boxes' is due today"

@@ -1,0 +1,14 @@
+alias: "Chore: Update Budget: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "08:00:00"
+condition:
+  - condition: template
+    value_template: "{{ (now().day == 28) }}" # 28th day of month (since we cannot determine last day of month)
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_update_budget
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Update Budget' is due today"

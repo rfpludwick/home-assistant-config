@@ -1,0 +1,9 @@
+alias: "Notification: Home Assistant: Start"
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: start
+action:
+  - service: notify.slack_standard
+    data:
+      message: "Home Assistant starting up"

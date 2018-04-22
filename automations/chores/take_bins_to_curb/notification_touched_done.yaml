@@ -1,0 +1,12 @@
+alias: "Chore: Take Bins To Curb: Notification Touched Done"
+initial_state: true
+trigger:
+  - platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: CHORE_DONE
+      actionData:
+        entity_id: input_boolean.chore_take_bins_to_curb
+action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.chore_take_bins_to_curb

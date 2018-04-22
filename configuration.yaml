@@ -8,7 +8,7 @@ map:
 system_log: !include configurations/system_log.yaml
 updater: !include configurations/updater.yaml
 
-automation: !include_dir_merge_list automations/
+automation: !include_dir_list automations/
 group: !include_dir_named groups/
 script: !include_dir_merge_named scripts/
 
@@ -26,7 +26,8 @@ discovery: !include configurations/discovery.yaml
 ffmpeg: !include configurations/ffmpeg.yaml
 history_graph: !include_dir_named configurations/history_graph/
 ifttt: !include configurations/ifttt.yaml
-ios:
+input_boolean: !include_dir_named configurations/input_boolean/
+ios: !include configurations/ios.yaml
 media_player: !include_dir_list configurations/media_player/
 nest: !include configurations/nest.yaml
 notify: !include_dir_list configurations/notify/
