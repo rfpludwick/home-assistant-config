@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Have Gutters Cleaned"
       message: "The gutters have been cleaned, so let's enjoy a lack of backyard puddles"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Have Gutters Cleaned' has been completed"

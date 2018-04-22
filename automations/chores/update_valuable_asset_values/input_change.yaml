@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Update Valuable Asset Values"
       message: "Values for our large assets have been updated"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Update Valuable Asset Values' has been completed"

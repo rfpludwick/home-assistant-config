@@ -13,3 +13,6 @@ condition:
 action:
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_clean_dyson_vacuum_filters
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Dyson Vacuum Filters' is due today"

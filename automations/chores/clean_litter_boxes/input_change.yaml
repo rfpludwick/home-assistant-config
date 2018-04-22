@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Clean Litter Boxes"
       message: "The litter boxes have been cleaned"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Litter Boxes' has been completed"

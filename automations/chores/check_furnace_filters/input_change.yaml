@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Check Furnace Filters"
       message: "The furnace filters have been checked and are in good shape"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Check Furnace Filters' has been completed"

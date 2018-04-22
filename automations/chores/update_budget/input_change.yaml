@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Update Budget"
       message: "Next month's budget has been set - go buy a yacht!"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Update Budget' has been completed"

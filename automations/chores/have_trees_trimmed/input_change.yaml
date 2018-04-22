@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Have Trees Trimmed"
       message: "The trees have been trimmed, so let's celebrate by generating some solar power"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Have Trees Trimmed' has been completed"

@@ -11,3 +11,6 @@ condition:
 action:
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_have_gutters_cleaned
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Have Gutters Cleaned' is due today"

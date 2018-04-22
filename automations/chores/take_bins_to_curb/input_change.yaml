@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Take Bins To Curb"
       message: "The bins have been taken to the curb"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Take Bins To Curb' has been completed"

@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Clean Dyson Vacuum Filters"
       message: "The Dyson vacuum's filters have been cleaned"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Dyson Vacuum Filters' has been completed"

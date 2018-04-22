@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Sort Synced Photos On NAS"
       message: "The synced photos on the NAS have been sorted"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Sort Synced Photos On NAS' has been completed"

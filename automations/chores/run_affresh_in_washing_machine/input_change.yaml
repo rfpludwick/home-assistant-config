@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Run Affresh In Washing Machine"
       message: "The washing machine has been 'Affreshed'"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Run Affresh In Washing Machine' has been completed"

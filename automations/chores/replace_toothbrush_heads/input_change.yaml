@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Replace Toothbrush Heads"
       message: "The parents' electric toothbrush heads have been replaced"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Replace Toothbrush Heads' has been completed"

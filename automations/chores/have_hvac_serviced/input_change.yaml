@@ -14,3 +14,6 @@ action:
     data:
       title: "Chore: Have HVAC Serviced"
       message: "Rest easy, the HVAC has been serviced and is in good order"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Have HVAC Serviced' has been completed"
