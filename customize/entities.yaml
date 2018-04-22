@@ -89,8 +89,8 @@ history_graph.harmony:
   friendly_name: Harmony History
 history_graph.security:
   friendly_name: Security History
-history_graph.steam_presence:
-  friendly_name: Steam Presence History
+history_graph.steam:
+  friendly_name: Steam History
 
 # Home Assistant
 sensor.connected_clients:
@@ -201,6 +201,14 @@ sensor.upstairs_nest_protect_online:
 sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
   friendly_name: Nest Protect Upstairs Smoke
+
+# Steam
+sensor.steam_game_playing_robert:
+  icon: mdi:gamepad-variant
+  friendly_name: "Robert's Current Game"
+sensor.steam_game_playing_cait:
+  icon: mdi:gamepad-variant
+  friendly_name: "Cait's Current Game"
 
 # Synology NAS
 sensor.status_volume_1:

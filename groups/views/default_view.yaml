@@ -7,7 +7,7 @@ entities:
   - group.system
   - group.celestial
   - group.family_presence
-  - group.steam_presence
+  - group.steam
   - group.deliveries
   - group.camera_usps
   - group.waze

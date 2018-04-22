@@ -1,3 +1,3 @@
-name: Steam Presence History
+name: Steam History
 entities:
-  - history_graph.steam_presence
+  - history_graph.steam
