@@ -7,4 +7,4 @@ group.graph_security:
 group.graph_harmony:
   order: 4
 group.graph_steam:
-  order: 4
+  order: 5
