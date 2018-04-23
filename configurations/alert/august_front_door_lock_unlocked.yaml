@@ -1,0 +1,12 @@
+name: August Front Door Lock Is Unlocked
+done_message: August Front Door Lock Is Locked
+entity_id: lock.front_door
+state: 'unlocked'
+repeat:
+  - 30
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

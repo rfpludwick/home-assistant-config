@@ -1,0 +1,11 @@
+name: Arlo Camera Exterior Front Battery Is Low
+done_message: Arlo Camera Exterior Front Battery Is Ok
+entity_id: binary_sensor.arlo_camera_exterior_front_battery_low
+state: 'on'
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

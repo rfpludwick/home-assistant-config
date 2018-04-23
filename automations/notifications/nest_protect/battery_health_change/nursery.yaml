@@ -1,9 +1,0 @@
-alias: "Notification: Nest Protect: Battery Health Change: Nursery"
-initial_state: true
-trigger:
-  - platform: state
-    entity_id: sensor.nursery_nest_protect_battery_health
-action:
-  - service: notify.slack_crit
-    data:
-      message: "Nursery Nest Protect battery health changed to '{{ states.sensor.nursery_nest_protect_battery_health.state }}'"

@@ -1,0 +1,12 @@
+name: Chamberlain Garage Door Is Open
+done_message: Chamberlain Garage Door Is Closed
+entity_id: cover.viergarage
+state: 'open'
+repeat:
+  - 30
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

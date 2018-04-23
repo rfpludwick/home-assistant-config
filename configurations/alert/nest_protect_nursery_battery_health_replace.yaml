@@ -1,0 +1,11 @@
+name: Nest Protect Nursery Battery Needs Replacement
+done_message: Nest Protect Nursery Battery Has Been Replaced
+entity_id: sensor.nursery_nest_protect_battery_health
+state: 'replace'
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

@@ -140,7 +140,7 @@ sensor.attic_bedroom_nest_protect_battery_status:
 sensor.attic_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Attic Bedroom CO
-sensor.attic_bedroom_nest_protect_online:
+binary_sensor.attic_bedroom_nest_protect_connected:
   friendly_name: Nest Protect Attic Bedroom
 sensor.attic_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -152,7 +152,7 @@ sensor.entryway_nest_protect_battery_status:
 sensor.entryway_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Entryway CO
-sensor.entryway_nest_protect_online:
+binary_sensor.entryway_nest_protect_connected:
   friendly_name: Nest Protect Entryway
 sensor.entryway_nest_protect_smoke_status:
   icon: mdi:fire
@@ -164,7 +164,7 @@ sensor.family_room_nest_protect_battery_status:
 sensor.family_room_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Family Room CO
-sensor.family_room_nest_protect_online:
+binary_sensor.family_room_nest_protect_connected:
   friendly_name: Nest Protect Family Room
 sensor.family_room_nest_protect_smoke_status:
   icon: mdi:fire
@@ -176,7 +176,7 @@ sensor.master_bedroom_nest_protect_battery_status:
 sensor.master_bedroom_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Master Bedroom CO
-sensor.master_bedroom_nest_protect_online:
+binary_sensor.master_bedroom_nest_protect_connected:
   friendly_name: Nest Protect Master Bedroom
 sensor.master_bedroom_nest_protect_smoke_status:
   icon: mdi:fire
@@ -188,7 +188,7 @@ sensor.nursery_nest_protect_battery_status:
 sensor.nursery_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Nursery CO
-sensor.nursery_nest_protect_online:
+binary_sensor.nursery_nest_protect_connected:
   friendly_name: Nest Protect Nursery
 sensor.nursery_nest_protect_smoke_status:
   icon: mdi:fire
@@ -200,7 +200,7 @@ sensor.upstairs_nest_protect_battery_status:
 sensor.upstairs_nest_protect_co_status:
   icon: mdi:gas-cylinder
   friendly_name: Nest Protect Upstairs CO
-sensor.upstairs_nest_protect_online:
+binary_sensor.upstairs_nest_protect_connected:
   friendly_name: Nest Protect Upstairs
 sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
