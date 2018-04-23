@@ -11,3 +11,4 @@
 - Setup Input Boolean Controls To Enable/Disable Automations
 - Determine Notifications To Go To ios_parents
 - Alerts
+- Links Group Card
