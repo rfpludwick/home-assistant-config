@@ -9,7 +9,7 @@ trigger:
         entity_id: input_boolean.chore_renew_home_ssl_certificate
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_chores
+    entity_id: input_boolean.automation_chores
     state: "on"
 action:
   - service: input_boolean.turn_off

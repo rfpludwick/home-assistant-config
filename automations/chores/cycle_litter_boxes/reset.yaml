@@ -5,7 +5,7 @@ trigger:
     at: "07:55:00" # So that cleaning the litter boxes can cascade from this chore
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_chores
+    entity_id: input_boolean.automation_chores
     state: "on"
   - condition: template
     value_template: "{{ (((now().strftime('%W') | int) + 1) % 2) }}" # Even week of year

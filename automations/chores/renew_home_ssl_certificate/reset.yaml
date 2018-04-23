@@ -5,7 +5,7 @@ trigger:
     at: "08:00:00"
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_chores
+    entity_id: input_boolean.automation_chores
     state: "on"
   - condition: template
     value_template: "{{ (((now().strftime('%j') | int) % 75) == 0) }}" # Every 75 days

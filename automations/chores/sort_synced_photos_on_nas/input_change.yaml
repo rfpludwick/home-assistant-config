@@ -5,7 +5,7 @@ trigger:
     entity_id: input_boolean.chore_sort_synced_photos_on_nas
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_chores
+    entity_id: input_boolean.automation_chores
     state: "on"
   - condition: template
     value_template: "{{ (states.input_boolean.chore_sort_synced_photos_on_nas.state == 'off') }}"

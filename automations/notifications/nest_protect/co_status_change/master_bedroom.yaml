@@ -5,7 +5,7 @@ trigger:
     entity_id: sensor.master_bedroom_nest_protect_co_status
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_slack_notifications
+    entity_id: input_boolean.automation_slack_notifications
     state: "on"
 action:
   - service: notify.slack_crit

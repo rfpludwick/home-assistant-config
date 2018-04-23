@@ -5,7 +5,7 @@ trigger:
     entity_id: updater.updater
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_slack_notifications
+    entity_id: input_boolean.automation_slack_notifications
     state: "on"
 action:
   - service: notify.email_administrators

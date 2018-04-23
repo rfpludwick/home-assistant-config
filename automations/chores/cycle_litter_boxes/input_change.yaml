@@ -5,7 +5,7 @@ trigger:
     entity_id: input_boolean.chore_cycle_litter_boxes
 condition:
   - condition: state
-    entity_id: binary_sensor.automation_chores
+    entity_id: input_boolean.automation_chores
     state: "on"
   - condition: template
     value_template: "{{ (states.input_boolean.chore_cycle_litter_boxes.state == 'off') }}"
