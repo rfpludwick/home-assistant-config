@@ -11,5 +11,5 @@ action:
   - service: notify.slack_standard
     data:
       message: >
-        UPS has {{ states.sensor.ups.state }} package{% if states.sensor.ups.state > 1 %}s{% endif %}
+        UPS has {{ states.sensor.ups.state }} package{% if (states.sensor.ups.state > 1) %}s{% endif %}
         to deliver today

@@ -1,7 +1,7 @@
 device_class: connectivity
-value_template: "{{ states.binary_sensor.upstairs_nest_protect_online.state }}"
+value_template: "{{ (states.binary_sensor.upstairs_nest_protect_online.state == 'on') }}"
 icon_template: >
-  {% if is_state('binary_sensor.upstairs_nest_protect_online', 'on') %}
+  {% if (states.binary_sensor.upstairs_nest_protect_online.state == 'on') %}
     mdi:wifi
   {% else %}
     mdi:wifi-off
