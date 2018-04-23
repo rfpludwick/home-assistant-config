@@ -8,7 +8,5 @@
 - Setup Dashboard
 - Automations For Family Presence Home/Away?
 - Customize Frontend
-- Setup Input Boolean Controls To Enable/Disable Automations
 - Determine Notifications To Go To ios_parents
-- Alerts
-- Links Group Card
+- Chore For Extinguisher Recharges
