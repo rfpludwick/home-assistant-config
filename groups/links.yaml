@@ -5,7 +5,7 @@ entities:
   - weblink.arlo
   - weblink.chamberlain
   - weblink.synology_nas
-  - weblink.synology_nas__photo_station
+  - weblink.synology_nas_photo_station
   - weblink.alexa
   - weblink.philips_hue
   - weblink.nexia
