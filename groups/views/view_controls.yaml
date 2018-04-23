@@ -4,5 +4,6 @@ icon: mdi:dip-switch
 entities:
   - group.security
   - group.lights
+  - group.chores_due
   - group.harmony
   - group.home_maintenance

@@ -2,6 +2,6 @@ name: Helpers
 view: yes
 icon: mdi:settings
 entities:
+  - group.links
   - group.helpers_alarms
-  - group.chores_due
   - group.helpers_scout_alarm

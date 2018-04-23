@@ -2,7 +2,9 @@ group.security:
   order: 1
 group.lights:
   order: 2
-group.harmony:
+group.chores_due:
   order: 3
-group.home_maintenance:
+group.harmony:
   order: 4
+group.home_maintenance:
+  order: 5

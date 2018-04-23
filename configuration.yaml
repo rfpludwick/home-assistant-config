@@ -36,5 +36,6 @@ sensor: !include_dir_list configurations/sensor/
 sun:
 #usps: !include configurations/usps.yaml
 vacuum: !include_dir_list configurations/vacuum/
+weblink: !include configurations/weblink.yaml
 zone: !include_dir_list configurations/zone/
 zwave: !include configurations/zwave.yaml
