@@ -1,7 +1,7 @@
 name: Nest Protect Upstairs Battery Needs Replacement
 done_message: Nest Protect Upstairs Battery Has Been Replaced
 entity_id: sensor.upstairs_nest_protect_battery_health
-state: 'replace'
+state: "Replace"
 repeat:
   - 60
 can_acknowledge: true

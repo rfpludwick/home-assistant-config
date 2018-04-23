@@ -1,7 +1,7 @@
 name: Chamberlain Garage Door Is Open
 done_message: Chamberlain Garage Door Is Closed
 entity_id: cover.viergarage
-state: 'open'
+state: "open"
 repeat:
   - 30
   - 60
