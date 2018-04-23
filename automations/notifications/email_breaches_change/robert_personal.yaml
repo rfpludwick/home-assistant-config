@@ -4,6 +4,9 @@ trigger:
   - platform: state
     entity_id: !secret breaches_roberts_email
 condition:
+  - condition: state
+    entity_id: binary_sensor.automation_slack_notifications
+    state: "on"
   - condition: template
     value_template: "{{ (trigger.from_state.state != 'unknown') }}"
   - condition: template

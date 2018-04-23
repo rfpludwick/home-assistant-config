@@ -3,6 +3,10 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: sensor.steam_game_playing_robert
+condition:
+  - condition: state
+    entity_id: binary_sensor.automation_slack_notifications
+    state: "on"
 action:
   - service: notify.slack_standard
     data:

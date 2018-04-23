@@ -9,6 +9,10 @@ trigger:
     entity_id: device_tracker.mermaidphone
     from: "home"
     to: "not_home"
+condition:
+  - condition: state
+    entity_id: binary_sensor.automation_slack_notifications
+    state: "on"
 action:
   - service: notify.slack_standard
     data:

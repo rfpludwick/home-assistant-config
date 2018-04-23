@@ -4,6 +4,9 @@ trigger:
   - platform: time
     at: "08:00:00"
 condition:
+  - condition: state
+    entity_id: binary_sensor.automation_chores
+    state: "on"
   - condition: template
     value_template: "{{ (now().day == 28) }}" # 28th day of month (since we cannot determine last day of month)
 action:

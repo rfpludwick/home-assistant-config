@@ -3,6 +3,10 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: updater.updater
+condition:
+  - condition: state
+    entity_id: binary_sensor.automation_slack_notifications
+    state: "on"
 action:
   - service: notify.email_administrators
     data:

@@ -7,6 +7,10 @@ trigger:
       actionName: CHORE_DONE
       actionData:
         entity_id: input_boolean.chore_clean_backyard
+condition:
+  - condition: state
+    entity_id: binary_sensor.automation_chores
+    state: "on"
 action:
   - service: input_boolean.turn_off
     entity_id: input_boolean.chore_clean_backyard

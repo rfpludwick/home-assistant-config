@@ -8,6 +8,9 @@ trigger:
   - platform: time
     at: "19:00:00"
 condition:
+  - condition: state
+    entity_id: binary_sensor.automation_chores
+    state: "on"
   - condition: template
     value_template: "{{ (states.input_boolean.chore_run_affresh_in_washing_machine.state == 'on') }}"
 action:
