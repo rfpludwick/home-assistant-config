@@ -4,7 +4,7 @@ group.celestial:
   order: 2
 group.family_presence:
   order: 3
-group.steam_presence:
+group.steam:
   order: 4
 group.deliveries:
   order: 5

@@ -1,0 +1,9 @@
+alias: "Notification: Steam Game Change: Cait"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.steam_game_playing_cait
+action:
+  - service: notify.slack_standard
+    data:
+      message: "Cait's Steam game changed to '{{ states.sensor.steam_game_playing_cait.state }}'"

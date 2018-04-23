@@ -1,6 +1,7 @@
 name: Wifi Presence (Router Reporting)
 entities:
-  - device_tracker.amazon_echo
+  - device_tracker.amazon_echo # Family Room
+  - device_tracker.amazon30f1dfd2d # Garage
   - device_tracker.amazon_echo_dot__kitchen
   - device_tracker.amazon_echo_dot__loft
   - device_tracker.amazon_echo_dot__master_bedroom

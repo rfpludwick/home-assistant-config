@@ -55,7 +55,7 @@ sensor.ups:
 ## Family Presence
 device_tracker.mermaidphone:
   entity_picture: "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100/p100x100/26195799_864093947174_2709852252178792747_n.jpg?_nc_cat=0&oh=1f9375f41522bb3375a371cfb01ad2b5&oe=5B6B0315"
-  friendly_name: Caitlin
+  friendly_name: Cait
 device_tracker.vierhapad:
   icon: mdi:tablet-ipad
   friendly_name: Home Assistant iPad
@@ -67,6 +67,10 @@ device_tracker.lolli:
   friendly_name: Olivia
 
 ## Renames Not Picked Up
+device_tracker.amazon_echo:
+  friendly_name: Amazon Echo - Family Room
+device_tracker.amazon30f1dfd2d:
+  friendly_name: Amazon Echo - Garage
 device_tracker.amazon_echo_dot__felicitys_bedroom:
   friendly_name: Amazon Echo Dot - Nursery
 device_tracker.c8b5b71c3104:
@@ -89,8 +93,8 @@ history_graph.harmony:
   friendly_name: Harmony History
 history_graph.security:
   friendly_name: Security History
-history_graph.steam_presence:
-  friendly_name: Steam Presence History
+history_graph.steam:
+  friendly_name: Steam History
 
 # Home Assistant
 sensor.connected_clients:
@@ -201,6 +205,14 @@ sensor.upstairs_nest_protect_online:
 sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
   friendly_name: Nest Protect Upstairs Smoke
+
+# Steam
+sensor.steam_game_playing_robert:
+  icon: mdi:gamepad-variant
+  friendly_name: "Robert's Current Game"
+sensor.steam_game_playing_cait:
+  icon: mdi:gamepad-variant
+  friendly_name: "Cait's Current Game"
 
 # Synology NAS
 sensor.status_volume_1:
