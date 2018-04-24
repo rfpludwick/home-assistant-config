@@ -1,5 +1,5 @@
-name: Arlo Camera Exterior Front Battery Is Low
-done_message: Arlo Camera Exterior Front Battery Is Ok
+name: Arlo Camera Exterior Front Battery is low
+done_message: Arlo Camera Exterior Front Battery is ok
 entity_id: binary_sensor.arlo_camera_exterior_front_battery_low
 state: "on"
 repeat:

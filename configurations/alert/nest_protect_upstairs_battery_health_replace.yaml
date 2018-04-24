@@ -1,5 +1,5 @@
-name: Nest Protect Upstairs Battery Needs Replacement
-done_message: Nest Protect Upstairs Battery Has Been Replaced
+name: Nest Protect Upstairs Battery needs replacement
+done_message: Nest Protect Upstairs Battery is ok
 entity_id: sensor.upstairs_nest_protect_battery_health
 state: "Replace"
 repeat:

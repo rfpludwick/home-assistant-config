@@ -1,5 +1,5 @@
-name: August Front Door Lock Is Unlocked
-done_message: August Front Door Lock Is Locked
+name: August Front Door Lock is unlocked
+done_message: August Front Door Lock is locked
 entity_id: lock.front_door
 state: "unlocked"
 repeat:
