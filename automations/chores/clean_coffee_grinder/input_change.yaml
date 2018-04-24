@@ -4,6 +4,9 @@ trigger:
   - platform: state
     entity_id: input_boolean.chore_clean_coffee_grinder
 condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
   - condition: template
     value_template: "{{ (states.input_boolean.chore_clean_coffee_grinder.state == 'off') }}"
 action:

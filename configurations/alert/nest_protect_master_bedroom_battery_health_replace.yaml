@@ -1,0 +1,11 @@
+name: Nest Protect Master Bedroom Battery needs replacement
+done_message: Nest Protect Master Bedroom Battery is ok
+entity_id: sensor.master_bedroom_nest_protect_battery_health
+state: "Replace"
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

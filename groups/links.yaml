@@ -1,0 +1,12 @@
+name: Links
+entities:
+  - weblink.unifi_controller
+  - weblink.scout_alarm
+  - weblink.arlo
+  - weblink.chamberlain
+  - weblink.synology_nas
+  - weblink.synology_nas_photo_station
+  - weblink.alexa
+  - weblink.philips_hue
+  - weblink.nexia
+  - weblink.nest

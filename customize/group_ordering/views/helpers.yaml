@@ -1,6 +1,8 @@
-group.helpers_alarms:
+group.links:
   order: 1
-group.chores_due:
+group.helpers_alarms:
   order: 2
-group.helpers_scout_alarm:
+group.automation_toggles:
   order: 3
+group.helpers_scout_alarm:
+  order: 4

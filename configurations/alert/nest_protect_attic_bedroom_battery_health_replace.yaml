@@ -1,0 +1,11 @@
+name: Nest Protect Attic Bedroom Battery needs replacement
+done_message: Nest Protect Attic Bedroom Battery is ok
+entity_id: sensor.attic_bedroom_nest_protect_battery_health
+state: "Replace"
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit

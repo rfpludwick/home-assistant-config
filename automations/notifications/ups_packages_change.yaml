@@ -3,9 +3,13 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: sensor.ups
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_slack_notifications
+    state: "on"
 action:
   - service: notify.slack_standard
     data:
       message: >
-        UPS has {{ states.sensor.ups.state }} package{% if states.sensor.ups.state > 1 %}s{% endif %}
+        UPS has {{ states.sensor.ups.state }} package{% if (states.sensor.ups.state > 1) %}s{% endif %}
         to deliver today

@@ -1,0 +1,11 @@
+name: Nest Protect Entryway Battery needs replacement
+done_message: Nest Protect Entryway Battery is ok
+entity_id: sensor.entryway_nest_protect_battery_health
+state: "Replace"
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - ios_parents
+  - slack_crit
