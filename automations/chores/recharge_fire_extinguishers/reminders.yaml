@@ -1,0 +1,29 @@
+alias: "Chore: Recharge Fire Extinguishers: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_recharge_fire_extinguishers.state == 'on') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_recharge_fire_extinguishers
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Recharge Fire Extinguishers"
+      message: "Get the fire extinguishers recharged"
+      notification_id: chore_recharge_fire_extinguishers
+  - service: notify.ios_parents
+    data_template:
+      title: "Chore: Recharge Fire Extinguishers"
+      message: "Get the fire extinguishers recharged"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_recharge_fire_extinguishers
