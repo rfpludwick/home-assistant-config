@@ -8,7 +8,7 @@ condition:
     entity_id: input_boolean.automation_chores
     state: "on"
   - condition: template
-    value_template: "{{ (now().day == 28) }}" # 28th day of month (since we cannot determine last day of month)
+    value_template: "{{ ((((as_timestamp(now()) + (24 * 60 * 60)) | timestamp_custom('%d', true)) | int) == 1) }}" # Last day of month (tomorrow is day 1)
 action:
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_update_budget
