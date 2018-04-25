@@ -11,9 +11,9 @@ sensor.battery_level_exterior_back:
   friendly_name: Arlo Exterior Back
 sensor.battery_level_exterior_front:
   friendly_name: Arlo Exterior Front
-sensor.signal_strength_exterior_back:
+sensor.signal_strength_exterior_back_percentage:
   friendly_name: Arlo Exterior Back
-sensor.signal_strength_exterior_front:
+sensor.signal_strength_exterior_front_percentage:
   friendly_name: Arlo Exterior Front
 
 # August Lock
