@@ -5,9 +5,9 @@ entities:
   - alert.august_front_door_lock_battery_low
   - alert.august_front_door_lock_unlocked
   - alert.chamberlain_garage_door_open
-  - alert.nest_protect_attic_bedroom_battery_health
-  - alert.nest_protect_entryway_battery_health
-  - alert.nest_protect_family_room_battery_health
-  - alert.nest_protect_master_bedroom_battery_health
-  - alert.nest_protect_nursery_battery_health
-  - alert.nest_protect_upstairs_battery_health
+  - alert.nest_protect_attic_bedroom_battery_health_replace
+  - alert.nest_protect_entryway_battery_health_replace
+  - alert.nest_protect_family_room_battery_health_replace
+  - alert.nest_protect_master_bedroom_battery_health_replace
+  - alert.nest_protect_nursery_battery_health_replace
+  - alert.nest_protect_upstairs_battery_health_replace
