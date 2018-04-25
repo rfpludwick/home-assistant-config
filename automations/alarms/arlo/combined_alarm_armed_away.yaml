@@ -1,0 +1,14 @@
+alias: "Alarms: Arlo: Combined Alarm Armed Away"
+trigger:
+  - platform: state
+    entity_id: alarm_control_panel.combined_alarm
+    to: armed_away
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_combined_alarm
+    state: "on"
+  - condition: template
+    value_template: "{{ (states.alarm_control_panel.vierarlo.state != 'armed_away') }}"
+action:
+  - service: alarm_control_panel.alarm_arm_away
+    entity_id: alarm_control_panel.vierarlo
