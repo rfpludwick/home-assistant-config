@@ -10,3 +10,4 @@
 - Customize Frontend
 - Determine Notifications To Go To ios_parents
 - Fix Alarm Scripts
+- Scout Alarm Cancel Alarm Call HA
