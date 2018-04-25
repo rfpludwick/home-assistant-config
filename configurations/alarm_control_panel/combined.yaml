@@ -1,0 +1,15 @@
+platform: manual
+name: combined_alarm
+code: !secret alarm_code
+pending_time: 180 # 3 minutes
+delay_time: 30
+trigger_time: 300 # 5 minutes
+disarm_after_trigger: true
+disarmed:
+  trigger_time: 0 # Never trigger the alarm from disarmed
+armed_home:
+  pending_time: 0 # Enable mode immediately
+  delay_time: 0 # Sound alarm immediately
+armed_night:
+  pending_time: 0 # Enable mode immediately
+  delay_time: 0 # Sound alarm immediately

@@ -1,10 +1,48 @@
 # Alarm Control Panels
+alarm_control_panel.combined_alarm:
+  icon: mdi:security
+  friendly_name: Combined Alarm
 alarm_control_panel.vierarlo:
   icon: mdi:camcorder-box
   friendly_name: Arlo
 alarm_control_panel.scout_alarm:
   icon: mdi:security-home
   friendly_name: Scout Alarm
+
+# Alerts
+alert.arlo_camera_exterior_back_battery_low:
+  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
+  icon: mdi:battery-alert
+alert.arlo_camera_exterior_front_battery_low:
+  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
+  icon: mdi:battery-alert
+alert.august_front_door_lock_battery_low:
+  friendly_name: "August Front Door Lock: Battery Low"
+  icon: mdi:battery-alert
+alert.august_front_door_lock_unlocked:
+  friendly_name: "August Front Door Lock: Unlocked"
+  icon: mdi:lock-alert
+alert.chamberlain_garage_door_open:
+  friendly_name: "Chamberlain Garage Door: Open"
+  icon: mdi:garage-alert
+alert.nest_protect_attic_bedroom_battery_health_replace:
+  friendly_name: "Nest Protect: Attic Bedroom: Replace Battery"
+  icon: mdi:battery-alert
+alert.nest_protect_entryway_battery_health_replace:
+  friendly_name: "Nest Protect: Entryway: Replace Battery"
+  icon: mdi:battery-alert
+alert.nest_protect_family_room_battery_health_replace:
+  friendly_name: "Nest Protect: Family Room: Replace Battery"
+  icon: mdi:battery-alert
+alert.nest_protect_master_bedroom_battery_health_replace:
+  friendly_name: "Nest Protect: Master Bedroom: Replace Battery"
+  icon: mdi:battery-alert
+alert.nest_protect_nursery_battery_health_replace:
+  friendly_name: "Nest Protect: Nursery: Replace Battery"
+  icon: mdi:battery-alert
+alert.nest_protect_upstairs_battery_health_replace:
+  friendly_name: "Nest Protect: Upstairs: Replace Battery"
+  icon: mdi:battery-alert
 
 # Arlo (Excluding Alarm Control Panel)
 sensor.battery_level_exterior_back:

@@ -4,7 +4,9 @@ group.lights:
   order: 2
 group.chores_due:
   order: 3
-group.harmony:
+group.alerts:
   order: 4
-group.home_maintenance:
+group.harmony:
   order: 5
+group.home_maintenance:
+  order: 6
