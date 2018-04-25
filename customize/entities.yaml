@@ -1,4 +1,7 @@
 # Alarm Control Panels
+alarm_control_panel.combined_alarm:
+  icon: mdi:security
+  friendly_name: Combined Alarm
 alarm_control_panel.vierarlo:
   icon: mdi:camcorder-box
   friendly_name: Arlo
