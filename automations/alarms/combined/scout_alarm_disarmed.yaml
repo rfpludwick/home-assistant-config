@@ -9,7 +9,7 @@ condition:
     state: "on"
   - condition: state # Ensure that we didn't just mark Scout Alarm disarmed as part of our startup activities
     entity_id: counter.startup_activities
-    state: 0
+    state: "0"
   - condition: template
     value_template: "{{ (states.alarm_control_panel.combined_alarm.state != 'disarmed') }}"
 action:
