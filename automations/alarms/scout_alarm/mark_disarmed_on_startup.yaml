@@ -1,4 +1,4 @@
-alias: Scout Alarm Mark Disarmed On Startup
+alias: "Alarms: Scout Alarm: Mark Disarmed On Startup"
 initial_state: true
 trigger:
   - platform: homeassistant

@@ -1,4 +1,4 @@
-alias: "Notification: Arlo: Mode Change"
+alias: "Notification: Alarms: Arlo: Mode Change"
 initial_state: true
 trigger:
   - platform: state
