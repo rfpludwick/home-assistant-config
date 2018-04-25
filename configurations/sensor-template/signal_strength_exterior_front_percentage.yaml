@@ -1,8 +1,8 @@
-value_template: "{{ ((states.sensor.signal_strength_exterior_front.state | int) * 0.25) }}"
+value_template: "{{ ((states.sensor.signal_strength_exterior_front.state | int) * 25) }}"
 unit_of_measurement: "%"
 icon_template: >
   {% if (states.sensor.signal_strength_exterior_front.state == "0") %}
-    mdi:wifi-strength-outline
+    mdi:signal-cellular-outline
   {% else %}
-    mdi:wifi-strength-{{ states.sensor.signal_strength_exterior_front.state }}
+    mdi:signal-cellular-{{ ((states.sensor.signal_strength_exterior_front.state | int) - 1) }}
   {% endif %}
