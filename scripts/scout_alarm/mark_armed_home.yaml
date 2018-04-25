@@ -1,0 +1,3 @@
+scout_alarm_mark_armed_home:
+  sequence:
+    - service: shell_command.scout_alarm_mark_armed_home

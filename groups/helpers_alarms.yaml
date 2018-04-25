@@ -1,7 +1,0 @@
-name: Alarms
-control: hidden
-entities:
-  - script.alarms_disarm
-  - script.alarms_arm_home
-  - script.alarms_arm_away
-  - script.alarms_arm_night
