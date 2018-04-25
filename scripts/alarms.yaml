@@ -24,7 +24,6 @@ alarms_arm_away:
       data:
         entity_id:
           - script.alarms_arm_away_arlo
-          - script.alarms_arm_away_lights
 alarms_arm_away_arlo:
   sequence:
     - delay:
@@ -32,35 +31,6 @@ alarms_arm_away_arlo:
     - service: alarm_control_panel.alarm_arm_away
       data:
         entity_id: alarm_control_panel.vierarlo
-alarms_arm_away_lights:
-  sequence:
-    - service: light.turn_on
-      data:
-        entity_id: group.lights
-        color_name: red
-        brightness_pct: 100
-    - wait_template: "{{ is_state('group.lights', 'on') }}"
-    - service: light.turn_off
-      data:
-        entity_id: group.lights
-    - wait_template: "{{ is_state('group.lights', 'off') }}"
-    - service: light.turn_on
-      data:
-        entity_id: group.lights
-        brightness_pct: 100
-    - wait_template: "{{ is_state('group.lights', 'on') }}"
-    - service: light.turn_off
-      data:
-        entity_id: group.lights
-    - wait_template: "{{ is_state('group.lights', 'off') }}"
-    - service: light.turn_on
-      data:
-        entity_id: group.lights
-        brightness_pct: 100
-    - wait_template: "{{ is_state('group.lights', 'on') }}"
-    - service: light.turn_off
-      data:
-        entity_id: group.lights
 
 # Home
 alarms_arm_home:
@@ -95,4 +65,3 @@ alarms_kill_away_timers:
       data:
          entity_id:
            - script.alarms_arm_away_arlo
-           - script.alarms_arm_away_lights
