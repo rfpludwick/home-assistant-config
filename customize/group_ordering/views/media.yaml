@@ -6,3 +6,5 @@ group.player_apple_tv:
   order: 3
 group.player_spotify:
   order: 4
+group.steam:
+  order: 5

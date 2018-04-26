@@ -1,3 +1,0 @@
-name: Arlo
-entities:
-  - sensor.arlo_cameras
