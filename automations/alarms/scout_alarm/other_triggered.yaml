@@ -1,8 +1,11 @@
-alias: "Alarms: Scout Alarm: Combined Alarm Triggered"
+alias: "Alarms: Scout Alarm: Other Triggered"
 trigger:
   - platform: state
     entity_id: alarm_control_panel.combined_alarm
     to: triggered
+  - platform: state
+    entity_id: input_boolean.alarm_scout_alarm_triggered
+    state: "on"
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
@@ -10,6 +13,8 @@ condition:
   - condition: template
     value_template: "{{ (states.alarm_control_panel.scout_alarm.state != 'triggered') }}"
 action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.alarm_scout_alarm_triggered
   - service: alarm_control_panel.trigger_alarm
     entity_id: alarm_control_panel.scout_alarm
     data:
