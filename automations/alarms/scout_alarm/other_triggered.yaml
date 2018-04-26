@@ -5,7 +5,7 @@ trigger:
     to: triggered
   - platform: state
     entity_id: input_boolean.alarm_scout_alarm_triggered
-    state: "on"
+    to: "on"
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
