@@ -3,9 +3,6 @@ trigger:
   - platform: state
     entity_id: alarm_control_panel.combined_alarm
     to: triggered
-  - platform: state
-    entity_id: input_boolean.alarm_scout_alarm_triggered
-    to: "on"
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
@@ -13,9 +10,7 @@ condition:
   - condition: template
     value_template: "{{ (states.alarm_control_panel.scout_alarm.state != 'triggered') }}"
 action:
-  - service: input_boolean.turn_off
-    entity_id: input_boolean.alarm_scout_alarm_triggered
-  - service: alarm_control_panel.trigger_alarm
+  - service: alarm_control_panel.alarm_trigger
     entity_id: alarm_control_panel.scout_alarm
     data:
       code: !secret alarm_code
