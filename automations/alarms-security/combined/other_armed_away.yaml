@@ -1,19 +1,19 @@
-alias: "Alarms: Combined Alarm: Other Armed Night"
+alias: "Alarms: Combined Alarm: Other Armed Away"
 trigger:
   - platform: state
     entity_id: alarm_control_panel.vierarlo
-    to: armed_night
+    to: armed_away
   - platform: state
     entity_id: alarm_control_panel.scout_alarm
-    to: armed_night
+    to: armed_away
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
-    state: "on"
+    state: on
   - condition: template
-    value_template: "{{ (states.alarm_control_panel.combined_alarm.state != 'armed_night') }}"
+    value_template: "{{ (states.alarm_control_panel.combined_alarm.state != 'armed_away') }}"
 action:
-  - service: alarm_control_panel.alarm_arm_night
+  - service: alarm_control_panel.alarm_arm_away
     entity_id: alarm_control_panel.combined_alarm
     data:
       code: !secret alarm_code

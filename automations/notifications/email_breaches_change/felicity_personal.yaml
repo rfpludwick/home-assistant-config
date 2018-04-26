@@ -6,7 +6,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
-    state: "on"
+    state: on
   - condition: template
     value_template: "{{ (trigger.from_state.state != 'unknown') }}"
   - condition: template

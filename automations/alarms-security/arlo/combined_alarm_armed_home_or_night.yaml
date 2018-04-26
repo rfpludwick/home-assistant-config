@@ -1,14 +1,17 @@
-alias: "Alarms: Arlo: Combined Alarm Armed Home"
+alias: "Alarms: Arlo: Combined Alarm Armed Home or Night"
 trigger:
   - platform: state
     entity_id: alarm_control_panel.combined_alarm
     to: armed_home
+  - platform: state
+    entity_id: alarm_control_panel.combined_alarm
+    to: armed_night
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
-    state: "on"
+    state: on
   - condition: template
     value_template: "{{ (states.alarm_control_panel.vierarlo.state != 'armed_home') }}"
 action:
-  - service: alarm_control_panel.alarm_arm_home
+  - service: alarm_control_panel.alarm_arm_home # Arlo in Home Assistant doesn't have a night mode
     entity_id: alarm_control_panel.vierarlo

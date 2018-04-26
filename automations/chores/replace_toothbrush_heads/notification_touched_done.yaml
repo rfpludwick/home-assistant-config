@@ -10,7 +10,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
 action:
   - service: input_boolean.turn_off
     entity_id: input_boolean.chore_replace_toothbrush_heads
