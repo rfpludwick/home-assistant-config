@@ -1,7 +1,7 @@
 name: August Front Door Lock Battery is low
 done_message: August Front Door Lock Battery is ok
 entity_id: binary_sensor.front_door_lock_battery_low
-state: on
+state: "on"
 repeat:
   - 60
 can_acknowledge: true

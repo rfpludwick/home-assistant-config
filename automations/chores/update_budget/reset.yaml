@@ -6,7 +6,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ ((((as_timestamp(now()) + (24 * 60 * 60)) | timestamp_custom('%d', true)) | int) == 1) }}" # Last day of month (tomorrow is day 1)
 action:

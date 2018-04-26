@@ -10,7 +10,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ (states.input_boolean.chore_download_sensitive_documents.state == 'on') }}"
 action:

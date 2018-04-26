@@ -6,7 +6,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ (states.alarm_control_panel.vierarlo.state != 'triggered') }}"
 action:

@@ -6,7 +6,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ (now().month == 5) }}" # May
   - condition: template
