@@ -9,4 +9,3 @@
 - Automations For Family Presence Home/Away?
 - Customize Frontend
 - Determine Notifications To Go To ios_parents
-- Fix Alarm Scripts (Manual Alarm Control Panel?)
