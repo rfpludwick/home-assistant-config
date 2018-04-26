@@ -8,4 +8,5 @@
 - Setup Dashboard
 - Automations For Family Presence Home/Away?
 - Customize Frontend
+- Develop Floorplan
 - Determine Notifications To Go To ios_parents
