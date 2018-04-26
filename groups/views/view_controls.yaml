@@ -2,9 +2,7 @@ name: Controls
 view: yes
 icon: mdi:dip-switch
 entities:
-  - group.security
-  - group.lights
+  - group.alarms
   - group.chores_due
-  - group.alerts
   - group.harmony
   - group.home_maintenance

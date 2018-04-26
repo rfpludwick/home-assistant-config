@@ -1,10 +1,11 @@
-name: Technology Monitoring
+name: Technology
 view: yes
 icon: mdi:chip
 entities:
   - group.batteries
   - group.synology_nas
   - group.gps_presence
+  - group.signals
   - group.wifi_presence_self
   - group.wifi_presence_router
   - group.bluetooth_presence

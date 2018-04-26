@@ -1,10 +1,7 @@
-alias: "Alarms: Combined Alarm: Other Triggered"
+alias: "Alarms: Combined Alarm: Arlo Triggered"
 trigger:
   - platform: state
     entity_id: alarm_control_panel.vierarlo
-    to: triggered
-  - platform: state
-    entity_id: alarm_control_panel.scout_alarm
     to: triggered
 condition:
   - condition: state

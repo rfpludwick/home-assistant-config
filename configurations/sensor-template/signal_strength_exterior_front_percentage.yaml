@@ -1,0 +1,8 @@
+value_template: "{{ ((states.sensor.signal_strength_exterior_front.state | int) * 25) }}"
+unit_of_measurement: "%"
+icon_template: >
+  {% if (states.sensor.signal_strength_exterior_front.state == "0") %}
+    mdi:signal-cellular-outline
+  {% else %}
+    mdi:signal-cellular-{{ ((states.sensor.signal_strength_exterior_front.state | int) - 1) }}
+  {% endif %}

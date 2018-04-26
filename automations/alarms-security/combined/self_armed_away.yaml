@@ -1,0 +1,16 @@
+alias: "Alarms: Combined Alarm: Self Armed Away"
+trigger:
+  - platform: state
+    entity_id: alarm_control_panel.combined_alarm
+    to: armed_away
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_combined_alarm
+    state: "on"
+action:
+  - delay:
+      minutes: 5
+  - service: cover.close_cover
+    entity_id: cover.viergarage
+  - service: lock.lock
+    entity_id: lock.front_door
