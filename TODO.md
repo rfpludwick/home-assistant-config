@@ -7,5 +7,8 @@
 - Figure Out Family Room Gas Stove
 - Setup Dashboard
 - Automations For Family Presence Home/Away?
-- Develop Floorplan
 - Determine Notifications To Go To ios_parents
+
+# Considerations
+
+- Develop Floorplan
