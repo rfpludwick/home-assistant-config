@@ -6,6 +6,7 @@
 .ios.conf
 .spotify-token-cache
 .uuid
+_ecosystem/appdaemon/secrets.yaml
 bravia.conf
 harmony*.conf
 home-assistant.log

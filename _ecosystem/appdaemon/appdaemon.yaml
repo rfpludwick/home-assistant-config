@@ -1,0 +1,18 @@
+log:
+  accessfile: /var/log/appdaemon/access.log
+  errorfile: /var/log/appdaemon/error.log
+  logfile: /var/log/appdaemon/appdaemon.log
+  log_generations: 3
+  log_size: 1000000
+appdaemon:
+  threads: 10
+  api_port: 5000
+  api_key: !secret api_key
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret hass_url
+      ha_key: !secret hass_key
+      cert_path: <path/to/root/CA/cert>
+      cert_verify: True
+      namespace: default
