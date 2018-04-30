@@ -13,6 +13,5 @@ appdaemon:
       type: hass
       ha_url: !secret hass_url
       ha_key: !secret hass_key
-      cert_path: <path/to/root/CA/cert>
       cert_verify: True
       namespace: default
