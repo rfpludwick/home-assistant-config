@@ -1,11 +1,17 @@
-title: Hello Panel
+title: Main
 widget_dimensions: [120, 120]
+widget_size: [1, 1]
 widget_margins: [5, 5]
 columns: 8
 
-label:
-  widget_type: label
-  text: Hello World
+global_parameters:
+    use_comma: 0
+    precision: 1
+    use_hass_icon: 1
+    namespace: default
+    devices:
+      media_player:
+        step: 5
 
 layout:
-  - label(2x2)
+  - clock.clock(2x1), weather.weather(2x2)
