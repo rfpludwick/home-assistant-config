@@ -1,0 +1,17 @@
+alias: "Chore: Run Shredder Lubricant: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "06:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: template
+    value_template: "{{ (now().day == 20) }}" # 20th day of month
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_run_shredder_lubricant
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Run Shredder Lubricant' is due today"

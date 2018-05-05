@@ -1,0 +1,22 @@
+alias: "Chore: Run Shredder Lubricant: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_run_shredder_lubricant
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: template
+    value_template: "{{ (states.input_boolean.chore_run_shredder_lubricant.state == 'off') }}"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_run_shredder_lubricant
+  - service: notify.ios_parents
+    data:
+      title: "Chore: Run Shredder Lubricant"
+      message: "The shredder has been lubricated... TWSS"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Run Shredder Lubricant' has been completed"
