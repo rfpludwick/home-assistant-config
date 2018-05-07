@@ -6,6 +6,7 @@
 - Figure Out Family Room Gas Stove
 - Setup Dashboard
 - Determine Notifications To Go To ios_parents
+- Scripts To "Start Day" and "End Day"
 
 # Considerations
 
