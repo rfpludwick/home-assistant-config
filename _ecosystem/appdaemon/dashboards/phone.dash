@@ -17,44 +17,44 @@ clock:
     widget_type: clock
 
 family_room_ceiling_light:
-	widget_type: light
-	entity: light.family_room_ceiling
-	title: Family Room
-	on_attributes:
-		brightness: 100
-		color_temp: 250
+    widget_type: light
+    entity: light.family_room_ceiling
+    title: Family Room
+    on_attributes:
+        brightness: 100
+        color_temp: 250
 
 loft_lamp_light:
-	widget_type: light
-	entity: light.loft_lamp
-	title: Loft
-	on_attributes:
-		brightness: 100
-		color_temp: 250
+    widget_type: light
+    entity: light.loft_lamp
+    title: Loft
+    on_attributes:
+        brightness: 100
+        color_temp: 250
 
 master_bedroom_ceiling_light:
-	widget_type: light
-	entity: light.master_bedroom_ceiling
-	title: Master Bed.
-	on_attributes:
-		brightness: 100
-		color_temp: 250
+    widget_type: light
+    entity: light.master_bedroom_ceiling
+    title: Master Bed.
+    on_attributes:
+        brightness: 100
+        color_temp: 250
 
 nursery_ceiling_light:
-	widget_type: light
-	entity: light.nursery_ceiling
-	title: Nursery Ceiling
-	on_attributes:
-		brightness: 100
-		color_temp: 250
+    widget_type: light
+    entity: light.nursery_ceiling
+    title: Nursery Ceiling
+    on_attributes:
+        brightness: 100
+        color_temp: 250
 
 nursery_lamp_light:
-	widget_type: light
-	entity: light.nursery_lamp
-	title: Nursery Lamp
-	on_attributes:
-		brightness: 100
-		color_temp: 250
+    widget_type: light
+    entity: light.nursery_lamp
+    title: Nursery Lamp
+    on_attributes:
+        brightness: 100
+        color_temp: 250
 
 layout:
   - spacer, family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light
