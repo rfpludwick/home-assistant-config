@@ -1,0 +1,17 @@
+title: Phone
+widget_dimensions: [60, 60]
+widget_size: [1, 1]
+widget_margins: [3, 3]
+columns: 3
+
+global_parameters:
+    use_comma: 0
+    precision: 1
+    use_hass_icon: 1
+    namespace: default
+    devices:
+      media_player:
+        step: 5
+
+layout:
+  - clock.clock(1x1)

@@ -1,4 +1,4 @@
-title: Main
+title: Tablet
 widget_dimensions: [120, 120]
 widget_size: [1, 1]
 widget_margins: [5, 5]
@@ -14,4 +14,4 @@ global_parameters:
         step: 5
 
 layout:
-  - clock.clock(2x1), weather.weather(2x2)
+  - clock.clock(2x1)
