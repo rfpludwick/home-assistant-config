@@ -1,5 +1,5 @@
 title: Phone
-widget_dimensions: [100, 100]
+widget_dimensions: [100, 120]
 widget_size: [1, 1]
 widget_margins: [3, 3]
 columns: 4
@@ -13,6 +13,9 @@ global_parameters:
       media_player:
         step: 5
 
+clock:
+    widget_type: clock
+
 layout:
-  - clock.clock, light.family_room_ceiling, light.loft_lamp, light.master_bedroom_ceiling
+  - clock, light.family_room_ceiling, light.loft_lamp, light.master_bedroom_ceiling
   - spacer, spacer, light.nursery_ceiling, light.nursery_lamp
