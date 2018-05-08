@@ -1,8 +1,8 @@
 title: Phone
-widget_dimensions: [60, 60]
+widget_dimensions: [80, 80]
 widget_size: [1, 1]
 widget_margins: [3, 3]
-columns: 3
+columns: 4
 
 global_parameters:
     use_comma: 0
@@ -14,6 +14,5 @@ global_parameters:
         step: 5
 
 layout:
-  - clock.clock
-  - light.family_room_ceiling, light.loft_lamp, light.master_bedroom_celing
-  - light.nursery_ceiling, light.nursery_lamp, spacer
+  - clock.clock, light.family_room_ceiling, light.loft_lamp, light.master_bedroom_ceiling
+  - spacer, spacer, light.nursery_ceiling, light.nursery_lamp
