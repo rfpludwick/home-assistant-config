@@ -14,4 +14,4 @@ global_parameters:
         step: 5
 
 layout:
-  - clock.clock(1x1)
+  - clock.clock(1x1), clock.clock(1x1), clock.clock(1x1)
