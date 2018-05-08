@@ -14,4 +14,6 @@ global_parameters:
         step: 5
 
 layout:
-  - clock.clock(1x1), clock.clock(1x1), clock.clock(1x1)
+  - clock.clock
+  - light.family_room_ceiling, light.loft_lamp, light.master_bedroom_celing
+  - light.nursery_ceiling, light.nursery_lamp, spacer
