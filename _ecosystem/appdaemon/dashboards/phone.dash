@@ -4,14 +4,10 @@ widget_size: [1, 1]
 widget_margins: [3, 3]
 columns: 4
 
-global_parameters:
-    use_comma: 0
-    precision: 1
-    use_hass_icon: 1
-    namespace: default
-    devices:
-      media_player:
-        step: 5
+combined_alarm:
+    widget_type: alarm
+    entity: alarm_control_panel.combined_alarm
+    title: Alarm
 
 clock:
     widget_type: clock
@@ -22,7 +18,17 @@ family_room_ceiling_light:
     title: Family Room
     on_attributes:
         brightness: 100
-        color_temp: 250
+        color_temp: 435
+
+front_door_lock:
+    widget_type: lock
+    entity: lock.front_door
+    title: Front Door
+
+garage_door:
+    widget_type: cover
+    entity: cover.viergarage
+    title: Garage Door
 
 loft_lamp_light:
     widget_type: light
@@ -30,15 +36,15 @@ loft_lamp_light:
     title: Loft
     on_attributes:
         brightness: 100
-        color_temp: 250
+        color_temp: 435
 
 master_bedroom_ceiling_light:
     widget_type: light
     entity: light.master_bedroom_ceiling
-    title: Master Bed.
+    title: Master Bed
     on_attributes:
         brightness: 100
-        color_temp: 250
+        color_temp: 435
 
 nursery_ceiling_light:
     widget_type: light
@@ -46,7 +52,7 @@ nursery_ceiling_light:
     title: Nursery Ceiling
     on_attributes:
         brightness: 100
-        color_temp: 250
+        color_temp: 435
 
 nursery_lamp_light:
     widget_type: light
@@ -54,7 +60,7 @@ nursery_lamp_light:
     title: Nursery Lamp
     on_attributes:
         brightness: 100
-        color_temp: 250
+        color_temp: 435
 
 layout:
   - spacer, family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light
