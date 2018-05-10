@@ -4,6 +4,13 @@ widget_size: [1, 1]
 widget_margins: [3, 3]
 columns: 4
 
+cait_presence:
+    widget_type: device_tracker
+    title: Cait
+    device: mermaidphone
+    icon_on: mdi-gender-female
+    icon_off: mdi-gender-female
+
 clock:
     widget_type: clock
     time_style: "color: #00dd00; font-size: 250%;"
@@ -25,6 +32,8 @@ family_room_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+    level_up_style: "font-size: 175%; margin-left: -2.5%;"
+    level_down_style: "font-size: 175%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -38,6 +47,8 @@ garage_door:
     widget_type: cover
     entity: cover.viergarage
     title: Garage Door
+    icon_on: mdi-garage-open
+    icon_off: mdi-garage
 
 loft_lamp_light:
     widget_type: light
@@ -45,11 +56,22 @@ loft_lamp_light:
     title: Loft
     icon_on: mdi-lamp
     icon_off: mdi-lamp
+    icon_up: mdi-arrow-up-bold-hexagon-outline
+    icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+    level_up_style: "font-size: 175%; margin-left: -2.5%;"
+    level_down_style: "font-size: 175%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
+
+olivia_presence:
+    widget_type: device_tracker
+    title: Olivia
+    device: lolli
+    icon_on: mdi-gender-female
+    icon_off: mdi-gender-female
 
 master_bedroom_ceiling_light:
     widget_type: light
@@ -57,8 +79,12 @@ master_bedroom_ceiling_light:
     title: Master Bed
     icon_on: mdi-lightbulb
     icon_off: mdi-lightbulb
+    icon_up: mdi-arrow-up-bold-hexagon-outline
+    icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+    level_up_style: "font-size: 175%; margin-left: -2.5%;"
+    level_down_style: "font-size: 175%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -66,11 +92,15 @@ master_bedroom_ceiling_light:
 nursery_ceiling_light:
     widget_type: light
     entity: light.nursery_ceiling
-    title: Nursery Ceiling
+    title: Nursery
     icon_on: mdi-lightbulb
     icon_off: mdi-lightbulb
+    icon_up: mdi-arrow-up-bold-hexagon-outline
+    icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+    level_up_style: "font-size: 175%; margin-left: -2.5%;"
+    level_down_style: "font-size: 175%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -81,13 +111,25 @@ nursery_lamp_light:
     title: Nursery Lamp
     icon_on: mdi-lamp
     icon_off: mdi-lamp
+    icon_up: mdi-arrow-up-bold-hexagon-outline
+    icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+    level_up_style: "font-size: 175%; margin-left: -2.5%;"
+    level_down_style: "font-size: 175%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
 
+robert_presence:
+    widget_type: device_tracker
+    title: Robert
+    device: zonephone
+    icon_on: mdi-gender-male
+    icon_off: mdi-gender-male
+
 layout:
   - clock(2x1), combined_alarm, front_door_lock
   - family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light, garage_door
-  - nursery_ceiling_light, nursery_lamp_light
+  - nursery_ceiling_light, nursery_lamp_light, spacer(2x1)
+  - robert_presence, cait_presence, olivia_presence, spacer
