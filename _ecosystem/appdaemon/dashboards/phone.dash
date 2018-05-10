@@ -6,11 +6,14 @@ columns: 4
 
 clock:
     widget_type: clock
+    time_style: "color: #00dd00; font-size: 250%;"
 
 combined_alarm:
     widget_type: alarm
     entity: alarm_control_panel.combined_alarm
     title: Alarm
+    title_style: "color: #ffffff;"
+    state_style: "font-size: 125%;"
 
 family_room_ceiling_light:
     widget_type: light
@@ -18,6 +21,10 @@ family_room_ceiling_light:
     title: Family Room
     icon_on: mdi-lightbulb
     icon_off: mdi-lightbulb
+    icon_up: mdi-arrow-up-bold-hexagon-outline
+    icon_down: mdi-arrow-down-bold-hexagon-outline
+    icon_style_active: "font-size: 375%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 375%; margin-top: -10%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -38,6 +45,8 @@ loft_lamp_light:
     title: Loft
     icon_on: mdi-lamp
     icon_off: mdi-lamp
+    icon_style_active: "font-size: 375%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 375%; margin-top: -10%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -48,6 +57,8 @@ master_bedroom_ceiling_light:
     title: Master Bed
     icon_on: mdi-lightbulb
     icon_off: mdi-lightbulb
+    icon_style_active: "font-size: 375%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 375%; margin-top: -10%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -58,6 +69,8 @@ nursery_ceiling_light:
     title: Nursery Ceiling
     icon_on: mdi-lightbulb
     icon_off: mdi-lightbulb
+    icon_style_active: "font-size: 375%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 375%; margin-top: -10%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -68,11 +81,13 @@ nursery_lamp_light:
     title: Nursery Lamp
     icon_on: mdi-lamp
     icon_off: mdi-lamp
+    icon_style_active: "font-size: 375%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 375%; margin-top: -10%;"
     on_attributes:
         brightness: 100
         color_temp: 435
 
 layout:
-  - clock(2x1), front_door_lock, garage_door
-  - family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light, combined_alarm
+  - clock(2x1), combined_alarm, front_door_lock
+  - family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light, garage_door
   - nursery_ceiling_light, nursery_lamp_light
