@@ -10,8 +10,8 @@ bed_down_script:
     title: Bed Down
     icon_on: mdi-sleep
     icon_off: mdi-sleep
-    icon_style_active: "font-size: 150%; color: #5555ff;"
-    icon_style_inactive: "font-size: 150%; color: #5555ff;"
+    icon_style_active: "font-size: 400%; margin-top: -5%; color: #5555ff;"
+    icon_style_inactive: "font-size: 400%; margin-top: -5%; color: #5555ff;"
 
 cait_presence:
     widget_type: device_tracker
