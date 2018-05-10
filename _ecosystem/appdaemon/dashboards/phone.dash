@@ -35,8 +35,8 @@ family_room_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 150%;"
-    level_down_style: "font-size: 150%;"
+    level_up_style: "font-size: 150%; margin-left: -5px;"
+    level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -65,8 +65,8 @@ loft_lamp_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 150%;"
-    level_down_style: "font-size: 150%;"
+    level_up_style: "font-size: 150%; margin-left: -5px;"
+    level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -91,8 +91,8 @@ master_bedroom_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 150%;"
-    level_down_style: "font-size: 150%;"
+    level_up_style: "font-size: 150%; margin-left: -5px;"
+    level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -107,8 +107,8 @@ nursery_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 150%;"
-    level_down_style: "font-size: 150%;"
+    level_up_style: "font-size: 150%; margin-left: -5px;"
+    level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -123,8 +123,8 @@ nursery_lamp_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 150%;"
-    level_down_style: "font-size: 150%;"
+    level_up_style: "font-size: 150%; margin-left: -5px;"
+    level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
         brightness: 100
         color_temp: 435
