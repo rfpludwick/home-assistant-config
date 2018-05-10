@@ -6,10 +6,11 @@ columns: 4
 
 cait_presence:
     widget_type: device_tracker
-    title: Cait
     device: mermaidphone
+    title: Cait
     icon_on: mdi-gender-female
     icon_off: mdi-gender-female
+    state_text_style: "display: none;"
 
 clock:
     widget_type: clock
@@ -70,10 +71,11 @@ loft_lamp_light:
 
 olivia_presence:
     widget_type: device_tracker
-    title: Olivia
     device: lolli
+    title: Olivia
     icon_on: mdi-gender-female
     icon_off: mdi-gender-female
+    state_text_style: "display: none;"
 
 master_bedroom_ceiling_light:
     widget_type: light
@@ -125,10 +127,11 @@ nursery_lamp_light:
 
 robert_presence:
     widget_type: device_tracker
-    title: Robert
     device: zonephone
+    title: Robert
     icon_on: mdi-gender-male
     icon_off: mdi-gender-male
+    state_text_style: "display: none;"
 
 layout:
   - clock(2x1), combined_alarm, front_door_lock
