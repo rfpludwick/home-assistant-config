@@ -4,18 +4,20 @@ widget_size: [1, 1]
 widget_margins: [3, 3]
 columns: 4
 
+clock:
+    widget_type: clock
+
 combined_alarm:
     widget_type: alarm
     entity: alarm_control_panel.combined_alarm
     title: Alarm
 
-clock:
-    widget_type: clock
-
 family_room_ceiling_light:
     widget_type: light
     entity: light.family_room_ceiling
     title: Family Room
+    icon_on: mdi-lightbulb
+    icon_off: mdi-lightbulb
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -34,6 +36,8 @@ loft_lamp_light:
     widget_type: light
     entity: light.loft_lamp
     title: Loft
+    icon_on: mdi-lamp
+    icon_off: mdi-lamp
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -42,6 +46,8 @@ master_bedroom_ceiling_light:
     widget_type: light
     entity: light.master_bedroom_ceiling
     title: Master Bed
+    icon_on: mdi-lightbulb
+    icon_off: mdi-lightbulb
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -50,6 +56,8 @@ nursery_ceiling_light:
     widget_type: light
     entity: light.nursery_ceiling
     title: Nursery Ceiling
+    icon_on: mdi-lightbulb
+    icon_off: mdi-lightbulb
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -58,10 +66,13 @@ nursery_lamp_light:
     widget_type: light
     entity: light.nursery_lamp
     title: Nursery Lamp
+    icon_on: mdi-lamp
+    icon_off: mdi-lamp
     on_attributes:
         brightness: 100
         color_temp: 435
 
 layout:
-  - spacer, family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light
-  - clock(2x1), nursery_ceiling_light, nursery_lamp_light
+  - clock(2x1), front_door_lock, garage_door
+  - family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light, combined_alarm
+  - nursery_ceiling_light, nursery_lamp_light
