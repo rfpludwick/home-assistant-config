@@ -1,0 +1,5 @@
+widget_type: alarm
+entity: alarm_control_panel.combined_alarm
+title: Alarm
+title_style: "color: #ffffff;"
+state_style: "font-size: 125%;"

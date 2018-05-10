@@ -1,0 +1,8 @@
+widget_type: device_tracker
+device: zonephone
+title: Robert
+icon_on: mdi-gender-male
+icon_off: mdi-gender-male
+icon_style_active: "font-size: 400%; margin-top: -5%;"
+icon_style_inactive: "font-size: 400%; margin-top: -5%;"
+state_text_style: "display: none;"

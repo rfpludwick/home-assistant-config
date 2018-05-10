@@ -1,0 +1,7 @@
+widget_type: cover
+entity: cover.viergarage
+title: Garage Door
+icon_on: mdi-garage-open
+icon_off: mdi-garage
+icon_style_active: "font-size: 400%; margin-top: -10%;"
+icon_style_inactive: "font-size: 400%; margin-top: -10%;"
