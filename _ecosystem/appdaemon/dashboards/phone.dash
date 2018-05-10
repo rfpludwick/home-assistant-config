@@ -8,8 +8,10 @@ bed_down_script:
     widget_type: script
     entity: script.bed_down
     title: Bed Down
-    icon_on: mdi-bed-empty
-    icon_off: mdi-bed-empty
+    icon_on: mdi-sleep
+    icon_off: mdi-sleep
+    icon_style_active: "font-size: 150%; color: #5555ff;"
+    icon_style_inactive: "font-size: 150%; color: #5555ff;"
 
 cait_presence:
     widget_type: device_tracker
