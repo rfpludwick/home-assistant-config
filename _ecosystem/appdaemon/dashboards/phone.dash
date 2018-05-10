@@ -32,8 +32,8 @@ family_room_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 175%; margin-left: -2.5%;"
-    level_down_style: "font-size: 175%; margin-left: 2.5%;"
+    level_up_style: "font-size: 150%; margin-left: -2.5%;"
+    level_down_style: "font-size: 150%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -49,6 +49,8 @@ garage_door:
     title: Garage Door
     icon_on: mdi-garage-open
     icon_off: mdi-garage
+    icon_style_active: "font-size: 400%; margin-top: -10%;"
+    icon_style_inactive: "font-size: 400%; margin-top: -10%;"
 
 loft_lamp_light:
     widget_type: light
@@ -60,8 +62,8 @@ loft_lamp_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 175%; margin-left: -2.5%;"
-    level_down_style: "font-size: 175%; margin-left: 2.5%;"
+    level_up_style: "font-size: 150%; margin-left: -2.5%;"
+    level_down_style: "font-size: 150%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -83,8 +85,8 @@ master_bedroom_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 175%; margin-left: -2.5%;"
-    level_down_style: "font-size: 175%; margin-left: 2.5%;"
+    level_up_style: "font-size: 150%; margin-left: -2.5%;"
+    level_down_style: "font-size: 150%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -99,8 +101,8 @@ nursery_ceiling_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 175%; margin-left: -2.5%;"
-    level_down_style: "font-size: 175%; margin-left: 2.5%;"
+    level_up_style: "font-size: 150%; margin-left: -2.5%;"
+    level_down_style: "font-size: 150%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
@@ -115,8 +117,8 @@ nursery_lamp_light:
     icon_down: mdi-arrow-down-bold-hexagon-outline
     icon_style_active: "font-size: 375%; margin-top: -10%;"
     icon_style_inactive: "font-size: 375%; margin-top: -10%;"
-    level_up_style: "font-size: 175%; margin-left: -2.5%;"
-    level_down_style: "font-size: 175%; margin-left: 2.5%;"
+    level_up_style: "font-size: 150%; margin-left: -2.5%;"
+    level_down_style: "font-size: 150%; margin-left: 2.5%;"
     on_attributes:
         brightness: 100
         color_temp: 435
