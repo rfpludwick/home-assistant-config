@@ -1,0 +1,4 @@
+name: Scripts
+control: hidden
+entities:
+  - script.bed_down

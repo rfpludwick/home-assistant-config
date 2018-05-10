@@ -1,6 +1,6 @@
 group.links:
   order: 1
-group.helpers_alarms:
+group.scripts:
   order: 2
 group.automation_toggles:
   order: 3

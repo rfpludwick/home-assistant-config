@@ -4,6 +4,13 @@ widget_size: [1, 1]
 widget_margins: [3, 3]
 columns: 4
 
+bed_down_script:
+    widget_type: script
+    entity: script.bed_down
+    title: Bed Down
+    icon_on: mdi-bed-empty
+    icon_off: mdi-bed-empty
+
 cait_presence:
     widget_type: device_tracker
     device: mermaidphone
@@ -38,7 +45,7 @@ family_room_ceiling_light:
     level_up_style: "font-size: 150%; margin-left: -5px;"
     level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
-        brightness: 100
+        brightness: 200
         color_temp: 435
 
 front_door_lock:
@@ -68,7 +75,7 @@ loft_lamp_light:
     level_up_style: "font-size: 150%; margin-left: -5px;"
     level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
-        brightness: 100
+        brightness: 200
         color_temp: 435
 
 olivia_presence:
@@ -94,7 +101,7 @@ master_bedroom_ceiling_light:
     level_up_style: "font-size: 150%; margin-left: -5px;"
     level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
-        brightness: 100
+        brightness: 200
         color_temp: 435
 
 nursery_ceiling_light:
@@ -110,7 +117,7 @@ nursery_ceiling_light:
     level_up_style: "font-size: 150%; margin-left: -5px;"
     level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
-        brightness: 100
+        brightness: 200
         color_temp: 435
 
 nursery_lamp_light:
@@ -126,7 +133,7 @@ nursery_lamp_light:
     level_up_style: "font-size: 150%; margin-left: -5px;"
     level_down_style: "font-size: 150%; margin-left: -5px;"
     on_attributes:
-        brightness: 100
+        brightness: 200
         color_temp: 435
 
 robert_presence:
@@ -142,5 +149,5 @@ robert_presence:
 layout:
   - clock(2x1), combined_alarm, front_door_lock
   - family_room_ceiling_light, loft_lamp_light, master_bedroom_ceiling_light, garage_door
-  - nursery_ceiling_light, nursery_lamp_light, spacer(2x1)
+  - nursery_ceiling_light, nursery_lamp_light, bed_down_script(2x1)
   - robert_presence, cait_presence, olivia_presence, spacer
