@@ -138,6 +138,10 @@ nursery_lamp_light:
         brightness: 200
         color_temp: 435
 
+reload:
+    widget_type: reload
+    title: Reload Dash
+
 robert_presence:
     widget_type: device_tracker
     device: zonephone
