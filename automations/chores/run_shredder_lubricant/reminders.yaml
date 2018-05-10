@@ -7,8 +7,9 @@ condition:
   - condition: state
     entity_id: input_boolean.automation_chores
     state: "on"
-  - condition: template
-    value_template: "{{ (states.input_boolean.chore_run_shredder_lubricant.state == 'on') }}"
+  - condition: state
+    entity_id: input_boolean.chore_run_shredder_lubricant
+    state: "on"
 action:
   - service: persistent_notification.dismiss
     data:
