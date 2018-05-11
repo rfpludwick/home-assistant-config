@@ -17,6 +17,7 @@ entities:
   - input_boolean.chore_renew_home_ssl_certificate
   - input_boolean.chore_replace_toothbrush_heads
   - input_boolean.chore_run_affresh_in_washing_machine
+  - input_boolean.chore_run_shredder_lubricant
   - input_boolean.chore_sort_synced_photos_on_nas
   - input_boolean.chore_take_bins_to_curb
   - input_boolean.chore_update_budget

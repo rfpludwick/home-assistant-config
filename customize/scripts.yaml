@@ -1,3 +1,8 @@
+# Other
+script.bed_down:
+  icon: mdi:bed-empty
+  friendly_name: Bed Down
+
 # Scout Alarm Mark Mode
 script.scout_alarm_mark_disarmed:
   icon: mdi:alarm-off

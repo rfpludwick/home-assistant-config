@@ -1,5 +1,6 @@
 name: Links
 entities:
+  - weblink.home_assistant_dashboard
   - weblink.unifi_controller
   - weblink.scout_alarm
   - weblink.arlo

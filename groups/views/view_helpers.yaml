@@ -3,5 +3,6 @@ view: yes
 icon: mdi:settings
 entities:
   - group.links
+  - group.scripts
   - group.automation_toggles
   - group.helpers_scout_alarm

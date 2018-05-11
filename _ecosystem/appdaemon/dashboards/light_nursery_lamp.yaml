@@ -1,0 +1,14 @@
+widget_type: light
+entity: light.nursery_lamp
+title: Nursery Lamp
+icon_on: mdi-lamp
+icon_off: mdi-lamp
+icon_up: mdi-arrow-up-bold-hexagon-outline
+icon_down: mdi-arrow-down-bold-hexagon-outline
+icon_style_active: "font-size: 375%; margin-top: -10%;"
+icon_style_inactive: "font-size: 375%; margin-top: -10%;"
+level_up_style: "font-size: 150%; margin-left: -5px;"
+level_down_style: "font-size: 150%; margin-left: -5px;"
+on_attributes:
+    brightness: 200
+    color_temp: 435

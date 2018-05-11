@@ -1,0 +1,11 @@
+title: Phone
+widget_dimensions: [100, 125]
+widget_size: [1, 1]
+widget_margins: [3, 3]
+columns: 4
+
+layout:
+  - clock(2x1), alarm_combined, lock_front_door
+  - light_family_room_ceiling, light_loft_lamp, light_master_bedroom_ceiling, cover_garage_door
+  - light_nursery_ceiling, light_nursery_lamp, script_bed_down(2x1)
+  - presence_robert, presence_cait, presence_olivia, reload
