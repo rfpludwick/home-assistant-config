@@ -1,0 +1,5 @@
+platform: plex
+host: !secret plex_host
+server: !secret plex_server
+token: !secret plex_token
+

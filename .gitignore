@@ -17,6 +17,7 @@ nest.conf
 options.xml
 OZW_Log.txt
 phue*.conf
+plex.conf
 pyozw.sqlite
 secrets.yaml
 usps_cache.sqlite
