@@ -8,3 +8,5 @@ group.player_spotify:
   order: 4
 group.steam:
   order: 5
+group.plex:
+  order: 6

@@ -7,3 +7,4 @@ entities:
   - group.player_apple_tv
   - group.player_spotify
   - group.steam
+  - group.plex

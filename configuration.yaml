@@ -27,7 +27,7 @@ cover: !include_dir_list configurations/cover/
 device_tracker: !include_dir_list configurations/device_tracker/
 discovery: !include configurations/discovery.yaml
 ffmpeg: !include configurations/ffmpeg.yaml
-history_graph: !include_dir_named configurations/history_graph/
+#history_graph: !include_dir_named configurations/history_graph/
 ifttt: !include configurations/ifttt.yaml
 input_boolean: !include_dir_named configurations/input_boolean/
 ios: !include configurations/ios.yaml
@@ -36,7 +36,7 @@ nest: !include configurations/nest.yaml
 notify: !include_dir_list configurations/notify/
 remote: !include_dir_list configurations/remote/
 sensor: !include_dir_list configurations/sensor/
-sun:
+#sun:
 #usps: !include configurations/usps.yaml
 vacuum: !include_dir_list configurations/vacuum/
 weblink: !include configurations/weblink.yaml
