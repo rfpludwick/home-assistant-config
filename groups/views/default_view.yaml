@@ -9,4 +9,4 @@ entities:
   - group.family_presence
   - group.security
   - group.lights
-  - group.weather_snapshot
+#  - group.weather_snapshot

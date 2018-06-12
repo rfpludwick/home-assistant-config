@@ -67,26 +67,26 @@ device_tracker.xbr55x850d:
   friendly_name: Family Room TV
 
 # Celestial
-sensor.season_display:
-  friendly_name: Season
+#sensor.season_display:
+#  friendly_name: Season
 
 # Covers
 cover.viergarage:
   friendly_name: Garage Door
 
 # Crime
-sensor.crime:
-  icon: mdi:guy-fawkes-mask
+#sensor.crime:
+#  icon: mdi:guy-fawkes-mask
 
 # Deliveries
-camera.usps_mail:
-  friendly_name: USPS Mail
-sensor.usps_mail:
-  friendly_name: USPS Mail
-sensor.usps_packages:
-  friendly_name: USPS Packages
-sensor.ups:
-  friendly_name: UPS Packages
+#camera.usps_mail:
+#  friendly_name: USPS Mail
+#sensor.usps_mail:
+#  friendly_name: USPS Mail
+#sensor.usps_packages:
+#  friendly_name: USPS Packages
+#sensor.ups:
+#  friendly_name: UPS Packages
 
 # Device Trackers
 
@@ -123,16 +123,16 @@ sensor.harmony_hub_loft:
   friendly_name: Loft
 
 # History Graphs
-history_graph.family_presence:
-  friendly_name: Family Presence History
-history_graph.lights:
-  friendly_name: Lights History
-history_graph.harmony:
-  friendly_name: Harmony History
-history_graph.security:
-  friendly_name: Security History
-history_graph.steam:
-  friendly_name: Steam History
+#history_graph.family_presence:
+#  friendly_name: Family Presence History
+#history_graph.lights:
+#  friendly_name: Lights History
+#history_graph.harmony:
+#  friendly_name: Harmony History
+#history_graph.security:
+#  friendly_name: Security History
+#history_graph.steam:
+#  friendly_name: Steam History
 
 # Home Assistant
 sensor.connected_clients:
