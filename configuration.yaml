@@ -20,7 +20,7 @@ arlo: !include configurations/arlo.yaml
 august: !include configurations/august.yaml
 binary_sensor: !include_dir_list configurations/binary_sensor/
 camera: !include_dir_list configurations/camera/
-climate: !include_dir_list configurations/climate/
+#climate: !include_dir_list configurations/climate/
 cloud: !include configurations/cloud.yaml
 counter: !include_dir_named configurations/counter/
 cover: !include_dir_list configurations/cover/
@@ -41,4 +41,4 @@ sensor: !include_dir_list configurations/sensor/
 vacuum: !include_dir_list configurations/vacuum/
 weblink: !include configurations/weblink.yaml
 zone: !include_dir_list configurations/zone/
-zwave: !include configurations/zwave.yaml
+#zwave: !include configurations/zwave.yaml
