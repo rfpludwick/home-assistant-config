@@ -7,6 +7,8 @@
 - Figure Out Family Room Gas Stove
 - Have Super Critical Notifications Emailed To Parents
 - Reestablish Predictable ZWave /dev
+- Reauthorize Sony Bravia
+- Reauthorize Hue Hub
 
 # Considerations
 
