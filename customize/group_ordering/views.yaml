@@ -2,8 +2,8 @@ group.default_view: # this is annoying
   order: 1
 group.view_controls:
   order: 2
-#group.view_monitoring:
-#  order: 3
+group.view_monitoring:
+  order: 3
 #group.view_automotive:
 #  order: 4
 group.view_media:
