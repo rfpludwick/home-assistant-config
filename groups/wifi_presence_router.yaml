@@ -26,6 +26,7 @@ entities:
   - device_tracker.nest_protect__upstairs
   - device_tracker.nintendo_switch
   - device_tracker.nintendo_wii_u
+  - device_tracker.olivia_shulls_phone
   - device_tracker.printer
   - device_tracker.robert_fp_ludwicks_laptop
   - device_tracker.robert_fp_ludwicks_phone
