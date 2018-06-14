@@ -1,6 +1,6 @@
 # Todo
 
-- Fill In Missing Secrets Including {{  }}
+- Fill In "todo" Secrets
 - Re-enable Disabled Items When Possible
 - Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
