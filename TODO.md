@@ -6,6 +6,7 @@
 - Have Super Critical Notifications Emailed To Parents
 - Reestablish Predictable ZWave /dev
 - Reauthorize Sony Bravia
+- Have Chores Detect Upon Bootup
 
 # Considerations
 
