@@ -15,3 +15,7 @@ action:
   - service: notify.slack_crit
     data:
       message: !secret automation_breaches_caits_film_email_notification_message
+  - service: notify.smtp_parents
+    data:
+      title: "Email Breaches Change: Cait's Film"
+      message: !secret automation_breaches_caits_film_email_notification_message

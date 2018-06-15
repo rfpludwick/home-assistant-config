@@ -15,3 +15,7 @@ action:
   - service: notify.slack_crit
     data:
       message: !secret automation_breaches_felicitys_email_notification_message
+  - service: notify.smtp_parents
+    data:
+      title: "Email Breaches Change: Felicity's Personal"
+      message: !secret automation_breaches_felicitys_email_notification_message
