@@ -3,6 +3,8 @@ initial_state: true
 trigger:
   - platform: time
     at: "06:00:00"
+  - platform: homeassistant
+    event: start
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores

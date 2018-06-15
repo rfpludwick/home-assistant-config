@@ -3,6 +3,8 @@ initial_state: true
 trigger:
   - platform: time
     at: "05:55:00" # So that cleaning the litter boxes can cascade from this chore
+  - platform: homeassistant
+    event: start
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
@@ -14,6 +16,8 @@ condition:
 action:
   - service: input_boolean.turn_on
     entity_id: input_boolean.chore_cycle_litter_boxes
+  - service: input_boolean.turn_off # catch in case it is already on for some reason
+    entity_id: input_boolean.chore_clean_litter_boxes
   - service: notify.slack_standard
     data:
       message: "The chore 'Cycle Litter Boxes' is due today"
