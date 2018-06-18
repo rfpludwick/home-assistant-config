@@ -5,7 +5,7 @@ script.bed_down:
 script.arriving_home:
   icon: mdi:bullseye-arrow
   friendly_name: Arriving Home
-script.arriving_home:
+script.arriving_home_with_garage:
   icon: mdi:bullseye-arrow
   friendly_name: Arriving Home With Garage
 
