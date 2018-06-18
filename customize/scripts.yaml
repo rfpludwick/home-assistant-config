@@ -2,6 +2,12 @@
 script.bed_down:
   icon: mdi:bed-empty
   friendly_name: Bed Down
+script.arriving_home:
+  icon: mdi:mdi-bullseye-arrow
+  friendly_name: Arriving Home
+script.arriving_home:
+  icon: mdi:mdi-bullseye-arrow
+  friendly_name: Arriving Home With Garage
 
 # Scout Alarm Mark Mode
 script.scout_alarm_mark_disarmed:
