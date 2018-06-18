@@ -3,7 +3,7 @@ view: yes
 icon: mdi:filmstrip
 entities:
   - group.player_family_room_tv
-  - group.player_family_room_receiver
+#  - group.player_family_room_receiver
   - group.player_apple_tv
   - group.player_spotify
   - group.steam
