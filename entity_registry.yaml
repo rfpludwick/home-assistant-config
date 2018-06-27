@@ -98,3 +98,35 @@ sensor.lolli_battery_level:
   name:
   platform: ios
   unique_id: level_lolli
+media_player.plex_unnamed_device:
+  name:
+  platform: plex
+  unique_id: d07bvk0c28lxiem7pabikx9n
+media_player.plex_unnamed_device_2:
+  name:
+  platform: plex
+  unique_id: hv63uw2mcjif6r
+zwave.aeotec_zw090_zstick_gen5_us:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.trane_unknown_type5441_id3530:
+  name:
+  platform: zwave
+  unique_id: node-4
+media_player.chrome:
+  name:
+  platform: plex
+  unique_id: 0k6l7p1wfno666hjbmhjm7cz
+media_player.zonephone:
+  name:
+  platform: plex
+  unique_id: C6C6CB14-B000-4C22-8229-20EA07F83AA6
+media_player.plex_chrome:
+  name:
+  platform: plex
+  unique_id: g4plgzzfs3spwv0d2ngpp59v
+media_player.chrome_2:
+  name:
+  platform: plex
+  unique_id: x2x2gi73ls1rucvv5v8wmb0p
