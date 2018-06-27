@@ -16,7 +16,7 @@ shell_command: !include services/shell_command.yaml
 
 alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
 alert: !include_dir_named configurations/alert/
-arlo: !include configurations/arlo.yaml
+#arlo: !include configurations/arlo.yaml
 august: !include configurations/august.yaml
 binary_sensor: !include_dir_list configurations/binary_sensor/
 camera: !include_dir_list configurations/camera/
