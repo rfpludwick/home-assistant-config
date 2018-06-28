@@ -8,3 +8,5 @@ group.smoke_co:
 #  order: 4
 #group.breaches:
 #  order: 5
+group.birthdays:
+  order: 6
