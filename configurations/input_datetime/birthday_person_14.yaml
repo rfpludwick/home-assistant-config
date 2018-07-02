@@ -1,0 +1,4 @@
+name: !secret birthday_14_name
+initial: !secret birthday_14_date
+has_time: false
+has_date: true

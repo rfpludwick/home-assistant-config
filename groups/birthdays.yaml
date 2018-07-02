@@ -1,3 +1,33 @@
 name: Birthdays
 entities:
-  - input_datetime.birthday_caitlin_as_ludwick
+  - input_datetime.birthday_person_1
+  - input_datetime.birthday_person_2
+  - input_datetime.birthday_person_3
+  - input_datetime.birthday_person_4
+  - input_datetime.birthday_person_5
+  - input_datetime.birthday_person_6
+  - input_datetime.birthday_person_7
+  - input_datetime.birthday_person_8
+  - input_datetime.birthday_person_9
+  - input_datetime.birthday_person_10
+  - input_datetime.birthday_person_11
+  - input_datetime.birthday_person_12
+  - input_datetime.birthday_person_13
+  - input_datetime.birthday_person_14
+  - input_datetime.birthday_person_15
+  - input_datetime.birthday_person_16
+  - input_datetime.birthday_person_17
+  - input_datetime.birthday_person_18
+  - input_datetime.birthday_person_19
+  - input_datetime.birthday_person_20
+  - input_datetime.birthday_person_21
+  - input_datetime.birthday_person_22
+  - input_datetime.birthday_person_23
+  - input_datetime.birthday_person_24
+  - input_datetime.birthday_person_25
+  - input_datetime.birthday_person_26
+  - input_datetime.birthday_person_27
+  - input_datetime.birthday_person_28
+  - input_datetime.birthday_person_29
+  - input_datetime.birthday_person_30
+  - input_datetime.birthday_person_31
