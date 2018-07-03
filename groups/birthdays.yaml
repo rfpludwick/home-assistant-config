@@ -5,6 +5,8 @@ entities:
   - input_datetime.birthday_person_3
   - input_datetime.birthday_person_4
   - input_datetime.birthday_person_5
+  - input_datetime.birthday_person_33
+  - input_datetime.birthday_person_32
   - input_datetime.birthday_person_6
   - input_datetime.birthday_person_7
   - input_datetime.birthday_person_8
