@@ -18,6 +18,7 @@ entities:
   - input_datetime.birthday_person_14
   - input_datetime.birthday_person_15
   - input_datetime.birthday_person_16
+  - input_datetime.birthday_person_34
   - input_datetime.birthday_person_17
   - input_datetime.birthday_person_18
   - input_datetime.birthday_person_19

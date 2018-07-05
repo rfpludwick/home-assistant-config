@@ -1,0 +1,21 @@
+alias: "Birthday: Person 34: Tomorrow"
+initial_state: true
+trigger:
+  - platform: time
+    at: "09:00:00"
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_milestones
+    state: "on"
+  - condition: template
+    value_template: "{{ (states.input_datetime.birthday_person_34.state.split('-')[1:] == ((as_timestamp(now()) + 86400) | timestamp_custom('%m-%d')).split('-')) }}"
+action:
+  - service: notify.ios_parents
+    data:
+      title: "Birthday: {{ states.input_datetime.birthday_person_34.attributes.friendly_name }}: Tomorrow"
+      message: "{{ states.input_datetime.birthday_person_34.attributes.friendly_name }}'s birthday is tomorrow!"
+  - service: notify.slack_standard
+    data:
+      message: "{{ states.input_datetime.birthday_person_34.attributes.friendly_name }}'s birthday is tomorrow!"

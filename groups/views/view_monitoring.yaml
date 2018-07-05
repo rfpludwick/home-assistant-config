@@ -8,3 +8,4 @@ entities:
 #  - group.crime
 #  - group.breaches
   - group.birthdays
+  - group.anniversaries
