@@ -1,0 +1,21 @@
+alias: "Anniversary: Event 8: In 5 Days"
+initial_state: true
+trigger:
+  - platform: time
+    at: "09:00:00"
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_milestones
+    state: "on"
+  - condition: template
+    value_template: "{{ (states.input_datetime.anniversary_8.state.split('-')[1:] == ((as_timestamp(now()) + 432000) | timestamp_custom('%m-%d')).split('-')) }}"
+action:
+  - service: notify.ios_parents
+    data:
+      title: "Anniversary: {{ states.input_datetime.anniversary_8.attributes.friendly_name }}: In 5 Days"
+      message: "{{ states.input_datetime.anniversary_8.attributes.friendly_name }} anniversary is in 5 days!"
+  - service: notify.slack_standard
+    data:
+      message: "{{ states.input_datetime.anniversary_8.attributes.friendly_name }} anniversary is in 5 days!"
