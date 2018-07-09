@@ -1,0 +1,4 @@
+name: !secret zone_11_name
+latitude: !secret zone_11_latitude
+longitude: !secret zone_11_longitude
+icon: mdi:food-apple
