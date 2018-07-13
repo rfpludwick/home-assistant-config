@@ -16,7 +16,7 @@ entities:
   - device_tracker.garage_door_opener
   - device_tracker.harmony_hub__family_room
   - device_tracker.harmony_hub__loft
-  - device_tracker.c8b5b71c3104 # Home Assistant iPad
+#  - device_tracker.c8b5b71c3104 # Home Assistant iPad
   - device_tracker.home_assistant_zonepi_3b_wifi
   - device_tracker.nest_protect__attic_bedroom
   - device_tracker.nest_protect__entryway
@@ -27,7 +27,8 @@ entities:
   - device_tracker.nintendo_switch
   - device_tracker.nintendo_wii_u
   - device_tracker.olivia_shulls_laptop
-  - device_tracker.olivia_shulls_phone
+  - device_tracker.olivia_shulls_phone # Olivia's old phone
+  - device_tracker.iphone
   - device_tracker.printer
   - device_tracker.ps3
   - device_tracker.robert_fp_ludwicks_kindle

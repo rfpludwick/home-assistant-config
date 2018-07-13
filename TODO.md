@@ -3,7 +3,7 @@
 - Re-enable Disabled Items When Possible
 - Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
-- Setup Anniversaries
+- Fix Olivia's Phone Integration & Tracking
 
 # Considerations
 
