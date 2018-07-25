@@ -35,7 +35,7 @@ ios: !include configurations/ios.yaml
 media_player: !include_dir_list configurations/media_player/
 nest: !include configurations/nest.yaml
 notify: !include_dir_list configurations/notify/
-recorder: configurations/recorder.yaml
+recorder: !include configurations/recorder.yaml
 remote: !include_dir_list configurations/remote/
 sensor: !include_dir_list configurations/sensor/
 #sun:
