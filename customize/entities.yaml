@@ -105,6 +105,10 @@ device_tracker.lolli:
   friendly_name: Olivia
 
 ## Renames Not Picked Up
+device_tracker.ac3743513ee3:
+  friendly_name: "Cat Ludwick's Phone"
+device_tracker.androidea74c9612b5f7f0b:
+  friendly_name: "Frederick Ludwick's Phone"
 device_tracker.c8b5b71c3104:
   friendly_name: Home Assistant iPad
 device_tracker.iphone:
