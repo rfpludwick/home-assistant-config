@@ -1,7 +1,7 @@
 name: Alerts
 entities:
-  - alert.arlo_camera_exterior_back_battery_low
-  - alert.arlo_camera_exterior_front_battery_low
+#  - alert.arlo_camera_exterior_back_battery_low
+#  - alert.arlo_camera_exterior_front_battery_low
   - alert.august_front_door_lock_battery_low
   - alert.august_front_door_lock_unlocked
   - alert.chamberlain_garage_door_open

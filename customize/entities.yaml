@@ -2,20 +2,20 @@
 alarm_control_panel.combined_alarm:
   icon: mdi:security
   friendly_name: Combined Alarm
-alarm_control_panel.vierarlo:
-  icon: mdi:camcorder-box
-  friendly_name: Arlo
+#alarm_control_panel.vierarlo:
+#  icon: mdi:camcorder-box
+#  friendly_name: Arlo
 alarm_control_panel.scout_alarm:
   icon: mdi:security-home
   friendly_name: Scout Alarm
 
 # Alerts
-alert.arlo_camera_exterior_back_battery_low:
-  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
-  icon: mdi:battery-alert
-alert.arlo_camera_exterior_front_battery_low:
-  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
-  icon: mdi:battery-alert
+#alert.arlo_camera_exterior_back_battery_low:
+#  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
+#  icon: mdi:battery-alert
+#alert.arlo_camera_exterior_front_battery_low:
+#  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
+#  icon: mdi:battery-alert
 alert.august_front_door_lock_battery_low:
   friendly_name: "August Front Door Lock: Battery Low"
   icon: mdi:battery-alert
@@ -45,14 +45,14 @@ alert.nest_protect_upstairs_battery_health_replace:
   icon: mdi:battery-alert
 
 # Arlo (Excluding Alarm Control Panel)
-sensor.battery_level_exterior_back:
-  friendly_name: Arlo Exterior Back
-sensor.battery_level_exterior_front:
-  friendly_name: Arlo Exterior Front
-sensor.signal_strength_exterior_back_percentage:
-  friendly_name: Arlo Exterior Back
-sensor.signal_strength_exterior_front_percentage:
-  friendly_name: Arlo Exterior Front
+#sensor.battery_level_exterior_back:
+#  friendly_name: Arlo Exterior Back
+#sensor.battery_level_exterior_front:
+#  friendly_name: Arlo Exterior Front
+#sensor.signal_strength_exterior_back_percentage:
+#  friendly_name: Arlo Exterior Back
+#sensor.signal_strength_exterior_front_percentage:
+#  friendly_name: Arlo Exterior Front
 
 # August Lock
 sensor.front_door_lock_battery_level:

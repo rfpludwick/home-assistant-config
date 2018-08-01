@@ -15,5 +15,5 @@ entities:
   - sensor.master_bedroom_nest_protect_battery_status
   - sensor.nursery_nest_protect_battery_status
   - sensor.upstairs_nest_protect_battery_status
-  - sensor.battery_level_exterior_back
-  - sensor.battery_level_exterior_front
+#  - sensor.battery_level_exterior_back
+#  - sensor.battery_level_exterior_front

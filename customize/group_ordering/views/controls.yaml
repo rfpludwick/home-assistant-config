@@ -1,5 +1,5 @@
-group.chores_due:
-  order: 1
+#group.chores_due:
+#  order: 1
 group.alerts:
   order: 2
 group.harmony:

@@ -4,8 +4,6 @@
 - Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
 - Fix Olivia's Phone Integration & Tracking
-- Get Roomba Connected Again
-- Handle Wifi Renames
 
 # Considerations
 

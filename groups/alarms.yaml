@@ -1,4 +1,4 @@
 name: Alarms
 entities:
   - alarm_control_panel.scout_alarm
-  - alarm_control_panel.vierarlo
+#  - alarm_control_panel.vierarlo
