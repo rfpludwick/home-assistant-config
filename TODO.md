@@ -4,7 +4,6 @@
 - Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
 - Fix Olivia's Phone Integration & Tracking
-- Redo Photos For Robert & Olivia
 
 # Considerations
 
