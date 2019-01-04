@@ -7,6 +7,7 @@ entities:
   - device_tracker.amazon_echo_dot__master_bedroom
   - device_tracker.amazon_echo_dot__nursery
   - device_tracker.apple_tv
+  - device_tracker.aubreysiphone
   - device_tracker.august_connect
   - device_tracker.av_receiver__family_room
   - device_tracker.caitlin_ludwicks_laptop
@@ -14,12 +15,13 @@ entities:
   - device_tracker.caitlin_ludwicks_phone
   - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
   - device_tracker.chromecast
+  - device_tracker.emmas_iphone
   - device_tracker.fitbit_aria
   - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
   - device_tracker.garage_door_opener
   - device_tracker.harmony_hub__family_room
   - device_tracker.harmony_hub__loft
-#  - device_tracker.c8b5b71c3104 # Home Assistant iPad
+  - device_tracker.c8b5b71c3104 # Home Assistant iPad
   - device_tracker.home_assistant_zonepi_3b_wifi
   - device_tracker.nest_protect__attic_bedroom
   - device_tracker.nest_protect__entryway
@@ -29,15 +31,18 @@ entities:
   - device_tracker.nest_protect__upstairs
   - device_tracker.nintendo_switch
   - device_tracker.nintendo_wii_u
+  - device_tracker.samsungsmg930v
   - device_tracker.olivia_shulls_laptop
-  - device_tracker.olivia_shulls_phone # Olivia's Old Phone
-#  - device_tracker.iphone
+  - device_tracker.olivia_shulls_phone # Olivia Shull's Old Phone
   - device_tracker.printer
   - device_tracker.ps3
+  - device_tracker.ricki
   - device_tracker.robert_fp_ludwicks_kindle
   - device_tracker.robert_fp_ludwicks_laptop
   - device_tracker.robert_fp_ludwicks_phone
   - device_tracker.robert_fp_ludwicks_work_laptop
   - device_tracker.roomba
+  - device_tracker.ryliesiphone
+  - device_tracker.stephanesiphone
   - device_tracker.trane_thermostat
   - device_tracker.tv__family_room
