@@ -92,7 +92,7 @@ cover.viergarage:
 
 ## Family Presence
 device_tracker.mermaidphone:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/30073083_880126622564_4716077741384072858_o.jpg?_nc_cat=0&oh=781a2db8263a1fe23c5b23a828722161&oe=5C32B524"
+  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/30073083_880126622564_4716077741384072858_o.jpg?_nc_cat=110&_nc_ht=scontent-sea1-1.xx&oh=158396bc4b797a8248b60dbd928e0ba2&oe=5CD0E924"
   friendly_name: Cait
 device_tracker.vierhapad:
   icon: mdi:tablet-ipad
@@ -101,7 +101,7 @@ device_tracker.zonephone:
   entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/30742471_10101666024151278_3882829698929000448_o.jpg?_nc_cat=0&oh=df013593b855902e5f3d343a78fba68c&oe=5C256DA8"
   friendly_name: Robert
 device_tracker.lolli:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/35741050_10209471307938011_8349394317227327488_n.jpg?_nc_cat=0&oh=e18a300e5d4a59def7d3f0e0ebc2a12a&oe=5C224E0D"
+  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/35763172_10209470337713756_6676183828752498688_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=3842a67ec2983659933a8dc47a04ca48&oe=5CD31634"
   friendly_name: Olivia
 
 ## Renames Not Picked Up
