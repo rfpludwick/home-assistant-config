@@ -98,7 +98,7 @@ device_tracker.vierhapad:
   icon: mdi:tablet-ipad
   friendly_name: Home Assistant iPad
 device_tracker.zonephone:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/30742471_10101666024151278_3882829698929000448_o.jpg?_nc_cat=0&oh=df013593b855902e5f3d343a78fba68c&oe=5C256DA8"
+  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c67.2.653.653a/s320x320/30705446_10101666024156268_8815719343418507264_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=1b2a5c85e45a74402a21c41074aa4e02&oe=5CC2A3F5"
   friendly_name: Robert
 device_tracker.lolli:
   entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/35763172_10209470337713756_6676183828752498688_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=3842a67ec2983659933a8dc47a04ca48&oe=5CD31634"
