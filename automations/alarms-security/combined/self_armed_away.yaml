@@ -14,3 +14,5 @@ action:
     entity_id: cover.viergarage
   - service: lock.lock
     entity_id: lock.front_door
+  - service: light.turn_off
+    entity_id: group.all_lights
