@@ -7,6 +7,10 @@ condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
     state: "on"
+  - condition: template
+    value_template: "{{ (trigger.from_state.state != 'unknown') }}"
+  - condition: template
+    value_template: "{{ (trigger.to_state.state != 'unknown') }}"
 action:
   - service: notify.slack_crit
     data:
