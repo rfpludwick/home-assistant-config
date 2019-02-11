@@ -2,7 +2,7 @@ name: Wifi Presence (Router Reporting)
 control: hidden
 entities:
   - device_tracker.amazon_echo_family_room
-  - device_tracker.amazon_echo_dot_garage
+  - device_tracker.amazon_echo_garage
   - device_tracker.amazon_echo_dot_kitchen
   - device_tracker.amazon_echo_dot_loft
   - device_tracker.amazon_echo_dot_master_bedroom
@@ -22,16 +22,16 @@ entities:
   - device_tracker.garage_door_opener
   - device_tracker.harmony_hub_family_room
   - device_tracker.harmony_hub_loft
-  - device_tracker.c8b5b71c3104 # Home Assistant iPad
+#  - device_tracker.c8b5b71c3104 # Home Assistant iPad
   - device_tracker.home_assistant_zonepi_3b_wifi
   - device_tracker.nest_protect_attic_bedroom
   - device_tracker.nest_protect_entryway
   - device_tracker.nest_protect_family_room
   - device_tracker.nest_protect_master_bedroom
-  - device_tracker.nest_protect_felicitys_bedroom # Nursery
+  - device_tracker.nest_protect_nursery
   - device_tracker.nest_protect_upstairs
   - device_tracker.nintendo_switch
-  - device_tracker.nintendo_wii_u
+#  - device_tracker.nintendo_wii_u
   - device_tracker.samsungsmg930v
   - device_tracker.olivia_shulls_laptop
   - device_tracker.olivia_shulls_phone # Olivia Shull's Old Phone
