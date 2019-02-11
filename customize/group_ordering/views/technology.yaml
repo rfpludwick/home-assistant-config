@@ -2,13 +2,11 @@ group.batteries:
   order: 1
 group.synology_nas:
   order: 2
-group.gps_presence:
-  order: 3
 group.signals:
-  order: 4
+  order: 3
 group.wifi_presence_self:
-  order: 5
+  order: 4
 group.wifi_presence_router:
-  order: 6
+  order: 5
 group.bluetooth_presence:
-  order: 7
+  order: 6
