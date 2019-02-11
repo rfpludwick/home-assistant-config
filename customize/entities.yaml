@@ -117,7 +117,7 @@ device_tracker.c8b5b71c3104:
   friendly_name: Home Assistant iPad
 device_tracker.iphone:
   friendly_name: "Olivia Shull's Phone"
-device_tracker.nest_protect__felicitys_bedroom:
+device_tracker.nest_protect_felicitys_bedroom:
   friendly_name: "Nest Protect - Nursery"
 device_tracker.samsungsmg930v:
   friendly_name: "Olivia Shull Friend 2's Phone"
