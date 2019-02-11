@@ -6,7 +6,7 @@ alarm_control_panel.vierarlo:
   icon: mdi:camcorder-box
   friendly_name: Arlo
 alarm_control_panel.scout_alarm:
-  icon: mdi:pages
+  icon: mdi:alarm
   friendly_name: Scout Alarm
 
 # Alerts
