@@ -17,3 +17,15 @@ entities:
   - sensor.status_sdb
   - sensor.status_smart_sdb
   - sensor.temperature_sdb
+  - sensor.status_sdc
+  - sensor.status_smart_sdc
+  - sensor.temperature_sdc
+  - sensor.status_sdd
+  - sensor.status_smart_sdd
+  - sensor.temperature_sdd
+  - sensor.status_nvme0n1
+  - sensor.status_smart_nvme0n1
+  - sensor.temperature_nvme0n1
+  - sensor.status_nvme1n1
+  - sensor.status_smart_nvme1n1
+  - sensor.temperature_nvme1n1
