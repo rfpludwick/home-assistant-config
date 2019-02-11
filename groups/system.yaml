@@ -4,4 +4,5 @@ entities:
   - sensor.date_time
   - sensor.home_assistant_uptime
   - sensor.home_assistant_version
+  - updater.updater
   - sensor.connected_clients
