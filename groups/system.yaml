@@ -1,4 +1,5 @@
 name: System
+control: hidden
 entities:
   - sensor.date_time
   - sensor.home_assistant_uptime

@@ -1,4 +1,5 @@
 name: Smoke & CO
+control: hidden
 entities:
   - sensor.attic_bedroom_nest_protect_smoke_status
   - sensor.attic_bedroom_nest_protect_co_status

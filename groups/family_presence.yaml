@@ -1,4 +1,5 @@
 name: Family Presence
+control: hidden
 entities:
   - device_tracker.zonephone
   - device_tracker.mermaidphone

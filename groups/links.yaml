@@ -1,4 +1,5 @@
 name: Links
+control: hidden
 entities:
   - weblink.home_assistant_dashboard
   - weblink.unifi_controller

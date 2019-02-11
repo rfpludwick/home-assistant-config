@@ -1,3 +1,4 @@
 name: Plex
+control: hidden
 entities:
  - sensor.plex

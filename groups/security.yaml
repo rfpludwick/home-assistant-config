@@ -1,4 +1,5 @@
 name: Security
+control: hidden
 entities:
   - alarm_control_panel.combined_alarm
   - lock.front_door

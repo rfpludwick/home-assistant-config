@@ -1,4 +1,5 @@
 name: Birthdays
+control: hidden
 entities:
   - input_datetime.birthday_person_1
   - input_datetime.birthday_person_2

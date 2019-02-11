@@ -1,5 +1,4 @@
 name: Automation Toggles
-control: hidden
 entities:
   - input_boolean.automation_combined_alarm
 #  - input_boolean.automation_chores

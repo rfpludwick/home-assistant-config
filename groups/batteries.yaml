@@ -1,4 +1,5 @@
 name: Batteries
+control: hidden
 entities:
   - sensor.zonephone_battery_level
   - sensor.zonephone_battery_state

@@ -1,4 +1,5 @@
 name: Synology NAS
+control: hidden
 entities:
   - sensor.cpu_load_total
   - sensor.cpu_load_15_min

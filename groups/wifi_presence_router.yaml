@@ -1,4 +1,5 @@
 name: Wifi Presence (Router Reporting)
+control: hidden
 entities:
   - device_tracker.amazon_echo_family_room
   - device_tracker.amazon_echo_dot_garage

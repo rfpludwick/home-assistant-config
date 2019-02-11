@@ -1,4 +1,5 @@
 name: Wifi Presence (Self-Reporting)
+control: hidden
 entities:
  - binary_sensor.attic_bedroom_nest_protect_connected
  - binary_sensor.entryway_nest_protect_connected

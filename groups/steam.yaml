@@ -1,2 +1,3 @@
 name: Steam
+control: hidden
 entities: !secret steam_group_entities
