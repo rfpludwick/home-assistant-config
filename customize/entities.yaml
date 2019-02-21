@@ -99,16 +99,20 @@ person.robert:
   entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c67.2.653.653a/s320x320/30705446_10101666024156268_8815719343418507264_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=1b2a5c85e45a74402a21c41074aa4e02&oe=5CC2A3F5"
 
 ## Renames Not Picked Up
-device_tracker.ac3743513ee3:
-  friendly_name: "Cat Ludwick's Phone"
+device_tracker.aubreys_mbp:
+  friendly_name: "Aubrey Messer's Laptop"
 device_tracker.aubreysiphone:
   friendly_name: "Aubrey Messer's Phone"
+device_tracker.ac3743513ee3:
+  friendly_name: "Cat Ludwick's Phone"
+device_tracker.74_72_f2_3d_af_71:
+  friendly_name: Doxie Scanner
 device_tracker.emmas_iphone:
   friendly_name: "Emma Boster's Phone"
 device_tracker.androidea74c9612b5f7f0b:
   friendly_name: "Frederick Ludwick's Phone"
-device_tracker.c8b5b71c3104:
-  friendly_name: Home Assistant iPad
+device_tracker.40_4e_36_7f_23_73:
+  friendly_name: "Gordon Hitchcock's Phone"
 device_tracker.iphone:
   friendly_name: "Olivia Shull's Phone"
 device_tracker.nest_protect_felicitys_bedroom:

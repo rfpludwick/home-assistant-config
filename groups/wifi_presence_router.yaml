@@ -8,6 +8,7 @@ entities:
   - device_tracker.amazon_echo_dot_master_bedroom
   - device_tracker.amazon_echo_dot_nursery
   - device_tracker.apple_tv
+  - device_tracker.aubreys_mbp
   - device_tracker.aubreysiphone
   - device_tracker.august_connect
   - device_tracker.av_receiver_family_room
@@ -16,14 +17,17 @@ entities:
   - device_tracker.caitlin_ludwicks_phone
   - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
   - device_tracker.chromecast
+  - device_tracker.androidf14e81233c146f7b # Diana Shull's Phone
+  - device_tracker.74_72_f2_3d_af_71 # Doxie Scanner
   - device_tracker.emmas_iphone
   - device_tracker.fitbit_aria
   - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
   - device_tracker.garage_door_opener
+  - device_tracker.40_4e_36_7f_23_73 # Gordon Hitchcock's Phone
   - device_tracker.harmony_hub_family_room
   - device_tracker.harmony_hub_loft
-#  - device_tracker.c8b5b71c3104 # Home Assistant iPad
   - device_tracker.home_assistant_zonepi_3b_wifi
+  - device_tracker.jean_hitchcock_s_phone
   - device_tracker.nest_protect_attic_bedroom
   - device_tracker.nest_protect_entryway
   - device_tracker.nest_protect_family_room
