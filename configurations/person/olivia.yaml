@@ -1,0 +1,5 @@
+name: Olivia
+id: emojikos
+device_trackers:
+  - device_tracker.lolli
+  - device_tracker.olivia_shulls_phone

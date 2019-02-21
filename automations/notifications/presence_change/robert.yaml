@@ -2,11 +2,11 @@ alias: "Notification: Presence Change: Robert"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: device_tracker.zonephone
+    entity_id: person.robert
     from: "not_home"
     to: "home"
   - platform: state
-    entity_id: device_tracker.zonephone
+    entity_id: person.robert
     from: "home"
     to: "not_home"
 condition:
@@ -16,4 +16,4 @@ condition:
 action:
   - service: notify.slack_standard
     data:
-      message: "Robert's presence changed to '{{ states.device_tracker.zonephone.state }}'"
+      message: "Robert's presence changed to '{{ states.person.robert.state }}'"
