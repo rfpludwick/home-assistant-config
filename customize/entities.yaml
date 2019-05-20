@@ -92,11 +92,11 @@ cover.viergarage:
 
 ## Family Presence
 person.cait:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/30073083_880126622564_4716077741384072858_o.jpg?_nc_cat=110&_nc_ht=scontent-sea1-1.xx&oh=158396bc4b797a8248b60dbd928e0ba2&oe=5CD0E924"
+  entity_picture: !secret entity_picture_cait
 person.olivia:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/35763172_10209470337713756_6676183828752498688_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=3842a67ec2983659933a8dc47a04ca48&oe=5CD31634"
+  entity_picture: !secret entity_picture_olivia
 person.robert:
-  entity_picture: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c67.2.653.653a/s320x320/30705446_10101666024156268_8815719343418507264_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=1b2a5c85e45a74402a21c41074aa4e02&oe=5CC2A3F5"
+  entity_picture: !secret entity_picture_robert
 
 ## Renames Not Picked Up
 device_tracker.aubreys_mbp:
