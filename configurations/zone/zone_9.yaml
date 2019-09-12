@@ -1,5 +1,4 @@
 name: !secret zone_9_name
 latitude: !secret zone_9_latitude
 longitude: !secret zone_9_longitude
-radius: 200
-icon: mdi:train
+icon: mdi:sports
