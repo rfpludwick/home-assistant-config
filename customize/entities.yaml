@@ -99,6 +99,8 @@ person.robert:
   entity_picture: !secret entity_picture_robert
 
 ## Renames Not Picked Up
+device_tracker.08_84_9d_35_17_19:
+  friendly_name: "Amazon Echo Dot - Attic Bedroom"
 device_tracker.aubreys_mbp:
   friendly_name: "Aubrey Messer's Laptop"
 device_tracker.aubreysiphone:
@@ -115,14 +117,16 @@ device_tracker.androidea74c9612b5f7f0b:
   friendly_name: "Frederick Ludwick's Phone"
 device_tracker.40_4e_36_7f_23_73:
   friendly_name: "Gordon Hitchcock's Phone"
+device_tracker.58_cb_52_0f_47_44:
+  friendly_name: "Joe's Phone"
 device_tracker.iphone:
   friendly_name: "Olivia Shull's Phone"
+device_tracker.40_4e_36_81_cd_e5:
+  friendly_name: "Maliha's Phone"
 device_tracker.nest_protect_felicitys_bedroom:
   friendly_name: "Nest Protect - Nursery"
 device_tracker.samsungsmg930v:
   friendly_name: "Olivia Shull Friend 2's Phone"
-device_tracker.olivia_shulls_phone:
-  friendly_name: "Olivia Shull's Old Phone"
 device_tracker.ricki:
   friendly_name: "Ricki Doty's Phone"
 device_tracker.ryliesiphone:
