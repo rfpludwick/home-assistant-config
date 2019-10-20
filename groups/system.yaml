@@ -5,4 +5,4 @@ entities:
   - sensor.home_assistant_uptime
   - sensor.home_assistant_version
   - updater.updater
-  - sensor.websocket_api
+  - sensor.connected_clients
