@@ -153,9 +153,9 @@ sensor.harmony_hub_loft:
 #  friendly_name: Steam History
 
 # Home Assistant
-sensor.connected_clients:
+sensor.websocket_api:
   icon: mdi:remote-desktop
-  friendly_name: Connected Clients
+  friendly_name: Websocket Connections
 sensor.home_assistant_version:
   icon: mdi:checkbox-marked-outline
   friendly_name: Home Assistant Version
