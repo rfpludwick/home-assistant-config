@@ -271,21 +271,33 @@ sensor.steam_game_playing_cait:
   friendly_name: "Cait's Current Game"
 
 # Synology NAS
-sensor.status_volume_1:
+sensor.synology_dsm_status_volume_1:
   friendly_name: Volume 1 Status
-sensor.total_size_volume_1:
+sensor.synology_dsm_total_size_volume_1:
   friendly_name: Volume 1 Total Size
-sensor.volume_used_volume_1:
+sensor.synology_dsm_volume_used_volume_1:
   friendly_name: Volume 1 Used
-sensor.status_sda:
+sensor.synology_dsm_status_sda:
   friendly_name: SDA Status
-sensor.status_smart_sda:
+sensor.synology_dsm_status_smart_sda:
   friendly_name: SDA S.M.A.R.T. Status
-sensor.temperature_sda:
+sensor.synology_dsm_temperature_sda:
   friendly_name: SDA Temperature
-sensor.status_sdb:
+sensor.synology_dsm_status_sdb:
   friendly_name: SDB Status
-sensor.status_smart_sdb:
+sensor.synology_dsm_status_smart_sdb:
   friendly_name: SDB S.M.A.R.T. Status
-sensor.temperature_sdb:
+sensor.synology_dsm_temperature_sdb:
   friendly_name: SDB Temperature
+sensor.synology_dsm_status_sdc:
+  friendly_name: SDC Status
+sensor.synology_dsm_status_smart_sdc:
+  friendly_name: SDC S.M.A.R.T. Status
+sensor.synology_dsm_temperature_sdc:
+  friendly_name: SDC Temperature
+sensor.synology_dsm_status_sdd:
+  friendly_name: SDD Status
+sensor.synology_dsm_status_smart_sdd:
+  friendly_name: SDD S.M.A.R.T. Status
+sensor.synology_dsm_temperature_sdd:
+  friendly_name: SDD Temperature
