@@ -271,6 +271,20 @@ sensor.steam_game_playing_cait:
   friendly_name: "Cait's Current Game"
 
 # Synology NAS
+sensor.synology_dsm_cpu_load_total:
+  friendly_name: Total CPU Load
+sensor.synology_dsm_cpu_load_15_min:
+  friendly_name: 15-Minute CPU Load
+sensor.synology_dsm_memory_usage_real:
+  friendly_name: Real Memory Usage
+sensor.synology_dsm_memory_total_swap:
+  friendly_name: Total Swap Memory
+sensor.synology_dsm_memory_cached:
+  friendly_name: Memory Cached
+sensor.synology_dsm_network_down:
+  friendly_name: Network Down
+sensor.synology_dsm_network_up:
+  friendly_name: Network Up
 sensor.synology_dsm_status_volume_1:
   friendly_name: Volume 1 Status
 sensor.synology_dsm_total_size_volume_1:
@@ -301,3 +315,15 @@ sensor.synology_dsm_status_smart_sdd:
   friendly_name: SDD S.M.A.R.T. Status
 sensor.synology_dsm_temperature_sdd:
   friendly_name: SDD Temperature
+sensor.synology_dsm_status_nvme0n1:
+  friendly_name: NVMe0n1 Status
+sensor.synology_dsm_status_smart_nvme0n1:
+  friendly_name: NVMe0n1 S.M.A.R.T. Status
+sensor.synology_dsm_temperature_nvme0n1:
+  friendly_name: NVMe0n1 Temperature
+sensor.synology_dsm_status_nvme1n1:
+  friendly_name: NVMe1n1 Status
+sensor.synology_dsm_status_smart_nvme1n1:
+  friendly_name: NVMe1n1 S.M.A.R.T. Status
+sensor.synology_dsm_temperature_nvme1n1:
+  friendly_name: NVMe1n1 Temperature
