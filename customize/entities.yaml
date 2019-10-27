@@ -184,7 +184,7 @@ media_player.vieratv:
 media_player.xbr55x850d:
   friendly_name: Family Room TV
 media_player.family_room_tv:
-  friendly_name; Family Room TV (Chromecast)
+  friendly_name: Family Room TV (Chromecast)
 media_player.spotify:
   friendly_name: "Robert's Spotify"
 
