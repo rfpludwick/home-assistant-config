@@ -43,6 +43,7 @@ sensor: !include_dir_list configurations/sensor/
 #sun:
 system_health:
 #usps: !include configurations/usps.yaml
+unifi: !include configurations/unifi.yaml
 vacuum: !include_dir_list configurations/vacuum/
 weblink: !include configurations/weblink.yaml
 zone: !include_dir_list configurations/zone/
