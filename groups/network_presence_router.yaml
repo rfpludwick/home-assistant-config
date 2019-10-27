@@ -1,7 +1,7 @@
-name: WiFi Presence (Router Reporting)
+name: Network Presence (Router Reporting)
 control: hidden
 entities:
-  - device_tracker.08_84_9d_35_17_19 # Amazon Echo Dot - Attic Bedroom
+  - device_tracker.amazon_echo_dot_attic_bedroom
   - device_tracker.amazon_echo_family_room
   - device_tracker.amazon_echo_garage
   - device_tracker.amazon_echo_dot_kitchen

@@ -7,5 +7,5 @@ entities:
   - group.gps_presence
   - group.signals
   - group.wifi_presence_self
-  - group.wifi_presence_router
+  - group.network_presence_router
   - group.bluetooth_presence
