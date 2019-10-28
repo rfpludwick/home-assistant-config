@@ -1,0 +1,4 @@
+host: !secret pi_hole_host
+location: !secret pi_hole_location
+ssl: true
+verify_ssl: true
