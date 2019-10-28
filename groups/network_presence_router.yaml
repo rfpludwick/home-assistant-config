@@ -1,4 +1,4 @@
-name: Network Presence (Router Reporting)
+name: Network Presence (Router)
 control: hidden
 entities:
   - device_tracker.amazon_echo_dot_attic_bedroom
@@ -8,29 +8,19 @@ entities:
   - device_tracker.amazon_echo_dot_loft
   - device_tracker.amazon_echo_dot_master_bedroom
   - device_tracker.amazon_echo_dot_nursery
-  - device_tracker.apple_tv
-  - device_tracker.aubreys_mbp
-  - device_tracker.aubreysiphone
+  - device_tracker.apple_tv_wired
+  - device_tracker.arlo_base_station
   - device_tracker.august_connect
-  - device_tracker.av_receiver_family_room
-  - device_tracker.caitlin_ludwicks_laptop
-  - device_tracker.caitlin_ludwicks_old_phone
-  - device_tracker.caitlin_ludwicks_phone
-  - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
-  - device_tracker.chromecast
-  - device_tracker.androidf14e81233c146f7b # Diana Shull's Phone
-  - device_tracker.74_72_f2_3d_af_71 # Doxie Scanner
-  - device_tracker.emmas_iphone
-  - device_tracker.fitbit_aria
-  - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
+  - device_tracker.av_receiver_family_room_wired
+  - device_tracker.caitlin_ludwick_s_phone
+  - device_tracker.caitlin_ludwick_s_rig_wifi
+  - device_tracker.caitlin_ludwick_s_rig_wired
   - device_tracker.garage_door_opener
-  - device_tracker.40_4e_36_7f_23_73 # Gordon Hitchcock's Phone
   - device_tracker.harmony_hub_family_room
   - device_tracker.harmony_hub_loft
-  - device_tracker.home_assistant_zonepi_3b_wifi
-  - device_tracker.jean_hitchcock_s_phone
-  - device_tracker.58_cb_52_0f_47_44 # Joe's Phone
-  - device_tracker.40_4e_36_81_cd_e5 # Maliha's Phone
+  - device_tracker.hue_hub
+  - device_tracker.nas_lan_1
+  - device_tracker.nas_lan_2
   - device_tracker.nest_protect_attic_bedroom
   - device_tracker.nest_protect_entryway
   - device_tracker.nest_protect_family_room
@@ -38,19 +28,50 @@ entities:
   - device_tracker.nest_protect_nursery
   - device_tracker.nest_protect_upstairs
   - device_tracker.nintendo_switch
-#  - device_tracker.nintendo_wii_u
-  - device_tracker.samsungsmg930v # Olivia Shull Friend 2's Phone
-  - device_tracker.olivia_shulls_laptop
-  - device_tracker.olivia_shull_s_old_phone
+  - device_tracker.pi_hole_zonepi_2
   - device_tracker.printer
-  - device_tracker.ps3
-  - device_tracker.ricki
-  - device_tracker.robert_fp_ludwicks_kindle
-  - device_tracker.robert_fp_ludwicks_laptop
-  - device_tracker.robert_fp_ludwicks_phone
-  - device_tracker.robert_fp_ludwicks_work_laptop
+  - device_tracker.ps4
+  - device_tracker.reverse_proxy_zonepi_3_wifi
+  - device_tracker.reverse_proxy_zonepi_3_wired
+  - device_tracker.robert_f_p_ludwick_s_phone
+  - device_tracker.robert_f_p_ludwick_s_rig
+  - device_tracker.robert_f_p_ludwick_s_work_laptop
   - device_tracker.roomba
-  - device_tracker.ryliesiphone
-  - device_tracker.stephanesiphone
+  - device_tracker.scout_hub
+  - device_tracker.solarcity_gateway
+  - device_tracker.ssh_gateway_zonepi
+  - device_tracker.tivo_main
+  - device_tracker.tivo_mini_loft
+  - device_tracker.tivo_streaming
   - device_tracker.trane_thermostat
-  - device_tracker.tv_family_room
+  - device_tracker.tv_family_room_wired
+  - device_tracker.xbox_one
+
+  # Disabled as of 0.97.x
+#  - device_tracker.aubreys_mbp
+#  - device_tracker.aubreysiphone
+#  - device_tracker.av_receiver_family_room
+#  - device_tracker.caitlin_ludwicks_laptop
+#  - device_tracker.caitlin_ludwicks_old_phone
+#  - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
+#  - device_tracker.chromecast
+#  - device_tracker.androidf14e81233c146f7b # Diana Shull's Phone
+#  - device_tracker.74_72_f2_3d_af_71 # Doxie Scanner
+#  - device_tracker.emmas_iphone
+#  - device_tracker.fitbit_aria
+#  - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
+#  - device_tracker.40_4e_36_7f_23_73 # Gordon Hitchcock's Phone
+#  - device_tracker.home_assistant_zonepi_3b_wifi
+#  - device_tracker.jean_hitchcock_s_phone
+#  - device_tracker.58_cb_52_0f_47_44 # Joe's Phone
+#  - device_tracker.40_4e_36_81_cd_e5 # Maliha's Phone
+##  - device_tracker.nintendo_wii_u
+#  - device_tracker.samsungsmg930v # Olivia Shull Friend 2's Phone
+#  - device_tracker.olivia_shulls_laptop
+#  - device_tracker.olivia_shull_s_old_phone
+#  - device_tracker.ps3
+#  - device_tracker.ricki
+#  - device_tracker.robert_fp_ludwicks_kindle
+#  - device_tracker.robert_fp_ludwicks_laptop
+#  - device_tracker.ryliesiphone
+#  - device_tracker.stephanesiphone

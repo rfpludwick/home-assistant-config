@@ -6,7 +6,9 @@ group.signals:
   order: 3
 group.wifi_presence_self:
   order: 4
-group.network_presence_router:
+group.network_infrastructure_router:
   order: 5
-group.bluetooth_presence:
+group.network_presence_router:
   order: 6
+group.bluetooth_presence:
+  order: 7
