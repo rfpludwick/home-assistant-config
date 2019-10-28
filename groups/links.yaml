@@ -8,6 +8,7 @@ entities:
   - weblink.chamberlain
   - weblink.synology_nas
   - weblink.synology_nas_photo_station
+  - weblink.pi_hole
   - weblink.alexa
   - weblink.philips_hue
   - weblink.nexia

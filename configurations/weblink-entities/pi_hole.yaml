@@ -1,0 +1,3 @@
+name: Pi-hole
+url: !secret weblink_pi_hole
+icon: mdi:pi-hole
