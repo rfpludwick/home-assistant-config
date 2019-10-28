@@ -15,6 +15,7 @@ entities:
   - device_tracker.caitlin_ludwick_s_phone
   - device_tracker.caitlin_ludwick_s_rig_wifi
   - device_tracker.caitlin_ludwick_s_rig_wired
+  - device_tracker.chromecast
   - device_tracker.garage_door_opener
   - device_tracker.harmony_hub_family_room
   - device_tracker.harmony_hub_loft
@@ -33,6 +34,7 @@ entities:
   - device_tracker.ps4
   - device_tracker.reverse_proxy_zonepi_3_wifi
   - device_tracker.reverse_proxy_zonepi_3_wired
+  - device_tracker.robert_f_p_ludwick_s_kindle
   - device_tracker.robert_f_p_ludwick_s_phone
   - device_tracker.robert_f_p_ludwick_s_rig
   - device_tracker.robert_f_p_ludwick_s_work_laptop
@@ -50,18 +52,15 @@ entities:
   # Disabled as of 0.97.x
 #  - device_tracker.aubreys_mbp
 #  - device_tracker.aubreysiphone
-#  - device_tracker.av_receiver_family_room
 #  - device_tracker.caitlin_ludwicks_laptop
 #  - device_tracker.caitlin_ludwicks_old_phone
 #  - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
-#  - device_tracker.chromecast
 #  - device_tracker.androidf14e81233c146f7b # Diana Shull's Phone
 #  - device_tracker.74_72_f2_3d_af_71 # Doxie Scanner
 #  - device_tracker.emmas_iphone
 #  - device_tracker.fitbit_aria
 #  - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
 #  - device_tracker.40_4e_36_7f_23_73 # Gordon Hitchcock's Phone
-#  - device_tracker.home_assistant_zonepi_3b_wifi
 #  - device_tracker.jean_hitchcock_s_phone
 #  - device_tracker.58_cb_52_0f_47_44 # Joe's Phone
 #  - device_tracker.40_4e_36_81_cd_e5 # Maliha's Phone
@@ -71,7 +70,6 @@ entities:
 #  - device_tracker.olivia_shull_s_old_phone
 #  - device_tracker.ps3
 #  - device_tracker.ricki
-#  - device_tracker.robert_fp_ludwicks_kindle
 #  - device_tracker.robert_fp_ludwicks_laptop
 #  - device_tracker.ryliesiphone
 #  - device_tracker.stephanesiphone
