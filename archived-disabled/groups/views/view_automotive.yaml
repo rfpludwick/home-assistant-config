@@ -3,5 +3,3 @@ view: yes
 icon: mdi:car-pickup
 entities:
   - group.waze
-  - group.deliveries
-  - group.camera_usps
