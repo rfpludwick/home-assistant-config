@@ -7,5 +7,5 @@ entities:
   - group.smoke_co
 #  - group.crime
 #  - group.breaches
-  - group.birthdays
-  - group.anniversaries
+#  - group.birthdays
+#  - group.anniversaries
