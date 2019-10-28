@@ -2,7 +2,7 @@ alias: "Notification: Home Assistant: Update Available"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: updater.updater
+    entity_id: binary_sensor.updater
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
