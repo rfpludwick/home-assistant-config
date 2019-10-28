@@ -6,7 +6,6 @@
 - Fix Olivia's Phone Integration & Tracking
 - Investigate Lovelace
 - Integrate Pihole
-- Remove archived Plex YAML when it's verified working
 - Add in all unused entities possible
 - Remove deprecated entities from known_entities.yaml
 - Investigate HomeKit
