@@ -9,6 +9,7 @@
 - Add in all unused entities possible
 - Remove deprecated entities from known_entities.yaml
 - Investigate HomeKit
+- Update zones
 
 # Considerations
 
