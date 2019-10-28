@@ -30,7 +30,7 @@ ffmpeg: !include configurations/ffmpeg.yaml
 #history_graph: !include_dir_named configurations/history_graph/
 ifttt: !include configurations/ifttt.yaml
 input_boolean: !include_dir_named configurations/input_boolean/
-input_datetime: !include_dir_named configurations/input_datetime/
+#input_datetime: !include_dir_named configurations/input_datetime/
 ios: !include configurations/ios.yaml
 media_player: !include_dir_list configurations/media_player/
 mobile_app:
