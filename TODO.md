@@ -5,11 +5,11 @@
 - Figure Out Family Room Gas Stove
 - Fix Olivia's Phone Integration & Tracking
 - Investigate Lovelace
-- Integrate Pihole
 - Add in all unused entities possible
 - Remove deprecated entities from known_entities.yaml
 - Investigate HomeKit
 - Update zones
+- Investigate startup activities continually going negative
 
 # Considerations
 

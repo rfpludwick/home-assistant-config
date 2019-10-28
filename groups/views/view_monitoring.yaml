@@ -5,6 +5,7 @@ entities:
 #  - group.camera_front
 #  - group.camera_back
   - group.smoke_co
+  - group.pi_hole
 #  - group.crime
 #  - group.breaches
 #  - group.birthdays
