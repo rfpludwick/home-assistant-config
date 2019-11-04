@@ -8,4 +8,5 @@ condition: []
 action:
   - data_template:
       entity_id: "{{ trigger.event.data.entity_id }}"
+      state: "{{ trigger.event.data.state }}"
     service_template: "{{ trigger.event.data.service }}"
