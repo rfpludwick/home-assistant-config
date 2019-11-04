@@ -59,12 +59,12 @@ sensor.front_door_lock_battery_level:
   friendly_name: August Lock
 
 # Blueteeth
-device_tracker.bose_mini_ii_soundlink:
-  icon: mdi:bluetooth
-  friendly_name: Bose Portable Speaker
-device_tracker.xbr55x850d:
-  icon: mdi:bluetooth
-  friendly_name: Family Room TV
+#device_tracker.bose_mini_ii_soundlink:
+#  icon: mdi:bluetooth
+#  friendly_name: Bose Portable Speaker
+#device_tracker.xbr55x850d:
+#  icon: mdi:bluetooth
+#  friendly_name: Family Room TV
 
 # Celestial
 #sensor.season_display:
