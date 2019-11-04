@@ -5,8 +5,8 @@ entities:
   - sensor.zonephone_battery_state
   - sensor.caits_mermaid_phone_battery_level
   - sensor.caits_mermaid_phone_battery_state
-  - sensor.lolli_battery_level
-  - sensor.lolli_battery_state
+#  - sensor.lolli_battery_level
+#  - sensor.lolli_battery_state
 #  - sensor.caitlins_ipad_battery_level
 #  - sensor.caitlins_ipad_battery_state
   - sensor.front_door_lock_battery_level
