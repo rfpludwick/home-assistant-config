@@ -43,8 +43,8 @@ remote: !include_dir_list configurations/remote/
 sensor: !include_dir_list configurations/sensor/
 #sun:
 system_health:
-usps: !include configurations/usps.yaml
 tplink: !include configurations/tplink.yaml
+#usps: !include configurations/usps.yaml
 unifi: !include configurations/unifi.yaml
 vacuum: !include_dir_list configurations/vacuum/
 weblink: !include configurations/weblink.yaml
