@@ -264,6 +264,12 @@ sensor.steam_game_playing_cait:
   icon: mdi:gamepad-variant
   friendly_name: "Cait's Current Game"
 
+# Switches
+switch.front_room_east_lamp:
+  icon: mdi:lightbulb
+switch.front_room_west_lamp:
+  icon: mdi:lightbulb
+
 # Synology NAS
 sensor.synology_dsm_cpu_load_total:
   friendly_name: Total CPU Load
