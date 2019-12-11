@@ -8,4 +8,5 @@ entities:
   - group.family_presence
   - group.security
   - group.lights
+  - group.switches
 #  - group.weather_snapshot

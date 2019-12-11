@@ -1,6 +1,8 @@
 name: Lights
 entities:
   - light.family_room_ceiling
+  - switch.front_room_east_lamp
+  - switch.front_room_west_lamp
   - light.loft_lamp
   - light.master_bedroom_ceiling
   - light.nursery_ceiling
