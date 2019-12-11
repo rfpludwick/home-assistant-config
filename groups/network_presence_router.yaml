@@ -23,6 +23,12 @@ entities:
   - device_tracker.harmony_hub_family_room
   - device_tracker.harmony_hub_loft
   - device_tracker.hue_hub
+  - device_tracker.unifi_68_ff_7b_b9_fd_7f_default # Kasa Smart Plug - Christmas Tree
+  - device_tracker.hs105_2 # Kasa Smart Plug - Front Room East Lamp
+  - device_tracker.hs105 # Kasa Smart Plug - Front Room West Lamp
+  - device_tracker.hs105_3 # Kasa Smart Plug - Loft Christmas Lights
+  - device_tracker.unifi_d8_0d_17_56_c0_54_default # Kasa Smart Plug - Master Bedroom Humidifier
+  - device_tracker.hs105_4 # Kasa Smart Plug - Robert F.P. Ludwick's Reading Lamp
   - device_tracker.olivia_shull_s_phone
   - device_tracker.nas_lan_1
   - device_tracker.nas_lan_2
