@@ -6,6 +6,7 @@
 .ios.conf
 .spotify-token-cache
 .storage
+.vscode
 .uuid
 _ecosystem/appdaemon/secrets.yaml
 _ecosystem/appdaemon/compiled/*
