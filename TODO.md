@@ -7,6 +7,7 @@
 - Add in all unused entities possible
 - Investigate HomeKit
 - Fix Arlo
+- Get fan controls into HA
 
 # Considerations
 
