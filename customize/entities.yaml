@@ -265,6 +265,8 @@ sensor.steam_game_playing_cait:
   friendly_name: "Cait's Current Game"
 
 # Switches
+switch.caits_desk_lamp:
+  icon: mdi:lightbulb
 switch.front_room_east_lamp:
   icon: mdi:lightbulb
 switch.front_room_west_lamp:
