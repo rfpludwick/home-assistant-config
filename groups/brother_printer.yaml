@@ -1,15 +1,15 @@
 name: Brother Printer
 control: hidden
 entities:
-  - sensor.printer_belt_unit_remaining_life
+  - sensor.printer_status
+  - sensor.printer_uptime
+  - sensor.printer_cyan_toner_remaining
+  - sensor.printer_magenta_toner_remaining
+  - sensor.printer_yellow_toner_remaining
   - sensor.printer_black_toner_remaining
   - sensor.printer_bw_counter
   - sensor.printer_color_counter
-  - sensor.printer_cyan_toner_remaining
-  - sensor.printer_fuser_remaining_life
-  - sensor.printer_magenta_toner_remaining
   - sensor.printer_page_counter
+  - sensor.printer_belt_unit_remaining_life
+  - sensor.printer_fuser_remaining_life
   - sensor.printer_pf_kit_1_remaining_life
-  - sensor.printer_status
-  - sensor.printer_uptime
-  - sensor.printer_yellow_toner_remaining
