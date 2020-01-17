@@ -2,10 +2,11 @@ name: Technology
 view: yes
 icon: mdi:chip
 entities:
-  - group.batteries
+#  - group.batteries
   - group.synology_nas
-  - group.gps_presence
-  - group.signals
+  - group.brother_printer
+#  - group.gps_presence
+#  - group.signals
   - group.wifi_presence_self
   - group.network_infrastructure_router
   - group.network_presence_router
