@@ -6,8 +6,8 @@ bed_down:
         code: !secret alarm_code
     - service: light.turn_off
       entity_id:
+        - light.attic_bedroom_ceiling
         - light.family_room_ceiling
-        - light.loft_lamp
         - light.master_bedroom_ceiling
         - light.nursery_ceiling
         - light.nursery_lamp
@@ -16,7 +16,7 @@ bed_down:
         - switch.caits_desk_lamp
         - switch.front_room_east_lamp
         - switch.front_room_west_lamp
-        - switch.christmas_tree
+        - switch.loft_lamp
         - switch.master_bedroom_humidifier
         - switch.roberts_reading_lamp
     - service: remote.turn_off
