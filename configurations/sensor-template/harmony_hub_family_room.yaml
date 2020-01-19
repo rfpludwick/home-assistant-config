@@ -1,1 +1,6 @@
-value_template: "{{ states.remote.family_room.attributes.current_activity }}"
+value_template: >
+  {% if (states.remote.family_room.attributes.current_activity == 'PowerOff') %}
+    Off
+  {% else %}
+    {{ states.remote.family_room.attributes.current_activity }}
+  {% endif %}
