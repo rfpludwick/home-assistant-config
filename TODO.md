@@ -3,10 +3,12 @@
 - Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
 - Add in all unused entities possible
+- Remove deprecated entities
 - Investigate HomeKit
 - Fix Arlo
-- Get fan controls into HA
-- Fix up Robert & Cait phones on mobile app and their entities
+- Get ceiling fan controls into HA
+- Remove Home Assistant iOS integration
+- Clean up commented entity customizations
 
 # Considerations
 
