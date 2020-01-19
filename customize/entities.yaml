@@ -1,359 +1,359 @@
-# Alarm Control Panels
-alarm_control_panel.combined_alarm:
-  icon: mdi:security
-  friendly_name: Combined Alarm
-alarm_control_panel.vierarlo:
-  icon: mdi:camcorder-box
-  friendly_name: Arlo
-alarm_control_panel.scout_alarm:
-  icon: mdi:shield-home
-  friendly_name: Scout Alarm
+# # Alarm Control Panels
+# alarm_control_panel.combined_alarm:
+#   icon: mdi:security
+#   # friendly_name: Combined Alarm
+# alarm_control_panel.vierarlo:
+#   icon: mdi:camcorder-box
+#   # friendly_name: Arlo
+# alarm_control_panel.scout_alarm:
+#   icon: mdi:shield-home
+#   # friendly_name: Scout Alarm
 
-# Alerts
-#alert.arlo_camera_exterior_back_battery_low:
-#  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
-#  icon: mdi:battery-alert
-#alert.arlo_camera_exterior_front_battery_low:
-#  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
-#  icon: mdi:battery-alert
-alert.august_front_door_lock_battery_low:
-  friendly_name: "August Front Door Lock: Battery Low"
-  icon: mdi:battery-alert
-alert.august_front_door_lock_unlocked:
-  friendly_name: "August Front Door Lock: Unlocked"
-  icon: mdi:lock-alert
-alert.chamberlain_garage_door_open:
-  friendly_name: "Chamberlain Garage Door: Open"
-  icon: mdi:garage-alert
-alert.nest_protect_attic_bedroom_battery_health_replace:
-  friendly_name: "Nest Protect: Attic Bedroom: Replace Battery"
-  icon: mdi:battery-alert
-alert.nest_protect_entryway_battery_health_replace:
-  friendly_name: "Nest Protect: Entryway: Replace Battery"
-  icon: mdi:battery-alert
-alert.nest_protect_family_room_battery_health_replace:
-  friendly_name: "Nest Protect: Family Room: Replace Battery"
-  icon: mdi:battery-alert
-alert.nest_protect_master_bedroom_battery_health_replace:
-  friendly_name: "Nest Protect: Master Bedroom: Replace Battery"
-  icon: mdi:battery-alert
-alert.nest_protect_nursery_battery_health_replace:
-  friendly_name: "Nest Protect: Nursery: Replace Battery"
-  icon: mdi:battery-alert
-alert.nest_protect_upstairs_battery_health_replace:
-  friendly_name: "Nest Protect: Upstairs: Replace Battery"
-  icon: mdi:battery-alert
+# # Alerts
+# #alert.arlo_camera_exterior_back_battery_low:
+# #  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
+# #  icon: mdi:battery-alert
+# #alert.arlo_camera_exterior_front_battery_low:
+# #  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
+# #  icon: mdi:battery-alert
+# alert.august_front_door_lock_battery_low:
+#   friendly_name: "August Front Door Lock: Battery Low"
+#   icon: mdi:battery-alert
+# alert.august_front_door_lock_unlocked:
+#   friendly_name: "August Front Door Lock: Unlocked"
+#   icon: mdi:lock-alert
+# alert.chamberlain_garage_door_open:
+#   friendly_name: "Chamberlain Garage Door: Open"
+#   icon: mdi:garage-alert
+# alert.nest_protect_attic_bedroom_battery_health_replace:
+#   friendly_name: "Nest Protect: Attic Bedroom: Replace Battery"
+#   icon: mdi:battery-alert
+# alert.nest_protect_entryway_battery_health_replace:
+#   friendly_name: "Nest Protect: Entryway: Replace Battery"
+#   icon: mdi:battery-alert
+# alert.nest_protect_family_room_battery_health_replace:
+#   friendly_name: "Nest Protect: Family Room: Replace Battery"
+#   icon: mdi:battery-alert
+# alert.nest_protect_master_bedroom_battery_health_replace:
+#   friendly_name: "Nest Protect: Master Bedroom: Replace Battery"
+#   icon: mdi:battery-alert
+# alert.nest_protect_nursery_battery_health_replace:
+#   friendly_name: "Nest Protect: Nursery: Replace Battery"
+#   icon: mdi:battery-alert
+# alert.nest_protect_upstairs_battery_health_replace:
+#   friendly_name: "Nest Protect: Upstairs: Replace Battery"
+#   icon: mdi:battery-alert
 
-# Arlo (Excluding Alarm Control Panel)
-#sensor.battery_level_exterior_back:
-#  friendly_name: Arlo Exterior Back
-#sensor.battery_level_exterior_front:
-#  friendly_name: Arlo Exterior Front
-#sensor.signal_strength_exterior_back_percentage:
-#  friendly_name: Arlo Exterior Back
-#sensor.signal_strength_exterior_front_percentage:
-#  friendly_name: Arlo Exterior Front
+# # Arlo (Excluding Alarm Control Panel)
+# #sensor.battery_level_exterior_back:
+# #  friendly_name: Arlo Exterior Back
+# #sensor.battery_level_exterior_front:
+# #  friendly_name: Arlo Exterior Front
+# #sensor.signal_strength_exterior_back_percentage:
+# #  friendly_name: Arlo Exterior Back
+# #sensor.signal_strength_exterior_front_percentage:
+# #  friendly_name: Arlo Exterior Front
 
-# August Lock
-sensor.front_door_lock_battery_level:
-  friendly_name: August Lock
+# # August Lock
+# sensor.front_door_lock_battery_level:
+#   friendly_name: August Lock
 
-# Blueteeth
-#device_tracker.bose_mini_ii_soundlink:
-#  icon: mdi:bluetooth
-#  friendly_name: Bose Portable Speaker
-#device_tracker.xbr55x850d:
-#  icon: mdi:bluetooth
-#  friendly_name: Family Room TV
+# # Blueteeth
+# #device_tracker.bose_mini_ii_soundlink:
+# #  icon: mdi:bluetooth
+# #  friendly_name: Bose Portable Speaker
+# #device_tracker.xbr55x850d:
+# #  icon: mdi:bluetooth
+# #  friendly_name: Family Room TV
 
-# Celestial
-#sensor.season_display:
-#  friendly_name: Season
+# # Celestial
+# #sensor.season_display:
+# #  friendly_name: Season
 
-# Covers
-cover.viergarage:
-  friendly_name: Garage Door
+# # Covers
+# cover.viergarage:
+#   friendly_name: Garage Door
 
-# Crime
-#sensor.crime:
-#  icon: mdi:guy-fawkes-mask
+# # Crime
+# #sensor.crime:
+# #  icon: mdi:guy-fawkes-mask
 
-# Deliveries
-#camera.usps_mail:
-#  friendly_name: USPS Mail
-#sensor.usps_mail:
-#  friendly_name: USPS Mail
-#sensor.usps_packages:
-#  friendly_name: USPS Packages
-#sensor.ups:
-#  friendly_name: UPS Packages
+# # Deliveries
+# #camera.usps_mail:
+# #  friendly_name: USPS Mail
+# #sensor.usps_mail:
+# #  friendly_name: USPS Mail
+# #sensor.usps_packages:
+# #  friendly_name: USPS Packages
+# #sensor.ups:
+# #  friendly_name: UPS Packages
 
-# Device Trackers
+# # Device Trackers
 
-## Family Presence
-person.cait:
-  entity_picture: !secret entity_picture_cait
-person.felicity:
-  entity_picture: !secret entity_picture_felicity
-# person.olivia:
-#   entity_picture: !secret entity_picture_olivia
-person.robert:
-  entity_picture: !secret entity_picture_robert
+# ## Family Presence
+# person.cait:
+#   entity_picture: !secret entity_picture_cait
+# person.felicity:
+#   entity_picture: !secret entity_picture_felicity
+# # person.olivia:
+# #   entity_picture: !secret entity_picture_olivia
+# person.robert:
+#   entity_picture: !secret entity_picture_robert
 
-## Renames Not Picked Up
-# device_tracker.aubreys_mbp:
-#   friendly_name: "Aubrey Messer's Laptop"
-# device_tracker.aubreysiphone:
-#   friendly_name: "Aubrey Messer's Phone"
-# device_tracker.ac3743513ee3:
-#   friendly_name: "Cat Ludwick's Phone"
-# device_tracker.androidf14e81233c146f7b:
-#   friendly_name: "Diana Shull's Phone"
-# device_tracker.emmas_iphone:
-#   friendly_name: "Emma Boster's Phone"
-# device_tracker.androidea74c9612b5f7f0b:
-#   friendly_name: "Frederick Ludwick's Phone"
-# device_tracker.40_4e_36_7f_23_73:
-#   friendly_name: "Gordon Hitchcock's Phone"
-# device_tracker.58_cb_52_0f_47_44:
-#   friendly_name: "Joe's Phone"
-# device_tracker.40_4e_36_81_cd_e5:
-#   friendly_name: "Maliha's Phone"
-# device_tracker.samsungsmg930v:
-#   friendly_name: "Olivia Shull Friend 2's Phone"
-# device_tracker.ricki:
-#   friendly_name: "Ricki Doty's Phone"
-# device_tracker.ryliesiphone:
-#   friendly_name: "Rylie Sanders' Phone"
-# device_tracker.stephanesiphone:
-#   friendly_name: "Stephanie's Phone"
+# ## Renames Not Picked Up
+# # device_tracker.aubreys_mbp:
+# #   friendly_name: "Aubrey Messer's Laptop"
+# # device_tracker.aubreysiphone:
+# #   friendly_name: "Aubrey Messer's Phone"
+# # device_tracker.ac3743513ee3:
+# #   friendly_name: "Cat Ludwick's Phone"
+# # device_tracker.androidf14e81233c146f7b:
+# #   friendly_name: "Diana Shull's Phone"
+# # device_tracker.emmas_iphone:
+# #   friendly_name: "Emma Boster's Phone"
+# # device_tracker.androidea74c9612b5f7f0b:
+# #   friendly_name: "Frederick Ludwick's Phone"
+# # device_tracker.40_4e_36_7f_23_73:
+# #   friendly_name: "Gordon Hitchcock's Phone"
+# # device_tracker.58_cb_52_0f_47_44:
+# #   friendly_name: "Joe's Phone"
+# # device_tracker.40_4e_36_81_cd_e5:
+# #   friendly_name: "Maliha's Phone"
+# # device_tracker.samsungsmg930v:
+# #   friendly_name: "Olivia Shull Friend 2's Phone"
+# # device_tracker.ricki:
+# #   friendly_name: "Ricki Doty's Phone"
+# # device_tracker.ryliesiphone:
+# #   friendly_name: "Rylie Sanders' Phone"
+# # device_tracker.stephanesiphone:
+# #   friendly_name: "Stephanie's Phone"
 
-# Harmony
-sensor.harmony_hub_family_room:
-  friendly_name: Family Room
-sensor.harmony_hub_loft:
-  friendly_name: Loft
+# # Harmony
+# sensor.harmony_hub_family_room:
+#   friendly_name: Family Room
+# sensor.harmony_hub_loft:
+#   friendly_name: Loft
 
-# History Graphs
-#history_graph.family_presence:
-#  friendly_name: Family Presence History
-#history_graph.lights:
-#  friendly_name: Lights History
-#history_graph.harmony:
-#  friendly_name: Harmony History
-#history_graph.security:
-#  friendly_name: Security History
-#history_graph.steam:
-#  friendly_name: Steam History
+# # History Graphs
+# #history_graph.family_presence:
+# #  friendly_name: Family Presence History
+# #history_graph.lights:
+# #  friendly_name: Lights History
+# #history_graph.harmony:
+# #  friendly_name: Harmony History
+# #history_graph.security:
+# #  friendly_name: Security History
+# #history_graph.steam:
+# #  friendly_name: Steam History
 
-# Home Assistant
-sensor.connected_clients:
-  icon: mdi:remote-desktop
-  friendly_name: Connected Clients
-sensor.home_assistant_version:
-  icon: mdi:checkbox-marked-outline
-  friendly_name: Home Assistant Version
+# # Home Assistant
+# sensor.connected_clients:
+#   icon: mdi:remote-desktop
+#   friendly_name: Connected Clients
+# sensor.home_assistant_version:
+#   icon: mdi:checkbox-marked-outline
+#   friendly_name: Home Assistant Version
 
-# iOS Device Battery Levels & States
-#sensor.caitlins_ipad_battery_level:
-#  friendly_name: Home Assistant iPad
-#sensor.caitlins_ipad_battery_state:
-#  friendly_name: Home Assistant iPad Charging
-sensor.caits_mermaid_phone_battery_level:
-  friendly_name: "Cait's Phone"
-sensor.caits_mermaid_phone_battery_state:
-  friendly_name: "Cait's Phone Charging"
-#sensor.lolli_battery_level:
-#  friendly_name: "Olivia's Phone"
-#sensor.lolli_battery_state:
-#  friendly_name: "Olivia's Phone Charging"
-sensor.zonephone_battery_level:
-  friendly_name: "Robert's Phone"
-sensor.zonephone_battery_state:
-  friendly_name: "Robert's Phone Charging"
+# # iOS Device Battery Levels & States
+# #sensor.caitlins_ipad_battery_level:
+# #  friendly_name: Home Assistant iPad
+# #sensor.caitlins_ipad_battery_state:
+# #  friendly_name: Home Assistant iPad Charging
+# sensor.caits_mermaid_phone_battery_level:
+#   friendly_name: "Cait's Phone"
+# sensor.caits_mermaid_phone_battery_state:
+#   friendly_name: "Cait's Phone Charging"
+# #sensor.lolli_battery_level:
+# #  friendly_name: "Olivia's Phone"
+# #sensor.lolli_battery_state:
+# #  friendly_name: "Olivia's Phone Charging"
+# sensor.zonephone_battery_level:
+#   friendly_name: "Robert's Phone"
+# sensor.zonephone_battery_state:
+#   friendly_name: "Robert's Phone Charging"
 
-# Lights
-light.attic_bedroom_ceiling:
-  icon: mdi:ceiling-light
-light.family_room_ceiling:
-  icon: mdi:ceiling-light
-light.master_bedroom_ceiling:
-  icon: mdi:ceiling-light
-light.nursery_ceiling:
-  icon: mdi:ceiling-light
-light.nursery_lamp:
-  icon: mdi:floor-lamp
+# # Lights
+# light.attic_bedroom_ceiling:
+#   icon: mdi:ceiling-light
+# light.family_room_ceiling:
+#   icon: mdi:ceiling-light
+# light.master_bedroom_ceiling:
+#   icon: mdi:ceiling-light
+# light.nursery_ceiling:
+#   icon: mdi:ceiling-light
+# light.nursery_lamp:
+#   icon: mdi:floor-lamp
 
-# Media Players
-media_player.vieratv:
-  friendly_name: Apple TV
-#media_player.yamaha_receiver:
-#  friendly_name: Family Room Receiver
-#media_player.xbr55x850d:
-#  friendly_name: Family Room TV
-#media_player.family_room_tv:
-#  friendly_name: Family Room TV (Chromecast)
-media_player.spotify:
-  friendly_name: "Robert's Spotify"
+# # Media Players
+# media_player.vieratv:
+#   friendly_name: Apple TV
+# #media_player.yamaha_receiver:
+# #  friendly_name: Family Room Receiver
+# #media_player.xbr55x850d:
+# #  friendly_name: Family Room TV
+# #media_player.family_room_tv:
+# #  friendly_name: Family Room TV (Chromecast)
+# media_player.spotify:
+#   friendly_name: "Robert's Spotify"
 
-# Nest Protects
+# # Nest Protects
 
-## Attic Bedroom
-sensor.attic_bedroom_nest_protect_battery_status:
-  friendly_name: Nest Protect Attic Bedroom
-sensor.attic_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Attic Bedroom CO
-binary_sensor.attic_bedroom_nest_protect_connected:
-  friendly_name: Nest Protect Attic Bedroom
-sensor.attic_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Attic Bedroom Smoke
+# ## Attic Bedroom
+# sensor.attic_bedroom_nest_protect_battery_status:
+#   friendly_name: Nest Protect Attic Bedroom
+# sensor.attic_bedroom_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Attic Bedroom CO
+# binary_sensor.attic_bedroom_nest_protect_connected:
+#   friendly_name: Nest Protect Attic Bedroom
+# sensor.attic_bedroom_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Attic Bedroom Smoke
 
-## Entryway
-sensor.entryway_nest_protect_battery_status:
-  friendly_name: Nest Protect Entryway
-sensor.entryway_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Entryway CO
-binary_sensor.entryway_nest_protect_connected:
-  friendly_name: Nest Protect Entryway
-sensor.entryway_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Entryway Smoke
+# ## Entryway
+# sensor.entryway_nest_protect_battery_status:
+#   friendly_name: Nest Protect Entryway
+# sensor.entryway_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Entryway CO
+# binary_sensor.entryway_nest_protect_connected:
+#   friendly_name: Nest Protect Entryway
+# sensor.entryway_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Entryway Smoke
 
-## Family Room
-sensor.family_room_nest_protect_battery_status:
-  friendly_name: Nest Protect Family Room
-sensor.family_room_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Family Room CO
-binary_sensor.family_room_nest_protect_connected:
-  friendly_name: Nest Protect Family Room
-sensor.family_room_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Family Room Smoke
+# ## Family Room
+# sensor.family_room_nest_protect_battery_status:
+#   friendly_name: Nest Protect Family Room
+# sensor.family_room_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Family Room CO
+# binary_sensor.family_room_nest_protect_connected:
+#   friendly_name: Nest Protect Family Room
+# sensor.family_room_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Family Room Smoke
 
-## Master Bedroom
-sensor.master_bedroom_nest_protect_battery_status:
-  friendly_name: Nest Protect Master Bedroom
-sensor.master_bedroom_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Master Bedroom CO
-binary_sensor.master_bedroom_nest_protect_connected:
-  friendly_name: Nest Protect Master Bedroom
-sensor.master_bedroom_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Master Bedroom Smoke
+# ## Master Bedroom
+# sensor.master_bedroom_nest_protect_battery_status:
+#   friendly_name: Nest Protect Master Bedroom
+# sensor.master_bedroom_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Master Bedroom CO
+# binary_sensor.master_bedroom_nest_protect_connected:
+#   friendly_name: Nest Protect Master Bedroom
+# sensor.master_bedroom_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Master Bedroom Smoke
 
-## Nursery
-sensor.nursery_nest_protect_battery_status:
-  friendly_name: Nest Protect Nursery
-sensor.nursery_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Nursery CO
-binary_sensor.nursery_nest_protect_connected:
-  friendly_name: Nest Protect Nursery
-sensor.nursery_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Nursery Smoke
+# ## Nursery
+# sensor.nursery_nest_protect_battery_status:
+#   friendly_name: Nest Protect Nursery
+# sensor.nursery_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Nursery CO
+# binary_sensor.nursery_nest_protect_connected:
+#   friendly_name: Nest Protect Nursery
+# sensor.nursery_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Nursery Smoke
 
-## Upstairs
-sensor.upstairs_nest_protect_battery_status:
-  friendly_name: Nest Protect Upstairs
-sensor.upstairs_nest_protect_co_status:
-  icon: mdi:gas-cylinder
-  friendly_name: Nest Protect Upstairs CO
-binary_sensor.upstairs_nest_protect_connected:
-  friendly_name: Nest Protect Upstairs
-sensor.upstairs_nest_protect_smoke_status:
-  icon: mdi:fire
-  friendly_name: Nest Protect Upstairs Smoke
+# ## Upstairs
+# sensor.upstairs_nest_protect_battery_status:
+#   friendly_name: Nest Protect Upstairs
+# sensor.upstairs_nest_protect_co_status:
+#   icon: mdi:gas-cylinder
+#   friendly_name: Nest Protect Upstairs CO
+# binary_sensor.upstairs_nest_protect_connected:
+#   friendly_name: Nest Protect Upstairs
+# sensor.upstairs_nest_protect_smoke_status:
+#   icon: mdi:fire
+#   friendly_name: Nest Protect Upstairs Smoke
 
-# Roomba
-binary_sensor.roomba_bin_full:
-  friendly_name: Bin Full
-binary_sensor.roomba_bin_present:
-  friendly_name: Bin Present
-sensor.roomba_battery_level:
-  friendly_name: Roomba
+# # Roomba
+# binary_sensor.roomba_bin_full:
+#   friendly_name: Bin Full
+# binary_sensor.roomba_bin_present:
+#   friendly_name: Bin Present
+# sensor.roomba_battery_level:
+#   friendly_name: Roomba
 
-# Steam
-sensor.steam_game_playing_robert:
-  icon: mdi:gamepad-variant
-  friendly_name: "Robert's Current Game"
-sensor.steam_game_playing_cait:
-  icon: mdi:gamepad-variant
-  friendly_name: "Cait's Current Game"
+# # Steam
+# sensor.steam_game_playing_robert:
+#   icon: mdi:gamepad-variant
+#   friendly_name: "Robert's Current Game"
+# sensor.steam_game_playing_cait:
+#   icon: mdi:gamepad-variant
+#   friendly_name: "Cait's Current Game"
 
-# Switches
-switch.caits_desk_lamp:
-  icon: mdi:lamp
-switch.front_room_east_lamp:
-  icon: mdi:floor-lamp
-switch.front_room_west_lamp:
-  icon: mdi:floor-lamp
-switch.loft_lamp:
-  icon: mdi:floor-lamp
-switch.master_bedroom_humidifier:
-  icon: mdi:air-humidifier
-switch.roberts_reading_lamp:
-  icon: mdi:desk-lamp
+# # Switches
+# switch.caits_desk_lamp:
+#   icon: mdi:lamp
+# switch.front_room_east_lamp:
+#   icon: mdi:floor-lamp
+# switch.front_room_west_lamp:
+#   icon: mdi:floor-lamp
+# switch.loft_lamp:
+#   icon: mdi:floor-lamp
+# switch.master_bedroom_humidifier:
+#   icon: mdi:air-humidifier
+# switch.roberts_reading_lamp:
+#   icon: mdi:desk-lamp
 
-# Synology NAS
-sensor.synology_dsm_cpu_load_total:
-  friendly_name: Total CPU Load
-sensor.synology_dsm_cpu_load_15_min:
-  friendly_name: 15-Minute CPU Load
-sensor.synology_dsm_memory_usage_real:
-  friendly_name: Real Memory Usage
-sensor.synology_dsm_memory_total_swap:
-  friendly_name: Total Swap Memory
-sensor.synology_dsm_memory_cached:
-  friendly_name: Memory Cached
-sensor.synology_dsm_network_down:
-  friendly_name: Network Down
-sensor.synology_dsm_network_up:
-  friendly_name: Network Up
-sensor.synology_dsm_status_volume_1:
-  friendly_name: Volume 1 Status
-sensor.synology_dsm_total_size_volume_1:
-  friendly_name: Volume 1 Total Size
-sensor.synology_dsm_volume_used_volume_1:
-  friendly_name: Volume 1 Used
-sensor.synology_dsm_status_sda:
-  friendly_name: SDA Status
-sensor.synology_dsm_status_smart_sda:
-  friendly_name: SDA S.M.A.R.T. Status
-sensor.synology_dsm_temperature_sda:
-  friendly_name: SDA Temperature
-sensor.synology_dsm_status_sdb:
-  friendly_name: SDB Status
-sensor.synology_dsm_status_smart_sdb:
-  friendly_name: SDB S.M.A.R.T. Status
-sensor.synology_dsm_temperature_sdb:
-  friendly_name: SDB Temperature
-sensor.synology_dsm_status_sdc:
-  friendly_name: SDC Status
-sensor.synology_dsm_status_smart_sdc:
-  friendly_name: SDC S.M.A.R.T. Status
-sensor.synology_dsm_temperature_sdc:
-  friendly_name: SDC Temperature
-sensor.synology_dsm_status_sdd:
-  friendly_name: SDD Status
-sensor.synology_dsm_status_smart_sdd:
-  friendly_name: SDD S.M.A.R.T. Status
-sensor.synology_dsm_temperature_sdd:
-  friendly_name: SDD Temperature
-sensor.synology_dsm_status_nvme0n1:
-  friendly_name: NVMe0n1 Status
-sensor.synology_dsm_status_smart_nvme0n1:
-  friendly_name: NVMe0n1 S.M.A.R.T. Status
-sensor.synology_dsm_temperature_nvme0n1:
-  friendly_name: NVMe0n1 Temperature
-sensor.synology_dsm_status_nvme1n1:
-  friendly_name: NVMe1n1 Status
-sensor.synology_dsm_status_smart_nvme1n1:
-  friendly_name: NVMe1n1 S.M.A.R.T. Status
-sensor.synology_dsm_temperature_nvme1n1:
-  friendly_name: NVMe1n1 Temperature
+# # Synology NAS
+# sensor.synology_dsm_cpu_load_total:
+#   friendly_name: Total CPU Load
+# sensor.synology_dsm_cpu_load_15_min:
+#   friendly_name: 15-Minute CPU Load
+# sensor.synology_dsm_memory_usage_real:
+#   friendly_name: Real Memory Usage
+# sensor.synology_dsm_memory_total_swap:
+#   friendly_name: Total Swap Memory
+# sensor.synology_dsm_memory_cached:
+#   friendly_name: Memory Cached
+# sensor.synology_dsm_network_down:
+#   friendly_name: Network Down
+# sensor.synology_dsm_network_up:
+#   friendly_name: Network Up
+# sensor.synology_dsm_status_volume_1:
+#   friendly_name: Volume 1 Status
+# sensor.synology_dsm_total_size_volume_1:
+#   friendly_name: Volume 1 Total Size
+# sensor.synology_dsm_volume_used_volume_1:
+#   friendly_name: Volume 1 Used
+# sensor.synology_dsm_status_sda:
+#   friendly_name: SDA Status
+# sensor.synology_dsm_status_smart_sda:
+#   friendly_name: SDA S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_sda:
+#   friendly_name: SDA Temperature
+# sensor.synology_dsm_status_sdb:
+#   friendly_name: SDB Status
+# sensor.synology_dsm_status_smart_sdb:
+#   friendly_name: SDB S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_sdb:
+#   friendly_name: SDB Temperature
+# sensor.synology_dsm_status_sdc:
+#   friendly_name: SDC Status
+# sensor.synology_dsm_status_smart_sdc:
+#   friendly_name: SDC S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_sdc:
+#   friendly_name: SDC Temperature
+# sensor.synology_dsm_status_sdd:
+#   friendly_name: SDD Status
+# sensor.synology_dsm_status_smart_sdd:
+#   friendly_name: SDD S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_sdd:
+#   friendly_name: SDD Temperature
+# sensor.synology_dsm_status_nvme0n1:
+#   friendly_name: NVMe0n1 Status
+# sensor.synology_dsm_status_smart_nvme0n1:
+#   friendly_name: NVMe0n1 S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_nvme0n1:
+#   friendly_name: NVMe0n1 Temperature
+# sensor.synology_dsm_status_nvme1n1:
+#   friendly_name: NVMe1n1 Status
+# sensor.synology_dsm_status_smart_nvme1n1:
+#   friendly_name: NVMe1n1 S.M.A.R.T. Status
+# sensor.synology_dsm_temperature_nvme1n1:
+#   friendly_name: NVMe1n1 Temperature
