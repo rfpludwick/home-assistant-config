@@ -6,7 +6,7 @@ alarm_control_panel.vierarlo:
   icon: mdi:camcorder-box
   friendly_name: Arlo
 alarm_control_panel.scout_alarm:
-  icon: mdi:alarm
+  icon: mdi:shield-home
   friendly_name: Scout Alarm
 
 # Alerts
@@ -172,6 +172,18 @@ sensor.zonephone_battery_level:
 sensor.zonephone_battery_state:
   friendly_name: "Robert's Phone Charging"
 
+# Lights
+light.attic_bedroom_ceiling
+  icon: mdi:ceiling-light
+light.family_room_ceiling
+  icon: mdi:ceiling-light
+light.master_bedroom_ceiling
+  icon: mdi:ceiling-light
+light.nursery_ceiling
+  icon: mdi:ceiling-light
+light.nursery_lamp
+  icon: mdi:floor-lamp
+
 # Media Players
 media_player.vieratv:
   friendly_name: Apple TV
@@ -268,11 +280,17 @@ sensor.steam_game_playing_cait:
 
 # Switches
 switch.caits_desk_lamp:
-  icon: mdi:lightbulb
+  icon: mdi:lamp
 switch.front_room_east_lamp:
-  icon: mdi:lightbulb
+  icon: mdi:floor-lamp
 switch.front_room_west_lamp:
-  icon: mdi:lightbulb
+  icon: mdi:floor-lamp
+switch.loft_lamp:
+  icon: mdi:floor-lamp
+switch.master_bedroom_humidifier:
+  icon: mdi:air-humidifier
+switch.roberts_reading_lamp:
+  icon: mdi:desk-lamp
 
 # Synology NAS
 sensor.synology_dsm_cpu_load_total:

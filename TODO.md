@@ -6,6 +6,7 @@
 - Investigate HomeKit
 - Fix Arlo
 - Get fan controls into HA
+- Fix up Robert & Cait phones on mobile app and their entities
 
 # Considerations
 
