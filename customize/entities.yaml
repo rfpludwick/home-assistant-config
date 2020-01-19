@@ -173,15 +173,15 @@ sensor.zonephone_battery_state:
   friendly_name: "Robert's Phone Charging"
 
 # Lights
-light.attic_bedroom_ceiling
+light.attic_bedroom_ceiling:
   icon: mdi:ceiling-light
-light.family_room_ceiling
+light.family_room_ceiling:
   icon: mdi:ceiling-light
-light.master_bedroom_ceiling
+light.master_bedroom_ceiling:
   icon: mdi:ceiling-light
-light.nursery_ceiling
+light.nursery_ceiling:
   icon: mdi:ceiling-light
-light.nursery_lamp
+light.nursery_lamp:
   icon: mdi:floor-lamp
 
 # Media Players
