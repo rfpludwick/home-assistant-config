@@ -101,32 +101,32 @@ person.robert:
   entity_picture: !secret entity_picture_robert
 
 ## Renames Not Picked Up
-device_tracker.aubreys_mbp:
-  friendly_name: "Aubrey Messer's Laptop"
-device_tracker.aubreysiphone:
-  friendly_name: "Aubrey Messer's Phone"
-device_tracker.ac3743513ee3:
-  friendly_name: "Cat Ludwick's Phone"
-device_tracker.androidf14e81233c146f7b:
-  friendly_name: "Diana Shull's Phone"
-device_tracker.emmas_iphone:
-  friendly_name: "Emma Boster's Phone"
-device_tracker.androidea74c9612b5f7f0b:
-  friendly_name: "Frederick Ludwick's Phone"
-device_tracker.40_4e_36_7f_23_73:
-  friendly_name: "Gordon Hitchcock's Phone"
-device_tracker.58_cb_52_0f_47_44:
-  friendly_name: "Joe's Phone"
-device_tracker.40_4e_36_81_cd_e5:
-  friendly_name: "Maliha's Phone"
-device_tracker.samsungsmg930v:
-  friendly_name: "Olivia Shull Friend 2's Phone"
-device_tracker.ricki:
-  friendly_name: "Ricki Doty's Phone"
-device_tracker.ryliesiphone:
-  friendly_name: "Rylie Sanders' Phone"
-device_tracker.stephanesiphone:
-  friendly_name: "Stephanie's Phone"
+# device_tracker.aubreys_mbp:
+#   friendly_name: "Aubrey Messer's Laptop"
+# device_tracker.aubreysiphone:
+#   friendly_name: "Aubrey Messer's Phone"
+# device_tracker.ac3743513ee3:
+#   friendly_name: "Cat Ludwick's Phone"
+# device_tracker.androidf14e81233c146f7b:
+#   friendly_name: "Diana Shull's Phone"
+# device_tracker.emmas_iphone:
+#   friendly_name: "Emma Boster's Phone"
+# device_tracker.androidea74c9612b5f7f0b:
+#   friendly_name: "Frederick Ludwick's Phone"
+# device_tracker.40_4e_36_7f_23_73:
+#   friendly_name: "Gordon Hitchcock's Phone"
+# device_tracker.58_cb_52_0f_47_44:
+#   friendly_name: "Joe's Phone"
+# device_tracker.40_4e_36_81_cd_e5:
+#   friendly_name: "Maliha's Phone"
+# device_tracker.samsungsmg930v:
+#   friendly_name: "Olivia Shull Friend 2's Phone"
+# device_tracker.ricki:
+#   friendly_name: "Ricki Doty's Phone"
+# device_tracker.ryliesiphone:
+#   friendly_name: "Rylie Sanders' Phone"
+# device_tracker.stephanesiphone:
+#   friendly_name: "Stephanie's Phone"
 
 # Harmony
 sensor.harmony_hub_family_room:

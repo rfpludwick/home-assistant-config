@@ -9,6 +9,7 @@
 - Get ceiling fan controls into HA
 - Remove Home Assistant iOS integration
 - Clean up commented entity customizations
+- Put devices in home areas
 
 # Considerations
 
