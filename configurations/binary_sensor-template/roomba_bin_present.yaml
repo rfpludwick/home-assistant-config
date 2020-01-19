@@ -1,4 +1,3 @@
-device_class: presence
 value_template: "{{ states.vacuum.roomba.attributes.bin_present }}"
 icon_template: >
   {% if states.vacuum.roomba.attributes.bin_present %}

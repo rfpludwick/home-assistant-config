@@ -270,6 +270,14 @@ sensor.upstairs_nest_protect_smoke_status:
   icon: mdi:fire
   friendly_name: Nest Protect Upstairs Smoke
 
+# Roomba
+binary_sensor.roomba_bin_full:
+  friendly_name: Bin Full
+binary_sensor.roomba_bin_present:
+  friendly_name: Bin Present
+sensor.roomba_battery_level:
+  friendly_name: Roomba
+
 # Steam
 sensor.steam_game_playing_robert:
   icon: mdi:gamepad-variant
