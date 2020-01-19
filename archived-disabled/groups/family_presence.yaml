@@ -1,6 +1,6 @@
 name: Family Presence
 control: hidden
 entities:
-  - person.robert
   - person.cait
-  - person.olivia
+  - person.felicity
+  - person.robert

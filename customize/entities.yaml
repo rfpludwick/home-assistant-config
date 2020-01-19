@@ -93,8 +93,10 @@ cover.viergarage:
 ## Family Presence
 person.cait:
   entity_picture: !secret entity_picture_cait
-person.olivia:
-  entity_picture: !secret entity_picture_olivia
+person.felicity:
+  entity_picture: !secret entity_picture_felicity
+# person.olivia:
+#   entity_picture: !secret entity_picture_olivia
 person.robert:
   entity_picture: !secret entity_picture_robert
 

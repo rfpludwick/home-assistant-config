@@ -1,0 +1,19 @@
+alias: "Notification: Presence Change: Olivia"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: person.felicity
+    from: "not_home"
+    to: "home"
+  - platform: state
+    entity_id: person.felicity
+    from: "home"
+    to: "not_home"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_slack_notifications
+    state: "on"
+action:
+  - service: notify.slack_standard
+    data:
+      message: "Felicity's presence changed to '{{ states.person.felicity.state }}'"
