@@ -8,7 +8,7 @@
 - Fix Arlo
 - Get ceiling fan controls into HA
 - Remove Home Assistant iOS integration
-- Clean up commented entity customizations
+- Drop entity customizations which can be moved to HA interface
 - Put devices in home areas
 
 # Considerations
