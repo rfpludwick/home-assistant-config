@@ -104,6 +104,20 @@ media_player.vieratv:
 media_player.spotify:
   friendly_name: "Robert's Spotify"
 
+# Nest Protects
+sensor.attic_bedroom_nest_protect_battery_status:
+  friendly_name: Nest Protect Attic Bedroom
+sensor.entryway_nest_protect_battery_status:
+  friendly_name: Nest Protect Entryway
+sensor.family_room_nest_protect_battery_status:
+  friendly_name: Nest Protect Family Room
+sensor.master_bedroom_nest_protect_battery_status:
+  friendly_name: Nest Protect Master Bedroom
+sensor.nursery_nest_protect_battery_status:
+  friendly_name: Nest Protect Nursery
+sensor.upstairs_nest_protect_battery_status:
+  friendly_name: Nest Protect Upstairs
+
 # Roomba
 binary_sensor.roomba_bin_full:
   friendly_name: Bin Full
