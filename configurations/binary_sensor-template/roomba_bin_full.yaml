@@ -1,0 +1,8 @@
+device_class: binary_sensor
+value_template: "{{ states.vacuum.roomba.attributes.bin_full }}"
+icon_template: >
+  {% if states.vacuum.roomba.attributes.bin_full %}
+    mdi:delete-empty
+  {% else %}
+    mdi:delete-empty-outline
+  {% endif %}
