@@ -1,4 +1,4 @@
-device_class: binary_sensor
+device_class: occupancy
 value_template: "{{ states.vacuum.roomba.attributes.bin_full }}"
 icon_template: >
   {% if states.vacuum.roomba.attributes.bin_full %}
