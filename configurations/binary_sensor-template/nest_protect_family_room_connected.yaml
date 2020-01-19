@@ -1,0 +1,8 @@
+device_class: connectivity
+value_template: "{{ (states.binary_sensor.nest_protect_family_room_online.state == 'on') }}"
+icon_template: >
+  {% if (states.binary_sensor.nest_protect_family_room_online.state == 'on') %}
+    mdi:wifi
+  {% else %}
+    mdi:wifi-off
+  {% endif %}
