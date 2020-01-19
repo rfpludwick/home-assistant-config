@@ -105,16 +105,40 @@ media_player.spotify:
   friendly_name: "Robert's Spotify"
 
 # Nest Protects
+
+## Attic Bedroom
+binary_sensor.nest_protect_attic_bedroom_connected:
+  friendly_name: Nest Protect Attic Bedroom
 sensor.nest_protect_attic_bedroom_battery_status:
   friendly_name: Nest Protect Attic Bedroom
+
+## Entryway
+binary_sensor.nest_protect_entryway_connected:
+  friendly_name: Nest Protect Entryway
 sensor.nest_protect_entryway_battery_status:
   friendly_name: Nest Protect Entryway
+
+## Family Room
+binary_sensor.nest_protect_family_room_connected:
+  friendly_name: Nest Protect Family Room
 sensor.nest_protect_family_room_battery_status:
   friendly_name: Nest Protect Family Room
+
+## Master Bedroom
+binary_sensor.nest_protect_master_bedroom_connected:
+  friendly_name: Nest Protect Master Bedroom
 sensor.nest_protect_master_bedroom_battery_status:
   friendly_name: Nest Protect Master Bedroom
+
+## Nursery
+binary_sensor.nest_protect_nursery_connected:
+  friendly_name: Nest Protect Nursery
 sensor.nest_protect_nursery_battery_status:
   friendly_name: Nest Protect Nursery
+
+## Upstairs
+binary_sensor.nest_protect_upstairs_connected:
+  friendly_name: Nest Protect Upstairs
 sensor.nest_protect_upstairs_battery_status:
   friendly_name: Nest Protect Upstairs
 
