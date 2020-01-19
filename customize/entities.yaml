@@ -103,6 +103,8 @@ media_player.vieratv:
   friendly_name: Apple TV
 media_player.spotify:
   friendly_name: "Robert's Spotify"
+media_player.sony_bravia_tv:
+  friendly_name: "Family Room TV"
 
 # Nest Protects
 
