@@ -1,4 +1,4 @@
-alias: "Notification: Presence Change: Olivia"
+alias: "Notification: Presence Change: Felicity"
 initial_state: true
 trigger:
   - platform: state
