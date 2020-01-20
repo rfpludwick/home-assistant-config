@@ -1,0 +1,16 @@
+alias: "Themes: Night: Startup"
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: sun
+    before: sunset
+    before_offset: "+00:30:00"
+  - condition: state
+    entity_id: input_boolean.automation_times
+    state: "on"
+action:
+  - service: frontend.set_theme
+    data:
+      name: dark_cyan

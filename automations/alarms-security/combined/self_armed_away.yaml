@@ -11,7 +11,7 @@ action:
   - delay:
       minutes: 5
   - service: cover.close_cover
-    entity_id: cover.viergarage
+    entity_id: cover.garage_door
   - service: lock.lock
     entity_id: lock.front_door
   - service: light.turn_off

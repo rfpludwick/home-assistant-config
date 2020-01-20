@@ -3,4 +3,4 @@ arriving_home_with_garage:
     - service: script.turn_on
       entity_id: script.arriving_home
     - service: cover.open_cover
-      entity_id: cover.viergarage
+      entity_id: cover.garage_door

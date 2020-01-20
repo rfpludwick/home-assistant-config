@@ -1,5 +1,5 @@
 widget_type: cover
-entity: cover.viergarage
+entity: cover.garage_door
 title: Garage Door
 icon_on: mdi-garage-open
 icon_off: mdi-garage

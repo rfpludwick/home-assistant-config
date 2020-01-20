@@ -1,8 +1,8 @@
-alias: "Times: Theme: Day"
+alias: "Theme: Night: Timed"
 trigger:
   - platform: sun
-    event: sunrise
-    offset: "+00:30:00"
+    event: sunset
+    offset: "-00:30:00"
 condition:
   - condition: state
     entity_id: input_boolean.automation_times
@@ -10,4 +10,4 @@ condition:
 action:
   - service: frontend.set_theme
     data:
-      name: default
+      name: dark_cyan

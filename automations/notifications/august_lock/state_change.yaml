@@ -1,4 +1,4 @@
-alias: "Notification: August Lock: State Change"
+alias: "Notification: Front Door Lock: State Change"
 initial_state: true
 trigger:
   - platform: state
@@ -16,4 +16,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "August Lock state changed to '{{ states.lock.front_door.state }}'"
+      message: "Front Door Lock state changed to '{{ states.lock.front_door.state }}'"

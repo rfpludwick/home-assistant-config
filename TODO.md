@@ -9,7 +9,6 @@
 - Get ceiling fan controls into HA
 - Remove Home Assistant iOS integration
 - Put devices in home areas
-- Get theme changes into startup
 
 # Considerations
 

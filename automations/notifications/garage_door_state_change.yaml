@@ -1,8 +1,8 @@
-alias: "Notification: Chamberlain Garage Door State Change"
+alias: "Notification: Garage Door State Change"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: cover.viergarage
+    entity_id: cover.garage_door
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Chamberlain Garage Door state changed to '{{ states.cover.viergarage.state }}'"
+      message: "Garage Door state changed to '{{ states.cover.garage_door.state }}'"
