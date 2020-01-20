@@ -82,10 +82,6 @@ sensor.home_assistant_version:
   icon: mdi:checkbox-marked-outline
   friendly_name: Home Assistant Version
 
-# Locks
-sensor.front_door_lock_battery_level:
-  friendly_name: Front Door Lock
-
 # Lights
 light.attic_bedroom_ceiling:
   icon: mdi:ceiling-light
@@ -97,6 +93,28 @@ light.nursery_ceiling:
   icon: mdi:ceiling-light
 light.nursery_lamp:
   icon: mdi:floor-lamp
+
+# Light Bulbs
+light.attic_bedroom_ceiling_bulb_1:
+  friendly_name: "Attic Bedroom Ceiling: Bulb 1"
+light.family_room_ceiling_bulb_1:
+  friendly_name: "Family Room Ceiling: Bulb 1"
+light.family_room_ceiling_bulb_2:
+  friendly_name: "Family Room Ceiling: Bulb 2"
+light.master_bedroom_ceiling_bulb_1:
+  friendly_name: "Master Bedroom Ceiling: Bulb 1"
+light.master_bedroom_ceiling_bulb_2:
+  friendly_name: "Master Bedroom Ceiling: Bulb 2"
+light.nursery_ceiling_bulb_1:
+  friendly_name: "Nursery Ceiling: Bulb 1"
+light.nursery_ceiling_bulb_2:
+  friendly_name: "Nursery Ceiling: Bulb 2"
+light.nursery_lamp_bulb:
+  friendly_name: "Nursery Lamp: Bulb"
+
+# Locks
+sensor.front_door_lock_battery_level:
+  friendly_name: Front Door Lock
 
 # Media Players
 media_player.apple_tv:
