@@ -7,7 +7,7 @@ condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
     state: "on"
-action:Í
+action:
   - service: alarm_control_panel.alarm_arm_home
     entity_id: alarm_control_panel.scout_alarm
     # data:
