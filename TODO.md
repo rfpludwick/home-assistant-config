@@ -10,6 +10,7 @@
 - Remove Home Assistant iOS integration
 - Put devices in home areas
 - Get remotes to show on/off color in entity cards
+- Get the updater version to show in UI
 
 # Considerations
 
