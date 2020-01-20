@@ -5,8 +5,9 @@ trigger:
     event: start
 condition:
   - condition: sun
-    before: sunrise
-    before_offset: "+00:30:00"
+    after: sunrise
+  - condition: sun
+    before: sunset
   - condition: state
     entity_id: input_boolean.automation_times
     state: "on"

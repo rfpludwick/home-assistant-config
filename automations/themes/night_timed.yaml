@@ -2,7 +2,6 @@ alias: "Theme: Night: Timed"
 trigger:
   - platform: sun
     event: sunset
-    offset: "-00:30:00"
 condition:
   - condition: state
     entity_id: input_boolean.automation_times
