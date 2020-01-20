@@ -1,5 +1,6 @@
 platform: manual
 name: combined_alarm
+# code: !secret alarm_code
 pending_time: 180 # 3 minutes
 delay_time: 30
 trigger_time: 300 # 5 minutes

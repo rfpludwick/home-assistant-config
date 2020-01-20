@@ -1,15 +1,15 @@
 name: Smoke & CO
 control: hidden
 entities:
-  - sensor.attic_bedroom_nest_protect_smoke_status
-  - sensor.attic_bedroom_nest_protect_co_status
-  - sensor.entryway_nest_protect_smoke_status
-  - sensor.entryway_nest_protect_co_status
-  - sensor.family_room_nest_protect_smoke_status
-  - sensor.family_room_nest_protect_co_status
-  - sensor.master_bedroom_nest_protect_smoke_status
-  - sensor.master_bedroom_nest_protect_co_status
-  - sensor.nursery_nest_protect_smoke_status
-  - sensor.nursery_nest_protect_co_status
-  - sensor.upstairs_nest_protect_smoke_status
-  - sensor.upstairs_nest_protect_co_status
+  - sensor.nest_protect_attic_bedroom_smoke_status
+  - sensor.nest_protect_attic_bedroom_co_status
+  - sensor.nest_protect_entryway_smoke_status
+  - sensor.nest_protect_entryway_co_status
+  - sensor.nest_protect_family_room_smoke_status
+  - sensor.nest_protect_family_room_co_status
+  - sensor.nest_protect_master_bedroom_smoke_status
+  - sensor.nest_protect_master_bedroom_co_status
+  - sensor.nest_protect_nursery_smoke_status
+  - sensor.nest_protect_nursery_co_status
+  - sensor.nest_protect_upstairs_smoke_status
+  - sensor.nest_protect_upstairs_co_status

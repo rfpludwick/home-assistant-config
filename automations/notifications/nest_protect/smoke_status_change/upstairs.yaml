@@ -1,8 +1,8 @@
-alias: "Notification: Nest Protect: Smoke Status Change: Upstairs"
+alias: "Notification: Nest Protect: Upstairs: Smoke Status Change"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: sensor.upstairs_nest_protect_smoke_status
+    entity_id: sensor.nest_protect_upstairs_smoke_status
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Upstairs Nest Protect smoke status changed to '{{ states.sensor.upstairs_nest_protect_smoke_status.state }}'"
+      message: "Nest Protect: Upstairs: Smoke status changed to '{{ states.sensor.nest_protect_upstairs_smoke_status.state }}'"

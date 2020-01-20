@@ -13,5 +13,5 @@ condition:
 action:
   - service: alarm_control_panel.alarm_arm_home
     entity_id: alarm_control_panel.combined_alarm
-    data:
-      code: !secret alarm_code
+    # data:
+    #   code: !secret alarm_code

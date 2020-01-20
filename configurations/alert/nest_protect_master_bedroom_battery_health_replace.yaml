@@ -1,6 +1,6 @@
-name: Nest Protect Master Bedroom Battery needs replacement
-done_message: Nest Protect Master Bedroom Battery is ok
-entity_id: sensor.master_bedroom_nest_protect_battery_health
+name: "Nest Protect: Master Bedroom: Battery: Needs replacement"
+done_message: "Nest Protect: Master Bedroom: Battery: Is ok"
+entity_id: sensor.nest_protect_master_bedroom_battery_health
 state: "Replace"
 repeat:
   - 60

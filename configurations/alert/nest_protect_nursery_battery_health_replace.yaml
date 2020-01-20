@@ -1,6 +1,6 @@
-name: Nest Protect Nursery Battery needs replacement
-done_message: Nest Protect Nursery Battery is ok
-entity_id: sensor.nursery_nest_protect_battery_health
+name: "Nest Protect: Nursery: Battery: Needs replacement"
+done_message: "Nest Protect: Nursery: Battery: Is ok"
+entity_id: sensor.nest_protect_nursery_battery_health
 state: "Replace"
 repeat:
   - 60

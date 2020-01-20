@@ -10,5 +10,5 @@ condition:
 action:
   - service: alarm_control_panel.alarm_arm_away
     entity_id: alarm_control_panel.scout_alarm
-    data:
-      code: !secret alarm_code
+    # data:
+    #   code: !secret alarm_code
