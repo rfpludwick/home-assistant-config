@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_cycle_litter_boxes
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Cycle Litter Boxes"
       message: "The litter boxes have been cycled with fresh litter"

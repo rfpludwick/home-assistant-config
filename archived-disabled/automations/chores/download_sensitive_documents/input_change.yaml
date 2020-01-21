@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_download_sensitive_documents
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Download Sensitive Documents"
       message: "The month's sensitive documents have been securely downloaded"

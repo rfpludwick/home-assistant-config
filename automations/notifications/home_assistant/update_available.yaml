@@ -10,7 +10,7 @@ condition:
     entity_id: input_boolean.automation_slack_notifications
     state: "on"
 action:
-  - service: notify.email_administrators
+  - service: notify.smtp_administrators
     data:
       title: "Home Assistant Update Available"
       message: "There is a new Home Assistant release ({{ state_attr('binary_sensor.updater', 'newest_version') }}) available."

@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_have_trees_trimmed
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Have Trees Trimmed"
       message: "The trees have been trimmed, so let's celebrate by generating some solar power"

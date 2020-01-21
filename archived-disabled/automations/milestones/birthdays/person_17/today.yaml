@@ -12,7 +12,7 @@ condition:
   - condition: template
     value_template: "{{ (states.input_datetime.birthday_person_17.state.split('-')[1:] == (as_timestamp(now()) | timestamp_custom('%m-%d')).split('-')) }}"
 action:
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Birthday: {{ states.input_datetime.birthday_person_17.attributes.friendly_name }}: Today"
       message: "{{ states.input_datetime.birthday_person_17.attributes.friendly_name }}'s birthday is today!"

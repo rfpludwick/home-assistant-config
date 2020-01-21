@@ -23,7 +23,7 @@ action:
       title: "Chore: Run Affresh In Washing Machine"
       message: "Run the washing machine with an Affresh tablet"
       notification_id: chore_run_affresh_in_washing_machine
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Run Affresh In Washing Machine"
       message: "Run the washing machine with an Affresh tablet"

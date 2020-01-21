@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_replace_toothbrush_heads
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Replace Toothbrush Heads"
       message: "The parents' electric toothbrush heads have been replaced"

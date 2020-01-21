@@ -23,7 +23,7 @@ action:
       title: "Chore: Download Sensitive Documents"
       message: "Download all of the family's sensitive documents to encrypted drives"
       notification_id: chore_download_sensitive_documents
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Download Sensitive Documents"
       message: "Download all of the family's sensitive documents to encrypted drives"

@@ -19,7 +19,7 @@ action:
       title: "Chore: Replace Toothbrush Heads"
       message: "Replace the parents' electric toothbrush heads"
       notification_id: chore_replace_toothbrush_heads
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Replace Toothbrush Heads"
       message: "Replace the parents' electric toothbrush heads"

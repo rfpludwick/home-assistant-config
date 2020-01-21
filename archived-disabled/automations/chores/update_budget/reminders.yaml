@@ -27,7 +27,7 @@ action:
       title: "Chore: Update Budget"
       message: "Update the budget in YNAB for next month"
       notification_id: chore_update_budget
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Update Budget"
       message: "Update the budget in YNAB for next month"

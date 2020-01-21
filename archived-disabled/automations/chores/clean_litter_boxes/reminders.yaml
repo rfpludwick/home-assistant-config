@@ -23,7 +23,7 @@ action:
       title: "Chore: Clean Litter Boxes"
       message: "Clean the litter boxes of pee and poo"
       notification_id: chore_clean_litter_boxes
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Litter Boxes"
       message: "Clean the litter boxes of pee and poo"

@@ -19,7 +19,7 @@ action:
       title: "Chore: Run Shredder Lubricant"
       message: "Run a lubricant sheet through the shredder"
       notification_id: chore_run_shredder_lubricant
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Run Shredder Lubricant"
       message: "Run a lubricant sheet through the shredder"

@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_do_taxes
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Do Taxes"
       message: "We have done our taxes! Hopefully we get cash monies from the gummint"

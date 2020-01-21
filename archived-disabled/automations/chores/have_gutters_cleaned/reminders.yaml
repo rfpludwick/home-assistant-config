@@ -19,7 +19,7 @@ action:
       title: "Chore: Have Gutters Cleaned"
       message: "Schedule our gutter cleaner to clean the house's gutters"
       notification_id: chore_have_gutters_cleaned
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Have Gutters Cleaned"
       message: "Schedule our gutter cleaner to clean the house's gutters"
