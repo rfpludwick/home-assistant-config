@@ -25,7 +25,7 @@ action:
       title: "Chore: Clean Backyard"
       message: "Clean the backyard of debris and poo"
       notification_id: chore_clean_backyard
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Backyard"
       message: "Clean the backyard of debris and poo"

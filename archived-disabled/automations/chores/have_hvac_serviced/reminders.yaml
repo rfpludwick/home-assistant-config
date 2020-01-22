@@ -19,7 +19,7 @@ action:
       title: "Chore: Have HVAC Serviced"
       message: "Schedule our HVAC servicer to service the HVAC, *including* the Family Room gas stove"
       notification_id: chore_have_hvac_serviced
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Have HVAC Serviced"
       message: "Schedule our HVAC servicer to service the HVAC, *including* the Family Room gas stove"

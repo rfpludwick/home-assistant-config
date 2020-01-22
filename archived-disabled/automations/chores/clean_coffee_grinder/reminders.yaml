@@ -25,7 +25,7 @@ action:
       title: "Chore: Clean Coffee Grinder"
       message: "Clean the coffee grinder and consider grinding rice at the end"
       notification_id: chore_clean_coffee_grinder
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Coffee Grinder"
       message: "Clean the coffee grinder and consider grinding rice at the end"

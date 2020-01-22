@@ -1,5 +1,0 @@
-name: iOS Parents
-platform: group
-services:
-  - service: ios_zonephone
-  - service: ios_mermaidphone

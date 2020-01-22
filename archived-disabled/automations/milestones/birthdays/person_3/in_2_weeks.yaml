@@ -12,7 +12,7 @@ condition:
   - condition: template
     value_template: "{{ (states.input_datetime.birthday_person_3.state.split('-')[1:] == ((as_timestamp(now()) + 1209600) | timestamp_custom('%m-%d')).split('-')) }}"
 action:
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Birthday: {{ states.input_datetime.birthday_person_3.attributes.friendly_name }}: In 2 Weeks"
       message: "{{ states.input_datetime.birthday_person_3.attributes.friendly_name }}'s birthday is in 2 weeks!"

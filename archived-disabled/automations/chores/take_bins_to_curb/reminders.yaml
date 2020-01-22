@@ -29,7 +29,7 @@ action:
       title: "Chore: Take Bins To Curb"
       message: "Take the yard debris, recycling, glass, and trash bins to the curb"
       notification_id: chore_take_bins_to_curb
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Take Bins To Curb"
       message: "Take the yard debris, recycling, glass, and trash bins to the curb"

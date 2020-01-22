@@ -23,7 +23,7 @@ action:
       title: "Chore: Cycle Litter Boxes"
       message: "Empty the litter boxes and fill with fresh litter"
       notification_id: chore_cycle_litter_boxes
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Cycle Litter Boxes"
       message: "Empty the litter boxes and fill with fresh litter"

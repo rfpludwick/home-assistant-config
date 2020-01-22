@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_clean_dyson_vacuum_filters
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Clean Dyson Vacuum Filters"
       message: "The Dyson vacuum's filters have been cleaned"

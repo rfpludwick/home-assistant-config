@@ -19,7 +19,7 @@ action:
       title: "Chore: Sort Synced Photos On NAS"
       message: "Sort the synced photos on the NAS into good folders"
       notification_id: chore_sort_synced_photos_on_nas
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Sort Synced Photos On NAS"
       message: "Sort the synced photos on the NAS into good folders"

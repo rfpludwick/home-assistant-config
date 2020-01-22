@@ -25,7 +25,7 @@ action:
       title: "Chore: Renew Home SSL Certificate"
       message: "Update the home SSL certificate with Let's Encrypt"
       notification_id: chore_renew_home_ssl_certificate
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Renew Home SSL Certificate"
       message: "Update the home SSL certificate with Let's Encrypt"

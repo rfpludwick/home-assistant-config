@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_clean_coffee_grinder
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Clean Coffee Grinder"
       message: "The coffee grinder has been cleaned"

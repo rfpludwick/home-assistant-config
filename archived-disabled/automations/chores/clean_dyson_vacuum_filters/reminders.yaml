@@ -19,7 +19,7 @@ action:
       title: "Chore: Clean Dyson Vacuum Filters"
       message: "Clean the Dyson vacuum cleaner's filters"
       notification_id: chore_clean_dyson_vacuum_filters
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Dyson Vacuum Filters"
       message: "Clean the Dyson vacuum cleaner's filters"

@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_sort_synced_photos_on_nas
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Sort Synced Photos On NAS"
       message: "The synced photos on the NAS have been sorted"

@@ -14,7 +14,7 @@ action:
   - service: persistent_notification.dismiss
     data:
       notification_id: chore_have_hvac_serviced
-  - service: notify.ios_parents
+  - service: notify.mobile_app_parents
     data:
       title: "Chore: Have HVAC Serviced"
       message: "Rest easy, the HVAC has been serviced and is in good order"

@@ -81,6 +81,9 @@ sensor.connected_clients:
 sensor.home_assistant_version:
   icon: mdi:checkbox-marked-outline
   friendly_name: Home Assistant Version
+sensor.local_ip:
+  icon: mdi:ip-network
+  friendly_name: Local IP Address
 
 # Lights
 light.attic_bedroom_ceiling:
