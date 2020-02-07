@@ -48,5 +48,5 @@ tplink: !include configurations/tplink.yaml
 unifi: !include configurations/unifi.yaml
 vacuum: !include_dir_list configurations/vacuum/
 #weblink: !include configurations/weblink.yaml
-zone: !include_dir_list configurations/zone/
+#zone: !include_dir_list configurations/zone/
 #zwave: !include configurations/zwave.yaml
