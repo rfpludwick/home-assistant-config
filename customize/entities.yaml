@@ -90,6 +90,8 @@ light.attic_bedroom_ceiling:
   icon: mdi:ceiling-light
 light.family_room_ceiling:
   icon: mdi:ceiling-light
+light.loft_sconce:
+  icon: mdi:wall-sconce
 light.master_bedroom_ceiling:
   icon: mdi:ceiling-light
 light.nursery_ceiling:
