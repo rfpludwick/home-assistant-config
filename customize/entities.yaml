@@ -122,8 +122,8 @@ sensor.front_door_lock_battery_level:
 # Media Players
 media_player.apple_tv:
   friendly_name: Apple TV
-media_player.spotify:
-  friendly_name: "Robert's Spotify"
+#media_player.spotify:
+#  friendly_name: "Robert's Spotify"
 media_player.sony_bravia_tv:
   friendly_name: "Family Room TV"
 
