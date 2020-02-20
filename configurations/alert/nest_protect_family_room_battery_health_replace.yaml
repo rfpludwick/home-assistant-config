@@ -7,5 +7,5 @@ repeat:
 can_acknowledge: true
 skip_first: true
 notifiers:
-  - ios_parents
+  - mobile_app_parents
   - slack_crit
