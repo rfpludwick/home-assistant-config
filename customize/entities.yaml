@@ -78,9 +78,12 @@ sensor.harmony_hub_loft:
 sensor.connected_clients:
   icon: mdi:remote-desktop
   friendly_name: Connected Clients
+sensor.home_assistant_latest_version:
+  icon: mdi:source-pull
+  friendly_name: "Home Assistant Latest Version"
 sensor.home_assistant_version:
-  icon: mdi:checkbox-marked-outline
-  friendly_name: Home Assistant Version
+  icon: mdi:source-branch
+  friendly_name: Home Assistant Current Version
 sensor.local_ip:
   icon: mdi:ip-network
   friendly_name: Local IP Address
