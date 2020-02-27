@@ -1,0 +1,1 @@
+value_template: "{{ states.binary_sensor.updater.attributes.newest_version }}"
