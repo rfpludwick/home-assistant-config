@@ -8,7 +8,6 @@
 - Remove Home Assistant iOS integration
 - Put devices in home areas
 - Fix nighttime theming on startup during nighttime
-- Setup alert for humidifier on between 9am and 9pm
 
 # Considerations
 

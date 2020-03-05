@@ -1,0 +1,8 @@
+device_class: problem
+value_template: "{{ (states.switch.master_bedroom_humidifier.state == 'on') and (8 < now().hour) and (now().hour < 22) }}"
+icon_template: >
+  {% if (states.switch.master_bedroom_humidifier.state == 'on') and (8 < now().hour) and (now().hour < 22) %}
+    mdi:bell-alert
+  {% else %}
+    mdi:bell-alert-outline
+  {% endif %}
