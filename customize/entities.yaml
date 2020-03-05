@@ -46,6 +46,8 @@ alert.nest_protect_nursery_battery_health_replace:
 alert.nest_protect_upstairs_battery_health_replace:
   friendly_name: "Nest Protect: Upstairs: Replace Battery"
   icon: mdi:battery-alert
+binary_sensor.master_bedroom_humidifier_on_daytime:
+  friendly_name: "Master Bedroom Humidifier: On During Daytime"
 
 # Arlo (Excluding Alarm Control Panel)
 #sensor.battery_level_exterior_back:
