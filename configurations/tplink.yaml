@@ -4,5 +4,6 @@ switch:
   - host: !secret kasa_plug_front_room_east_lamp_host
   - host: !secret kasa_plug_front_room_west_lamp_host
   - host: !secret kasa_plug_loft_lamp_host
+  - host: !secret kasa_plug_master_bathroom_towel_heater_host
   - host: !secret kasa_plug_master_bedroom_humidifier_host
   - host: !secret kasa_plug_roberts_reading_lamp_host
