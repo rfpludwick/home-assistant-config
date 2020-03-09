@@ -200,6 +200,8 @@ switch.front_room_west_lamp:
   icon: mdi:floor-lamp
 switch.loft_lamp:
   icon: mdi:floor-lamp
+switch.master_bathroom_towel_heater:
+  icon: mdi:radiator
 switch.master_bedroom_humidifier:
   icon: mdi:air-humidifier
 switch.roberts_reading_lamp:
