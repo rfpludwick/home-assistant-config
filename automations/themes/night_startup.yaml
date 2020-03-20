@@ -6,7 +6,6 @@ trigger:
 condition:
   - condition: sun
     after: sunset
-  - condition: sun
     before: sunrise
   - condition: state
     entity_id: input_boolean.automation_times
