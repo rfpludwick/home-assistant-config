@@ -1,6 +1,5 @@
 # Todo
 
-- Figure Out Trane Thermostat
 - Figure Out Family Room Gas Stove
 - Investigate HomeKit
 - Fix Arlo (use aarlo?)

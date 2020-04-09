@@ -35,6 +35,7 @@ input_boolean: !include_dir_named configurations/input_boolean/
 media_player: !include_dir_list configurations/media_player/
 mobile_app:
 nest: !include configurations/nest.yaml
+nexia: !include configurations/nexia.yaml
 notify: !include_dir_list configurations/notify/
 person: !include_dir_list configurations/person/
 pi_hole: !include configurations/pi_hole.yaml
@@ -45,7 +46,7 @@ sensor: !include_dir_list configurations/sensor/
 system_health:
 tplink: !include configurations/tplink.yaml
 #usps: !include configurations/usps.yaml
-unifi: !include configurations/unifi.yaml
+#unifi: !include configurations/unifi.yaml
 vacuum: !include_dir_list configurations/vacuum/
 #weblink: !include configurations/weblink.yaml
 #zone: !include_dir_list configurations/zone/
