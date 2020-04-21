@@ -5,6 +5,8 @@
 - Fix Arlo (use aarlo?)
 - Get ceiling fan controls into HA
 - Put devices in home areas
+- Fix Slack notifications name & logo
+- Fix Nexia
 
 # Considerations
 
