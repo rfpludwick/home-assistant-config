@@ -2,3 +2,5 @@ name: Slack
 platform: slack
 api_key: !secret slack_api_token
 default_channel: "#fox-hollow-ha"
+username: Fox Hollow Home Assistant
+icon: https://avatars.slack-edge.com/2018-04-09/343129744128_3e584ca1c58369d90653_512.png
