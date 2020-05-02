@@ -176,8 +176,8 @@ sensor.nest_protect_upstairs_battery_status:
   friendly_name: "Nest Protect: Upstairs"
 
 # Roomba
-binary_sensor.roomba_bin_full:
-  friendly_name: Bin Full
+# binary_sensor.roomba_bin_full:
+#   friendly_name: Bin Full
 binary_sensor.roomba_bin_present:
   friendly_name: Bin Present
 sensor.roomba_battery_level:
