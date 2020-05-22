@@ -1,4 +1,2 @@
-external_url: !secret http_external_url
-internal_url: !secret http_internal_url
 ip_ban_enabled: false
 login_attempts_threshold: 3
