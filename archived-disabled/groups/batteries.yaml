@@ -10,11 +10,11 @@ entities:
 #  - sensor.caitlins_ipad_battery_level
 #  - sensor.caitlins_ipad_battery_state
   - sensor.front_door_lock_battery_level
-  - sensor.nest_protect_attic_bedroom_battery_status
   - sensor.nest_protect_entryway_battery_status
   - sensor.nest_protect_family_room_battery_status
   - sensor.nest_protect_master_bedroom_battery_status
   - sensor.nest_protect_nursery_battery_status
+  - sensor.nest_protect_office_battery_status
   - sensor.nest_protect_upstairs_battery_status
 #  - sensor.battery_level_exterior_back
 #  - sensor.battery_level_exterior_front

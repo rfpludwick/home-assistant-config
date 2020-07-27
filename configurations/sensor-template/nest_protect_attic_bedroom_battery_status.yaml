@@ -1,6 +1,6 @@
-value_template: "{{ states.sensor.nest_protect_attic_bedroom_battery_health.state }}"
+value_template: "{{ states.sensor.nest_protect_office_battery_health.state }}"
 icon_template: >
-  {% if (states.sensor.nest_protect_attic_bedroom_battery_health.state == 'Ok') %}
+  {% if (states.sensor.nest_protect_office_battery_health.state == 'Ok') %}
     mdi:battery-charging-wireless
   {% else %}
     mdi:battery-charging-wireless-alert

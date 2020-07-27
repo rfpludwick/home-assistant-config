@@ -1,6 +1,6 @@
-name: "Nest Protect: Attic Bedroom: Battery: Needs replacement"
-done_message: "Nest Protect: Attic Bedroom: Battery: Is ok"
-entity_id: sensor.nest_protect_attic_bedroom_battery_health
+name: "Nest Protect: Office: Battery: Needs replacement"
+done_message: "Nest Protect: Office: Battery: Is ok"
+entity_id: sensor.nest_protect_office_battery_health
 state: "Replace"
 repeat:
   - 60

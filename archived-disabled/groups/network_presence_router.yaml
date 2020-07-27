@@ -1,13 +1,13 @@
 name: Network Presence (Router)
 control: hidden
 entities:
-  - device_tracker.amazon_echo_dot_attic_bedroom
   - device_tracker.amazon_echo_family_room
   - device_tracker.amazon_echo_garage
   - device_tracker.amazon_echo_dot_kitchen
   - device_tracker.amazon_echo_dot_loft
   - device_tracker.amazon_echo_dot_master_bedroom
   - device_tracker.amazon_echo_dot_nursery
+  - device_tracker.amazon_echo_dot_office
   - device_tracker.apple_tv_wifi
   - device_tracker.apple_tv_wired
   - device_tracker.arlo_base_station
@@ -32,11 +32,11 @@ entities:
   - device_tracker.olivia_shull_s_phone
   - device_tracker.nas_lan_1
   - device_tracker.nas_lan_2
-  - device_tracker.nest_protect_attic_bedroom
   - device_tracker.nest_protect_entryway
   - device_tracker.nest_protect_family_room
   - device_tracker.nest_protect_master_bedroom
   - device_tracker.nest_protect_nursery
+  - device_tracker.nest_protect_office
   - device_tracker.nest_protect_upstairs
   - device_tracker.nintendo_switch
   - device_tracker.pi_hole_zonepi_2
