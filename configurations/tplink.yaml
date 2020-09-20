@@ -1,6 +1,7 @@
 discovery: false
 switch:
-  - host: !secret kasa_plug_caits_desk_lamp_host
+  - host: !secret kasa_plug_caits_bedside_lamp_host
+  - host: !secret kasa_plug_caits_owl_lamp_host
   - host: !secret kasa_plug_front_room_east_lamp_host
   - host: !secret kasa_plug_front_room_west_lamp_host
   - host: !secret kasa_plug_loft_lamp_host
