@@ -1,0 +1,6 @@
+name: Loft Lights
+icon: mdi:lamps
+entities:
+  - switch.loft_lamp
+  - light.loft_sconce
+  - switch.caits_owl_lamp

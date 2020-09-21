@@ -1,0 +1,5 @@
+name: Nursery Lights
+icon: mdi:lamps
+entities:
+  - light.nursery_ceiling
+  - light.nursery_lamp
