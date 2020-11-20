@@ -38,7 +38,7 @@ mobile_app:
 nest: !include configurations/nest.yaml
 #nexia: !include configurations/nexia.yaml
 notify: !include_dir_list configurations/notify/
-person: !include_dir_list configurations/person/
+#person: !include_dir_list configurations/person/
 pi_hole: !include configurations/pi_hole.yaml
 recorder: !include configurations/recorder.yaml
 remote: !include_dir_list configurations/remote/
