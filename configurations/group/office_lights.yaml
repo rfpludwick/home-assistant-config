@@ -1,0 +1,4 @@
+name: Office Lights
+icon: mdi:lamps
+entities:
+  - light.office_ceiling

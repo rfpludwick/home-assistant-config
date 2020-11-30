@@ -1,0 +1,4 @@
+name: Family Room Lights
+icon: mdi:lamps
+entities:
+  - light.family_room_ceiling

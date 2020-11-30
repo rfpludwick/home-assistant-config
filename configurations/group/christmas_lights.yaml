@@ -1,0 +1,4 @@
+name: Christmas Lights
+icon: mdi:lamps
+entities:
+  - switch.christmas_tree_lights
