@@ -198,6 +198,8 @@ switch.caits_bedside_lamp:
   icon: mdi:lamp
 switch.caits_owl_lamp:
   icon: mdi:owl
+switch.christmas_loft_lights:
+  icon: mdi:string-lights
 switch.christmas_tree_lights:
   icon: mdi:pine-tree
 switch.front_room_east_lamp:
