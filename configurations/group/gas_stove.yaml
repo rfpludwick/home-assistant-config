@@ -1,0 +1,4 @@
+name: Gas Stove
+icon: mdi:fireplace
+entities:
+  - light.gas_stove
