@@ -1,0 +1,12 @@
+name: Gas Stove is on
+done_message: Gas Stove is off
+entity_id: binary_sensor.gas_stove_on_nighttime
+state: "on"
+repeat:
+  - 30
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - mobile_app_parents
+  - slack_crit
