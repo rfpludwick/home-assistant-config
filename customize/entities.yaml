@@ -25,6 +25,9 @@ alert.front_door_lock_unlocked:
 alert.garage_door_open:
   friendly_name: "Garage Door: Open"
   icon: mdi:garage-alert
+alert.gas_stove_on_nighttime:
+  friendly_name: "Gas Stove: On During Nighttime"
+  icon: mdi:bell-alert
 alert.master_bedroom_humidifier_on_daytime:
   friendly_name: "Master Bedroom Humidifier: On During Daytime"
   icon: mdi:bell-alert
@@ -46,6 +49,8 @@ alert.nest_protect_office_battery_health_replace:
 alert.nest_protect_upstairs_battery_health_replace:
   friendly_name: "Nest Protect: Upstairs: Replace Battery"
   icon: mdi:battery-alert
+binary_sensor.gas_stove_on_nighttime:
+  friendly_name: "Gas Stove: On During Nighttime"
 binary_sensor.master_bedroom_humidifier_on_daytime:
   friendly_name: "Master Bedroom Humidifier: On During Daytime"
 
