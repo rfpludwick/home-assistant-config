@@ -17,7 +17,7 @@ bed_down:
         - switch.front_room_east_lamp
         - switch.front_room_west_lamp
         - switch.loft_lamp
-        - switch.master_bedroom_humidifier
+        - switch.roberts_egg_lamp
         - switch.roberts_reading_lamp
     - service: remote.turn_off
       entity_id:
