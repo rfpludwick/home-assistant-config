@@ -213,7 +213,7 @@ switch.front_room_west_lamp:
   icon: mdi:floor-lamp
 switch.loft_lamp:
   icon: mdi:floor-lamp
-switch.master_owl_wax_melter:
+switch.owl_wax_melter:
   icon: mdi:candle
 switch.roberts_egg_lamp:
   icon: mdi:egg
