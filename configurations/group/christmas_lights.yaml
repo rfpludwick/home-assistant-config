@@ -1,4 +1,5 @@
 name: Christmas Lights
 icon: mdi:lamps
 entities:
+  - switch.christmas_loft_lights
   - switch.christmas_tree_lights

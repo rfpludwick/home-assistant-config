@@ -25,9 +25,12 @@ alert.front_door_lock_unlocked:
 alert.garage_door_open:
   friendly_name: "Garage Door: Open"
   icon: mdi:garage-alert
-alert.master_bedroom_humidifier_on_daytime:
-  friendly_name: "Master Bedroom Humidifier: On During Daytime"
+alert.gas_stove_on_nighttime:
+  friendly_name: "Gas Stove: On During Nighttime"
   icon: mdi:bell-alert
+# alert.master_bedroom_humidifier_on_daytime:
+#   friendly_name: "Master Bedroom Humidifier: On During Daytime"
+#   icon: mdi:bell-alert
 alert.nest_protect_entryway_battery_health_replace:
   friendly_name: "Nest Protect: Entryway: Replace Battery"
   icon: mdi:battery-alert
@@ -46,8 +49,10 @@ alert.nest_protect_office_battery_health_replace:
 alert.nest_protect_upstairs_battery_health_replace:
   friendly_name: "Nest Protect: Upstairs: Replace Battery"
   icon: mdi:battery-alert
-binary_sensor.master_bedroom_humidifier_on_daytime:
-  friendly_name: "Master Bedroom Humidifier: On During Daytime"
+binary_sensor.gas_stove_on_nighttime:
+  friendly_name: "Gas Stove: On During Nighttime"
+# binary_sensor.master_bedroom_humidifier_on_daytime:
+#   friendly_name: "Master Bedroom Humidifier: On During Daytime"
 
 # Arlo (Excluding Alarm Control Panel)
 #sensor.battery_level_exterior_back:
@@ -198,6 +203,8 @@ switch.caits_bedside_lamp:
   icon: mdi:lamp
 switch.caits_owl_lamp:
   icon: mdi:owl
+switch.christmas_loft_lights:
+  icon: mdi:string-lights
 switch.christmas_tree_lights:
   icon: mdi:pine-tree
 switch.front_room_east_lamp:
@@ -206,10 +213,10 @@ switch.front_room_west_lamp:
   icon: mdi:floor-lamp
 switch.loft_lamp:
   icon: mdi:floor-lamp
-switch.master_bathroom_towel_heater:
-  icon: mdi:radiator
-switch.master_bedroom_humidifier:
-  icon: mdi:air-humidifier
+switch.owl_wax_melter:
+  icon: mdi:candle
+switch.roberts_egg_lamp:
+  icon: mdi:egg
 switch.roberts_reading_lamp:
   icon: mdi:desk-lamp
 

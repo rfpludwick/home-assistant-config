@@ -2,3 +2,4 @@ name: Family Room Lights
 icon: mdi:lamps
 entities:
   - light.family_room_ceiling
+  - light.family_room_lamp
