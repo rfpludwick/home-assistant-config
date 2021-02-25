@@ -1,0 +1,3 @@
+{
+	"window.title": "${activeEditorMedium}${dirty}${separator}Home Assistant Configurations${separator}${appName}"
+}
