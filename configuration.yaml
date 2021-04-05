@@ -12,7 +12,7 @@ automation: !include_dir_list automations/
 #group: !include_dir_named groups/
 script: !include_dir_merge_named scripts/
 
-shell_command: !include services/shell_command.yaml
+# shell_command: !include services/shell_command.yaml
 
 # alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
 alert: !include_dir_named configurations/alert/
