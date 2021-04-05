@@ -14,9 +14,9 @@ script: !include_dir_merge_named scripts/
 
 shell_command: !include services/shell_command.yaml
 
-alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
+# alarm_control_panel: !include_dir_list configurations/alarm_control_panel/
 alert: !include_dir_named configurations/alert/
-arlo: !include configurations/arlo.yaml
+# arlo: !include configurations/arlo.yaml
 #august: !include configurations/august.yaml
 binary_sensor: !include_dir_list configurations/binary_sensor/
 #camera: !include_dir_list configurations/camera/
@@ -29,7 +29,7 @@ discovery: !include configurations/discovery.yaml
 ffmpeg: !include configurations/ffmpeg.yaml
 group: !include_dir_named configurations/group/
 #history_graph: !include_dir_named configurations/history_graph/
-ifttt: !include configurations/ifttt.yaml
+# ifttt: !include configurations/ifttt.yaml
 input_boolean: !include_dir_named configurations/input_boolean/
 #input_datetime: !include_dir_named configurations/input_datetime/
 #ios: !include configurations/ios.yaml

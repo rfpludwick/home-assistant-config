@@ -5,8 +5,9 @@
 - Fix Arlo (use aarlo?)
 - Get ceiling fan controls into HA
 
-# Considerations
+## Considerations
 
 - Develop Floorplan
 - Reintegrate Alexa Via Cloud
 - Setup Emulated Hue Bridge
+- Get Scout Alarm back in
