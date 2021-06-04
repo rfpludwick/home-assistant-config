@@ -39,14 +39,14 @@ nest: !include configurations/nest.yaml
 #nexia: !include configurations/nexia.yaml
 notify: !include_dir_list configurations/notify/
 #person: !include_dir_list configurations/person/
-pi_hole: !include configurations/pi_hole.yaml
+#pi_hole: !include configurations/pi_hole.yaml
 recorder: !include configurations/recorder.yaml
 #remote: !include_dir_list configurations/remote/
 #roomba: !include configurations/roomba.yaml
 sensor: !include_dir_list configurations/sensor/
 #sun:
 system_health:
-synology_dsm: !include configurations/synology_dsm.yaml
+#synology_dsm: !include configurations/synology_dsm.yaml
 tplink: !include configurations/tplink.yaml
 #usps: !include configurations/usps.yaml
 #unifi: !include configurations/unifi.yaml
