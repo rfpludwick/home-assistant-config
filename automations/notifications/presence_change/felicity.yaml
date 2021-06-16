@@ -16,4 +16,4 @@ condition:
 action:
   - service: notify.slack_standard
     data:
-      message: "Felicity's presence changed to '{{ states.person.felicity.state }}'"
+      message: "Felicity's presence changed to '{{ states('person.felicity') }}'"

@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Nest Protect: Master Bedroom: Carbon monoxide status changed to '{{ states.sensor.nest_protect_master_bedroom_co_status.state }}'"
+      message: "Nest Protect: Master Bedroom: Carbon monoxide status changed to '{{ states('sensor.nest_protect_master_bedroom_co_status') }}'"

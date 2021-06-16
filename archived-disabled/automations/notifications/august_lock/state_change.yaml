@@ -16,4 +16,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Front Door Lock state changed to '{{ states.lock.front_door.state }}'"
+      message: "Front Door Lock state changed to '{{ states('lock.front_door') }}'"

@@ -10,8 +10,8 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Crime changed to '{{ states.sensor.crime.state }}'"
+      message: "Crime changed to '{{ states('sensor.crime') }}'"
   - service: notify.smtp_parents
     data:
       title: Crime Change
-      message: "Crime changed to '{{ states.sensor.crime.state }}'"
+      message: "Crime changed to '{{ states('sensor.crime') }}'"

@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Scout Alarm mode changed to '{{ states.alarm_control_panel.scout_alarm.state }}'"
+      message: "Scout Alarm mode changed to '{{ states('alarm_control_panel.scout_alarm') }}'"

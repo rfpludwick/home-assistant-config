@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Garage Door state changed to '{{ states.cover.garage_door.state }}'"
+      message: "Garage Door state changed to '{{ states('cover.garage_door') }}'"

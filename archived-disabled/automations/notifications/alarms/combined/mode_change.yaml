@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Combined Alarm mode changed to '{{ states.alarm_control_panel.combined_alarm.state }}'"
+      message: "Combined Alarm mode changed to '{{ states('alarm_control_panel.combined_alarm') }}'"

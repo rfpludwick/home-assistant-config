@@ -14,4 +14,4 @@ condition:
 action:
   - service: notify.slack_standard
     data:
-      message: "Robert's Steam game changed to '{{ states.sensor.steam_game_playing_robert.state }}'"
+      message: "Robert's Steam game changed to '{{ states('sensor.steam_game_playing_robert') }}'"

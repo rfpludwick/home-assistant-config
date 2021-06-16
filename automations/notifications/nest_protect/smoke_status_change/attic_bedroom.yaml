@@ -10,4 +10,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Nest Protect: Office: Smoke status changed to '{{ states.sensor.nest_protect_office_smoke_status.state }}'"
+      message: "Nest Protect: Office: Smoke status changed to '{{ states('sensor.nest_protect_office_smoke_status') }}'"

@@ -14,4 +14,4 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "Arlo mode changed to '{{ states.alarm_control_panel.vierarlo.state }}'"
+      message: "Arlo mode changed to '{{ states('alarm_control_panel.vierarlo') }}'"
