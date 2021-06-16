@@ -3,12 +3,12 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: lock.front_door
-    from: on
-    to: off
+    from: "on"
+    to: "off"
   - platform: state
     entity_id: lock.front_door
-    from: off
-    to: on
+    from: "off"
+    to: "on"
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications

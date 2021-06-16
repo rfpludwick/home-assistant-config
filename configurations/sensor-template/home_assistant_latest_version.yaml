@@ -1,1 +1,1 @@
-value_template: "{{ states.binary_sensor.updater.attributes.newest_version }}"
+value_template: "{{ state_attr('binary_sensor.updater', 'newest_version') }}"

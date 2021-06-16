@@ -3,8 +3,8 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: binary_sensor.updater
-    from: off
-    to: on
+    from: "off"
+    to: "on"
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
