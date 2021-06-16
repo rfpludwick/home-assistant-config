@@ -1,6 +1,6 @@
-value_template: "{{ states.vacuum.roomba.attributes.bin_full }}"
+value_template: "{{ state_attr('vacuum.roomba', 'bin_full') }}"
 icon_template: >
-  {% if states.vacuum.roomba.attributes.bin_full %}
+  {% if state_attr('vacuum.roomba', 'bin_full') %}
     mdi:delete-empty
   {% else %}
     mdi:delete-empty-outline

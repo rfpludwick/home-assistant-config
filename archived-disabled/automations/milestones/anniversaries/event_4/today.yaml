@@ -14,8 +14,8 @@ condition:
 action:
   - service: notify.mobile_app_parents
     data:
-      title: "Anniversary: {{ states.input_datetime.anniversary_4.attributes.friendly_name }}: Today"
-      message: "{{ states.input_datetime.anniversary_4.attributes.friendly_name }} anniversary is today!"
+      title: "Anniversary: {{ state_attr('input_datetime.anniversary_4', 'friendly_name') }}: Today"
+      message: "{{ state_attr('input_datetime.anniversary_4', 'friendly_name') }} anniversary is today!"
   - service: notify.slack_standard
     data:
-      message: "{{ states.input_datetime.anniversary_4.attributes.friendly_name }} anniversary is today!"
+      message: "{{ state_attr('input_datetime.anniversary_4', 'friendly_name') }} anniversary is today!"

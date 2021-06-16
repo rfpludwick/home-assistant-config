@@ -14,8 +14,8 @@ condition:
 action:
   - service: notify.mobile_app_parents
     data:
-      title: "Birthday: {{ states.input_datetime.birthday_person_29.attributes.friendly_name }}: In 4 Days"
-      message: "{{ states.input_datetime.birthday_person_29.attributes.friendly_name }}'s birthday is in 4 days!"
+      title: "Birthday: {{ state_attr('input_datetime.birthday_person_29', 'friendly_name') }}: In 4 Days"
+      message: "{{ state_attr('input_datetime.birthday_person_29', 'friendly_name') }}'s birthday is in 4 days!"
   - service: notify.slack_standard
     data:
-      message: "{{ states.input_datetime.birthday_person_29.attributes.friendly_name }}'s birthday is in 4 days!"
+      message: "{{ state_attr('input_datetime.birthday_person_29', 'friendly_name') }}'s birthday is in 4 days!"

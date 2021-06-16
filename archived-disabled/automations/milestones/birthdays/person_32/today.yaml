@@ -14,8 +14,8 @@ condition:
 action:
   - service: notify.mobile_app_parents
     data:
-      title: "Birthday: {{ states.input_datetime.birthday_person_32.attributes.friendly_name }}: Today"
-      message: "{{ states.input_datetime.birthday_person_32.attributes.friendly_name }}'s birthday is today!"
+      title: "Birthday: {{ state_attr('input_datetime.birthday_person_32', 'friendly_name') }}: Today"
+      message: "{{ state_attr('input_datetime.birthday_person_32', 'friendly_name') }}'s birthday is today!"
   - service: notify.slack_standard
     data:
-      message: "{{ states.input_datetime.birthday_person_32.attributes.friendly_name }}'s birthday is today!"
+      message: "{{ state_attr('input_datetime.birthday_person_32', 'friendly_name') }}'s birthday is today!"
