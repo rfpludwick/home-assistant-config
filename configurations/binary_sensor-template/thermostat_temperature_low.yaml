@@ -1,0 +1,3 @@
+device_class: cold
+value_template: "{{ ((state_attr('climate.thermostat_zone', 'current_temperature') | int - 1) < (state_attr('climate.thermostat_zone', 'target_temp_low') | int)) }}"
+friendly_name: "Thermostat: Temperature: Low"

@@ -1,6 +1,6 @@
 name: Robert
 id: therobzone
-user_id: !secret person_robert_user_id
+user_id: "!secret person_robert_user_id"
 device_trackers:
   - device_tracker.robert_fp_ludwicks_phone
   - device_tracker.roberts_phone

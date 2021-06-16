@@ -12,10 +12,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_clean_coffee_grinder
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -23,12 +23,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Clean Coffee Grinder"
-      message: "Clean the coffee grinder and consider grinding rice at the end"
+      message: Clean the coffee grinder and consider grinding rice at the end
       notification_id: chore_clean_coffee_grinder
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Coffee Grinder"
-      message: "Clean the coffee grinder and consider grinding rice at the end"
+      message: Clean the coffee grinder and consider grinding rice at the end
       data:
         push:
           category: chore

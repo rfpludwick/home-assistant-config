@@ -1,4 +1,4 @@
 controllers:
-  - host: !secret unifi_host
+  - host: "!secret unifi_host"
     site: VierHome
-    ssid_filter: !secret unifi_ssid_filter
+    ssid_filter: "!secret unifi_ssid_filter"

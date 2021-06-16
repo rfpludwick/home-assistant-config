@@ -3,14 +3,14 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: binary_sensor.updater
-    from: 'off'
-    to: 'on'
+    from: off
+    to: on
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
-    state: "on"
+    state: on
 action:
   - service: notify.smtp_administrators
     data:
-      title: "Home Assistant Update Available"
+      title: Home Assistant Update Available
       message: "There is a new Home Assistant release ({{ state_attr('binary_sensor.updater', 'newest_version') }}) available."

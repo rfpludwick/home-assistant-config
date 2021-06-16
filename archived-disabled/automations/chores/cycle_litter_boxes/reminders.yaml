@@ -10,10 +10,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_cycle_litter_boxes
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -21,12 +21,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Cycle Litter Boxes"
-      message: "Empty the litter boxes and fill with fresh litter"
+      message: Empty the litter boxes and fill with fresh litter
       notification_id: chore_cycle_litter_boxes
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Cycle Litter Boxes"
-      message: "Empty the litter boxes and fill with fresh litter"
+      message: Empty the litter boxes and fill with fresh litter
       data:
         push:
           category: chore

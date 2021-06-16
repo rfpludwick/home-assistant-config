@@ -6,9 +6,9 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_combined_alarm
-    state: "on"
+    state: on
 action:
   - service: alarm_control_panel.alarm_arm_away
     entity_id: alarm_control_panel.scout_alarm
     # data:
-    #   code: !secret alarm_code
+    #   code: "!secret alarm_code"

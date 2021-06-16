@@ -1,4 +1,4 @@
-name: !secret zone_8_name
-latitude: !secret zone_8_latitude
-longitude: !secret zone_8_longitude
-icon: mdi:school
+name: "!secret zone_8_name"
+latitude: "!secret zone_8_latitude"
+longitude: "!secret zone_8_longitude"
+icon: "mdi:school"

@@ -1,5 +1,5 @@
 name: Master Bedroom Lights
-icon: mdi:lamps
+icon: "mdi:lamps"
 entities:
   - switch.caits_bedside_lamp
   - light.master_bedroom_ceiling

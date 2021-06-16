@@ -2,11 +2,11 @@ alias: "Notification: Email Breaches Change: Robert's Personal"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: !secret breaches_roberts_email
+    entity_id: "!secret breaches_roberts_email"
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
-    state: "on"
+    state: on
   - condition: template
     value_template: "{{ (trigger.from_state.state != 'unknown') }}"
   - condition: template
@@ -14,8 +14,8 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: !secret automation_breaches_roberts_email_notification_message
+      message: "!secret automation_breaches_roberts_email_notification_message"
   - service: notify.smtp_parents
     data:
       title: "Email Breaches Change: Robert's Personal"
-      message: !secret automation_breaches_roberts_email_notification_message
+      message: "!secret automation_breaches_roberts_email_notification_message"

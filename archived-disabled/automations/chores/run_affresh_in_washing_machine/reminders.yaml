@@ -10,10 +10,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_run_affresh_in_washing_machine
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -21,12 +21,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Run Affresh In Washing Machine"
-      message: "Run the washing machine with an Affresh tablet"
+      message: Run the washing machine with an Affresh tablet
       notification_id: chore_run_affresh_in_washing_machine
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Run Affresh In Washing Machine"
-      message: "Run the washing machine with an Affresh tablet"
+      message: Run the washing machine with an Affresh tablet
       data:
         push:
           category: chore

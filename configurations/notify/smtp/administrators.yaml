@@ -3,9 +3,9 @@ platform: smtp
 server: smtp.gmail.com
 port: 587
 timeout: 15
-sender: !secret smtp_username
+sender: "!secret smtp_username"
 encryption: starttls
-username: !secret smtp_username
-password: !secret smtp_password
-recipient: !secret smtp_administrators_recipients
+username: "!secret smtp_username"
+password: "!secret smtp_password"
+recipient: "!secret smtp_administrators_recipients"
 sender_name: Fox Hollow Home Assistant

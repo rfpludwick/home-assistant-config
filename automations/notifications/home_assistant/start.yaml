@@ -6,4 +6,4 @@ trigger:
 action:
   - service: notify.slack_standard
     data:
-      message: "Home Assistant starting up"
+      message: Home Assistant starting up

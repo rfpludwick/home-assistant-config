@@ -1,3 +1,3 @@
 name: Renew Home SSL Certificate
 initial: off
-icon: mdi:lock-outline
+icon: "mdi:lock-outline"

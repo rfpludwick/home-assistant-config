@@ -1,1 +1,1 @@
-key: !secret ifttt_api_key
+key: "!secret ifttt_api_key"

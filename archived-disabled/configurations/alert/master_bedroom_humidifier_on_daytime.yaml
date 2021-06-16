@@ -1,7 +1,7 @@
 name: Master Bedroom Humidifier is on
 done_message: Master Bedroom Humidifier is off
 entity_id: binary_sensor.master_bedroom_humidifier_on_daytime
-state: "on"
+state: on
 repeat:
   - 30
   - 60

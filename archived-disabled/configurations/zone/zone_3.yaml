@@ -1,4 +1,4 @@
-name: !secret zone_3_name
-latitude: !secret zone_3_latitude
-longitude: !secret zone_3_longitude
-icon: mdi:briefcase
+name: "!secret zone_3_name"
+latitude: "!secret zone_3_latitude"
+longitude: "!secret zone_3_longitude"
+icon: "mdi:briefcase"

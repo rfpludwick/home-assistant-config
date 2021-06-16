@@ -1,6 +1,6 @@
 name: History
 view: yes
-icon: mdi:chart-areaspline
+icon: "mdi:chart-areaspline"
 entities:
   - group.graph_family_presence
   - group.graph_lights

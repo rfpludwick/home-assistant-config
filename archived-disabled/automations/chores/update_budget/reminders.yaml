@@ -14,10 +14,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_update_budget
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -25,12 +25,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Update Budget"
-      message: "Update the budget in YNAB for next month"
+      message: Update the budget in YNAB for next month
       notification_id: chore_update_budget
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Update Budget"
-      message: "Update the budget in YNAB for next month"
+      message: Update the budget in YNAB for next month
       data:
         push:
           category: chore

@@ -2,7 +2,7 @@
 
 name: Dashboard
 view: yes
-icon: mdi:home
+icon: "mdi:home"
 entities:
   - group.system
   - group.family_presence

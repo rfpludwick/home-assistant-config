@@ -9,7 +9,7 @@ condition:
     before: sunrise
   - condition: state
     entity_id: input_boolean.automation_times
-    state: "on"
+    state: on
 action:
   - service: frontend.set_theme
     data:

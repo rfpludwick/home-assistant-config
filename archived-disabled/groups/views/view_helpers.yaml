@@ -1,6 +1,6 @@
 name: Helpers
 view: yes
-icon: mdi:cog
+icon: "mdi:cog"
 entities:
   - group.links
   - group.alerts

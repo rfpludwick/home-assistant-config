@@ -1,6 +1,6 @@
 name: Controls
 view: yes
-icon: mdi:dip-switch
+icon: "mdi:dip-switch"
 entities:
   - group.alarms
 #  - group.chores_due

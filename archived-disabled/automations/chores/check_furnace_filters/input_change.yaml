@@ -6,10 +6,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_check_furnace_filters
-    state: "off"
+    state: off
 action:
   - service: persistent_notification.dismiss
     data:
@@ -17,7 +17,7 @@ action:
   - service: notify.mobile_app_parents
     data:
       title: "Chore: Check Furnace Filters"
-      message: "The furnace filters have been checked and are in good shape"
+      message: The furnace filters have been checked and are in good shape
   - service: notify.slack_standard
     data:
       message: "The chore 'Check Furnace Filters' has been completed"

@@ -3,7 +3,7 @@ bed_down:
     # - service: alarm_control_panel.alarm_arm_home
     #   entity_id: alarm_control_panel.combined_alarm
     #   data:
-    #     code: !secret alarm_code
+    #     code: "!secret alarm_code"
     - service: light.turn_off
       entity_id:
         - light.family_room_ceiling

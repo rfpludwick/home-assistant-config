@@ -1,6 +1,6 @@
 name: Monitoring
 view: yes
-icon: mdi:eye
+icon: "mdi:eye"
 entities:
 #  - group.camera_front
 #  - group.camera_back

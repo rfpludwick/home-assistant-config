@@ -6,10 +6,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_update_valuable_asset_values
-    state: "off"
+    state: off
 action:
   - service: persistent_notification.dismiss
     data:
@@ -17,7 +17,7 @@ action:
   - service: notify.mobile_app_parents
     data:
       title: "Chore: Update Valuable Asset Values"
-      message: "Values for our large assets have been updated"
+      message: Values for our large assets have been updated
   - service: notify.slack_standard
     data:
       message: "The chore 'Update Valuable Asset Values' has been completed"

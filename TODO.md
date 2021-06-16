@@ -3,6 +3,7 @@
 - Investigate HomeKit
 - Fix Arlo (use aarlo?)
 - Get ceiling fan controls into HA
+- Redo daytime/nighttime themes
 
 ## Considerations
 

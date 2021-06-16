@@ -1,8 +1,8 @@
 widget_type: device_tracker
 device: mermaidphone
 title: Cait
-icon_on: mdi-gender-female
-icon_off: mdi-gender-female
+icon_on: "mdi-gender-female"
+icon_off: "mdi-gender-female"
 icon_style_active: "font-size: 400%; margin-top: -5%;"
 icon_style_inactive: "font-size: 400%; margin-top: -5%;"
 state_text_style: "display: none;"

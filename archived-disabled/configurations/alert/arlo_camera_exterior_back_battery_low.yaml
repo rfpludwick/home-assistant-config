@@ -1,7 +1,7 @@
 name: Arlo Camera Exterior Back Battery is low
 done_message: Arlo Camera Exterior Back Battery is ok
 entity_id: binary_sensor.arlo_camera_exterior_back_battery_low
-state: "on"
+state: on
 repeat:
   - 60
 can_acknowledge: true

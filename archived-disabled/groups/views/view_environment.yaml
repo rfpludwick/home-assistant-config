@@ -1,6 +1,6 @@
 name: Environment
 view: yes
-icon: mdi:earth
+icon: "mdi:earth"
 entities:
   - group.celestial
   - group.weather_conditions

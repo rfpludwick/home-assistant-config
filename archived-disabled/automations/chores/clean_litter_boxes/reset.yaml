@@ -8,10 +8,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_cycle_litter_boxes # No cleaning if we're gonna cycle
-    state: "off"
+    state: off
   - condition: or
     conditions:
       - condition: template

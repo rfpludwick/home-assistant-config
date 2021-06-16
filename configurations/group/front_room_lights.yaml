@@ -1,5 +1,5 @@
 name: Front Room Lights
-icon: mdi:lamps
+icon: "mdi:lamps"
 entities:
   - switch.front_room_east_lamp
   - switch.front_room_west_lamp

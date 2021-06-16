@@ -1,5 +1,5 @@
 name: Loft Lights
-icon: mdi:lamps
+icon: "mdi:lamps"
 entities:
   - switch.loft_lamp
   - light.loft_sconce

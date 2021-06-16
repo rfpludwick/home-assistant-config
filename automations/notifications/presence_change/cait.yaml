@@ -3,16 +3,16 @@ initial_state: true
 trigger:
   - platform: state
     entity_id: person.cait
-    from: "not_home"
-    to: "home"
+    from: not_home
+    to: home
   - platform: state
     entity_id: person.cait
-    from: "home"
-    to: "not_home"
+    from: home
+    to: not_home
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
-    state: "on"
+    state: on
 action:
   - service: notify.slack_standard
     data:

@@ -1,24 +1,24 @@
 # Other
 script.bed_down:
-  icon: mdi:bed-empty
+  icon: "mdi:bed-empty"
   friendly_name: Bed Down
 script.arriving_home:
-  icon: mdi:bullseye-arrow
+  icon: "mdi:bullseye-arrow"
   friendly_name: Arriving Home
 script.arriving_home_with_garage:
-  icon: mdi:bullseye-arrow
+  icon: "mdi:bullseye-arrow"
   friendly_name: Arriving Home With Garage
 
 # Scout Alarm Mark Mode
 # script.scout_alarm_mark_disarmed:
-#   icon: mdi:alarm-off
+#   icon: "mdi:alarm-off"
 #   friendly_name: Mark Scout Alarm Disarmed
 # script.scout_alarm_mark_armed_home:
-#   icon: mdi:home
+#   icon: "mdi:home"
 #   friendly_name: Mark Scout Alarm Armed Home
 # script.scout_alarm_mark_armed_away:
-#   icon: mdi:lock
+#   icon: "mdi:lock"
 #   friendly_name: Mark Scout Alarm Armed Away
 # script.scout_alarm_mark_armed_night:
-#   icon: mdi:weather-night
+#   icon: "mdi:weather-night"
 #   friendly_name: Mark Scout Alarm Armed Night

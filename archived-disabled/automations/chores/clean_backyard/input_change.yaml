@@ -6,10 +6,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_clean_backyard
-    state: "off"
+    state: off
 action:
   - service: persistent_notification.dismiss
     data:
@@ -17,7 +17,7 @@ action:
   - service: notify.mobile_app_parents
     data:
       title: "Chore: Clean Backyard"
-      message: "The backyard has been cleaned"
+      message: The backyard has been cleaned
   - service: notify.slack_standard
     data:
       message: "The chore 'Clean Backyard' has been completed"

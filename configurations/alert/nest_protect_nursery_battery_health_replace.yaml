@@ -1,7 +1,7 @@
 name: "Nest Protect: Nursery: Battery: Needs replacement"
 done_message: "Nest Protect: Nursery: Battery: Is ok"
 entity_id: sensor.nest_protect_nursery_battery_health
-state: "Replace"
+state: Replace
 repeat:
   - 60
 can_acknowledge: true

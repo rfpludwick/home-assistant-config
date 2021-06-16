@@ -1,5 +1,5 @@
 name: Automotive
 view: yes
-icon: mdi:car-pickup
+icon: "mdi:car-pickup"
 entities:
   - group.waze

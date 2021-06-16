@@ -1,6 +1,6 @@
 name: Technology
 view: yes
-icon: mdi:chip
+icon: "mdi:chip"
 entities:
 #  - group.batteries
   - group.synology_nas

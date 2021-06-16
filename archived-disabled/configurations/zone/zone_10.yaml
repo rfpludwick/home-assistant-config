@@ -1,4 +1,4 @@
-name: !secret zone_10_name
-latitude: !secret zone_10_latitude
-longitude: !secret zone_10_longitude
-icon: mdi:table_chart
+name: "!secret zone_10_name"
+latitude: "!secret zone_10_latitude"
+longitude: "!secret zone_10_longitude"
+icon: "mdi:table_chart"

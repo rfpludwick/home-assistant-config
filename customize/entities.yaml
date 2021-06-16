@@ -1,54 +1,54 @@
 # Alarm Control Panels
 # alarm_control_panel.combined_alarm:
-#   icon: mdi:security
+#   icon: "mdi:security"
 #   friendly_name: Combined Alarm
 # alarm_control_panel.vierarlo:
-#   icon: mdi:camcorder-box
+#   icon: "mdi:camcorder-box"
 #   friendly_name: Arlo
 # alarm_control_panel.scout_alarm:
-#   icon: mdi:shield-home
+#   icon: "mdi:shield-home"
 #   friendly_name: Scout Alarm
 
 # Alerts & Related
 #alert.arlo_camera_exterior_back_battery_low:
 #  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
-#  icon: mdi:battery-alert
+#  icon: "mdi:battery-alert"
 #alert.arlo_camera_exterior_front_battery_low:
 #  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
-#  icon: mdi:battery-alert
+#  icon: "mdi:battery-alert"
 alert.front_door_lock_battery_low:
   friendly_name: "Front Door Lock: Battery Low"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.front_door_lock_unlocked:
   friendly_name: "Front Door Lock: Unlocked"
-  icon: mdi:lock-alert
+  icon: "mdi:lock-alert"
 alert.garage_door_open:
   friendly_name: "Garage Door: Open"
-  icon: mdi:garage-alert
+  icon: "mdi:garage-alert"
 alert.gas_stove_on_nighttime:
   friendly_name: "Gas Stove: On During Nighttime"
-  icon: mdi:bell-alert
+  icon: "mdi:bell-alert"
 # alert.master_bedroom_humidifier_on_daytime:
 #   friendly_name: "Master Bedroom Humidifier: On During Daytime"
-#   icon: mdi:bell-alert
+#   icon: "mdi:bell-alert"
 alert.nest_protect_entryway_battery_health_replace:
   friendly_name: "Nest Protect: Entryway: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.nest_protect_family_room_battery_health_replace:
   friendly_name: "Nest Protect: Family Room: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.nest_protect_master_bedroom_battery_health_replace:
   friendly_name: "Nest Protect: Master Bedroom: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.nest_protect_nursery_battery_health_replace:
   friendly_name: "Nest Protect: Nursery: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.nest_protect_office_battery_health_replace:
   friendly_name: "Nest Protect: Office: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 alert.nest_protect_upstairs_battery_health_replace:
   friendly_name: "Nest Protect: Upstairs: Replace Battery"
-  icon: mdi:battery-alert
+  icon: "mdi:battery-alert"
 binary_sensor.gas_stove_on_nighttime:
   friendly_name: "Gas Stove: On During Nighttime"
 # binary_sensor.master_bedroom_humidifier_on_daytime:
@@ -72,11 +72,11 @@ cover.garage_door:
 
 ## Family Presence
 # person.cait:
-#   entity_picture: !secret entity_picture_cait
+#   entity_picture: "!secret entity_picture_cait"
 # person.felicity:
-#   entity_picture: !secret entity_picture_felicity
+#   entity_picture: "!secret entity_picture_felicity"
 # person.robert:
-#   entity_picture: !secret entity_picture_robert
+#   entity_picture: "!secret entity_picture_robert"
 
 # Harmony
 sensor.harmony_hub_family_room:
@@ -86,31 +86,31 @@ sensor.harmony_hub_loft:
 
 # Home Assistant
 sensor.connected_clients:
-  icon: mdi:remote-desktop
+  icon: "mdi:remote-desktop"
   friendly_name: Connected Clients
 sensor.home_assistant_latest_version:
-  icon: mdi:source-pull
-  friendly_name: "Home Assistant Latest Version"
+  icon: "mdi:source-pull"
+  friendly_name: Home Assistant Latest Version
 sensor.home_assistant_version:
-  icon: mdi:source-branch
+  icon: "mdi:source-branch"
   friendly_name: Home Assistant Current Version
 sensor.local_ip:
-  icon: mdi:ip-network
+  icon: "mdi:ip-network"
   friendly_name: Local IP Address
 
 # Lights
 light.family_room_ceiling:
-  icon: mdi:ceiling-light
+  icon: "mdi:ceiling-light"
 light.loft_sconce:
-  icon: mdi:wall-sconce
+  icon: "mdi:wall-sconce"
 light.master_bedroom_ceiling:
-  icon: mdi:ceiling-light
+  icon: "mdi:ceiling-light"
 light.nursery_ceiling:
-  icon: mdi:ceiling-light
+  icon: "mdi:ceiling-light"
 light.nursery_lamp:
-  icon: mdi:floor-lamp
+  icon: "mdi:floor-lamp"
 light.office_ceiling:
-  icon: mdi:ceiling-light
+  icon: "mdi:ceiling-light"
 
 # Light Bulbs
 light.family_room_ceiling_bulb_1:
@@ -142,7 +142,7 @@ media_player.apple_tv:
 #media_player.spotify:
 #  friendly_name: "Robert's Spotify"
 media_player.sony_bravia_tv:
-  friendly_name: "Family Room TV"
+  friendly_name: Family Room TV
 
 # Nest Protects
 
@@ -192,33 +192,33 @@ sensor.roomba_battery_level:
 
 # Steam
 sensor.steam_game_playing_robert:
-  icon: mdi:gamepad-variant
+  icon: "mdi:gamepad-variant"
   friendly_name: "Robert's Current Game"
 sensor.steam_game_playing_cait:
-  icon: mdi:gamepad-variant
+  icon: "mdi:gamepad-variant"
   friendly_name: "Cait's Current Game"
 
 # Switches
 switch.caits_bedside_lamp:
-  icon: mdi:lamp
+  icon: "mdi:lamp"
 switch.caits_owl_lamp:
-  icon: mdi:owl
+  icon: "mdi:owl"
 switch.christmas_loft_lights:
-  icon: mdi:string-lights
+  icon: "mdi:string-lights"
 switch.christmas_tree_lights:
-  icon: mdi:pine-tree
+  icon: "mdi:pine-tree"
 switch.front_room_east_lamp:
-  icon: mdi:floor-lamp
+  icon: "mdi:floor-lamp"
 switch.front_room_west_lamp:
-  icon: mdi:floor-lamp
+  icon: "mdi:floor-lamp"
 switch.loft_lamp:
-  icon: mdi:floor-lamp
+  icon: "mdi:floor-lamp"
 switch.owl_wax_melter:
-  icon: mdi:candle
+  icon: "mdi:candle"
 switch.roberts_egg_lamp:
-  icon: mdi:egg
+  icon: "mdi:egg"
 switch.roberts_reading_lamp:
-  icon: mdi:desk-lamp
+  icon: "mdi:desk-lamp"
 
 # Synology NAS
 sensor.synology_dsm_cpu_load_total:

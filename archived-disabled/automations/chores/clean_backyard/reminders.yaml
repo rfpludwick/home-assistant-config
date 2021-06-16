@@ -12,10 +12,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_clean_backyard
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -23,12 +23,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Clean Backyard"
-      message: "Clean the backyard of debris and poo"
+      message: Clean the backyard of debris and poo
       notification_id: chore_clean_backyard
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Clean Backyard"
-      message: "Clean the backyard of debris and poo"
+      message: Clean the backyard of debris and poo
       data:
         push:
           category: chore

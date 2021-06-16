@@ -6,10 +6,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: "on"
+    state: on
   - condition: state
     entity_id: input_boolean.chore_sort_synced_photos_on_nas
-    state: "on"
+    state: on
 action:
   - service: persistent_notification.dismiss
     data:
@@ -17,12 +17,12 @@ action:
   - service: persistent_notification.create
     data:
       title: "Chore: Sort Synced Photos On NAS"
-      message: "Sort the synced photos on the NAS into good folders"
+      message: Sort the synced photos on the NAS into good folders
       notification_id: chore_sort_synced_photos_on_nas
   - service: notify.mobile_app_parents
     data_template:
       title: "Chore: Sort Synced Photos On NAS"
-      message: "Sort the synced photos on the NAS into good folders"
+      message: Sort the synced photos on the NAS into good folders
       data:
         push:
           category: chore
