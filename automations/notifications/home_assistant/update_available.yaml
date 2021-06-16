@@ -8,7 +8,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
-    state: on
+    state: "on"
 action:
   - service: notify.smtp_administrators
     data:

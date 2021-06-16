@@ -6,10 +6,10 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: state
     entity_id: input_boolean.chore_sort_synced_photos_on_nas
-    state: off
+    state: "off"
 action:
   - service: persistent_notification.dismiss
     data:

@@ -8,7 +8,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ (now().isoweekday() == 6) }}" # Saturday
 action:

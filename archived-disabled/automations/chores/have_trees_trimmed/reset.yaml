@@ -8,7 +8,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
   - condition: template
     value_template: "{{ ((now().year % 3) == 0) }}" # Every 3 years
   - condition: template

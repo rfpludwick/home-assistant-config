@@ -8,7 +8,7 @@ trigger:
 condition:
   - condition: state
     entity_id: input_boolean.automation_chores
-    state: on
+    state: "on"
 action:
   # This chore is timed by a third party, so if we fail to meet their schedule, we miss our window and just wait for next time
   - service: input_boolean.turn_off
