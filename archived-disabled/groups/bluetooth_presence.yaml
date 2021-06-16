@@ -1,5 +1,0 @@
-name: Bluetooth Presence
-control: hidden
-entities:
-  - device_tracker.bose_mini_ii_soundlink
-  - device_tracker.xbr55x850d

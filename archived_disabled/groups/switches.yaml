@@ -1,0 +1,7 @@
+---
+
+name: Switches
+entities:
+  - switch.christmas_tree
+  - switch.master_bedroom_humidifier
+  - switch.roberts_reading_lamp

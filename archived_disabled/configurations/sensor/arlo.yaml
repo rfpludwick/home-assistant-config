@@ -1,0 +1,6 @@
+---
+
+platform: arlo
+monitored_conditions:
+  - battery_level
+  - signal_strength

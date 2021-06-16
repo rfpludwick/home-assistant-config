@@ -1,0 +1,36 @@
+---
+
+alias: "Chore: Run Affresh In Washing Machine: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "17:00:00"
+  - platform: time
+    at: "18:00:00"
+  - platform: time
+    at: "19:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_run_affresh_in_washing_machine
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_run_affresh_in_washing_machine
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Run Affresh In Washing Machine"
+      message: Run the washing machine with an Affresh tablet
+      notification_id: chore_run_affresh_in_washing_machine
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Run Affresh In Washing Machine"
+      message: Run the washing machine with an Affresh tablet
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_run_affresh_in_washing_machine

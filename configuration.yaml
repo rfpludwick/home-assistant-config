@@ -1,3 +1,5 @@
+---
+
 homeassistant: !include configurations/homeassistant.yaml
 config:
 frontend: !include frontend/frontend.yaml

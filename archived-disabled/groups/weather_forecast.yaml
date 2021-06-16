@@ -1,8 +1,0 @@
-name: Weather Forecast
-entities:
-  - sensor.pws_weather_2d
-  - sensor.pws_weather_2n
-  - sensor.pws_weather_3d
-  - sensor.pws_weather_3n
-  - sensor.pws_weather_4d
-  - sensor.pws_weather_4n

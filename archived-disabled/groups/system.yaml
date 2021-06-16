@@ -1,8 +1,0 @@
-name: System
-control: hidden
-entities:
-  - sensor.date_time
-  - sensor.home_assistant_uptime
-  - sensor.home_assistant_version
-  - binary_sensor.updater
-  - sensor.connected_clients

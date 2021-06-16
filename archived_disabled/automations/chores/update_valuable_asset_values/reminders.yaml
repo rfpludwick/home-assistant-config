@@ -1,0 +1,32 @@
+---
+
+alias: "Chore: Update Valuable Asset Values: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_update_valuable_asset_values
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_update_valuable_asset_values
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Update Valuable Asset Values"
+      message: "Estimate and update the worth of the family's large valuable assets"
+      notification_id: chore_update_valuable_asset_values
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Update Valuable Asset Values"
+      message: "Estimate and update the worth of the family's large valuable assets"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_update_valuable_asset_values

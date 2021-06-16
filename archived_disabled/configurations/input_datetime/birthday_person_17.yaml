@@ -1,0 +1,6 @@
+---
+
+name: !secret birthday_17_name
+initial: !secret birthday_17_date
+has_time: false
+has_date: true

@@ -1,0 +1,85 @@
+---
+
+name: Network Presence (Router)
+control: hidden
+entities:
+  - device_tracker.amazon_echo_family_room
+  - device_tracker.amazon_echo_garage
+  - device_tracker.amazon_echo_dot_kitchen
+  - device_tracker.amazon_echo_dot_loft
+  - device_tracker.amazon_echo_dot_master_bedroom
+  - device_tracker.amazon_echo_dot_nursery
+  - device_tracker.amazon_echo_dot_office
+  - device_tracker.apple_tv_wifi
+  - device_tracker.apple_tv_wired
+  - device_tracker.arlo_base_station
+  - device_tracker.august_connect
+  - device_tracker.av_receiver_family_room_wired
+  - device_tracker.caitlin_ludwick_s_laptop
+  - device_tracker.caitlin_ludwick_s_phone
+  - device_tracker.caitlin_ludwick_s_rig_wifi
+  - device_tracker.caitlin_ludwick_s_rig_wired
+  - device_tracker.chromecast
+  - device_tracker.doxie_scanner
+  - device_tracker.garage_door_opener
+  - device_tracker.harmony_hub_family_room
+  - device_tracker.harmony_hub_loft
+  - device_tracker.hue_hub
+  - device_tracker.unifi_68_ff_7b_b9_fd_7f_default # Kasa Smart Plug - Christmas Tree
+  - device_tracker.hs105_2 # Kasa Smart Plug - Front Room East Lamp
+  - device_tracker.hs105 # Kasa Smart Plug - Front Room West Lamp
+  - device_tracker.hs105_3 # Kasa Smart Plug - Loft Christmas Lights
+  - device_tracker.unifi_d8_0d_17_56_c0_54_default # Kasa Smart Plug - Master Bedroom Humidifier
+  - device_tracker.hs105_4 # Kasa Smart Plug - Robert F.P. Ludwick's Reading Lamp
+  - device_tracker.olivia_shull_s_phone
+  - device_tracker.nas_lan_1
+  - device_tracker.nas_lan_2
+  - device_tracker.nest_protect_entryway
+  - device_tracker.nest_protect_family_room
+  - device_tracker.nest_protect_master_bedroom
+  - device_tracker.nest_protect_nursery
+  - device_tracker.nest_protect_office
+  - device_tracker.nest_protect_upstairs
+  - device_tracker.nintendo_switch
+  - device_tracker.pi_hole_zonepi_2
+  - device_tracker.printer
+  - device_tracker.ps4
+  - device_tracker.reverse_proxy_zonepi_3_wifi
+  - device_tracker.reverse_proxy_zonepi_3_wired
+  - device_tracker.robert_f_p_ludwick_s_kindle
+  - device_tracker.robert_f_p_ludwick_s_laptop
+  - device_tracker.robert_f_p_ludwick_s_phone
+  - device_tracker.robert_f_p_ludwick_s_rig
+  - device_tracker.robert_f_p_ludwick_s_work_laptop
+  - device_tracker.roomba
+  - device_tracker.scout_hub
+  - device_tracker.solarcity_gateway
+  - device_tracker.ssh_gateway_zonepi
+  - device_tracker.tivo_main
+  - device_tracker.tivo_mini_loft
+  - device_tracker.tivo_streaming
+  - device_tracker.trane_thermostat
+  - device_tracker.tv_family_room_wired
+  - device_tracker.xbox_one
+
+# Disabled as of 0.97.x
+#  - device_tracker.aubreys_mbp
+#  - device_tracker.aubreysiphone
+#  - device_tracker.caitlin_ludwicks_old_phone
+#  - device_tracker.ac3743513ee3 # Cat Ludwick's Phone
+#  - device_tracker.androidf14e81233c146f7b # Diana Shull's Phone
+#  - device_tracker.emmas_iphone
+#  - device_tracker.fitbit_aria
+#  - device_tracker.androidea74c9612b5f7f0b # Frederick Ludwick's Phone
+#  - device_tracker.40_4e_36_7f_23_73 # Gordon Hitchcock's Phone
+#  - device_tracker.jean_hitchcock_s_phone
+#  - device_tracker.58_cb_52_0f_47_44 # Joe's Phone
+#  - device_tracker.40_4e_36_81_cd_e5 # Maliha's Phone
+#  - device_tracker.nintendo_wii_u
+#  - device_tracker.samsungsmg930v # Olivia Shull Friend 2's Phone
+#  - device_tracker.olivia_shulls_laptop
+#  - device_tracker.olivia_shull_s_old_phone
+#  - device_tracker.ps3
+#  - device_tracker.ricki
+#  - device_tracker.ryliesiphone
+#  - device_tracker.stephanesiphone

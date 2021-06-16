@@ -1,0 +1,10 @@
+---
+
+device_class: problem
+value_template: "{{ (states('light.gas_stove') == 'on') and ((now().hour < 7) or (22 < now().hour)) }}"
+icon_template: >
+  {% if (states('light.gas_stove') == 'on') and ((now().hour < 7) or (22 < now().hour)) %}
+    mdi:bell-alert
+  {% else %}
+    mdi:bell-alert-outline
+  {% endif %}

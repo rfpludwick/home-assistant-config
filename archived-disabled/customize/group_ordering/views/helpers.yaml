@@ -1,8 +1,0 @@
-group.links:
-  order: 1
-group.scripts:
-  order: 2
-group.automation_toggles:
-  order: 3
-group.helpers_scout_alarm:
-  order: 4

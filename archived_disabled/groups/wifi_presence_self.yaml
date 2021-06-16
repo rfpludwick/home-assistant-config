@@ -1,0 +1,11 @@
+---
+
+name: WiFi Presence (Self)
+control: hidden
+entities:
+ - binary_sensor.nest_protect_entryway_connected
+ - binary_sensor.nest_protect_family_room_connected
+ - binary_sensor.nest_protect_master_bedroom_connected
+ - binary_sensor.nest_protect_nursery_connected
+ - binary_sensor.nest_protect_office_connected
+ - binary_sensor.nest_protect_upstairs_connected

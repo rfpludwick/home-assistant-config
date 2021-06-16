@@ -1,0 +1,18 @@
+---
+
+alias: "Chore: Have Gutters Cleaned: Notification Touched Done"
+initial_state: true
+trigger:
+  - platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: CHORE_DONE
+      actionData:
+        entity_id: input_boolean.chore_have_gutters_cleaned
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.chore_have_gutters_cleaned

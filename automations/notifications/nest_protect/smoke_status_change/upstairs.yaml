@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Nest Protect: Upstairs: Smoke Status Change"
 initial_state: true
 trigger:

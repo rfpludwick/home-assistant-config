@@ -1,7 +1,0 @@
-name: Scout Alarm
-control: hidden
-entities:
-  - script.scout_alarm_mark_disarmed
-  - script.scout_alarm_mark_armed_home
-  - script.scout_alarm_mark_armed_away
-  - script.scout_alarm_mark_armed_night

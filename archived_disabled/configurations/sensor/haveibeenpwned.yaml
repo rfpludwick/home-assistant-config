@@ -1,0 +1,4 @@
+---
+
+platform: haveibeenpwned
+email: !secret haveibeenpwned_email_addresses

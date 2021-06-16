@@ -1,0 +1,10 @@
+---
+
+# group.chores_due:
+#   order: 1
+group.alerts:
+  order: 2
+group.harmony:
+  order: 3
+group.home_maintenance:
+  order: 4

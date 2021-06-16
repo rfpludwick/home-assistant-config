@@ -1,0 +1,32 @@
+---
+
+alias: "Chore: Do Taxes: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_do_taxes
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_do_taxes
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Do Taxes"
+      message: Schedule our tax session with our tax consultant
+      notification_id: chore_do_taxes
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Do Taxes"
+      message: Schedule our tax session with our tax consultant
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_do_taxes

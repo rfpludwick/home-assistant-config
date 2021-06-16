@@ -1,6 +1,0 @@
-name: Harmony
-hours_to_show: 24
-refresh: 300
-entities:
-  - sensor.harmony_hub_family_room
-  - sensor.harmony_hub_loft

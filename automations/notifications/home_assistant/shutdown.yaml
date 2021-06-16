@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Home Assistant: Shutdown"
 initial_state: true
 trigger:

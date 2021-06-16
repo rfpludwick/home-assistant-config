@@ -1,0 +1,32 @@
+---
+
+alias: "Chore: Have Trees Trimmed: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_have_trees_trimmed
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_have_trees_trimmed
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Have Trees Trimmed"
+      message: Schedule our arborist to come out and trim the trees
+      notification_id: chore_have_trees_trimmed
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Have Trees Trimmed"
+      message: Schedule our arborist to come out and trim the trees
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_have_trees_trimmed

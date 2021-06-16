@@ -1,0 +1,8 @@
+---
+
+name: Weather Snapshot
+entities:
+  - sensor.pws_weather_1d
+  - sensor.pws_weather_1n
+  - sensor.pws_weather_2d
+  - sensor.pws_weather_2n

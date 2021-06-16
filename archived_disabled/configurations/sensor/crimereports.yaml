@@ -1,0 +1,5 @@
+---
+
+platform: crimereports
+name: Crime
+radius: 3000

@@ -1,0 +1,34 @@
+---
+
+platform: wunderground
+api_key: !secret wunderground_api_key
+monitored_conditions:
+  - alerts
+  - observation_time
+  - weather_1d
+  - weather_1n
+  - dewpoint_f
+  - feelslike_f
+  - heat_index_f
+  - relative_humidity
+  - precip_1d
+  - precip_1d_in
+  - precip_today_in
+  - pressure_mb
+  - pressure_trend
+  - solarradiation
+  - temp_f
+  - temp_low_1d_f
+  - temp_high_1d_f
+  - visibility_mi
+  - wind_dir
+  - wind_gust_mph
+  - wind_gust_1d_mph
+  - wind_mph
+  - wind_1d_mph
+  - weather_2d
+  - weather_2n
+  - weather_3d
+  - weather_3n
+  - weather_4d
+  - weather_4n

@@ -1,0 +1,6 @@
+---
+
+name: !secret zone_1_name
+latitude: !secret zone_1_latitude
+longitude: !secret zone_1_longitude
+icon: "mdi:briefcase"

@@ -1,3 +1,5 @@
+---
+
 name: Garage Door is open
 done_message: Garage Door is closed
 entity_id: cover.garage_door

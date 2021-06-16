@@ -1,5 +1,0 @@
-platform: waze_travel_time
-origin: !secret waze_home
-destination: !secret waze_zone_6
-region: US
-name: Home to Zone 6

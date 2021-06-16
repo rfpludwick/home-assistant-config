@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Nest Protect: Nursery: Carbon Monoxide Status Change"
 initial_state: true
 trigger:

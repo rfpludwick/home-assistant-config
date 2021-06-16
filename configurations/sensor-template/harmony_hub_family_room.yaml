@@ -1,6 +1,0 @@
-value_template: >
-  {% if (state_attr('remote.family_room', 'current_activity') == 'PowerOff') %}
-    Off
-  {% else %}
-    {{ state_attr('remote.family_room', 'current_activity') }}
-  {% endif %}

@@ -1,3 +1,0 @@
-device_class: battery
-value_template: "{{ (((states('sensor.front_door_lock_battery_level') or 100) | int) < 15) }}"
-friendly_name: "Front Door Lock: Battery: Low"

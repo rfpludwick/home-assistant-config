@@ -1,2 +1,4 @@
+---
+
 platform: template
-sensors: !include_dir_named ../binary_sensor-template/
+sensors: !include_dir_named ../binary_sensor_template/

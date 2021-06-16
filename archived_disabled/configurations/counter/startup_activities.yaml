@@ -1,0 +1,7 @@
+---
+
+name: "Countdown: Startup Activities"
+initial: 1
+minimum: 0
+step: 1
+restore: false

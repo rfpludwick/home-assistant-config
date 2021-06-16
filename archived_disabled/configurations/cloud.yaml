@@ -1,0 +1,13 @@
+---
+
+alexa:
+  filter:
+    exclude_domains:
+      - automation
+      - cover
+      - group
+      - light
+      - lock
+      - media_player
+      - script
+      - sensor

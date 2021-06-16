@@ -1,2 +1,0 @@
-name: Breaches
-entities: !secret breaches_group_entities

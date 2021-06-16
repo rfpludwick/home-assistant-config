@@ -1,3 +1,0 @@
-name: "Synology NAS: Photo Station"
-url: !secret weblink_synology_nas_photo_station
-icon: "mdi:file-image"

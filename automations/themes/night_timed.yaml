@@ -1,3 +1,5 @@
+---
+
 alias: "Theme: Night: Timed"
 trigger:
   - platform: sun

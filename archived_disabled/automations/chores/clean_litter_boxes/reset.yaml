@@ -1,0 +1,28 @@
+---
+
+alias: "Chore: Clean Litter Boxes: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "06:00:00"
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_cycle_litter_boxes # No cleaning if we're gonna cycle
+    state: "off"
+  - condition: or
+    conditions:
+      - condition: template
+        value_template: "{{ (now().isoweekday() == 3) }}" # Wednesday
+      - condition: template
+        value_template: "{{ (now().isoweekday() == 7) }}" # Sunday
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_clean_litter_boxes
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Clean Litter Boxes' is due today"

@@ -6,12 +6,15 @@
 .uuid
 _ecosystem/appdaemon/secrets.yaml
 _ecosystem/appdaemon/compiled/*
+blueprints/
 bravia.conf
 customize.yaml
+customize/private.yaml
+deps/*
 harmony*.conf
 home-assistant.log
 home-assistant_v2.db*
+image/
+nexia*.conf
 plex.conf
 secrets.yaml
-customize/private.yaml
-deps/*

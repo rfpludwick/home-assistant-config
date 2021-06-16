@@ -1,0 +1,7 @@
+---
+
+name: !secret zone_5_name
+latitude: !secret zone_5_latitude
+longitude: !secret zone_5_longitude
+radius: 200
+icon: "mdi:soccer-field"

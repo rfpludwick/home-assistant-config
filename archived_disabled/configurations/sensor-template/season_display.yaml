@@ -1,0 +1,13 @@
+---
+
+value_template: "{{ states('sensor.season') }}"
+icon_template: >
+  {% if (states('sensor.season') == 'winter') %}
+    mdi:snow
+  {% elif (states('sensor.season') == 'spring') %}
+    mdi:flower
+  {% elif (states('sensor.season') == 'summer') %}
+    mdi:weather-sunny
+  {% else %}
+    mdi:leaf
+  {% endif %}

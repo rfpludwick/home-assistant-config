@@ -1,0 +1,32 @@
+---
+
+alias: "Chore: Have HVAC Serviced: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_have_hvac_serviced
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_have_hvac_serviced
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Have HVAC Serviced"
+      message: "Schedule our HVAC servicer to service the HVAC, *including* the Family Room gas stove"
+      notification_id: chore_have_hvac_serviced
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Have HVAC Serviced"
+      message: "Schedule our HVAC servicer to service the HVAC, *including* the Family Room gas stove"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_have_hvac_serviced

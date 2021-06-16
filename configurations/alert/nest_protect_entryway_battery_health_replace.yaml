@@ -1,3 +1,5 @@
+---
+
 name: "Nest Protect: Entryway: Battery: Needs replacement"
 done_message: "Nest Protect: Entryway: Battery: Is ok"
 entity_id: sensor.nest_protect_entryway_battery_health

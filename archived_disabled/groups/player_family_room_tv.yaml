@@ -1,0 +1,5 @@
+---
+
+name: Family Room TV
+entities:
+  - media_player.sony_bravia_tv

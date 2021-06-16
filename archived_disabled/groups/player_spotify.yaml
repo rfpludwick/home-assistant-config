@@ -1,0 +1,5 @@
+---
+
+name: "Robert's Spotify"
+entities:
+  - media_player.spotify

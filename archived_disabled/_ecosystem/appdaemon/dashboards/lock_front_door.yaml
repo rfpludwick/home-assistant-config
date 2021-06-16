@@ -1,0 +1,5 @@
+---
+
+widget_type: lock
+entity: lock.front_door
+title: Front Door

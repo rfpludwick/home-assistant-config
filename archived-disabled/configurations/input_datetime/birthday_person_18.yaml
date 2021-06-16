@@ -1,4 +1,0 @@
-name: !secret birthday_18_name
-initial: !secret birthday_18_date
-has_time: false
-has_date: true

@@ -1,3 +1,0 @@
-name: Synology NAS
-url: !secret weblink_synology_nas
-icon: "mdi:nas"

@@ -1,0 +1,11 @@
+---
+
+name: Security
+hours_to_show: 24
+refresh: 300
+entities:
+  - alarm_control_panel.combined_alarm
+  - alarm_control_panel.scout_alarm
+  - alarm_control_panel.vierarlo
+  - lock.front_door
+  - cover.viergarage

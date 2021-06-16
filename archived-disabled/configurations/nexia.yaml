@@ -1,2 +1,0 @@
-username: !secret nexia_username
-password: !secret nexia_password

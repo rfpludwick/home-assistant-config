@@ -1,0 +1,8 @@
+---
+
+name: Scripts
+control: hidden
+entities:
+  - script.arriving_home
+  - script.arriving_home_with_garage
+  - script.bed_down

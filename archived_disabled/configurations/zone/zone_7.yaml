@@ -1,0 +1,7 @@
+---
+
+name: !secret zone_7_name
+latitude: !secret zone_7_latitude
+longitude: !secret zone_7_longitude
+radius: 300
+icon: "mdi:walk"

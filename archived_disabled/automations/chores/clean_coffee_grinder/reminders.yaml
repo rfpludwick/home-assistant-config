@@ -1,0 +1,38 @@
+---
+
+alias: "Chore: Clean Coffee Grinder: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+  - platform: time
+    at: "14:00:00"
+  - platform: time
+    at: "16:00:00"
+  - platform: time
+    at: "18:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_clean_coffee_grinder
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_clean_coffee_grinder
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Clean Coffee Grinder"
+      message: Clean the coffee grinder and consider grinding rice at the end
+      notification_id: chore_clean_coffee_grinder
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Clean Coffee Grinder"
+      message: Clean the coffee grinder and consider grinding rice at the end
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_clean_coffee_grinder

@@ -1,0 +1,9 @@
+---
+
+widget_type: script
+entity: script.bed_down
+title: Bed Down
+icon_on: "mdi-sleep"
+icon_off: "mdi-sleep"
+icon_style_active: "font-size: 400%; margin-top: -5%; color: #5555ff;"
+icon_style_inactive: "font-size: 400%; margin-top: -5%; color: #5555ff;"

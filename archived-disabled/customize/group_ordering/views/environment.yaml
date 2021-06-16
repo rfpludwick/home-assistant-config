@@ -1,6 +1,0 @@
-group.celestial:
-  order: 1
-group.weather_conditions:
-  order: 2
-group.weather_forecast:
-  order: 3

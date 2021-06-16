@@ -1,4 +1,0 @@
-- host: !secret roomba_host
-  blid: !secret roomba_blid
-  password: !secret roomba_password
-  continuous: true

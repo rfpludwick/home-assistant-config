@@ -1,8 +1,0 @@
-device_class: connectivity
-value_template: "{{ (states('binary_sensor.nest_protect_nursery_online') == 'on') }}"
-icon_template: >
-  {% if (states('binary_sensor.nest_protect_nursery_online') == 'on') %}
-    mdi:wifi
-  {% else %}
-    mdi:wifi-off
-  {% endif %}

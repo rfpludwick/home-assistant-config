@@ -1,0 +1,8 @@
+---
+
+value_template: >
+  {% if (state_attr('remote.loft', 'current_activity') == 'PowerOff') %}
+    Off
+  {% else %}
+    {{ state_attr('remote.loft', 'current_activity') }}
+  {% endif %}

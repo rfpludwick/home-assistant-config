@@ -1,0 +1,25 @@
+---
+
+alias: "Chore: Run Affresh In Washing Machine: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_run_affresh_in_washing_machine
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_run_affresh_in_washing_machine
+    state: "off"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_run_affresh_in_washing_machine
+  - service: notify.mobile_app_parents
+    data:
+      title: "Chore: Run Affresh In Washing Machine"
+      message: "The washing machine has been 'Affreshed'"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Run Affresh In Washing Machine' has been completed"

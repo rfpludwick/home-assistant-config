@@ -1,3 +1,5 @@
+---
+
 # Alarm Control Panels
 # alarm_control_panel.combined_alarm:
 #   icon: "mdi:security"
@@ -224,7 +226,7 @@ switch.roberts_reading_lamp:
 sensor.synology_dsm_cpu_load_total:
   friendly_name: Total CPU Load
 sensor.synology_dsm_cpu_load_15_min:
-  friendly_name: 15-Minute CPU Load
+  friendly_name: "15-Minute CPU Load"
 sensor.synology_dsm_memory_usage_real:
   friendly_name: Real Memory Usage
 sensor.synology_dsm_memory_total_swap:

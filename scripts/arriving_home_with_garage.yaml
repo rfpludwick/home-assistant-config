@@ -1,3 +1,5 @@
+---
+
 arriving_home_with_garage:
   sequence:
     - service: script.turn_on

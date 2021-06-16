@@ -1,3 +1,5 @@
+---
+
 alias: IFTTT
 trigger:
   - event_data:

@@ -1,7 +1,0 @@
-name: Automation Toggles
-entities:
-  - input_boolean.automation_combined_alarm
-#  - input_boolean.automation_chores
-  - input_boolean.automation_milestones
-  - input_boolean.automation_slack_notifications
-  - input_boolean.automation_times

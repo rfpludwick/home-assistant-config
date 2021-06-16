@@ -1,0 +1,14 @@
+---
+
+# Annoyed that I cannot rename this in the style of "view_*"
+
+name: Dashboard
+view: yes
+icon: "mdi:home"
+entities:
+  - group.system
+  - group.family_presence
+  - group.security
+  - group.lights
+  - group.switches
+#  - group.weather_snapshot

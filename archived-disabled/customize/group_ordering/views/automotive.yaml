@@ -1,6 +1,0 @@
-group.waze:
-  order: 1
-group.deliveries:
-  order: 2
-group.camera_usps:
-  order: 3

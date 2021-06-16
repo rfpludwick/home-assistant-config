@@ -1,0 +1,38 @@
+---
+
+alias: "Chore: Renew Home SSL Certificate: Reminders"
+initial_state: true
+trigger:
+  - platform: time
+    at: "12:00:00"
+  - platform: time
+    at: "14:00:00"
+  - platform: time
+    at: "16:00:00"
+  - platform: time
+    at: "18:00:00"
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_renew_home_ssl_certificate
+    state: "on"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_renew_home_ssl_certificate
+  - service: persistent_notification.create
+    data:
+      title: "Chore: Renew Home SSL Certificate"
+      message: "Update the home SSL certificate with Let's Encrypt"
+      notification_id: chore_renew_home_ssl_certificate
+  - service: notify.mobile_app_parents
+    data_template:
+      title: "Chore: Renew Home SSL Certificate"
+      message: "Update the home SSL certificate with Let's Encrypt"
+      data:
+        push:
+          category: chore
+        action_data:
+          entity_id: input_boolean.chore_renew_home_ssl_certificate

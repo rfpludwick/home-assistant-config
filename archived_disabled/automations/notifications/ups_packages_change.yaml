@@ -1,0 +1,17 @@
+---
+
+alias: "Notification: UPS Packages Change"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.ups
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_slack_notifications
+    state: "on"
+action:
+  - service: notify.slack_standard
+    data:
+      message: >
+        UPS has {{ states('sensor.ups') }} package{% if (states('sensor.ups') > 1) %}s{% endif %}
+        to deliver today

@@ -1,5 +1,0 @@
-name: Felicity
-id: fijludwick
-device_trackers:
-  - device_tracker.felicitys_ipad
-  - device_tracker.felicity_ij_ludwicks_ipad

@@ -1,0 +1,6 @@
+---
+
+name: Signals
+entities:
+  - sensor.signal_strength_exterior_front_percentage
+  - sensor.signal_strength_exterior_back_percentage

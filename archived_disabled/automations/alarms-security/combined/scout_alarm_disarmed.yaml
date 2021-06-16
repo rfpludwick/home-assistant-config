@@ -1,0 +1,20 @@
+---
+
+alias: "Alarms: Combined Alarm: Scout Alarm Disarmed"
+trigger:
+  - platform: state
+    entity_id: alarm_control_panel.scout_alarm
+    to: disarmed
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_combined_alarm
+    state: "on"
+  - condition: numeric_state # Ensure that we didn't just mark Scout Alarm disarmed as part of our startup activities
+    entity_id: counter.startup_activities
+    value_template: "{{ state.state | float }}"
+    below: 1
+action:
+  - service: alarm_control_panel.alarm_disarm
+    entity_id: alarm_control_panel.combined_alarm
+    # data:
+    #   code: !secret alarm_code

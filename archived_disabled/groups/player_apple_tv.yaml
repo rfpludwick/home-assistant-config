@@ -1,0 +1,5 @@
+---
+
+name: Apple TV
+entities:
+  - media_player.apple_tv

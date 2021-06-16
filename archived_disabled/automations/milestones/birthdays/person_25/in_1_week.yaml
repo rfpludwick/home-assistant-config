@@ -1,0 +1,23 @@
+---
+
+alias: "Birthday: Person 25: In 1 Week"
+initial_state: true
+trigger:
+  - platform: time
+    at: "09:00:00"
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_milestones
+    state: "on"
+  - condition: template
+    value_template: "{{ (states('input_datetime.birthday_person_25').split('-')[1:] == ((as_timestamp(now()) + 604800) | timestamp_custom('%m-%d')).split('-')) }}"
+action:
+  - service: notify.mobile_app_parents
+    data:
+      title: "Birthday: {{ state_attr('input_datetime.birthday_person_25', 'friendly_name') }}: In 1 Week"
+      message: "{{ state_attr('input_datetime.birthday_person_25', 'friendly_name') }}'s birthday is in 1 week!"
+  - service: notify.slack_standard
+    data:
+      message: "{{ state_attr('input_datetime.birthday_person_25', 'friendly_name') }}'s birthday is in 1 week!"

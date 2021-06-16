@@ -1,0 +1,7 @@
+---
+
+platform: waze_travel_time
+origin: !secret waze_zone_4
+destination: !secret waze_home
+region: US
+name: Zone 4 to Home

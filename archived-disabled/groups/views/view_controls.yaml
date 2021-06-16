@@ -1,8 +1,0 @@
-name: Controls
-view: yes
-icon: "mdi:dip-switch"
-entities:
-  - group.alarms
-#  - group.chores_due
-  - group.harmony
-  - group.home_maintenance

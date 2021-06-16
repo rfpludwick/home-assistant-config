@@ -1,0 +1,21 @@
+---
+
+alias: "Chore: Download Sensitive Documents: Reset"
+initial_state: true
+trigger:
+  - platform: time
+    at: "06:00:00"
+  - platform: homeassistant
+    event: start
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: template
+    value_template: "{{ (now().day == 1) }}" # First day of month
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.chore_download_sensitive_documents
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Download Sensitive Documents' is due today"

@@ -1,3 +1,5 @@
+---
+
 arriving_home:
   sequence:
     # - service: alarm_control_panel.alarm_disarm

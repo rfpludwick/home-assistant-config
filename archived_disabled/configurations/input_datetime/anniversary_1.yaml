@@ -1,0 +1,6 @@
+---
+
+name: !secret anniversary_1_name
+initial: !secret anniversary_1_date
+has_time: false
+has_date: true

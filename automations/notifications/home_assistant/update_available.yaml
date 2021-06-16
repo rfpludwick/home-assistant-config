@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Home Assistant: Update Available"
 initial_state: true
 trigger:

@@ -1,8 +1,0 @@
-name: Network Infrastructure (Router)
-control: hidden
-entities:
-  - device_tracker.ap
-  - device_tracker.core_switch
-  - device_tracker.family_room_entertainment_center_switch
-  - device_tracker.gateway
-  - device_tracker.unifi_cloud_key

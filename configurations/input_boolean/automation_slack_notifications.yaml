@@ -1,3 +1,5 @@
+---
+
 name: Slack Notifications
 initial: on
 icon: "mdi:slack"

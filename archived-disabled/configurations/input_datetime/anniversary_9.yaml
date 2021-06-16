@@ -1,4 +1,0 @@
-name: !secret anniversary_9_name
-initial: !secret anniversary_9_date
-has_time: false
-has_date: true

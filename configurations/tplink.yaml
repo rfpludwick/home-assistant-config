@@ -1,3 +1,5 @@
+---
+
 discovery: false
 switch:
   - host: !secret kasa_plug_caits_bedside_lamp_host

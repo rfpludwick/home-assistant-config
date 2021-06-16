@@ -1,7 +1,0 @@
-name: Family Presence
-hours_to_show: 24
-refresh: 300
-entities:
-  - person.robert
-  - person.cait
-  - person.olivia

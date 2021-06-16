@@ -1,0 +1,9 @@
+---
+
+value_template: "{{ state_attr('vacuum.roomba', 'bin_present') }}"
+icon_template: >
+  {% if state_attr('vacuum.roomba', 'bin_present') %}
+    mdi:trash-can
+  {% else %}
+    mdi:trash-can-outline
+  {% endif %}

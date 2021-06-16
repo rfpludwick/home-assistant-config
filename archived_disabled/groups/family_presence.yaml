@@ -1,0 +1,8 @@
+---
+
+name: Family Presence
+control: hidden
+entities:
+  - person.cait
+  - person.felicity
+  - person.robert

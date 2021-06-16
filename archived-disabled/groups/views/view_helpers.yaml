@@ -1,9 +1,0 @@
-name: Helpers
-view: yes
-icon: "mdi:cog"
-entities:
-  - group.links
-  - group.alerts
-  - group.scripts
-  - group.automation_toggles
-  - group.helpers_scout_alarm

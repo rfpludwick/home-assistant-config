@@ -1,0 +1,6 @@
+---
+
+name: GPS Presence
+control: hidden
+entities:
+  - device_tracker.vierhapad

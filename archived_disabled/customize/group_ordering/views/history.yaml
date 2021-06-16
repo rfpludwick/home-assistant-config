@@ -1,0 +1,12 @@
+---
+
+group.graph_family_presence:
+  order: 1
+group.graph_lights:
+  order: 2
+group.graph_security:
+  order: 3
+group.graph_harmony:
+  order: 4
+group.graph_steam:
+  order: 5

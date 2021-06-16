@@ -1,0 +1,7 @@
+---
+
+name: Cait
+id: swimmercait
+device_trackers:
+  - device_tracker.caitlin_as_ludwicks_phone
+  - device_tracker.mermaidphone

@@ -1,3 +1,5 @@
+---
+
 name: VierHome
 external_url: !secret ha_external_url
 internal_url: !secret ha_internal_url

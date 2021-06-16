@@ -1,0 +1,25 @@
+---
+
+alias: "Chore: Replace Toothbrush Heads: Input Changed"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_boolean.chore_replace_toothbrush_heads
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_chores
+    state: "on"
+  - condition: state
+    entity_id: input_boolean.chore_replace_toothbrush_heads
+    state: "off"
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: chore_replace_toothbrush_heads
+  - service: notify.mobile_app_parents
+    data:
+      title: "Chore: Replace Toothbrush Heads"
+      message: "The parents' electric toothbrush heads have been replaced"
+  - service: notify.slack_standard
+    data:
+      message: "The chore 'Replace Toothbrush Heads' has been completed"

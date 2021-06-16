@@ -1,0 +1,17 @@
+---
+
+name: "Smoke & CO"
+control: hidden
+entities:
+  - sensor.nest_protect_entryway_smoke_status
+  - sensor.nest_protect_entryway_co_status
+  - sensor.nest_protect_family_room_smoke_status
+  - sensor.nest_protect_family_room_co_status
+  - sensor.nest_protect_master_bedroom_smoke_status
+  - sensor.nest_protect_master_bedroom_co_status
+  - sensor.nest_protect_nursery_smoke_status
+  - sensor.nest_protect_nursery_co_status
+  - sensor.nest_protect_office_smoke_status
+  - sensor.nest_protect_office_co_status
+  - sensor.nest_protect_upstairs_smoke_status
+  - sensor.nest_protect_upstairs_co_status

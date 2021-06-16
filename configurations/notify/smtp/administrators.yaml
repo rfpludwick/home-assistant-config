@@ -1,3 +1,5 @@
+---
+
 name: "SMTP: Administrators"
 platform: smtp
 server: smtp.gmail.com

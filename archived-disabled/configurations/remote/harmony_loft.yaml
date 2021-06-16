@@ -1,3 +1,0 @@
-platform: harmony
-name: Loft
-host: !secret harmony_hub_loft_host

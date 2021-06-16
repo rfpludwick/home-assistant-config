@@ -1,0 +1,16 @@
+---
+
+name: Alerts
+control: hidden
+entities:
+#  - alert.arlo_camera_exterior_back_battery_low
+#  - alert.arlo_camera_exterior_front_battery_low
+  - alert.front_door_lock_battery_low
+  - alert.front_door_lock_unlocked
+  - alert.garage_door_open
+  - alert.nest_protect_entryway_battery_health_replace
+  - alert.nest_protect_family_room_battery_health_replace
+  - alert.nest_protect_master_bedroom_battery_health_replace
+  - alert.nest_protect_nursery_battery_health_replace
+  - alert.nest_protect_office_battery_health_replace
+  - alert.nest_protect_upstairs_battery_health_replace

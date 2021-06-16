@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Garage Door: State Change"
 initial_state: true
 trigger:

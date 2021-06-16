@@ -1,3 +1,5 @@
+---
+
 name: "Nest Protect: Upstairs: Battery: Needs replacement"
 done_message: "Nest Protect: Upstairs: Battery: Is ok"
 entity_id: sensor.nest_protect_upstairs_battery_health

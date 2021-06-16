@@ -1,0 +1,7 @@
+---
+
+name: Celestial
+entities:
+  - sun.sun
+  - sensor.moon
+  - sensor.season_display

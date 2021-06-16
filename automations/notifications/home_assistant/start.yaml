@@ -1,3 +1,5 @@
+---
+
 alias: "Notification: Home Assistant: Start"
 initial_state: true
 trigger:

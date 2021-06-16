@@ -1,0 +1,5 @@
+---
+
+name: UniFi Controller
+url: !secret weblink_unifi_controller
+icon: "mdi:router-wireless"

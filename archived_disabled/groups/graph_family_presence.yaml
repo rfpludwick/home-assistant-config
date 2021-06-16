@@ -1,0 +1,5 @@
+---
+
+name: Family Presence History
+entities:
+  - history_graph.family_presence

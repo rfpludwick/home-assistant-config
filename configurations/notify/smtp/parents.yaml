@@ -1,3 +1,5 @@
+---
+
 name: "SMTP: Parents"
 platform: smtp
 server: smtp.gmail.com

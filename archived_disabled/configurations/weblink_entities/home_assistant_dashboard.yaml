@@ -1,0 +1,5 @@
+---
+
+name: Home Assistant Dashboard
+url: !secret weblink_home_assistant_dashboard
+icon: "mdi:view-dashboard"
