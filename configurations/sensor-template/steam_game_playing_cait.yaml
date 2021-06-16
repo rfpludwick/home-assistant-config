@@ -1,1 +1,1 @@
-value_template: "!secret steam_game_playing_cait_value"
+value_template: !secret steam_game_playing_cait_value

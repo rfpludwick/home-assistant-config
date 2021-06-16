@@ -11,4 +11,4 @@ action:
   - service: alarm_control_panel.alarm_disarm
     entity_id: alarm_control_panel.scout_alarm
     # data:
-    #   code: "!secret alarm_code"
+    #   code: !secret alarm_code

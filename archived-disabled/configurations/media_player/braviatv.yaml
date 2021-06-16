@@ -1,2 +1,2 @@
 platform: braviatv
-host: "!secret bravia_host"
+host: !secret bravia_host

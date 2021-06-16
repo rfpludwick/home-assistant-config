@@ -60,7 +60,7 @@ entities:
   - device_tracker.tv_family_room_wired
   - device_tracker.xbox_one
 
-  # Disabled as of 0.97.x
+# Disabled as of 0.97.x
 #  - device_tracker.aubreys_mbp
 #  - device_tracker.aubreysiphone
 #  - device_tracker.caitlin_ludwicks_old_phone
@@ -73,7 +73,7 @@ entities:
 #  - device_tracker.jean_hitchcock_s_phone
 #  - device_tracker.58_cb_52_0f_47_44 # Joe's Phone
 #  - device_tracker.40_4e_36_81_cd_e5 # Maliha's Phone
-##  - device_tracker.nintendo_wii_u
+#  - device_tracker.nintendo_wii_u
 #  - device_tracker.samsungsmg930v # Olivia Shull Friend 2's Phone
 #  - device_tracker.olivia_shulls_laptop
 #  - device_tracker.olivia_shull_s_old_phone

@@ -2,7 +2,7 @@ alias: "Notification: Steam Presence Change: Robert"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: "!secret steam_presence_robert"
+    entity_id: !secret steam_presence_robert
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
@@ -14,4 +14,4 @@ condition:
 action:
   - service: notify.slack_standard
     data:
-      message: "!secret automation_steam_presence_robert_notification_message"
+      message: !secret automation_steam_presence_robert_notification_message

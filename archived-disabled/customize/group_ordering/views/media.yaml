@@ -1,7 +1,7 @@
 group.player_family_room_tv:
   order: 1
-#group.player_family_room_receiver:
-#  order: 2
+# group.player_family_room_receiver:
+#   order: 2
 group.player_apple_tv:
   order: 3
 group.player_spotify:

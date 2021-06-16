@@ -1,1 +1,1 @@
-value_template: "!secret steam_game_playing_robert_value"
+value_template: !secret steam_game_playing_robert_value

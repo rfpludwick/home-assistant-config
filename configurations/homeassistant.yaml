@@ -1,10 +1,10 @@
 name: VierHome
-external_url: "!secret ha_external_url"
-internal_url: "!secret ha_internal_url"
-latitude: "!secret latitude"
-longitude: "!secret longitude"
+external_url: !secret ha_external_url
+internal_url: !secret ha_internal_url
+latitude: !secret latitude
+longitude: !secret longitude
 elevation: 500
 unit_system: imperial
 time_zone: America/Los_Angeles
-customize_domain: "!include_dir_named ../customize_domain/"
-customize: "!include_dir_merge_named ../customize/"
+customize_domain: !include_dir_named ../customize_domain/
+customize: !include_dir_merge_named ../customize/

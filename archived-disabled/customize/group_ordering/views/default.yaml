@@ -10,5 +10,5 @@ group.lights:
   order: 5
 group.switches:
   order: 6
-#group.weather_snapshot:
-#  order: 7
+# group.weather_snapshot:
+#   order: 7

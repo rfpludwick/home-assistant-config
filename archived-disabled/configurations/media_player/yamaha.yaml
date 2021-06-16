@@ -1,2 +1,2 @@
 platform: yamaha
-host: "!secret yamaha_host"
+host: !secret yamaha_host

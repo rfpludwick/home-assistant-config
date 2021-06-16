@@ -1,5 +1,5 @@
-name: "!secret zone_6_name"
-latitude: "!secret zone_6_latitude"
-longitude: "!secret zone_6_longitude"
+name: !secret zone_6_name
+latitude: !secret zone_6_latitude
+longitude: !secret zone_6_longitude
 radius: 200
 icon: "mdi:food-apple"

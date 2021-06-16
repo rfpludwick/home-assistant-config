@@ -10,12 +10,12 @@
 #   friendly_name: Scout Alarm
 
 # Alerts & Related
-#alert.arlo_camera_exterior_back_battery_low:
-#  friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
-#  icon: "mdi:battery-alert"
-#alert.arlo_camera_exterior_front_battery_low:
-#  friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
-#  icon: "mdi:battery-alert"
+# alert.arlo_camera_exterior_back_battery_low:
+#   friendly_name: "Arlo: Camera: Exterior Back: Battery Low"
+#   icon: "mdi:battery-alert"
+# alert.arlo_camera_exterior_front_battery_low:
+#   friendly_name: "Arlo: Camera: Exterior Front: Battery Low"
+#   icon: "mdi:battery-alert"
 alert.front_door_lock_battery_low:
   friendly_name: "Front Door Lock: Battery Low"
   icon: "mdi:battery-alert"
@@ -55,14 +55,14 @@ binary_sensor.gas_stove_on_nighttime:
 #   friendly_name: "Master Bedroom Humidifier: On During Daytime"
 
 # Arlo (Excluding Alarm Control Panel)
-#sensor.battery_level_exterior_back:
-#  friendly_name: Arlo Exterior Back
-#sensor.battery_level_exterior_front:
-#  friendly_name: Arlo Exterior Front
-#sensor.signal_strength_exterior_back_percentage:
-#  friendly_name: Arlo Exterior Back
-#sensor.signal_strength_exterior_front_percentage:
-#  friendly_name: Arlo Exterior Front
+# sensor.battery_level_exterior_back:
+#   friendly_name: Arlo Exterior Back
+# sensor.battery_level_exterior_front:
+#   friendly_name: Arlo Exterior Front
+# sensor.signal_strength_exterior_back_percentage:
+#   friendly_name: Arlo Exterior Back
+# sensor.signal_strength_exterior_front_percentage:
+#   friendly_name: Arlo Exterior Front
 
 # Covers
 cover.garage_door:
@@ -72,11 +72,11 @@ cover.garage_door:
 
 ## Family Presence
 # person.cait:
-#   entity_picture: "!secret entity_picture_cait"
+#   entity_picture: !secret entity_picture_cait
 # person.felicity:
-#   entity_picture: "!secret entity_picture_felicity"
+#   entity_picture: !secret entity_picture_felicity
 # person.robert:
-#   entity_picture: "!secret entity_picture_robert"
+#   entity_picture: !secret entity_picture_robert
 
 # Harmony
 sensor.harmony_hub_family_room:
@@ -139,8 +139,8 @@ sensor.front_door_lock_battery_level:
 # Media Players
 media_player.apple_tv:
   friendly_name: Apple TV
-#media_player.spotify:
-#  friendly_name: "Robert's Spotify"
+# media_player.spotify:
+#   friendly_name: "Robert's Spotify"
 media_player.sony_bravia_tv:
   friendly_name: Family Room TV
 

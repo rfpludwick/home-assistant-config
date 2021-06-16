@@ -2,7 +2,7 @@ alias: "Notification: Email Breaches Change: Family"
 initial_state: true
 trigger:
   - platform: state
-    entity_id: "!secret breaches_family_email"
+    entity_id: !secret breaches_family_email
 condition:
   - condition: state
     entity_id: input_boolean.automation_slack_notifications
@@ -14,8 +14,8 @@ condition:
 action:
   - service: notify.slack_crit
     data:
-      message: "!secret automation_breaches_family_email_notification_message"
+      message: !secret automation_breaches_family_email_notification_message
   - service: notify.smtp_parents
     data:
       title: "Email Breaches Change: Family"
-      message: "!secret automation_breaches_family_email_notification_message"
+      message: !secret automation_breaches_family_email_notification_message

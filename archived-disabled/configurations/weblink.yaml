@@ -1,1 +1,1 @@
-entities: "!include_dir_list weblink-entities/"
+entities: !include_dir_list weblink-entities/

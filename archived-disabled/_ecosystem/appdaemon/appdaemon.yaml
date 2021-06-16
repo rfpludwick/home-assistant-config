@@ -8,14 +8,14 @@ appdaemon:
   disable_apps: True
   threads: 10
   api_port: 5000
-  api_key: "!secret api_key"
+  api_key: !secret api_key
   plugins:
     HASS:
       type: hass
-      ha_url: "!secret hass_url"
-      ha_key: "!secret hass_key"
+      ha_url: !secret hass_url
+      ha_key: !secret hass_key
       cert_verify: True
       namespace: default
 hadashboard:
-  dash_url: "!secret dash_url"
-  dash_password: "!secret dash_password"
+  dash_url: !secret dash_url
+  dash_password: !secret dash_password

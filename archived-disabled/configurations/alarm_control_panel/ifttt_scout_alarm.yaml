@@ -1,6 +1,6 @@
 platform: ifttt
 name: scout_alarm
-# code: "!secret alarm_code"
+# code: !secret alarm_code
 event_arm_away: scout_alarm_away_armed
 event_arm_home: scout_alarm_home_armed
 event_arm_night: scout_alarm_sleep_armed

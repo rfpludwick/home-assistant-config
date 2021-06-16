@@ -1,4 +1,4 @@
-name: "!secret birthday_5_name"
-initial: "!secret birthday_5_date"
+name: !secret birthday_5_name
+initial: !secret birthday_5_date
 has_time: false
 has_date: true
