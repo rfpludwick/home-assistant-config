@@ -1,6 +1,7 @@
 # About
 
-**home-assistant-config** is really just my personal Home Assistant configuration. So, yeah.
+**home-assistant-config** is really just my personal Home Assistant
+configuration. So, yeah.
 
 ## Usage
 

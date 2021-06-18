@@ -1,7 +1,8 @@
-.idea/*
-.HA_VERSION
 .august.conf
 .cloud/*
+.devcontainer/*-local.sh
+.HA_VERSION
+.idea/*
 .storage
 .uuid
 _ecosystem/appdaemon/secrets.yaml
