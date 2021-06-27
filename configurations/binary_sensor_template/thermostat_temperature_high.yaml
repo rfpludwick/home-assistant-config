@@ -1,5 +1,5 @@
 ---
 
 device_class: heat
-value_template: "{{ ((state_attr('climate.thermostat_zone', 'current_temperature') | int + 1) > (state_attr('climate.thermostat_zone', 'target_temp_high') | int)) }}"
+value_template: "{{ ((state_attr('climate.thermostat_zone', 'current_temperature') | int) > (state_attr('climate.thermostat_zone', 'target_temp_high') | int + 1)) }}"
 friendly_name: "Thermostat: Temperature: High"
