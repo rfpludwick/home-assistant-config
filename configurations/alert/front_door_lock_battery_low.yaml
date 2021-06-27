@@ -3,7 +3,7 @@
 name: "Front Door Lock: Battery: Is low"
 done_message: "Front Door Lock: Battery: Is ok"
 entity_id: binary_sensor.front_door_lock_battery_low
-state: on
+state: "on"
 repeat:
   - 60
 can_acknowledge: true

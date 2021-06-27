@@ -1,5 +1,5 @@
 ---
 
 name: Milestones
-initial: on
+initial: "on"
 icon: "mdi:calendar-range"

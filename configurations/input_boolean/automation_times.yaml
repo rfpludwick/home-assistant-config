@@ -1,5 +1,5 @@
 ---
 
 name: Times
-initial: on
+initial: "on"
 icon: "mdi:clock"

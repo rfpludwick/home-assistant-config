@@ -1,5 +1,5 @@
 ---
 
 name: Chores
-initial: on
+initial: "on"
 icon: "mdi:shovel"

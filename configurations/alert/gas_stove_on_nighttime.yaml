@@ -3,7 +3,7 @@
 name: Gas Stove is on
 done_message: Gas Stove is off
 entity_id: binary_sensor.gas_stove_on_nighttime
-state: on
+state: "on"
 repeat:
   - 30
   - 60

@@ -3,7 +3,7 @@
 name: "Thermostat: Temperature: Is cold"
 done_message: "Thermostat: Temperature: Is ok"
 entity_id: binary_sensor.thermostat_temperature_low
-state: on
+state: "on"
 repeat:
   - 60
 can_acknowledge: true
