@@ -1,0 +1,10 @@
+---
+
+name: "Temperature Difference High: Open Windows"
+done_message: "Temperature Difference High: Close Windows"
+entity_id: binary_sensor.temperature_difference_high_open_windows
+state: "on"
+can_acknowledge: true
+notifiers:
+  - mobile_app_parents
+  - slack_crit
