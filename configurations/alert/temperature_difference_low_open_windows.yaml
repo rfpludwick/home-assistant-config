@@ -4,6 +4,8 @@ name: "Temperature Difference Low: Open Windows"
 done_message: "Temperature Difference Low: Close Windows"
 entity_id: binary_sensor.temperature_difference_low_open_windows
 state: "on"
+repeat:
+  - 1440
 can_acknowledge: true
 notifiers:
   - mobile_app_parents
