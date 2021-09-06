@@ -1,8 +1,8 @@
 ---
 
-name: Master Bedroom Lights
+name: Primary Bedroom Lights
 icon: "mdi:lamps"
 entities:
   - switch.caits_bedside_lamp
-  - light.master_bedroom_ceiling
+  - light.primary_bedroom_ceiling
   - switch.roberts_egg_lamp

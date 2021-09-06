@@ -1,0 +1,15 @@
+---
+
+alias: "Notification: Nest Protect: Primary Bedroom: Carbon Monoxide Status Change"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: sensor.nest_protect_primary_bedroom_co_status
+condition:
+  - condition: state
+    entity_id: input_boolean.automation_slack_notifications
+    state: "on"
+action:
+  - service: notify.slack_crit
+    data:
+      message: "Nest Protect: Primary Bedroom: Carbon monoxide status changed to '{{ states('sensor.nest_protect_primary_bedroom_co_status') }}'"

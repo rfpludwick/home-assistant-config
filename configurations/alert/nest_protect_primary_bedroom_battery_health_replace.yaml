@@ -1,0 +1,13 @@
+---
+
+name: "Nest Protect: Primary Bedroom: Battery: Needs replacement"
+done_message: "Nest Protect: Primary Bedroom: Battery: Is ok"
+entity_id: sensor.nest_protect_primary_bedroom_battery_health
+state: Replace
+repeat:
+  - 60
+can_acknowledge: true
+skip_first: true
+notifiers:
+  - mobile_app_parents
+  - slack_crit
