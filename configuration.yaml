@@ -49,7 +49,7 @@ sensor: !include_dir_list configurations/sensor/
 # sun:
 system_health:
 # synology_dsm: !include configurations/synology_dsm.yaml
-tplink: !include configurations/tplink.yaml
+# tplink: !include configurations/tplink.yaml
 # usps: !include configurations/usps.yaml
 # unifi: !include configurations/unifi.yaml
 vacuum: !include_dir_list configurations/vacuum/
