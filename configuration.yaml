@@ -37,7 +37,7 @@ input_boolean: !include_dir_named configurations/input_boolean/
 # ios: !include configurations/ios.yaml
 media_player: !include_dir_list configurations/media_player/
 mobile_app:
-nest: !include configurations/nest.yaml
+# nest: !include configurations/nest.yaml
 # nexia: !include configurations/nexia.yaml
 notify: !include_dir_list configurations/notify/
 # person: !include_dir_list configurations/person/
