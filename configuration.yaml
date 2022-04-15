@@ -8,7 +8,7 @@ http: !include configurations/http.yaml
 logbook:
 map:
 system_log: !include configurations/system_log.yaml
-updater: !include configurations/updater.yaml
+# updater: !include configurations/updater.yaml
 
 automation: !include_dir_list automations/
 # group: !include_dir_named groups/
