@@ -6,5 +6,5 @@ services:
   - service: slack
     data:
       target:
-        - "#fox-hollow-ha"
-        - "#fox-hollow-ha-crit"
+        - "#home-assistant"
+        - "#home-assistant-alert"

@@ -6,4 +6,4 @@ services:
   - service: slack
     data:
       target:
-        - "#fox-hollow-ha"
+        - "#home-assistant"
