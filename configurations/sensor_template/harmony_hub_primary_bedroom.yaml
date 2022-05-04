@@ -1,0 +1,8 @@
+---
+
+value_template: >
+  {% if (state_attr('remote.primary_bedroom', 'current_activity') == 'PowerOff') %}
+    Off
+  {% else %}
+    {{ state_attr('remote.primary_bedroom', 'current_activity') }}
+  {% endif %}
