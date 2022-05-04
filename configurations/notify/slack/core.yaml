@@ -3,6 +3,6 @@
 name: Slack
 platform: slack
 api_key: !secret slack_api_token
-default_channel: "#home-assistant-default"
+default_channel: "#home-assistant"
 username: Home Assistant
 icon: ":house:"

@@ -6,5 +6,5 @@ services:
   - service: slack
     data:
       target:
-        - "#home-assistant-default"
+        - "#home-assistant"
         - "#home-assistant-alert"
