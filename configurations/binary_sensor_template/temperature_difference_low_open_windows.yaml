@@ -1,5 +1,5 @@
 ---
 
 device_class: cold
-value_template: "{{ ((states('binary_sensor.thermostat_temperature_at_low_setpoint') == 'on') and ((state_attr('climate.thermostat_zone', 'current_temperature') | int) < (states('sensor.openweathermap_temperature') | int))) }}"
+value_template: "{{ ((states('binary_sensor.thermostat_temperature_at_low_setpoint') == 'on') and ((state_attr('climate.ecobee_thermostat', 'current_temperature') | float) < (states('sensor.openweathermap_temperature') | float))) }}"
 friendly_name: "Temperature Difference Low: Open Windows"
