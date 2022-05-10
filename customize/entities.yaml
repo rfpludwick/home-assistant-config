@@ -90,9 +90,9 @@ sensor.harmony_hub_loft:
 sensor.connected_clients:
   icon: "mdi:remote-desktop"
   friendly_name: Connected Clients
-sensor.home_assistant_latest_version:
-  icon: "mdi:source-pull"
-  friendly_name: Home Assistant Latest Version
+# sensor.home_assistant_latest_version:
+#   icon: "mdi:source-pull"
+#   friendly_name: Home Assistant Latest Version
 sensor.home_assistant_version:
   icon: "mdi:source-branch"
   friendly_name: Home Assistant Current Version
