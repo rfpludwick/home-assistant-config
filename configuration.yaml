@@ -10,7 +10,7 @@ map:
 system_log: !include configurations/system_log.yaml
 # updater: !include configurations/updater.yaml
 
-automation: !include_dir_list automations/
+automation: !include automations.yaml
 # group: !include_dir_named groups/
 script: !include_dir_merge_named scripts/
 
