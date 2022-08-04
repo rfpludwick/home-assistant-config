@@ -6,6 +6,7 @@ trigger:
   - platform: homeassistant
     event: start
 action:
-  - service: notify.slack_standard
+  - service: notify.slack
+    target: "#home-assistant"
     data:
       message: Home Assistant starting up

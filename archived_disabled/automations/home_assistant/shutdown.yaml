@@ -5,11 +5,8 @@ initial_state: true
 trigger:
   - platform: homeassistant
     event: shutdown
-condition:
-  - condition: state
-    entity_id: input_boolean.automation_slack_notifications
-    state: "on"
 action:
-  - service: notify.slack_standard
+  - service: notify.slack
+    target: "#home-assistant"
     data:
       message: Home Assistant shutting down
