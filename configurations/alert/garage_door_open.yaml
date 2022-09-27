@@ -11,4 +11,7 @@ can_acknowledge: true
 skip_first: true
 notifiers:
   - mobile_app_parents
-  - slack_crit
+  - slack
+data:
+  target:
+    - "#home-assistant-alert"
