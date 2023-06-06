@@ -1,9 +1,9 @@
 ---
 
-name: Garage Door is open
-done_message: Garage Door is closed
-entity_id: cover.garage_door
-state: open
+name: Front Door locked test
+done_message: Front Door locked test done
+entity_id: lock.front_door
+state: unlocked
 repeat:
   - 30
   - 60

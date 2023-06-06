@@ -1,0 +1,15 @@
+---
+
+name: Front Door is unlocked
+done_message: Front Door is locked
+entity_id: lock.front_door
+state: locked
+repeat:
+  - 5
+can_acknowledge: true
+notifiers:
+  - mobile_app_zonephone
+  - slack
+data:
+  target:
+    - "#home-assistant-alert"

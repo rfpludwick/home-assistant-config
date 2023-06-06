@@ -3,5 +3,5 @@
 name: Mobile App Parents
 platform: group
 services:
-  - service: mobile_app_iphone # Robert's Phone
+  - service: mobile_app_zonephone
   - service: mobile_app_caits_mermaid_phone
