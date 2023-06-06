@@ -3,12 +3,15 @@
 name: Front Door is unlocked
 done_message: Front Door is locked
 entity_id: lock.front_door
-state: locked
+state: unlocked
 repeat:
-  - 5
+  - 30
+  - 60
 can_acknowledge: true
+skip_first: true
 notifiers:
   - mobile_app_zonephone
+  - mobile_app_caits_mermaid_phone
   - slack
 data:
   target:

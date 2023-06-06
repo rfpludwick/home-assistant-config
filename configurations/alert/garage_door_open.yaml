@@ -12,7 +12,7 @@ skip_first: true
 notifiers:
   - mobile_app_zonephone
   - mobile_app_caits_mermaid_phone
-#   - slack
-# data:
-#   target:
-#     - "#home-assistant-alert"
+  - slack
+data:
+  target:
+    - "#home-assistant-alert"
