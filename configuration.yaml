@@ -27,7 +27,7 @@ binary_sensor: !include_dir_list configurations/binary_sensor/
 # counter: !include_dir_named configurations/counter/
 cover: !include_dir_list configurations/cover/
 device_tracker: !include_dir_list configurations/device_tracker/
-discovery: !include configurations/discovery.yaml
+# discovery: !include configurations/discovery.yaml
 ffmpeg: !include configurations/ffmpeg.yaml
 group: !include_dir_named configurations/group/
 # history_graph: !include_dir_named configurations/history_graph/
