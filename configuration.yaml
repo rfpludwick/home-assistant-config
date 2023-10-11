@@ -42,6 +42,7 @@ mobile_app:
 notify: !include_dir_list configurations/notify/
 # person: !include_dir_list configurations/person/
 # pi_hole: !include configurations/pi_hole.yaml
+prometheus: !include configurations/prometheus.yaml
 recorder: !include configurations/recorder.yaml
 # remote: !include_dir_list configurations/remote/
 # roomba: !include configurations/roomba.yaml

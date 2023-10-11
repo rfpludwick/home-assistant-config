@@ -1,0 +1,8 @@
+---
+
+namespace: home_assistant
+filter:
+  exclude_entity_globs:
+    - "sensor.*_rx"
+    - "sensor.*_tx"
+    - "sensor.*_uptime"
