@@ -6,7 +6,7 @@ frontend: !include frontend/frontend.yaml
 history:
 http: !include configurations/http.yaml
 logbook:
-map:
+# map:
 system_log: !include configurations/system_log.yaml
 # updater: !include configurations/updater.yaml
 
