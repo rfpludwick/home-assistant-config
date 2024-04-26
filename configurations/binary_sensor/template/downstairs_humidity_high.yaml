@@ -1,6 +1,0 @@
----
-
-device_class: moisture
-value_template: "{{ states('sensor.downstairs_humidity') | float(default=0) >= 50 }}"
-friendly_name: Downstairs Humidity High
-platform: humidity

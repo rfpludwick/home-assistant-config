@@ -12,7 +12,7 @@ system_log: !include configurations/system_log.yaml
 
 automation: !include automations.yaml
 # group: !include_dir_named groups/
-script: !include_dir_merge_named scripts/
+# script: !include_dir_merge_named scripts/
 
 # shell_command: !include services/shell_command.yaml
 
@@ -20,26 +20,26 @@ script: !include_dir_merge_named scripts/
 alert: !include_dir_named configurations/alert/
 # arlo: !include configurations/arlo.yaml
 # august: !include configurations/august.yaml
-binary_sensor: !include_dir_list configurations/binary_sensor/
+# binary_sensor: !include_dir_list configurations/binary_sensor/
 # camera: !include_dir_list configurations/camera/
 # climate: !include_dir_list configurations/climate/
 # cloud: !include configurations/cloud.yaml
 # counter: !include_dir_named configurations/counter/
-cover: !include_dir_list configurations/cover/
-device_tracker: !include_dir_list configurations/device_tracker/
+# cover: !include_dir_list configurations/cover/
+# device_tracker: !include_dir_list configurations/device_tracker/
 # discovery: !include configurations/discovery.yaml
 ffmpeg: !include configurations/ffmpeg.yaml
-group: !include_dir_named configurations/group/
+# group: !include_dir_named configurations/group/
 # history_graph: !include_dir_named configurations/history_graph/
 # ifttt: !include configurations/ifttt.yaml
-input_boolean: !include_dir_named configurations/input_boolean/
+# input_boolean: !include_dir_named configurations/input_boolean/
 # input_datetime: !include_dir_named configurations/input_datetime/
 # ios: !include configurations/ios.yaml
-media_player: !include_dir_list configurations/media_player/
+# media_player: !include_dir_list configurations/media_player/
 mobile_app:
 # nest: !include configurations/nest.yaml
 # nexia: !include configurations/nexia.yaml
-notify: !include_dir_list configurations/notify/
+# notify: !include_dir_list configurations/notify/
 # person: !include_dir_list configurations/person/
 # pi_hole: !include configurations/pi_hole.yaml
 prometheus: !include configurations/prometheus.yaml
@@ -53,7 +53,7 @@ system_health:
 # tplink: !include configurations/tplink.yaml
 # usps: !include configurations/usps.yaml
 # unifi: !include configurations/unifi.yaml
-vacuum: !include_dir_list configurations/vacuum/
+# vacuum: !include_dir_list configurations/vacuum/
 # weblink: !include configurations/weblink.yaml
 # zone: !include_dir_list configurations/zone/
 # zwave: !include configurations/zwave.yaml
