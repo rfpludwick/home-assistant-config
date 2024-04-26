@@ -14,5 +14,6 @@ notifiers:
   - mobile_app_caits_mermaid_phone
   - slack
 data:
+  tag: "garage-door-status"
   target:
     - "#home-assistant-alert"

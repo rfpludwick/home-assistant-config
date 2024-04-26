@@ -1,0 +1,15 @@
+---
+
+name: Downstairs humidity is high
+done_message: Downstairs humidity is ok
+entity_id: binary_sensor.downstairs_humidity_high
+state: on
+can_acknowledge: true
+notifiers:
+  - mobile_app_zonephone
+  - mobile_app_caits_mermaid_phone
+  - slack
+data:
+  tag: "downstairs-humidity-status"
+  target:
+    - "#home-assistant-alert"
