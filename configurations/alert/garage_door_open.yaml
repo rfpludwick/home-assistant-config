@@ -2,7 +2,7 @@
 
 name: Garage Door is open
 done_message: Garage Door is closed
-entity_id: cover.garage_door
+entity_id: cover.ratgdo_door
 state: open
 repeat:
   - 30
@@ -10,8 +10,9 @@ repeat:
 can_acknowledge: true
 skip_first: true
 notifiers:
-  - mobile_app_zonephone
   - mobile_app_caits_mermaid_phone
+  - mobile_app_zonepad
+  - mobile_app_zonephone
   - slack
 data:
   tag: "garage-door-status"
