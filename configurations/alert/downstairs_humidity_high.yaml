@@ -3,10 +3,10 @@
 name: Downstairs humidity is high
 done_message: Downstairs humidity is ok
 entity_id: binary_sensor.downstairs_humidity_high
-state: wet
-repeat:
-  - 60
+state: on
+repeat: 60
 can_acknowledge: true
+skip_first: true
 notifiers:
   - mobile_app_caits_mermaid_phone
   - mobile_app_zonepad
