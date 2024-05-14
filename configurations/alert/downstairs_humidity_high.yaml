@@ -3,7 +3,7 @@
 name: Downstairs humidity is high
 done_message: Downstairs humidity is ok
 entity_id: binary_sensor.downstairs_humidity_high
-state: on
+state: "on"
 repeat: 60
 can_acknowledge: true
 skip_first: true
