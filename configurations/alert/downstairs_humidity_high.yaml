@@ -13,6 +13,5 @@ notifiers:
   - mobile_app_zonephone
   - slack
 data:
-  tag: "downstairs-humidity-status"
   target:
     - "#home-assistant-alert"

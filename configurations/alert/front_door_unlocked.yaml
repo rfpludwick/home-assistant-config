@@ -15,6 +15,5 @@ notifiers:
   - mobile_app_zonephone
   - slack
 data:
-  tag: "front-door-lock-status"
   target:
     - "#home-assistant-alert"

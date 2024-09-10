@@ -15,6 +15,5 @@ notifiers:
   - mobile_app_zonephone
   - slack
 data:
-  tag: "garage-door-status"
   target:
     - "#home-assistant-alert"
