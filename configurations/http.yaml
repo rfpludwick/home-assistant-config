@@ -4,4 +4,5 @@ ip_ban_enabled: false
 login_attempts_threshold: 3
 use_x_forwarded_for: true
 trusted_proxies:
+  - 10.0.0.0/8
   - 192.168.1.115
