@@ -4,5 +4,13 @@ ip_ban_enabled: false
 login_attempts_threshold: 3
 use_x_forwarded_for: true
 trusted_proxies:
-  - 10.0.0.0/8
-  - 192.168.1.115
+  - 10.0.0.0/8    # kubernetes cluster addresses
+  - 192.168.1.115 # reverse proxy
+  - 192.168.1.97  # k8cp.viernet
+  - 192.168.1.64  # k8n1.viernet
+  - 192.168.1.59  # k8n2.viernet
+  - 192.168.1.60  # k8n3.viernet
+  - 192.168.1.180 # k8n4.viernet
+  - 192.168.1.166 # k8n5.viernet
+  - 192.168.1.155 # k8n6.viernet
+  - 192.168.1.32  # k8n7.viernet
