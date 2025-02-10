@@ -5,7 +5,4 @@ name: Critical Group
 services:
   - action: caits_phone
   - action: roberts_phone
-  - action: slack
-    data:
-      target:
-        - "#home-assistant-alert"
+  - action: slack_alert

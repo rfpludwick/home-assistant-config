@@ -1,0 +1,9 @@
+---
+
+platform: group
+name: Slack
+services:
+  - action: slack
+    data:
+      target:
+        - "#home-assistant-remediation"
