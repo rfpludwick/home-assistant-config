@@ -1,6 +1,6 @@
 ---
 
 platform: group
-name: Cat's Phone
+name: Caits Phone
 services:
   - action: mobile_app_caits_mermaid_phone

@@ -1,6 +1,6 @@
 ---
 
 platform: group
-name: Robert's Phone
+name: Roberts Phone
 services:
   - action: mobile_app_zonephone_13pm
