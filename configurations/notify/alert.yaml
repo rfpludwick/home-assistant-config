@@ -1,0 +1,11 @@
+---
+
+- platform: group
+  name: Alerts
+  services:
+    - action: mobile_app_caits_mermaid_phone
+    - action: mobile_app_zonephone_13pm
+    - action: shullwick
+      data:
+        target:
+          - "#home-assistant-alert"

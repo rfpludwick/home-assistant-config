@@ -10,9 +10,4 @@ repeat:
 can_acknowledge: true
 skip_first: true
 notifiers:
-  - mobile_app_caits_mermaid_phone
-  - mobile_app_zonephone_13pm
-  - slack
-data:
-  target:
-    - "#home-assistant-alert"
+  - alert

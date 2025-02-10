@@ -39,7 +39,7 @@ ffmpeg: !include configurations/ffmpeg.yaml
 mobile_app:
 # nest: !include configurations/nest.yaml
 # nexia: !include configurations/nexia.yaml
-# notify: !include_dir_list configurations/notify/
+notify: !include_dir_list configurations/notify/
 # person: !include_dir_list configurations/person/
 # pi_hole: !include configurations/pi_hole.yaml
 prometheus: !include configurations/prometheus.yaml
