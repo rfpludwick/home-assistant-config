@@ -3,9 +3,9 @@
 platform: group
 name: Critical Group
 services:
-  - action: mobile_app_caits_mermaid_phone
-  - action: mobile_app_zonephone_13pm
-  - action: shullwick
+  - action: caits_phone
+  - action: roberts_phone
+  - action: slack
     data:
       target:
         - "#home-assistant-alert"
