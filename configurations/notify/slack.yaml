@@ -1,0 +1,6 @@
+---
+
+platform: group
+name: Slack
+services:
+  - action: shullwick
