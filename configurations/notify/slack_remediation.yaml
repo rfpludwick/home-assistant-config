@@ -1,7 +1,7 @@
 ---
 
 platform: group
-name: Slack
+name: Slack Remediation
 services:
   - action: slack
     data:

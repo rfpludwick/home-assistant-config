@@ -1,7 +1,7 @@
 ---
 
 platform: group
-name: Slack
+name: Slack Alert
 services:
   - action: slack
     data:
