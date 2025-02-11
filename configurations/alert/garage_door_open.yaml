@@ -10,4 +10,4 @@ repeat:
 can_acknowledge: true
 skip_first: true
 notifiers:
-  - alert
+  - critical_group

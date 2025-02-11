@@ -8,4 +8,4 @@ repeat: 60
 can_acknowledge: true
 skip_first: true
 notifiers:
-  - alert
+  - critical_group
