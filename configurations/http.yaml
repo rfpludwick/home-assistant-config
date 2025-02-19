@@ -6,6 +6,7 @@ use_x_forwarded_for: true
 trusted_proxies:
   - 10.0.0.0/8    # kubernetes cluster addresses
   - 192.168.1.115 # reverse proxy
+  - 192.168.1.167 # reverse proxy 1
   - 192.168.1.97  # k8cp.viernet
   - 192.168.1.64  # k8n1.viernet
   - 192.168.1.59  # k8n2.viernet
