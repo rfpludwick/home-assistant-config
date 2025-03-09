@@ -1,0 +1,6 @@
+---
+
+platform: group
+name: Roberts iPad
+services:
+  - action: mobile_app_zonepad_pm1
