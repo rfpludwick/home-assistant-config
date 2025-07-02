@@ -12,6 +12,7 @@ system_log: !include configurations/system_log.yaml
 
 automation: !include automations.yaml
 # group: !include_dir_named groups/
+scene: !include scenes.yaml
 script: !include scripts.yaml
 
 # shell_command: !include services/shell_command.yaml
