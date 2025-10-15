@@ -29,6 +29,7 @@ alert: !include_dir_named configurations/alert/
 # cover: !include_dir_list configurations/cover/
 # device_tracker: !include_dir_list configurations/device_tracker/
 # discovery: !include configurations/discovery.yaml
+energy:
 ffmpeg: !include configurations/ffmpeg.yaml
 # group: !include_dir_named configurations/group/
 # history_graph: !include_dir_named configurations/history_graph/
